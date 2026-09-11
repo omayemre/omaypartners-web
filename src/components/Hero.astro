@@ -6,9 +6,10 @@ import { url } from '../lib/url';
 
 interface Props {
   images?: string[];
+  h1: string;
 }
 
-const { images = [url('/images/site/hero/hero.webp')] } = Astro.props;
+const { images = [url('/images/site/hero/hero.webp')], h1 } = Astro.props;
 ---
 
 <section class="relative h-[70vh] min-h-[480px] overflow-hidden">
@@ -21,7 +22,7 @@ const { images = [url('/images/site/hero/hero.webp')] } = Astro.props;
       ))}
     </div>
   </div>
-  <h1 class="sr-only">Omay Partners</h1>
+  <h1 class="sr-only">{h1}</h1>
 
   <style>
     /* Minimal Swiper layout CSS, inlined rather than imported from

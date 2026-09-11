@@ -10,9 +10,24 @@ interface Props {
   title: string;
   description?: string;
   translations?: Partial<Record<Lang, string>>;
+  /** Root-relative path (as from url()) to a social-preview image. Defaults to the homepage hero. */
+  image?: string;
 }
 
-const { lang, title, description, translations } = Astro.props;
+const { lang, title, description, translations, image = url('/images/site/hero/hero.webp') } = Astro.props;
+
+const pageUrl = new URL(Astro.url.pathname, Astro.site).href;
+const imageUrl = new URL(image, Astro.site).href;
+const ogLocale = lang === 'en' ? 'en_US' : 'tr_TR';
+const ogLocaleAlt = lang === 'en' ? 'tr_TR' : 'en_US';
+
+const organizationSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: 'Omay Partners',
+  url: new URL(url('/'), Astro.site).href,
+  logo: new URL(url('/images/site/brand/logo-dark.webp'), Astro.site).href
+};
 ---
 
 <html lang={lang}>
@@ -30,8 +45,26 @@ const { lang, title, description, translations } = Astro.props;
     <link rel="icon" type="image/svg+xml" href={url('/favicon.svg')} />
     <title>{title} – Omay Partners</title>
     {description && <meta name="description" content={description} />}
-    {translations?.en && <link rel="alternate" hreflang="en" href={url(translations.en)} />}
-    {translations?.tr && <link rel="alternate" hreflang="tr" href={url(translations.tr)} />}
+
+    <link rel="canonical" href={pageUrl} />
+    {translations?.en && <link rel="alternate" hreflang="en" href={new URL(url(translations.en), Astro.site).href} />}
+    {translations?.tr && <link rel="alternate" hreflang="tr" href={new URL(url(translations.tr), Astro.site).href} />}
+    {translations?.en && <link rel="alternate" hreflang="x-default" href={new URL(url(translations.en), Astro.site).href} />}
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Omay Partners" />
+    <meta property="og:title" content={`${title} – Omay Partners`} />
+    {description && <meta property="og:description" content={description} />}
+    <meta property="og:url" content={pageUrl} />
+    <meta property="og:image" content={imageUrl} />
+    <meta property="og:locale" content={ogLocale} />
+    <meta property="og:locale:alternate" content={ogLocaleAlt} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={`${title} – Omay Partners`} />
+    {description && <meta name="twitter:description" content={description} />}
+    <meta name="twitter:image" content={imageUrl} />
+
+    <script type="application/ld+json" set:html={JSON.stringify(organizationSchema)} />
   </head>
   <body class="bg-[#faf8f5] text-[#1a2233] antialiased">
     <Header lang={lang} translations={translations} />
