@@ -33,13 +33,15 @@ const sources = {
   sandvik: `${COMMONS}/SANDVIK.svg`,
   leonardo: `${COMMONS}/Logo_Leonardo.svg`,
   securitas: `${COMMONS}/Securitas_AB_logo.svg`,
-  'odtu-metu': `${COMMONS}/Odtu-metu-logo.svg`,
   'british-embassy': `${COMMONS}/UK_Government_Overseas_Logo.svg`
-  // lcdg, odtu-teknokent: no clean official vector found on Commons or
-  // the org's own site (the tech park's site actually serves a lower-res
-  // logo, 207x18, than what was already migrated). Owner supplied both
-  // logos directly (processed by hand: sharp .trim()/.resize() to 600px
-  // height - see git history), not scripted here.
+  // lcdg, odtu-metu, odtu-teknokent: no clean official vector found on
+  // Commons or the orgs' own sites (the tech park's site actually serves
+  // a lower-res logo, 207x18, than what was already migrated; the
+  // Commons "Odtu-metu-logo.svg" used for odtu-metu turned out to be a
+  // dated wide bilingual banner, not the current circular emblem). Owner
+  // supplied all three logos directly (processed by hand: sharp
+  // .trim()/.resize() to 600px height - see git history), not scripted
+  // here.
 };
 
 async function main() {
