@@ -3,7 +3,6 @@ title: "Charles de Gaulle Lisesi"
 lang: tr
 slug: "charles-de-gaulle-lisesi"
 translationKey: "lycee-charles-de-gaulle"
-sector: "diplomatic-institutional"
 order: 12
 cover: "/images/projects/lycee-charles-de-gaulle/img-01.webp"
 gallery:

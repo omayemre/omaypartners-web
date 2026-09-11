@@ -14,4 +14,8 @@ gallery:
   - "/images/projects/s-house/img-06.webp"
   - "/images/projects/s-house/img-07.webp"
   - "/images/projects/s-house/img-08.webp"
+  - "/images/projects/s-house/img-09.webp"
+  - "/images/projects/s-house/img-10.webp"
+  - "/images/projects/s-house/img-11.webp"
+  - "/images/projects/s-house/img-12.webp"
 ---

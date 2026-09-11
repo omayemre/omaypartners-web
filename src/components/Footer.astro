@@ -11,21 +11,7 @@ const year = new Date().getFullYear();
 ---
 
 <footer class="bg-[#1a2233] text-white">
-  <div class="mx-auto max-w-4xl px-6 py-20 text-center">
-    <h2 class="text-3xl font-light md:text-4xl">{i18n.footer.cta}</h2>
-    <p class="mt-6 text-white/70">
-      <a href="tel:+903124363670" class="hover:text-white">+90 (312) 436 36 70</a>
-      <span class="mx-2">·</span>
-      <a href="mailto:info@omaypartners.com" class="hover:text-white">info@omaypartners.com</a>
-    </p>
-    <a
-      href={i18n.path('contact')}
-      class="mt-8 inline-block rounded bg-white px-8 py-3 text-sm tracking-wide text-[#1a2233] uppercase transition hover:opacity-90"
-    >
-      {i18n.footer.getInTouch}
-    </a>
-  </div>
-  <div class="border-t border-white/10 px-6 py-6 text-center text-xs text-white/40">
+  <div class="px-6 py-6 text-center text-xs text-white/40">
     © {year} Omay Partners. {i18n.footer.rights}
   </div>
 </footer>

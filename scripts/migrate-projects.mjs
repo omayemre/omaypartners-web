@@ -1,12 +1,18 @@
 // One-time migration: pulls the 43 WP "post" project case studies (+2
 // TR-only entries) from the live WordPress REST API into Astro content
-// collection markdown, downloading a curated (cover + up to 7 highlight)
-// set of images per project and re-encoding them as web-optimized WebP
-// instead of copying the full page-by-page presentation deck (some
-// projects had 500+ raw source images).
+// collection markdown, downloading every real image that's actually live
+// on each project's page (deduped across WP's responsive-derivative
+// filenames, e.g. "-580x400.jpg" variants of the same photo count once)
+// and re-encoding them as web-optimized WebP. No per-project cap - a
+// census before this was written found ~1561 real deduped images across
+// 43 EN projects (owner explicitly asked for full parity with what's
+// live, having found the earlier cover+7-highlights cap under-migrated
+// some projects that have a full real photoshoot, e.g. 65 photos for
+// magic-lab - not the page-by-page technical-drawing decks a few outlier
+// projects also have, but the owner asked to match live regardless).
 //
 // Usage: node scripts/migrate-projects.mjs
-import { mkdir, writeFile } from 'node:fs/promises';
+import { mkdir, rm, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import sharp from 'sharp';
@@ -21,7 +27,6 @@ const CONTENT_DIR = path.join(PROJECT_ROOT, 'src/content/projects');
 // non-deterministically when images were imported as src/assets/.
 const ASSETS_DIR = path.join(PROJECT_ROOT, 'public/images/projects');
 const ASSETS_URL_BASE = '/images/projects';
-const MAX_IMAGES = 8;
 const CHROME_RE = /omay-siyah-logo|omay-beyaz-logo|favicon|fullscreen-menu-image|cropped-omay-partners|\/banner(-\d+)?\.(jpg|png)/i;
 
 async function fetchJson(url) {
@@ -45,7 +50,14 @@ async function resolveFeaturedUrl(mediaId) {
   }
 }
 
-async function scrapeHighlightUrls(pageUrl) {
+// A WP-generated responsive derivative (e.g. "-580x400.jpg") is just a
+// resized copy of the same photo - strip it to identify the canonical
+// original so the same photo isn't counted/downloaded twice.
+function derivativeFallback(url) {
+  return url.replace(/-\d+x\d+(?=\.\w+$)/, '');
+}
+
+async function scrapeGalleryUrls(pageUrl) {
   try {
     const res = await fetch(pageUrl);
     if (!res.ok) return [];
@@ -55,22 +67,21 @@ async function scrapeHighlightUrls(pageUrl) {
     const out = [];
     for (let url of found) {
       url = url.replace(/^http:/, 'https:');
+      // At least one project's Elementor gallery widget has stale absolute
+      // URLs baked in pointing at the original build/staging domain, which
+      // is now dead - the files themselves were correctly carried over to
+      // the production domain at the same path, so rewrite rather than drop.
+      url = url.replace(/^https:\/\/turagoyazilim\.com\/omaypartners\//, 'https://www.omaypartners.com/');
       if (CHROME_RE.test(url)) continue;
-      if (seen.has(url)) continue;
-      seen.add(url);
-      out.push(url);
+      const base = derivativeFallback(url);
+      if (seen.has(base)) continue;
+      seen.add(base);
+      out.push(base);
     }
     return out;
   } catch {
     return [];
   }
-}
-
-// A WP-generated responsive derivative (e.g. "-580x400.jpg") can 404 if the
-// intermediate size was never generated/was purged; fall back to the
-// original (un-suffixed) filename in that case.
-function derivativeFallback(url) {
-  return url.replace(/-\d+x\d+(?=\.\w+$)/, '');
 }
 
 async function downloadImage(url) {
@@ -94,23 +105,28 @@ async function optimizeToWebp(buffer, outPath) {
 
 async function migrateProject({ translationKey, order, en, tr }) {
   const assetDir = path.join(ASSETS_DIR, translationKey);
+  // Clear first so a shrinking gallery (fewer live images than a previous
+  // run) doesn't leave stale numbered files behind.
+  await rm(assetDir, { recursive: true, force: true });
   await mkdir(assetDir, { recursive: true });
 
   const primary = en || tr;
   const coverUrl = await resolveFeaturedUrl(primary.featured_media);
-  const highlightUrls = await scrapeHighlightUrls(primary.link);
+  const galleryUrls = await scrapeGalleryUrls(primary.link);
 
   const urlsInOrder = [];
-  if (coverUrl) urlsInOrder.push(coverUrl);
-  for (const u of highlightUrls) {
-    if (urlsInOrder.length >= MAX_IMAGES) break;
+  if (coverUrl) urlsInOrder.push(derivativeFallback(coverUrl));
+  for (const u of galleryUrls) {
     if (!urlsInOrder.includes(u)) urlsInOrder.push(u);
   }
 
   const savedFiles = [];
   for (let i = 0; i < urlsInOrder.length; i++) {
     const buf = await downloadImage(urlsInOrder[i]);
-    if (!buf) continue;
+    if (!buf) {
+      console.warn(`  ! download failed, skipped: ${urlsInOrder[i]}`);
+      continue;
+    }
     const fileName = `img-${String(i + 1).padStart(2, '0')}.webp`;
     try {
       await optimizeToWebp(buf, path.join(assetDir, fileName));

@@ -14,8 +14,6 @@ export const dict = {
       contact: 'Contact'
     },
     footer: {
-      cta: "Let's talk about your project.",
-      getInTouch: 'Get in touch',
       rights: 'All rights reserved.'
     },
     path: (p: TrPath) => url(enPaths[p])
@@ -31,8 +29,6 @@ export const dict = {
       contact: 'İletişim'
     },
     footer: {
-      cta: 'Projenizi konuşalım.',
-      getInTouch: 'İletişime geçin',
       rights: 'Tüm hakları saklıdır.'
     },
     path: (p: TrPath) => url(trPaths[p])

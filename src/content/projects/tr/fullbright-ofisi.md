@@ -3,7 +3,6 @@ title: "Fullbright Ofisi (Gizlidir)"
 lang: tr
 slug: "fullbright-ofisi"
 translationKey: "fullbright-office"
-sector: "diplomatic-institutional"
 order: 30
 cover: "/images/projects/fullbright-office/img-01.webp"
 gallery:

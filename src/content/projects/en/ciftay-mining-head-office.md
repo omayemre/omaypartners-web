@@ -3,7 +3,6 @@ title: "Çiftay Mining Head Office"
 lang: en
 slug: "ciftay-mining-head-office"
 translationKey: "ciftay-mining-head-office"
-sector: "workplace"
 order: 28
 cover: "/images/projects/ciftay-mining-head-office/img-01.webp"
 gallery:
@@ -15,4 +14,16 @@ gallery:
   - "/images/projects/ciftay-mining-head-office/img-06.webp"
   - "/images/projects/ciftay-mining-head-office/img-07.webp"
   - "/images/projects/ciftay-mining-head-office/img-08.webp"
+  - "/images/projects/ciftay-mining-head-office/img-09.webp"
+  - "/images/projects/ciftay-mining-head-office/img-10.webp"
+  - "/images/projects/ciftay-mining-head-office/img-11.webp"
+  - "/images/projects/ciftay-mining-head-office/img-12.webp"
+  - "/images/projects/ciftay-mining-head-office/img-13.webp"
+  - "/images/projects/ciftay-mining-head-office/img-14.webp"
+  - "/images/projects/ciftay-mining-head-office/img-15.webp"
+  - "/images/projects/ciftay-mining-head-office/img-16.webp"
+  - "/images/projects/ciftay-mining-head-office/img-17.webp"
+  - "/images/projects/ciftay-mining-head-office/img-18.webp"
+  - "/images/projects/ciftay-mining-head-office/img-19.webp"
+  - "/images/projects/ciftay-mining-head-office/img-20.webp"
 ---

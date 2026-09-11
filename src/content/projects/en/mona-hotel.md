@@ -3,7 +3,6 @@ title: "Mona Hotel"
 lang: en
 slug: "mona-hotel"
 translationKey: "mona-hotel"
-sector: "hospitality"
 order: 42
 cover: "/images/projects/mona-hotel/img-01.webp"
 gallery:
@@ -15,4 +14,11 @@ gallery:
   - "/images/projects/mona-hotel/img-06.webp"
   - "/images/projects/mona-hotel/img-07.webp"
   - "/images/projects/mona-hotel/img-08.webp"
+  - "/images/projects/mona-hotel/img-09.webp"
+  - "/images/projects/mona-hotel/img-10.webp"
+  - "/images/projects/mona-hotel/img-11.webp"
+  - "/images/projects/mona-hotel/img-12.webp"
+  - "/images/projects/mona-hotel/img-13.webp"
+  - "/images/projects/mona-hotel/img-14.webp"
+  - "/images/projects/mona-hotel/img-15.webp"
 ---

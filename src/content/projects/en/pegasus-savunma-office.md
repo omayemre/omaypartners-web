@@ -3,7 +3,6 @@ title: "Pegasus Savunma Office"
 lang: en
 slug: "pegasus-savunma-office"
 translationKey: "pegasus-savunma-office"
-sector: "workplace"
 order: 36
 cover: "/images/projects/pegasus-savunma-office/img-01.webp"
 gallery:
@@ -15,4 +14,8 @@ gallery:
   - "/images/projects/pegasus-savunma-office/img-06.webp"
   - "/images/projects/pegasus-savunma-office/img-07.webp"
   - "/images/projects/pegasus-savunma-office/img-08.webp"
+  - "/images/projects/pegasus-savunma-office/img-09.webp"
+  - "/images/projects/pegasus-savunma-office/img-10.webp"
+  - "/images/projects/pegasus-savunma-office/img-11.webp"
+  - "/images/projects/pegasus-savunma-office/img-12.webp"
 ---

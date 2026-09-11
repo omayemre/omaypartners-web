@@ -14,4 +14,11 @@ gallery:
   - "/images/projects/atyrau-airport/img-06.webp"
   - "/images/projects/atyrau-airport/img-07.webp"
   - "/images/projects/atyrau-airport/img-08.webp"
+  - "/images/projects/atyrau-airport/img-09.webp"
+  - "/images/projects/atyrau-airport/img-10.webp"
+  - "/images/projects/atyrau-airport/img-11.webp"
+  - "/images/projects/atyrau-airport/img-12.webp"
+  - "/images/projects/atyrau-airport/img-13.webp"
+  - "/images/projects/atyrau-airport/img-14.webp"
+  - "/images/projects/atyrau-airport/img-15.webp"
 ---

@@ -3,7 +3,6 @@ title: "Limeks Merkez Ofis"
 lang: tr
 slug: "limeks-merkez-ofis"
 translationKey: "limeks-head-office"
-sector: "workplace"
 order: 25
 cover: "/images/projects/limeks-head-office/img-01.webp"
 gallery:
@@ -14,5 +13,4 @@ gallery:
   - "/images/projects/limeks-head-office/img-05.webp"
   - "/images/projects/limeks-head-office/img-06.webp"
   - "/images/projects/limeks-head-office/img-07.webp"
-  - "/images/projects/limeks-head-office/img-08.webp"
 ---
