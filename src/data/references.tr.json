@@ -1,0 +1,902 @@
+[
+  {
+    "project": "Devam Eden Projeler",
+    "service": "",
+    "client": "",
+    "section": true
+  },
+  {
+    "project": "Konut Projesi",
+    "service": "Proje + İnşaat",
+    "client": "",
+    "section": false
+  },
+  {
+    "project": "Sandvik Ofisi Renovasyon",
+    "service": "Proje + İnşaat",
+    "client": "Sandvik",
+    "section": false
+  },
+  {
+    "project": "ODTU Teknokent GO – Kampüs",
+    "service": "Proje + İnşaat",
+    "client": "ODTÜ Teknokent",
+    "section": false
+  },
+  {
+    "project": "Doktor Kliniği",
+    "service": "Proje + İnşaat",
+    "client": "Dr. Nural Aydın",
+    "section": false
+  },
+  {
+    "project": "Lycée Charles de Gaulle – Renovasyon",
+    "service": "Proje + İnşaat",
+    "client": "Charles de Gaulle Lisesi",
+    "section": false
+  },
+  {
+    "project": "Tamamlanan Projeler",
+    "service": "",
+    "client": "",
+    "section": true
+  },
+  {
+    "project": "ODTU Teknokent GO – Kilis",
+    "service": "Proje + İnşaat",
+    "client": "ODTÜ Teknokent",
+    "section": false
+  },
+  {
+    "project": "ODTU Padel Sahaları",
+    "service": "Proje + İnşaat",
+    "client": "ODTÜ Teknokent",
+    "section": false
+  },
+  {
+    "project": "ODTU Teknokent ATOM PLUS",
+    "service": "Proje + İnşaat",
+    "client": "ODTÜ Teknokent",
+    "section": false
+  },
+  {
+    "project": "Italyan Elçiliği Yeni Bina Renovasyon",
+    "service": "Proje",
+    "client": "Italyan Büyükelçiliği",
+    "section": false
+  },
+  {
+    "project": "ODTU Spor Salonları ve Spor Alanları",
+    "service": "Proje + İnşaat",
+    "client": "ODTÜ Teknokent",
+    "section": false
+  },
+  {
+    "project": "ODTU Teknokent ATOM",
+    "service": "Proje + İnşaat",
+    "client": "ODTÜ Teknokent",
+    "section": false
+  },
+  {
+    "project": "ODTU Teknokent TTO Ofisi",
+    "service": "Proje + İnşaat",
+    "client": "ODTÜ Teknokent",
+    "section": false
+  },
+  {
+    "project": "Fransız Elçiliği Fransız Okulu Anaokulu Binası Renovayon",
+    "service": "Proje + İnşaat",
+    "client": "Charles de Gaulle Lisesi",
+    "section": false
+  },
+  {
+    "project": "DG Garage – Bridgestone Ankara Merkez Ofisi",
+    "service": "Proje + İnşaat",
+    "client": "Çiftay İnşaat",
+    "section": false
+  },
+  {
+    "project": "ODTÜ Teknokent TTO  Projesi",
+    "service": "Proje + İnşaat",
+    "client": "ODTÜ Teknokent",
+    "section": false
+  },
+  {
+    "project": "ODTÜ Teknokent ASTEC  Projesi",
+    "service": "Proje + İnşaat",
+    "client": "ODTÜ Teknokent",
+    "section": false
+  },
+  {
+    "project": "Magic Lab Merkez Ofis",
+    "service": "Proje + İnşaat",
+    "client": "Magic Lab",
+    "section": false
+  },
+  {
+    "project": "ODTÜ Teknokent ETKİM  Projesi",
+    "service": "Proje + İnşaat",
+    "client": "ODTÜ Teknokent",
+    "section": false
+  },
+  {
+    "project": "Ankara Hilton SA Oteli Apart Katları Yenileme Projesi",
+    "service": "Proje + İnşaat",
+    "client": "Sabancı Holding, AEO, Hilton",
+    "section": false
+  },
+  {
+    "project": "Malta Elçiliği – İstanbul",
+    "service": "Proje Yönetimi",
+    "client": "Malta Dışişleri Bakanlığı",
+    "section": false
+  },
+  {
+    "project": "ODTÜ Teknokent Kuluçka Merkezi",
+    "service": "Proje",
+    "client": "ODTÜ Teknokent",
+    "section": false
+  },
+  {
+    "project": "Doktor Kliniği",
+    "service": "Proje + İnşaat",
+    "client": "Dr. Nural Aydın",
+    "section": false
+  },
+  {
+    "project": "Katar Havayolları Ofisi Renovasyon",
+    "service": "Proje + İnşaat",
+    "client": "Katar Havayolları",
+    "section": false
+  },
+  {
+    "project": "Plume Akademi",
+    "service": "Proje + İnşaat",
+    "client": "Bayraktar",
+    "section": false
+  },
+  {
+    "project": "ODTÜ ATOM Ofisi",
+    "service": "Proje + İnşaat",
+    "client": "ODTÜ Teknokent",
+    "section": false
+  },
+  {
+    "project": "Hollanda Büyükelçiliği Etap 2",
+    "service": "İnşaat",
+    "client": "Hollanda Dışişleri Bakanlığı",
+    "section": false
+  },
+  {
+    "project": "Charles de Gaulle Lisesi Renovasyon Etap 3",
+    "service": "Proje + İnşaat",
+    "client": "Charles de Gaulle Lisesi",
+    "section": false
+  },
+  {
+    "project": "Malta Büyükelçiliği – Ankara",
+    "service": "Proje Yönetimi",
+    "client": "Malta Dışişleri Bakanlığı",
+    "section": false
+  },
+  {
+    "project": "Tüprag Merkez Ofis",
+    "service": "Proje",
+    "client": "Eldorado Gold Corporation",
+    "section": false
+  },
+  {
+    "project": "Ericsson Ofisi Renovasyon",
+    "service": "İnşaat",
+    "client": "Ericsson",
+    "section": false
+  },
+  {
+    "project": "Udemy Ofisi",
+    "service": "İnşaat",
+    "client": "Udemy",
+    "section": false
+  },
+  {
+    "project": "Leonardo Ofisi",
+    "service": "Proje + İnşaat",
+    "client": "Leonardo S.p.A.",
+    "section": false
+  },
+  {
+    "project": "Aytim Grup Fabrikası",
+    "service": "Proje",
+    "client": "Aytim Grup",
+    "section": false
+  },
+  {
+    "project": "Katar Havayolları Merkez Ofis",
+    "service": "İnşaat",
+    "client": "Katar Havayolları",
+    "section": false
+  },
+  {
+    "project": "Hollanda Büyükelçiliği Etap 1",
+    "service": "İnşaat",
+    "client": "Hollanda Dışişleri Bakanlığı",
+    "section": false
+  },
+  {
+    "project": "Sandvik Ofisi",
+    "service": "Proje + İnşaat",
+    "client": "Sandvik",
+    "section": false
+  },
+  {
+    "project": "Doktor Ofisi",
+    "service": "Proje + İnşaat",
+    "client": "Dr. Nural Aydın",
+    "section": false
+  },
+  {
+    "project": "Tüprag Ofisi Renovasyon Etap 2",
+    "service": "Proje + İnşaat",
+    "client": "Eldorado Gold Corporation",
+    "section": false
+  },
+  {
+    "project": "Tüprag Ofisi Renovasyon Etap 1",
+    "service": "Proje + İnşaat",
+    "client": "Eldorado Gold Corporation",
+    "section": false
+  },
+  {
+    "project": "İtalya Büyükelçiliği Renovasyon",
+    "service": "Proje + İnşaat",
+    "client": "İtalya Büyükelçiliği",
+    "section": false
+  },
+  {
+    "project": "U-Evi",
+    "service": "Proje",
+    "client": "U. Ailesi",
+    "section": false
+  },
+  {
+    "project": "Charles de Gaulle Lisesi Renovasyon Etap 2",
+    "service": "Proje + İnşaat",
+    "client": "Charles de Gaulle Lisesi",
+    "section": false
+  },
+  {
+    "project": "Plume Klinik",
+    "service": "Proje + İnşaat",
+    "client": "Bayraktar",
+    "section": false
+  },
+  {
+    "project": "Marriot Otel",
+    "service": "Proje Yönetimi",
+    "client": "NG",
+    "section": false
+  },
+  {
+    "project": "Mekatronik Merkez Ofis",
+    "service": "Proje",
+    "client": "Mekatronik",
+    "section": false
+  },
+  {
+    "project": "BESA British School Renovasyon Etap 1",
+    "service": "Proje + İnşaat",
+    "client": "BESA-British Embassy",
+    "section": false
+  },
+  {
+    "project": "Orbis Teknoloji Ofisi",
+    "service": "Proje + İnşaat",
+    "client": "Orbis",
+    "section": false
+  },
+  {
+    "project": "Charles de Gaulle Lisesi Renovasyon Etap 1",
+    "service": "Proje + İnşaat",
+    "client": "Charles de Gaulle Lisesi",
+    "section": false
+  },
+  {
+    "project": "Ankara Hilton SA Premium Boardroom",
+    "service": "Proje + İnşaat",
+    "client": "Sabancı – AEO & Hilton",
+    "section": false
+  },
+  {
+    "project": "S-Evi",
+    "service": "Proje + İnşaat",
+    "client": "Simtes",
+    "section": false
+  },
+  {
+    "project": "Seres Merkez Ofisi",
+    "service": "Proje + İnşaat",
+    "client": "Seres Medikal",
+    "section": false
+  },
+  {
+    "project": "Ahmet Yay Ofisi",
+    "service": "Proje + İnşaat",
+    "client": "Ahmet Yay",
+    "section": false
+  },
+  {
+    "project": "OpsGenie Türkiye Ofisi",
+    "service": "Proje",
+    "client": "OpsGenie",
+    "section": false
+  },
+  {
+    "project": "Metropol Merkez Ofis",
+    "service": "Proje",
+    "client": "Metropol Yapı Denetim",
+    "section": false
+  },
+  {
+    "project": "Limeks Merkez Ofis",
+    "service": "Proje + İnşaat",
+    "client": "Limeks",
+    "section": false
+  },
+  {
+    "project": "Birleşmiş Milletler Nüfus Fonu Ofisi",
+    "service": "İnşaat",
+    "client": "Birleşmiş Milletler Nüfus Fonu",
+    "section": false
+  },
+  {
+    "project": "Otel Tunalı Renovasyon",
+    "service": "Proje + İnşaat",
+    "client": "Otel Tunalı",
+    "section": false
+  },
+  {
+    "project": "Pegasus Savunma Ofisi",
+    "service": "Proje + İnşaat",
+    "client": "Pegasus Savunma",
+    "section": false
+  },
+  {
+    "project": "Ankara Hilton SA Sağlık Kulübü",
+    "service": "Proje + İnşaat",
+    "client": "Sabancı Holding, AEO, Hilton",
+    "section": false
+  },
+  {
+    "project": "Norveç Elçilik",
+    "service": "İnşaat",
+    "client": "Norveç Elçiliği",
+    "section": false
+  },
+  {
+    "project": "ICON Ofisi",
+    "service": "İnşaat",
+    "client": "ICON",
+    "section": false
+  },
+  {
+    "project": "Securitas İstanbul Bölge Ofisi",
+    "service": "Proje",
+    "client": "Securitas",
+    "section": false
+  },
+  {
+    "project": "Reis Merkez Ofis",
+    "service": "Proje + İnşaat",
+    "client": "Reis",
+    "section": false
+  },
+  {
+    "project": "BP Ankara Ofisi Renovasyon",
+    "service": "Proje + İnşaat",
+    "client": "BP",
+    "section": false
+  },
+  {
+    "project": "Ofis (Besa Kule)",
+    "service": "Proje + İnşaat",
+    "client": "A.Ç.",
+    "section": false
+  },
+  {
+    "project": "Pasifik İnşaat Merkez Ofisi",
+    "service": "Proje",
+    "client": "Pasifik İnşaat",
+    "section": false
+  },
+  {
+    "project": "Keifi",
+    "service": "Proje",
+    "client": "Pasifik İnşaat",
+    "section": false
+  },
+  {
+    "project": "Honeywell",
+    "service": "Proje + İnşaat",
+    "client": "Honeywell",
+    "section": false
+  },
+  {
+    "project": "DECE Yazılım Ofisi",
+    "service": "Proje + İnşaat",
+    "client": "DECE Software",
+    "section": false
+  },
+  {
+    "project": "Genel Energy Süleymaniye Ofisi",
+    "service": "Proje + PY",
+    "client": "Genel Energy International",
+    "section": false
+  },
+  {
+    "project": "TTopco Ankara Ofisi",
+    "service": "Proje + İnşaat",
+    "client": "TTopco",
+    "section": false
+  },
+  {
+    "project": "TTopco Erbil Ofisi",
+    "service": "Proje + PY",
+    "client": "TTopco",
+    "section": false
+  },
+  {
+    "project": "Ankara Hilton SA Yatak Katları Renovasyon",
+    "service": "Proje + İnşaat",
+    "client": "Sabancı Holding, AEO A.Ş.",
+    "section": false
+  },
+  {
+    "project": "Genel Energy Erbil Ofisi",
+    "service": "Proje + PY",
+    "client": "Genel Energy International",
+    "section": false
+  },
+  {
+    "project": "Çiftay İnşaat Merkez Ofisi",
+    "service": "Proje + İnşaat",
+    "client": "Çiftay İnşaat",
+    "section": false
+  },
+  {
+    "project": "Kayseri Hilton Renovasyon",
+    "service": "Proje Yönetimi",
+    "client": "Başyazıcı",
+    "section": false
+  },
+  {
+    "project": "Mahall Ankara – Konut Projesi",
+    "service": "Proje",
+    "client": "Türkerler İnşaat",
+    "section": false
+  },
+  {
+    "project": "Mahall Ankara – Satış Ofisi",
+    "service": "Proje",
+    "client": "Türkerler İnşaat",
+    "section": false
+  },
+  {
+    "project": "Genel Energy Ankara Ofisi",
+    "service": "Proje + İnşaat",
+    "client": "Genel Energy",
+    "section": false
+  },
+  {
+    "project": "Ankara Hilton SA Yenileme Projesi",
+    "service": "Proje Yönetimi",
+    "client": "Sabancı Holding, AEO A.Ş.",
+    "section": false
+  },
+  {
+    "project": "Alstom Türkiye Ofisi",
+    "service": "Proje + PY",
+    "client": "Alstom Türkiye",
+    "section": false
+  },
+  {
+    "project": "Fulbright Ankara Ofisi",
+    "service": "Proje + İnşaat",
+    "client": "Fullbright",
+    "section": false
+  },
+  {
+    "project": "M. Merey Ofis",
+    "service": "Proje + İnşaat",
+    "client": "Macit Merey",
+    "section": false
+  },
+  {
+    "project": "Mona Otel",
+    "service": "Proje",
+    "client": "FTZ",
+    "section": false
+  },
+  {
+    "project": "Aecom Ofisi",
+    "service": "Proje + İnşaat",
+    "client": "Aecom",
+    "section": false
+  },
+  {
+    "project": "S. Ozat Ofis",
+    "service": "Proje + İnşaat",
+    "client": "Sabriye Ozat",
+    "section": false
+  },
+  {
+    "project": "Pegasus Savunma Ofis",
+    "service": "Proje + İnşaat",
+    "client": "Pegasus Savunma",
+    "section": false
+  },
+  {
+    "project": "Bayraktar Merkez Ofis",
+    "service": "Proje + İnşaat",
+    "client": "Bayraktar Makina",
+    "section": false
+  },
+  {
+    "project": "Rumeli Suites Otel",
+    "service": "Proje + İnşaat",
+    "client": "Ayhan / Metin",
+    "section": false
+  },
+  {
+    "project": "M.Ozgul / L.Akca Ofis",
+    "service": "Proje + İnşaat",
+    "client": "M.Ozgul / L.Akca",
+    "section": false
+  },
+  {
+    "project": "Subnet Ofisi",
+    "service": "Proje",
+    "client": "Subnet",
+    "section": false
+  },
+  {
+    "project": "Ertunç Özcan Ofisi",
+    "service": "Proje + İnşaat",
+    "client": "Ertunç Özcan",
+    "section": false
+  },
+  {
+    "project": "Prasad Evi",
+    "service": "Proje + PY",
+    "client": "Soma Enterprises",
+    "section": false
+  },
+  {
+    "project": "Reha Konut",
+    "service": "Proje",
+    "client": "Reha Insaat",
+    "section": false
+  },
+  {
+    "project": "EMC Corporation Ofisi",
+    "service": "Proje + İnşaat",
+    "client": "EMC Corporation",
+    "section": false
+  },
+  {
+    "project": "Y. Turkal Evi",
+    "service": "Proje + PY",
+    "client": "Turkallar",
+    "section": false
+  },
+  {
+    "project": "Borusan EnBW Enerji Ofisi",
+    "service": "Proje + İnşaat",
+    "client": "Borusan EnBW Energy",
+    "section": false
+  },
+  {
+    "project": "Katar Havayolları Ofisi",
+    "service": "Proje + İnşaat",
+    "client": "Katar Havayolları",
+    "section": false
+  },
+  {
+    "project": "Tepe Genel Merkezi",
+    "service": "Proje",
+    "client": "Tepe İnşaat",
+    "section": false
+  },
+  {
+    "project": "Securitas Alarm İzleme Merkezi",
+    "service": "Proje + İnşaat",
+    "client": "Securitas Group",
+    "section": false
+  },
+  {
+    "project": "Ankara Hilton SA Genel Mekanlar Renovasyon",
+    "service": "Proje + PY",
+    "client": "Sabancı Holding, AEO A.Ş.",
+    "section": false
+  },
+  {
+    "project": "Securitas Marmara Bölge Müdürlüğü",
+    "service": "Proje + İnşaat",
+    "client": "Securitas Group",
+    "section": false
+  },
+  {
+    "project": "Securitas Anadolu Bölge Müdürlüğü",
+    "service": "Proje + İnşaat",
+    "client": "Securitas Group",
+    "section": false
+  },
+  {
+    "project": "Securitas Çukurova Bölge Müdürlüğü",
+    "service": "Proje + İnşaat",
+    "client": "Securitas Group",
+    "section": false
+  },
+  {
+    "project": "Murphy's Dance Bar",
+    "service": "Proje + İnşaat",
+    "client": "Metin Murphy",
+    "section": false
+  },
+  {
+    "project": "Doğuş Grubu Yönetim Binası",
+    "service": "Proje",
+    "client": "Doğuş Grubu",
+    "section": false
+  },
+  {
+    "project": "Libya Hostel",
+    "service": "Proje",
+    "client": "YO İnşaat",
+    "section": false
+  },
+  {
+    "project": "Securitas Group Marmara Avrupa Bölge Müdürlüğü",
+    "service": "Proje + İnşaat",
+    "client": "Securitas Group",
+    "section": false
+  },
+  {
+    "project": "Atyrau Havaalanı",
+    "service": "Proje + PY",
+    "client": "Mağdenli",
+    "section": false
+  },
+  {
+    "project": "Dubai Milestone Residence",
+    "service": "Proje + PY",
+    "client": "Gulermak International FZCO",
+    "section": false
+  },
+  {
+    "project": "Coffeeshop Company Minasera AVM",
+    "service": "Proje + İnşaat",
+    "client": "Budakalti Turizm",
+    "section": false
+  },
+  {
+    "project": "Coffeeshop Company CEPA AVM",
+    "service": "Proje + İnşaat",
+    "client": "Budakalti Turizm",
+    "section": false
+  },
+  {
+    "project": "Safisa Otel SPA",
+    "service": "Proje + PY",
+    "client": "AST Russia",
+    "section": false
+  },
+  {
+    "project": "Ankamall Buz pateni",
+    "service": "Proje",
+    "client": "Kaptan",
+    "section": false
+  },
+  {
+    "project": "Securitas Group Okmeydanı Ofis",
+    "service": "Proje + İnşaat",
+    "client": "Securitas Group",
+    "section": false
+  },
+  {
+    "project": "Securitas Group Merkez Ofis",
+    "service": "Proje + İnşaat",
+    "client": "Securitas Group",
+    "section": false
+  },
+  {
+    "project": "MEB Sakıp Sabancı Salonu",
+    "service": "Proje + İnşaat",
+    "client": "Sabancı Holding, VAKSA",
+    "section": false
+  },
+  {
+    "project": "SPA Budapeşte",
+    "service": "Proje",
+    "client": "Racz",
+    "section": false
+  },
+  {
+    "project": "SPA Gazella",
+    "service": "Proje",
+    "client": "Spa Gazella",
+    "section": false
+  },
+  {
+    "project": "Parla Eğitim Merkezi",
+    "service": "Proje + İnşaat",
+    "client": "Parla Eğitim",
+    "section": false
+  },
+  {
+    "project": "Xanadu Resort Otel / Hoteli, Alışveriş Bölümü",
+    "service": "Proje",
+    "client": "Aydıner İnşaat",
+    "section": false
+  },
+  {
+    "project": "Optimum AVM Sinema ve Eğlence Merkezi",
+    "service": "Proje + PY",
+    "client": "Tüze Grubu",
+    "section": false
+  },
+  {
+    "project": "IC İbrahim Çeçen Holding Ofis Binası",
+    "service": "Proje + PY",
+    "client": "IC İbrahim Çeçen Holding",
+    "section": false
+  },
+  {
+    "project": "Cesme Termal Otel",
+    "service": "Proje + PY",
+    "client": "IC İbrahim Çeçen Holding",
+    "section": false
+  },
+  {
+    "project": "Izmir Metrosu Halkapınar İstasyonu",
+    "service": "Proje",
+    "client": "Yapı Teknik",
+    "section": false
+  },
+  {
+    "project": "Marmaray CR1 Depo ve İdari Binaları (9 adet Bina)",
+    "service": "Proje",
+    "client": "Alstom-Marubeni-Doğuş",
+    "section": false
+  },
+  {
+    "project": "Krasnodar İlkokul",
+    "service": "Proje",
+    "client": "Krasnodar Valiliği",
+    "section": false
+  },
+  {
+    "project": "Sabiha Gökçen Havaalanı Önerisi",
+    "service": "Proje",
+    "client": "IC İbrahim Çeçen Holding",
+    "section": false
+  },
+  {
+    "project": "İzmir Efes Oteli Geliştirme Projesi",
+    "service": "Proje",
+    "client": "IC İbrahim Çeçen Holding",
+    "section": false
+  },
+  {
+    "project": "İstanbul Hilton Oteli Geliştirme Projesi",
+    "service": "Proje",
+    "client": "IC İbrahim Çeçen Holding",
+    "section": false
+  },
+  {
+    "project": "Büyük Ankara Oteli Geliştirme Projesi",
+    "service": "Proje",
+    "client": "IC İbrahim Çeçen Holding",
+    "section": false
+  },
+  {
+    "project": "Marmaray Metro İstasyonları (37 adet istasyon)",
+    "service": "Proje",
+    "client": "Alstom-Marubeni-Doğuş",
+    "section": false
+  },
+  {
+    "project": "Angora Sheraton Oteli",
+    "service": "Proje",
+    "client": "Özkaynak Yayınları",
+    "section": false
+  },
+  {
+    "project": "Terradesir Konutları",
+    "service": "Proje",
+    "client": "Rantaş A.Ş.",
+    "section": false
+  },
+  {
+    "project": "Penguen Pastanesi",
+    "service": "Proje + İnşaat",
+    "client": "Penguen Pastanesi",
+    "section": false
+  },
+  {
+    "project": "Karum Gate",
+    "service": "Proje",
+    "client": "Karum Alışveriş Merkezi",
+    "section": false
+  },
+  {
+    "project": "Maçka Oteli",
+    "service": "*",
+    "client": "T.C. Emekli Sandığı Genel Müd.",
+    "section": false
+  },
+  {
+    "project": "Büyük Tarabya Oteli",
+    "service": "*",
+    "client": "T.C. Emekli Sandığı Genel Müd.",
+    "section": false
+  },
+  {
+    "project": "Çelik Palas Oteli",
+    "service": "*",
+    "client": "T.C. Emekli Sandığı Genel Müd.",
+    "section": false
+  },
+  {
+    "project": "Büyük Efes Oteli",
+    "service": "*",
+    "client": "T.C. Emekli Sandığı Genel Müd.",
+    "section": false
+  },
+  {
+    "project": "Stad Radisson Oteli",
+    "service": "*",
+    "client": "T.C. Emekli Sandığı Genel Müd.",
+    "section": false
+  },
+  {
+    "project": "Büyük Ankara Oteli",
+    "service": "*",
+    "client": "T.C. Emekli Sandığı Genel Müd.",
+    "section": false
+  },
+  {
+    "project": "Ankara Hilton SA Oteli Yatak Katları Yenileme Projesi",
+    "service": "*",
+    "client": "Sabancı Holding, AEO A.Ş.",
+    "section": false
+  },
+  {
+    "project": "Buenos Aires Restoran",
+    "service": "Proje + İnşaat",
+    "client": "A.Mehter",
+    "section": false
+  },
+  {
+    "project": "Sabancı Üniversitesi",
+    "service": "*",
+    "client": "Sabancı Holding",
+    "section": false
+  },
+  {
+    "project": "Mersin Hilton SA Oteli Yatak Katları Yenileme Projesi",
+    "service": "*",
+    "client": "Sabancı Holding, TURSA A.Ş.",
+    "section": false
+  },
+  {
+    "project": "Adana Hilton SA Oteli",
+    "service": "*",
+    "client": "Sabancı Holding, TURSA A.Ş.",
+    "section": false
+  },
+  {
+    "project": "Park SA Hilton Oteli Genel Mekanlar Yenileme Projesi",
+    "service": "*",
+    "client": "Sabancı Holding, TURSA A.Ş.",
+    "section": false
+  }
+]
