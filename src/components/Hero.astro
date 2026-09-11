@@ -6,13 +6,12 @@ import { url } from '../lib/url';
 
 interface Props {
   images?: string[];
-  headline: string;
   subhead: string;
   ctaLabel: string;
   ctaHref: string;
 }
 
-const { images = [url('/images/site/hero/hero.webp')], headline, subhead, ctaLabel, ctaHref } = Astro.props;
+const { images = [url('/images/site/hero/hero.webp')], subhead, ctaLabel, ctaHref } = Astro.props;
 ---
 
 <section class="relative flex h-[70vh] min-h-[480px] items-center justify-center overflow-hidden text-white">
@@ -60,8 +59,8 @@ const { images = [url('/images/site/hero/hero.webp')], headline, subhead, ctaLab
   </style>
 
   <div class="relative z-10 mx-auto max-w-3xl px-6 text-center">
-    <h1 class="text-3xl leading-tight font-light md:text-5xl">{headline}</h1>
-    <p class="mt-4 text-lg text-white/85 md:text-xl">{subhead}</p>
+    <h1 class="sr-only">Omay Partners</h1>
+    <p class="text-lg text-white/85 md:text-xl">{subhead}</p>
     <a
       href={ctaHref}
       class="mt-8 inline-block rounded bg-[#faf8f5] px-8 py-3 text-sm tracking-wide text-[#1a2233] uppercase transition hover:bg-white"

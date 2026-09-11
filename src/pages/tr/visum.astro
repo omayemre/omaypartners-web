@@ -6,9 +6,9 @@ import { url } from '../../lib/url';
 const images = Array.from({ length: 40 }, (_, i) => url(`/images/site/visum/photo-${String(i + 1).padStart(2, '0')}.webp`));
 ---
 
-<Layout lang="tr" title="Visum" translations={{ en: '/visum/', tr: '/tr/visum/' }}>
+<Layout lang="tr" title="Fotoğraf" translations={{ en: '/visum/', tr: '/tr/visum/' }}>
   <div class="mx-auto max-w-6xl px-6 py-16">
-    <h1 class="text-center text-3xl font-light md:text-4xl">Visum</h1>
+    <h1 class="text-center text-3xl font-light md:text-4xl">Fotoğraf</h1>
     <div class="mt-12">
       <PhotoGrid images={images} />
     </div>

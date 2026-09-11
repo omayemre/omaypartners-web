@@ -8,8 +8,8 @@ export const dict = {
       home: 'Home',
       about: 'About',
       selectedWorks: 'Selected Works',
-      references: 'References',
-      visum: 'Visum',
+      references: 'Projects List',
+      visum: 'Photography',
       contact: 'Contact'
     },
     footer: {
@@ -24,8 +24,8 @@ export const dict = {
       home: 'Ana Sayfa',
       about: 'Hakkımızda',
       selectedWorks: 'Seçki',
-      references: 'Referanslar',
-      visum: 'Visum',
+      references: 'Proje Listesi',
+      visum: 'Fotoğraf',
       contact: 'İletişim'
     },
     footer: {

@@ -26,3 +26,8 @@ pnpm-debug.log*
 # local Claude Code settings (contains WP application-password entries
 # used during content migration - never commit)
 .claude/
+
+# personal working notes / internal audit docs - not site source, not for
+# the public repo
+.00 Emre Notlar/
+audit/

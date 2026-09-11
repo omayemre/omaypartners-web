@@ -19,6 +19,14 @@ const { lang, title, description, translations } = Astro.props;
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- STAGING ONLY — REMOVE BEFORE LAUNCH ON omaypartners.com -->
+    <meta name="robots" content="noindex, nofollow" />
     <link rel="icon" type="image/svg+xml" href={url('/favicon.svg')} />
     <title>{title} – Omay Partners</title>
     {description && <meta name="description" content={description} />}
