@@ -1,5 +1,6 @@
 ---
 import Layout from '../../layouts/Layout.astro';
+import { url } from '../../lib/url';
 ---
 
 <Layout
@@ -34,18 +35,25 @@ import Layout from '../../layouts/Layout.astro';
     </ul>
 
     <h2 class="mt-12 text-2xl font-light">Yönetim</h2>
-    <div class="mt-4">
-      <p class="font-medium">Emre Omay — Kurucu Ortak</p>
-      <p class="mt-2 text-[#1a2233]/80">
-        Mimarlık, inşaat ve proje yönetiminde 25 yılı aşkın uluslararası deneyime sahip mimar; daha önce
-        Turner International ve Sabancı Holding'de görev aldı. Orta Doğu Teknik Üniversitesi'nde (ODTÜ)
-        mimarlık ve yönetim eğitimi aldı. Avrupa, Asya ve Orta Doğu'da 100'ün üzerinde projeyi yürüttü.
-      </p>
-      <p class="mt-4 text-sm text-[#1a2233]/60">
-        Seçili müşteriler: Sabancı, Hilton, Ericsson, Qatar Airways, BP, AECOM, Sandvik, Udemy, Securitas,
-        Cushman &amp; Wakefield, Leonardo, Fulbright, Tüprag (Eldorado Gold), Limeks, ODTÜ — ve İtalya,
-        Hollanda, İngiltere, Almanya, Norveç ve Malta başta olmak üzere çok sayıda büyükelçilik.
-      </p>
+    <div class="mt-4 flex items-start gap-5">
+      <img
+        src={url('/images/site/about/emre-omay.webp')}
+        alt="Emre Omay"
+        class="h-20 w-20 shrink-0 rounded-full object-cover grayscale"
+      />
+      <div>
+        <p class="font-medium">Emre Omay — Kurucu Ortak</p>
+        <p class="mt-2 text-[#1a2233]/80">
+          Mimarlık, inşaat ve proje yönetiminde 25 yılı aşkın uluslararası deneyime sahip mimar; daha önce
+          Turner International ve Sabancı Holding'de görev aldı. Orta Doğu Teknik Üniversitesi'nde (ODTÜ)
+          mimarlık ve yönetim eğitimi aldı. Avrupa, Asya ve Orta Doğu'da 100'ün üzerinde projeyi yürüttü.
+        </p>
+        <p class="mt-4 text-sm text-[#1a2233]/60">
+          Seçili müşteriler: Sabancı, Hilton, Ericsson, Qatar Airways, BP, AECOM, Sandvik, Udemy, Securitas,
+          Cushman &amp; Wakefield, Leonardo, Fulbright, Tüprag (Eldorado Gold), Limeks, ODTÜ — ve İtalya,
+          Hollanda, İngiltere, Almanya, Norveç ve Malta başta olmak üzere çok sayıda büyükelçilik.
+        </p>
+      </div>
     </div>
   </article>
 </Layout>

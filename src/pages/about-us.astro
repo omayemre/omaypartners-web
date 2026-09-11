@@ -1,5 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import { url } from '../lib/url';
 ---
 
 <Layout
@@ -41,19 +42,26 @@ import Layout from '../layouts/Layout.astro';
     </p>
 
     <h2 class="mt-12 text-2xl font-light">Leadership</h2>
-    <div class="mt-4">
-      <p class="font-medium">Emre Omay — Founding Partner</p>
-      <p class="mt-2 text-[#1a2233]/80">
-        An architect with 25+ years of international experience in architecture, construction and project
-        delivery, previously at Turner International and Sabancı Holding. Educated in architecture and
-        management at Middle East Technical University (METU). He has led 100+ projects across Europe, Asia
-        and the Middle East.
-      </p>
-      <p class="mt-4 text-sm text-[#1a2233]/60">
-        Selected clients: Sabancı, Hilton, Ericsson, Qatar Airways, BP, AECOM, Sandvik, Udemy, Securitas,
-        Cushman &amp; Wakefield, Leonardo, Fulbright, Tüprag (Eldorado Gold), Limeks, METU — and many
-        embassies, including the Italian, Netherlands, British, German, Norwegian and Maltese missions.
-      </p>
+    <div class="mt-4 flex items-start gap-5">
+      <img
+        src={url('/images/site/about/emre-omay.webp')}
+        alt="Emre Omay"
+        class="h-20 w-20 shrink-0 rounded-full object-cover grayscale"
+      />
+      <div>
+        <p class="font-medium">Emre Omay — Founding Partner</p>
+        <p class="mt-2 text-[#1a2233]/80">
+          An architect with 25+ years of international experience in architecture, construction and project
+          delivery, previously at Turner International and Sabancı Holding. Educated in architecture and
+          management at Middle East Technical University (METU). He has led 100+ projects across Europe, Asia
+          and the Middle East.
+        </p>
+        <p class="mt-4 text-sm text-[#1a2233]/60">
+          Selected clients: Sabancı, Hilton, Ericsson, Qatar Airways, BP, AECOM, Sandvik, Udemy, Securitas,
+          Cushman &amp; Wakefield, Leonardo, Fulbright, Tüprag (Eldorado Gold), Limeks, METU — and many
+          embassies, including the Italian, Netherlands, British, German, Norwegian and Maltese missions.
+        </p>
+      </div>
     </div>
   </article>
 </Layout>
