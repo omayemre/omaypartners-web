@@ -21,10 +21,11 @@ const sources = {
   hilton: `${COMMONS}/HiltonHotelsLogo.svg`,
   sabanci: `${COMMONS}/Sabancı_Holding_logo.svg`,
   'qatar-airways': `${COMMONS}/Qatar_Airways_logo.svg`,
-  // NOT "Bp-logo.svg" - despite the name, that Commons file is actually
-  // the Ballotpedia logo (verified by rendering it - a real mismatch on
-  // Commons, not a typo here). This is the green/yellow BP shield.
-  bp: `${COMMONS}/Bp_logo89.svg`,
+  // bp: NOT scripted here anymore. Commons' "Bp-logo.svg" is actually the
+  // Ballotpedia logo (verified by rendering it), and the best alternative
+  // found here, "Bp_logo89.svg", is the pre-2000 shield - dated. The
+  // owner supplied the real current Helios sunburst logo directly
+  // (processed by hand: sharp .trim() + resize to 600px height).
   ericsson: `${COMMONS}/Ericsson_(2018).svg`,
   aecom: `${COMMONS}/AECOM_logo.svg`,
   udemy: `${COMMONS}/Udemy_logo.svg`,
@@ -34,11 +35,11 @@ const sources = {
   securitas: `${COMMONS}/Securitas_AB_logo.svg`,
   'odtu-metu': `${COMMONS}/Odtu-metu-logo.svg`,
   'british-embassy': `${COMMONS}/UK_Government_Overseas_Logo.svg`
-  // lcdg: no clean official vector found here - owner supplied the real
-  // school logo directly (processed by hand: sharp .trim() + resize to
-  // 600px height, see git history), not scripted here.
-  // odtu-teknokent: the tech park's own site serves an even lower-res
-  // logo (207x18) than the one already migrated - left as-is.
+  // lcdg, odtu-teknokent: no clean official vector found on Commons or
+  // the org's own site (the tech park's site actually serves a lower-res
+  // logo, 207x18, than what was already migrated). Owner supplied both
+  // logos directly (processed by hand: sharp .trim()/.resize() to 600px
+  // height - see git history), not scripted here.
 };
 
 async function main() {
