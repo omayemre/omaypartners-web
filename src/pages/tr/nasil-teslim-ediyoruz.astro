@@ -1,0 +1,84 @@
+---
+import Layout from '../../layouts/Layout.astro';
+
+const stages = [
+  {
+    name: 'Brief',
+    body: 'Önce dinleriz — hedefleriniz, kullanıcılarınız, kısıtlarınız, bütçeniz ve takviminiz. Bu aşama, tasarıma başlamadan önce birlikte onayladığımız yazılı bir brief ile sona erer.'
+  },
+  {
+    name: 'Konsept',
+    body: "İlk mekânsal fikirler ve seçenekler, brief'e göre değerlendirilir. Devam etmeden önce tek bir yönü onaylarsınız."
+  },
+  {
+    name: 'Tasarım Geliştirme',
+    body: 'Konsept; gerçek malzemelere, yüzeylere, sistemlere ve maliyetlere dönüşür — tasarımın gerçekten inşa edilebilir ve fiyatlandırılabilir hale geldiği aşama.'
+  },
+  {
+    name: 'Uygulama Projeleri',
+    body: 'Doğru fiyatlandırma ve ruhsatlandırma için yeterli, detaylı çizimler ve teknik şartnameler.'
+  },
+  {
+    name: 'İnşaat / Uygulama',
+    body: 'İnşa ederiz — doğrudan ya da güvendiğiniz yüklenicileri koordine eden proje yöneticisi olarak. Her iki durumda da tasarımı yapan ekip, teslime kadar sahada kalır.'
+  },
+  {
+    name: 'Teslim',
+    body: 'Eksik/kusur tespiti, yapılan-inşa dokümantasyonu ve taşınmadan önce birlikte yapılan bir son kontrol turu.'
+  }
+];
+---
+
+<Layout
+  lang="tr"
+  title="Nasıl Teslim Ediyoruz"
+  description="Omay Partners bir projeyi brief'ten teslime nasıl taşır — aşamalar, sözleşmeyi kimin yürüttüğü ve sizden neye ihtiyacımız olduğu."
+  translations={{ en: '/how-we-deliver/', tr: '/tr/nasil-teslim-ediyoruz/' }}
+>
+  <article class="mx-auto max-w-3xl px-6 py-20">
+    <h1 class="text-3xl font-light md:text-4xl">Nasıl Teslim Ediyoruz</h1>
+    <p class="mt-6 text-lg text-[#1a2233]/80">
+      "İlk eskizden teslime, tek ekip" çalışma biçimimizin özüdür — bu sayfa bunun pratikte ne anlama geldiğini
+      açıklıyor: bir projenin geçtiği aşamalar, kimin neden sorumlu olduğu ve tasarım ile teslimatı tek çatı
+      altında tutmanın sonucu neden değiştirdiği.
+    </p>
+
+    <h2 class="mt-14 text-2xl font-light">Aşamalar</h2>
+    <ol class="mt-6 space-y-8">
+      {stages.map((stage, i) => (
+        <li class="flex gap-5">
+          <span class="shrink-0 text-sm text-[#1a2233]/40">{String(i + 1).padStart(2, '0')}</span>
+          <div>
+            <h3 class="text-lg">{stage.name}</h3>
+            <p class="mt-1 text-[#1a2233]/70">{stage.body}</p>
+          </div>
+        </li>
+      ))}
+    </ol>
+
+    <h2 class="mt-14 text-2xl font-light">Sözleşmeyi kim yürütür</h2>
+    <p class="mt-4 text-[#1a2233]/80">
+      Projeye bağlı olarak, ya tek bir tasarım-yapım sözleşmesi yürütürüz ya da zaten güvendiğiniz
+      yüklenicileri koordine eden proje yöneticisi olarak çalışırız. Her iki durumda da ilk eskizden teslime
+      kadar sorumlu olan aynı ekiptir — devredeceğiniz ayrı bir tasarım ofisi ya da devraldığınız ayrı bir
+      yüklenici yoktur.
+    </p>
+
+    <h2 class="mt-14 text-2xl font-light">Tek ekip neden önemli</h2>
+    <p class="mt-4 text-[#1a2233]/80">
+      Tasarım ve inşaat iki ayrı firmada olduğunda aralarında bir boşluk açılır — mimar kötü uygulamayı
+      yükleniciye, yüklenici de uygulanamaz çizimleri mimara bağlar; müşteri ise kendisine ait olmayan bir
+      anlaşmazlığı çözmek zorunda ortada kalır. Tek bir ekibin her ikisinden de sorumlu olması bu boşluğu
+      kapatır: çizen ekiple inşa eden ekip aynı olduğunda, sorunlar yazışmalarda tartışılmak yerine sahada
+      çözülür.
+    </p>
+
+    <h2 class="mt-14 text-2xl font-light">Sizden ihtiyacımız olanlar</h2>
+    <ul class="mt-4 list-disc space-y-2 pl-5 text-[#1a2233]/80">
+      <li>Net bir brief — hedefler, kullanıcılar ve kısıtlar, mümkün olduğunca erken ve açık şekilde.</li>
+      <li>Her aşamada zamanında kararlar, özellikle malzeme ve onaylarda — buradaki gecikmeler sonrasındaki her şeyi geciktirir.</li>
+      <li>Sahaya erişim ve sahanın durumu/kısıtları hakkında gerçekçi bir bakış.</li>
+      <li>Baştan gerçekçi bir bütçe aralığı, geliştirdiğimiz tasarımın gerçekten inşa edilebilir olması için.</li>
+    </ul>
+  </article>
+</Layout>

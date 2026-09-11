@@ -1,0 +1,84 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const stages = [
+  {
+    name: 'Brief',
+    body: 'We listen first — your goals, your users, your constraints, your budget and timeline. This stage ends with a written brief we both sign off on before any design starts.'
+  },
+  {
+    name: 'Concept',
+    body: 'Early spatial ideas and options, tested against the brief. You approve a single direction before we take it further.'
+  },
+  {
+    name: 'Design Development',
+    body: 'The concept resolved into real materials, finishes, systems and costs — the point where a design becomes something that can actually be built, and priced.'
+  },
+  {
+    name: 'Construction Documents',
+    body: 'Detailed drawings and specifications, sufficient for accurate pricing and for permitting.'
+  },
+  {
+    name: 'Construction / Fit-Out',
+    body: 'We build it — either directly, or as project manager coordinating contractors you already trust. Either way, the same team that designed it stays on site through delivery.'
+  },
+  {
+    name: 'Handover',
+    body: 'Snagging, as-built documentation, and a walkthrough before you move in.'
+  }
+];
+---
+
+<Layout
+  lang="en"
+  title="How We Deliver"
+  description="How Omay Partners takes a project from brief to handover — the stages, who holds the contract, and what we need from you."
+  translations={{ en: '/how-we-deliver/', tr: '/tr/nasil-teslim-ediyoruz/' }}
+>
+  <article class="mx-auto max-w-3xl px-6 py-20">
+    <h1 class="text-3xl font-light md:text-4xl">How We Deliver</h1>
+    <p class="mt-6 text-lg text-[#1a2233]/80">
+      "One team, from first sketch to handover" is the core of how we work — this page explains what that
+      actually means in practice: the stages a project moves through, who is accountable for what, and why
+      keeping design and delivery under one roof changes the outcome.
+    </p>
+
+    <h2 class="mt-14 text-2xl font-light">The stages</h2>
+    <ol class="mt-6 space-y-8">
+      {stages.map((stage, i) => (
+        <li class="flex gap-5">
+          <span class="shrink-0 text-sm text-[#1a2233]/40">{String(i + 1).padStart(2, '0')}</span>
+          <div>
+            <h3 class="text-lg">{stage.name}</h3>
+            <p class="mt-1 text-[#1a2233]/70">{stage.body}</p>
+          </div>
+        </li>
+      ))}
+    </ol>
+
+    <h2 class="mt-14 text-2xl font-light">Who holds the contract</h2>
+    <p class="mt-4 text-[#1a2233]/80">
+      Depending on the project, we hold either a single design-and-build contract, or act as project manager
+      coordinating contractors you already trust. Either way, the same team is accountable from the first
+      sketch through handover — there is no separate design firm to hand off to, and no separate contractor to
+      hand off from.
+    </p>
+
+    <h2 class="mt-14 text-2xl font-light">Why one team matters</h2>
+    <p class="mt-4 text-[#1a2233]/80">
+      When design and construction sit with two separate firms, a gap opens between them — the architect
+      points at the contractor for poor execution, the contractor points at the architect for impractical
+      drawings, and the client is left in the middle resolving a dispute that isn't theirs to resolve. Keeping
+      one team responsible for both closes that gap: the people who drew it are the same people responsible
+      for building it, so problems get solved on site, not argued over in correspondence.
+    </p>
+
+    <h2 class="mt-14 text-2xl font-light">What we need from you</h2>
+    <ul class="mt-4 list-disc space-y-2 pl-5 text-[#1a2233]/80">
+      <li>A clear brief — goals, users, and constraints, as early and honestly as possible.</li>
+      <li>Timely decisions at each stage, especially on materials and approvals — delays here delay everything after.</li>
+      <li>Site access, and a realistic view of the site's condition and constraints.</li>
+      <li>A realistic budget range up front, so the design we develop is one you can actually build.</li>
+    </ul>
+  </article>
+</Layout>

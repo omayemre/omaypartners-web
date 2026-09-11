@@ -6,15 +6,12 @@ import { url } from '../lib/url';
 
 interface Props {
   images?: string[];
-  subhead: string;
-  ctaLabel: string;
-  ctaHref: string;
 }
 
-const { images = [url('/images/site/hero/hero.webp')], subhead, ctaLabel, ctaHref } = Astro.props;
+const { images = [url('/images/site/hero/hero.webp')] } = Astro.props;
 ---
 
-<section class="relative flex h-[70vh] min-h-[480px] items-center justify-center overflow-hidden text-white">
+<section class="relative h-[70vh] min-h-[480px] overflow-hidden">
   <div class="hero-swiper swiper absolute inset-0">
     <div class="swiper-wrapper">
       {images.map((src) => (
@@ -24,7 +21,7 @@ const { images = [url('/images/site/hero/hero.webp')], subhead, ctaLabel, ctaHre
       ))}
     </div>
   </div>
-  <div class="absolute inset-0 bg-[#1a2233]/50"></div>
+  <h1 class="sr-only">Omay Partners</h1>
 
   <style>
     /* Minimal Swiper layout CSS, inlined rather than imported from
@@ -58,16 +55,6 @@ const { images = [url('/images/site/hero/hero.webp')], subhead, ctaLabel, ctaHre
     }
   </style>
 
-  <div class="relative z-10 mx-auto max-w-3xl px-6 text-center">
-    <h1 class="sr-only">Omay Partners</h1>
-    <p class="text-lg text-white/85 md:text-xl">{subhead}</p>
-    <a
-      href={ctaHref}
-      class="mt-8 inline-block rounded bg-[#faf8f5] px-8 py-3 text-sm tracking-wide text-[#1a2233] uppercase transition hover:bg-white"
-    >
-      {ctaLabel}
-    </a>
-  </div>
 </section>
 
 <script>

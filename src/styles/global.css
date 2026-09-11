@@ -1,11 +1,11 @@
 @import "tailwindcss";
 
 @theme {
-  /* Inter (SIL Open Font License, free to self-host/embed) — closest
-     free equivalent to Calibri's clean, neutral corporate feel, with
-     full Turkish character support (İ, ı, ğ, ş, ç, ö, ü). */
+  /* Jost (SIL Open Font License, free to self-host/embed) — geometric
+     sans closer to Brandon Grotesque's feel than Inter, with full
+     Turkish character support (İ, ı, ğ, ş, ç, ö, ü). */
   --font-sans:
-    "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    "Jost", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 }
 
 body {

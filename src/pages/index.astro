@@ -12,11 +12,7 @@ import { url } from '../lib/url';
   description="Architecture, interior design, construction and project delivery — Ankara, working internationally."
   translations={{ en: '/', tr: '/tr/' }}
 >
-  <Hero
-    subhead="From first sketch to handover, under one roof."
-    ctaLabel="Let's talk about your project"
-    ctaHref={url('/contact-us/')}
-  />
+  <Hero />
 
   <section class="bg-white py-16">
     <div class="mx-auto max-w-4xl px-6 text-center">
@@ -48,6 +44,11 @@ import { url } from '../lib/url';
         <h3 class="text-lg">Construction Delivery</h3>
         <p class="mt-2 text-sm text-[#1a2233]/60">One team, from design to handover.</p>
       </div>
+    </div>
+    <div class="mt-10 text-center">
+      <a href={url('/how-we-deliver/')} class="text-sm tracking-wide text-[#1a2233] uppercase hover:underline">
+        See how we deliver →
+      </a>
     </div>
   </section>
 

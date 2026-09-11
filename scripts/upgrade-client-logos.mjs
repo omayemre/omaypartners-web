@@ -34,7 +34,11 @@ const sources = {
   securitas: `${COMMONS}/Securitas_AB_logo.svg`,
   'odtu-metu': `${COMMONS}/Odtu-metu-logo.svg`,
   'british-embassy': `${COMMONS}/UK_Government_Overseas_Logo.svg`
-  // lcdg, odtu-teknokent: no clean official vector source found - left as-is
+  // lcdg: no clean official vector found here - owner supplied the real
+  // school logo directly (processed by hand: sharp .trim() + resize to
+  // 600px height, see git history), not scripted here.
+  // odtu-teknokent: the tech park's own site serves an even lower-res
+  // logo (207x18) than the one already migrated - left as-is.
 };
 
 async function main() {

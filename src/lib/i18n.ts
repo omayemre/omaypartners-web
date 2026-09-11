@@ -7,6 +7,7 @@ export const dict = {
     nav: {
       home: 'Home',
       about: 'About',
+      howWeDeliver: 'How We Deliver',
       selectedWorks: 'Selected Works',
       references: 'Projects List',
       visum: 'Photography',
@@ -23,6 +24,7 @@ export const dict = {
     nav: {
       home: 'Ana Sayfa',
       about: 'Hakkımızda',
+      howWeDeliver: 'Nasıl Teslim Ediyoruz',
       selectedWorks: 'Seçki',
       references: 'Proje Listesi',
       visum: 'Fotoğraf',
@@ -37,11 +39,12 @@ export const dict = {
   }
 } as const;
 
-export type TrPath = 'home' | 'about' | 'selectedWorks' | 'references' | 'visum' | 'contact';
+export type TrPath = 'home' | 'about' | 'howWeDeliver' | 'selectedWorks' | 'references' | 'visum' | 'contact';
 
 const enPaths: Record<TrPath, string> = {
   home: '/',
   about: '/about-us/',
+  howWeDeliver: '/how-we-deliver/',
   selectedWorks: '/selected-projects/',
   references: '/references/',
   visum: '/visum/',
@@ -51,6 +54,7 @@ const enPaths: Record<TrPath, string> = {
 const trPaths: Record<TrPath, string> = {
   home: '/tr/',
   about: '/tr/hakkimizda/',
+  howWeDeliver: '/tr/nasil-teslim-ediyoruz/',
   selectedWorks: '/tr/projeler/',
   references: '/tr/referanslar/',
   visum: '/tr/visum/',

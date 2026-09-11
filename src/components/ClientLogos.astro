@@ -1,22 +1,26 @@
 ---
 import { url } from '../lib/url';
 
+// scale is relative to the shared 32px (h-8) base row height, per owner's
+// review notes on individual logos reading small next to the others.
+const BASE_HEIGHT = 32;
+
 const logos = [
-  { src: '/images/site/logos/hilton.webp', alt: 'Hilton' },
-  { src: '/images/site/logos/sabanci.webp', alt: 'Sabancı' },
-  { src: '/images/site/logos/qatar-airways.webp', alt: 'Qatar Airways' },
-  { src: '/images/site/logos/bp.webp', alt: 'BP' },
-  { src: '/images/site/logos/ericsson.webp', alt: 'Ericsson' },
-  { src: '/images/site/logos/aecom.webp', alt: 'AECOM' },
-  { src: '/images/site/logos/udemy.webp', alt: 'Udemy' },
-  { src: '/images/site/logos/cushman-wakefield.webp', alt: 'Cushman & Wakefield' },
-  { src: '/images/site/logos/sandvik.webp', alt: 'Sandvik' },
-  { src: '/images/site/logos/leonardo.webp', alt: 'Leonardo' },
-  { src: '/images/site/logos/british-embassy.webp', alt: 'British Embassy' },
-  { src: '/images/site/logos/odtu-metu.webp', alt: 'ODTÜ / METU' },
-  { src: '/images/site/logos/securitas.webp', alt: 'Securitas' },
-  { src: '/images/site/logos/lcdg.webp', alt: 'Lycée Charles de Gaulle' },
-  { src: '/images/site/logos/odtu-teknokent.webp', alt: 'ODTÜ Teknokent' }
+  { src: '/images/site/logos/hilton.webp', alt: 'Hilton', scale: 1.5 },
+  { src: '/images/site/logos/sabanci.webp', alt: 'Sabancı', scale: 1 },
+  { src: '/images/site/logos/qatar-airways.webp', alt: 'Qatar Airways', scale: 1 },
+  { src: '/images/site/logos/bp.webp', alt: 'BP', scale: 1.5 },
+  { src: '/images/site/logos/ericsson.webp', alt: 'Ericsson', scale: 1 },
+  { src: '/images/site/logos/aecom.webp', alt: 'AECOM', scale: 1 },
+  { src: '/images/site/logos/udemy.webp', alt: 'Udemy', scale: 1.2 },
+  { src: '/images/site/logos/cushman-wakefield.webp', alt: 'Cushman & Wakefield', scale: 1 },
+  { src: '/images/site/logos/sandvik.webp', alt: 'Sandvik', scale: 1 },
+  { src: '/images/site/logos/leonardo.webp', alt: 'Leonardo', scale: 1 },
+  { src: '/images/site/logos/british-embassy.webp', alt: 'British Embassy', scale: 1 },
+  { src: '/images/site/logos/odtu-metu.webp', alt: 'ODTÜ / METU', scale: 1.2 },
+  { src: '/images/site/logos/securitas.webp', alt: 'Securitas', scale: 1.2 },
+  { src: '/images/site/logos/lcdg.webp', alt: 'Lycée Charles de Gaulle', scale: 1.25 },
+  { src: '/images/site/logos/odtu-teknokent.webp', alt: 'ODTÜ Teknokent', scale: 1.2 }
 ];
 ---
 
@@ -25,7 +29,8 @@ const logos = [
     <img
       src={url(logo.src)}
       alt={logo.alt}
-      class="mx-auto h-8 w-auto object-contain opacity-70 mix-blend-multiply transition hover:opacity-100"
+      style={`height: ${BASE_HEIGHT * logo.scale}px`}
+      class="mx-auto w-auto object-contain opacity-70 mix-blend-multiply transition hover:opacity-100"
     />
   ))}
 </div>
