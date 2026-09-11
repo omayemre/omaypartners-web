@@ -4,7 +4,7 @@ lang: tr
 slug: "odtu-teknokent-go-ofisleri"
 translationKey: "odtu-teknokent-go-offices"
 order: 0
-cover: "../../assets/projects/odtu-teknokent-go-offices/img-01.webp"
+cover: "/images/projects/odtu-teknokent-go-offices/img-01.webp"
 gallery:
-  - "../../assets/projects/odtu-teknokent-go-offices/img-01.webp"
+  - "/images/projects/odtu-teknokent-go-offices/img-01.webp"
 ---

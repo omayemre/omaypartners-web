@@ -1,0 +1,31 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+import { url } from '../../lib/url';
+
+const projects = (await getCollection('projects', ({ data }) => data.lang === 'tr')).sort(
+  (a, b) => a.data.order - b.data.order
+);
+---
+
+<Layout lang="tr" title="Seçki" translations={{ en: '/selected-projects/', tr: '/tr/projeler/' }}>
+  <div class="mx-auto max-w-7xl px-6 py-16">
+    <h1 class="text-center text-3xl font-light md:text-4xl">Seçki</h1>
+    <div class="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      {projects.map((project) => (
+        <a href={url(`/tr/${project.data.slug}/`)} class="omay-tile group block overflow-hidden">
+          {project.data.cover && (
+            <div class="overflow-hidden">
+              <img
+                src={url(project.data.cover)}
+                alt={project.data.title}
+                class="aspect-[4/3] w-full object-cover transition-transform duration-500 ease-out group-hover:scale-[1.03]"
+              />
+            </div>
+          )}
+          <h3 class="mt-4 text-lg">{project.data.title}</h3>
+        </a>
+      ))}
+    </div>
+  </div>
+</Layout>

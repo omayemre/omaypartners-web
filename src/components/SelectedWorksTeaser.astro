@@ -1,0 +1,66 @@
+---
+import { t, type Lang } from '../lib/i18n';
+import { url } from '../lib/url';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+const i18n = t(lang);
+
+const tileImages = {
+  magiclab: '/images/site/tiles/magiclab.webp',
+  hiltonSuites: '/images/site/tiles/hilton-suites.webp',
+  odtuAtom: '/images/site/tiles/odtu-atom.webp',
+  hiltonApart: '/images/site/tiles/hilton-apart.webp',
+  odtuEtkim: '/images/site/tiles/odtu-etkim.webp',
+  odtuSports: '/images/site/tiles/odtu-sports.webp'
+};
+
+const tilesEn = [
+  { image: tileImages.magiclab, title: 'MagicLab Office', meta: 'Ankara · 2024 · Office — Design & Construction', href: '/magic-lab/' },
+  { image: tileImages.hiltonSuites, title: 'Hilton Ankara Presidential Suites', meta: 'Ankara · 2026 · Hospitality — Design & Construction', href: '/ankara-hilton-presidential-suites/' },
+  { image: tileImages.odtuAtom, title: 'ODTÜ ATOM', meta: 'Ankara (METU Teknokent) · 2022 · Animation & Game Development Center', href: '/metu-teknopark-atom/' },
+  { image: tileImages.hiltonApart, title: 'Hilton Ankara Apartment Floors', meta: 'Ankara · 2022 · Hospitality — Design & Construction', href: '/ankara-hilton-hotel-apartment-floor/' },
+  { image: tileImages.odtuEtkim, title: 'ODTÜ ETKİM', meta: 'Ankara (METU) · 2024 · Office / Incubation', href: '/etkim/' },
+  { image: tileImages.odtuSports, title: 'ODTÜ Sports Fields', meta: 'Ankara (METU) · 2023–2026 · Sports — Design & Construction', href: '/odtu-sport-2/' }
+];
+
+const tilesTr = [
+  { image: tileImages.magiclab, title: 'MagicLab Ofisi', meta: 'Ankara · 2024 · Ofis — Tasarım & Uygulama', href: '/tr/magic-lab/' },
+  { image: tileImages.hiltonSuites, title: 'Hilton Ankara Kral Daireleri', meta: 'Ankara · 2026 · Konaklama — Tasarım & Uygulama', href: '/tr/ankara-hilton-oteli-kral-daireleri/' },
+  { image: tileImages.odtuAtom, title: 'ODTÜ ATOM', meta: 'Ankara (ODTÜ Teknokent) · 2022 · Animasyon & Oyun Geliştirme Merkezi', href: '/tr/odtu-teknokent-atom/' },
+  { image: tileImages.hiltonApart, title: 'Hilton Ankara Apart Katları', meta: 'Ankara · 2022 · Konaklama — Tasarım & Uygulama', href: '/tr/odtu-teknokent-kulucka-binasi/' },
+  { image: tileImages.odtuEtkim, title: 'ODTÜ ETKİM', meta: 'Ankara (ODTÜ) · 2024 · Ofis / Kuluçka', href: '/tr/etkim/' },
+  { image: tileImages.odtuSports, title: 'ODTÜ Spor Sahaları', meta: 'Ankara (ODTÜ) · 2023–2026 · Spor — Tasarım & Uygulama', href: '/tr/odtu-sport-2/' }
+];
+
+const tiles = lang === 'en' ? tilesEn : tilesTr;
+const heading = lang === 'en' ? 'Selected Works' : 'Seçili İşler';
+const allProjects = lang === 'en' ? 'All projects' : 'Tüm projeler';
+---
+
+<section class="mx-auto max-w-7xl px-6 py-20">
+  <div class="mb-10 flex items-end justify-between">
+    <h2 class="text-2xl font-light md:text-3xl">{heading}</h2>
+    <a href={i18n.path('selectedWorks')} class="text-sm tracking-wide text-[#1a2233]/70 uppercase hover:text-[#1a2233]">
+      {allProjects} →
+    </a>
+  </div>
+  <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+    {tiles.map((tile) => (
+      <a href={url(tile.href)} class="omay-tile group block overflow-hidden">
+        <div class="overflow-hidden">
+          <img
+            src={url(tile.image)}
+            alt={tile.title}
+            class="aspect-[4/3] w-full object-cover transition-transform duration-500 ease-out group-hover:scale-[1.03]"
+          />
+        </div>
+        <h3 class="mt-4 text-lg">{tile.title}</h3>
+        <p class="mt-1 text-sm text-[#1a2233]/60">{tile.meta}</p>
+      </a>
+    ))}
+  </div>
+</section>

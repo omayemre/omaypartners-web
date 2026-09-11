@@ -1,0 +1,35 @@
+---
+import '../styles/global.css';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import type { Lang } from '../lib/i18n';
+import { url } from '../lib/url';
+
+interface Props {
+  lang: Lang;
+  title: string;
+  description?: string;
+  translations?: Partial<Record<Lang, string>>;
+}
+
+const { lang, title, description, translations } = Astro.props;
+---
+
+<html lang={lang}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href={url('/favicon.svg')} />
+    <title>{title} – Omay Partners</title>
+    {description && <meta name="description" content={description} />}
+    {translations?.en && <link rel="alternate" hreflang="en" href={url(translations.en)} />}
+    {translations?.tr && <link rel="alternate" hreflang="tr" href={url(translations.tr)} />}
+  </head>
+  <body class="bg-[#faf8f5] text-[#1a2233] antialiased">
+    <Header lang={lang} translations={translations} />
+    <main>
+      <slot />
+    </main>
+    <Footer lang={lang} />
+  </body>
+</html>

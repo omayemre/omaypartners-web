@@ -1,0 +1,14 @@
+---
+import Layout from '../layouts/Layout.astro';
+import ReferencesTable from '../components/ReferencesTable.astro';
+import rows from '../data/references.en.json';
+---
+
+<Layout lang="en" title="Works" translations={{ en: '/references/', tr: '/tr/referanslar/' }}>
+  <div class="mx-auto max-w-4xl px-6 py-16">
+    <h1 class="text-center text-3xl font-light md:text-4xl">Works</h1>
+    <div class="mt-12">
+      <ReferencesTable rows={rows} headers={['Project', 'Service Provided', 'Client']} />
+    </div>
+  </div>
+</Layout>

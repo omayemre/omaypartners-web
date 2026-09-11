@@ -1,0 +1,51 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+import { url } from '../../lib/url';
+
+export async function getStaticPaths() {
+  const trProjects = await getCollection('projects', ({ data }) => data.lang === 'tr');
+  const enProjects = await getCollection('projects', ({ data }) => data.lang === 'en');
+
+  return trProjects.map((project) => {
+    const enCounterpart = enProjects.find((p) => p.data.translationKey === project.data.translationKey);
+    return {
+      params: { slug: project.data.slug },
+      props: { project, enSlug: enCounterpart?.data.slug }
+    };
+  });
+}
+
+const { project, enSlug } = Astro.props;
+const { title, cover, gallery } = project.data;
+---
+
+<Layout
+  lang="tr"
+  title={title}
+  translations={{ tr: `/tr/${project.data.slug}/`, ...(enSlug ? { en: `/${enSlug}/` } : {}) }}
+>
+  <article class="mx-auto max-w-5xl px-6 py-16">
+    <h1 class="text-center text-3xl font-light md:text-4xl">{title}</h1>
+
+    {cover && (
+      <div class="mt-10">
+        <img src={url(cover)} alt={title} class="w-full object-cover" />
+      </div>
+    )}
+
+    {gallery && gallery.length > 1 && (
+      <div class="mt-6 grid grid-cols-2 gap-4 md:grid-cols-3">
+        {gallery.slice(1).map((src) => (
+          <img src={url(src)} alt={title} class="aspect-[4/3] w-full object-cover" />
+        ))}
+      </div>
+    )}
+
+    <div class="mt-12 text-center">
+      <a href={url('/tr/projeler/')} class="text-sm tracking-wide text-[#1a2233]/70 uppercase hover:text-[#1a2233]">
+        ← Tüm projeler
+      </a>
+    </div>
+  </article>
+</Layout>

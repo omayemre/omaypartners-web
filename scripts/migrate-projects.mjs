@@ -14,7 +14,13 @@ import sharp from 'sharp';
 const API = 'https://www.omaypartners.com/wp-json/wp/v2';
 const PROJECT_ROOT = fileURLToPath(new URL('..', import.meta.url));
 const CONTENT_DIR = path.join(PROJECT_ROOT, 'src/content/projects');
-const ASSETS_DIR = path.join(PROJECT_ROOT, 'src/assets/projects');
+// Served as plain /images/projects/... URLs from public/, not imported via
+// astro:assets - this repo's path contains a literal "@" segment (Google
+// Drive folder name) that collides with Vite's /@fs//@id/ virtual-module
+// URL scheme and made the content-layer image resolver fail
+// non-deterministically when images were imported as src/assets/.
+const ASSETS_DIR = path.join(PROJECT_ROOT, 'public/images/projects');
+const ASSETS_URL_BASE = '/images/projects';
 const MAX_IMAGES = 8;
 const CHROME_RE = /omay-siyah-logo|omay-beyaz-logo|favicon|fullscreen-menu-image|cropped-omay-partners|\/banner(-\d+)?\.(jpg|png)/i;
 
@@ -135,9 +141,9 @@ async function migrateProject({ translationKey, order, en, tr }) {
       `slug: ${JSON.stringify(post.slug)}`,
       `translationKey: ${JSON.stringify(translationKey)}`,
       `order: ${order}`,
-      cover ? `cover: ${JSON.stringify(`../../assets/projects/${translationKey}/${cover}`)}` : null,
+      cover ? `cover: ${JSON.stringify(`${ASSETS_URL_BASE}/${translationKey}/${cover}`)}` : null,
       gallery.length
-        ? `gallery:\n${gallery.map((g) => `  - ${JSON.stringify(`../../assets/projects/${translationKey}/${g}`)}`).join('\n')}`
+        ? `gallery:\n${gallery.map((g) => `  - ${JSON.stringify(`${ASSETS_URL_BASE}/${translationKey}/${g}`)}`).join('\n')}`
         : null,
       '---',
       ''

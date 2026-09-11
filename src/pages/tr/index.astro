@@ -1,0 +1,68 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Hero from '../../components/Hero.astro';
+import ClientLogos from '../../components/ClientLogos.astro';
+import SelectedWorksTeaser from '../../components/SelectedWorksTeaser.astro';
+import { url } from '../../lib/url';
+---
+
+<Layout
+  lang="tr"
+  title="Omay Partners"
+  description="Mimari, iç mekân, uygulama ve proje yönetimi — Ankara merkezli, uluslararası çalışan bir ofis."
+  translations={{ en: '/', tr: '/tr/' }}
+>
+  <Hero
+    headline="Mimari, iç mekân, tasarım ve uygulama."
+    subhead="İlk eskizden anahtar teslimine, tek çatı altında."
+    ctaLabel="Projenizi konuşalım"
+    ctaHref={url('/tr/iletisim/')}
+  />
+
+  <section class="bg-white py-16">
+    <div class="mx-auto max-w-4xl px-6 text-center">
+      <p class="text-xs tracking-widest text-[#1a2233]/50 uppercase">Referanslarımız</p>
+      <p class="mt-4 text-lg text-[#1a2233]/80">
+        Omay Partners; 25 yılı aşkın deneyimiyle mimari, iç mekân tasarımı ve uygulamayı tek çatı altında
+        birleştiren bir tasarım ve yapı ofisidir. Projeleri ilk eskizden anahtar teslimine kadar Ankara ve
+        Atina'da hayata geçiriyoruz.
+      </p>
+    </div>
+    <div class="mt-12">
+      <ClientLogos />
+    </div>
+  </section>
+
+  <SelectedWorksTeaser lang="tr" />
+
+  <section class="bg-white py-20">
+    <div class="mx-auto grid max-w-6xl grid-cols-1 gap-10 px-6 text-center md:grid-cols-3">
+      <div>
+        <h3 class="text-lg">Mimari</h3>
+        <p class="mt-2 text-sm text-[#1a2233]/60">Konsept tasarımdan uygulama projesine.</p>
+      </div>
+      <div>
+        <h3 class="text-lg">İç Mekân</h3>
+        <p class="mt-2 text-sm text-[#1a2233]/60">İnşa edilmek üzere tasarlanan mekânlar.</p>
+      </div>
+      <div>
+        <h3 class="text-lg">Uygulama</h3>
+        <p class="mt-2 text-sm text-[#1a2233]/60">Tasarımdan teslime tek ekip.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-[#f1ede6] py-20">
+    <div class="mx-auto max-w-3xl px-6 text-center">
+      <p class="text-sm tracking-wide text-[#1a2233]/50 uppercase">25+ yıl · 140+ proje · Ankara–Atina</p>
+      <p class="mt-6 text-lg text-[#1a2233]/80">
+        İşin başından sonuna aynı ekibin takip ettiği küçük bir stüdyoyuz — ilk eskizi çizen el, anahtar
+        teslimine kadar projenin yanında kalır. İşlerimizin büyük bölümü, yeniden birlikte çalışmak isteyen
+        müşterilerimizden gelir. Binalar, iç mekânlar ve uygulamalar; sessizce ve zamanında teslim edilir.
+      </p>
+      <a href={url('/tr/hakkimizda/')} class="mt-6 inline-block text-sm tracking-wide text-[#1a2233] uppercase hover:underline">
+        Hakkımızda →
+      </a>
+    </div>
+  </section>
+</Layout>

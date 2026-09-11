@@ -7,7 +7,9 @@ import { fileURLToPath } from 'node:url';
 import sharp from 'sharp';
 
 const PROJECT_ROOT = fileURLToPath(new URL('..', import.meta.url));
-const ASSETS_DIR = path.join(PROJECT_ROOT, 'src/assets/site');
+// Served as plain /images/site/... URLs from public/ - see the comment in
+// migrate-projects.mjs for why these aren't astro:assets src/assets/ imports.
+const ASSETS_DIR = path.join(PROJECT_ROOT, 'public/images/site');
 
 const UPLOADS = 'https://www.omaypartners.com/wp-content/uploads';
 

@@ -4,7 +4,7 @@ lang: en
 slug: "tuprag-mining-turkey-office"
 translationKey: "tuprag-mining-turkey-office"
 order: 15
-cover: "../../assets/projects/tuprag-mining-turkey-office/img-01.webp"
+cover: "/images/projects/tuprag-mining-turkey-office/img-01.webp"
 gallery:
-  - "../../assets/projects/tuprag-mining-turkey-office/img-01.webp"
+  - "/images/projects/tuprag-mining-turkey-office/img-01.webp"
 ---

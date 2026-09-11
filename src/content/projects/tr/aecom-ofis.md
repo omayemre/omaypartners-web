@@ -4,7 +4,7 @@ lang: tr
 slug: "aecom-ofis"
 translationKey: "aecom-office"
 order: 31
-cover: "../../assets/projects/aecom-office/img-01.webp"
+cover: "/images/projects/aecom-office/img-01.webp"
 gallery:
-  - "../../assets/projects/aecom-office/img-01.webp"
+  - "/images/projects/aecom-office/img-01.webp"
 ---

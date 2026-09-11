@@ -1,0 +1,60 @@
+---
+interface Props {
+  images: string[];
+}
+
+const { images } = Astro.props;
+---
+
+<div class="photo-grid grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4">
+  {images.map((src, i) => (
+    <button type="button" class="photo-grid-item block overflow-hidden" data-index={i}>
+      <img
+        src={src}
+        alt=""
+        class="aspect-square w-full object-cover transition-transform duration-300 hover:scale-[1.03]"
+      />
+    </button>
+  ))}
+</div>
+
+<div
+  class="lightbox fixed inset-0 z-[100] hidden items-center justify-center bg-black/90 p-4"
+  role="dialog"
+  aria-modal="true"
+>
+  <button type="button" class="lightbox-close absolute top-4 right-4 text-3xl text-white/70 hover:text-white" aria-label="Close">
+    &times;
+  </button>
+  <img class="lightbox-img max-h-[90vh] max-w-full object-contain" src="" alt="" />
+</div>
+
+<script>
+  const grid = document.querySelector('.photo-grid');
+  const lightbox = document.querySelector<HTMLElement>('.lightbox');
+  const lightboxImg = document.querySelector<HTMLImageElement>('.lightbox-img');
+  const closeBtn = document.querySelector('.lightbox-close');
+
+  grid?.addEventListener('click', (e) => {
+    const btn = (e.target as HTMLElement).closest('.photo-grid-item');
+    if (!btn || !lightbox || !lightboxImg) return;
+    const img = btn.querySelector('img');
+    if (!img) return;
+    lightboxImg.src = img.src;
+    lightbox.classList.remove('hidden');
+    lightbox.classList.add('flex');
+  });
+
+  function close() {
+    lightbox?.classList.add('hidden');
+    lightbox?.classList.remove('flex');
+  }
+
+  closeBtn?.addEventListener('click', close);
+  lightbox?.addEventListener('click', (e) => {
+    if (e.target === lightbox) close();
+  });
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') close();
+  });
+</script>

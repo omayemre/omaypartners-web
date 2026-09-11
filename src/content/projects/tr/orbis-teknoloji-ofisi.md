@@ -4,14 +4,14 @@ lang: tr
 slug: "orbis-teknoloji-ofisi"
 translationKey: "orbis-technology-office"
 order: 37
-cover: "../../assets/projects/orbis-technology-office/img-01.webp"
+cover: "/images/projects/orbis-technology-office/img-01.webp"
 gallery:
-  - "../../assets/projects/orbis-technology-office/img-01.webp"
-  - "../../assets/projects/orbis-technology-office/img-02.webp"
-  - "../../assets/projects/orbis-technology-office/img-03.webp"
-  - "../../assets/projects/orbis-technology-office/img-04.webp"
-  - "../../assets/projects/orbis-technology-office/img-05.webp"
-  - "../../assets/projects/orbis-technology-office/img-06.webp"
-  - "../../assets/projects/orbis-technology-office/img-07.webp"
-  - "../../assets/projects/orbis-technology-office/img-08.webp"
+  - "/images/projects/orbis-technology-office/img-01.webp"
+  - "/images/projects/orbis-technology-office/img-02.webp"
+  - "/images/projects/orbis-technology-office/img-03.webp"
+  - "/images/projects/orbis-technology-office/img-04.webp"
+  - "/images/projects/orbis-technology-office/img-05.webp"
+  - "/images/projects/orbis-technology-office/img-06.webp"
+  - "/images/projects/orbis-technology-office/img-07.webp"
+  - "/images/projects/orbis-technology-office/img-08.webp"
 ---

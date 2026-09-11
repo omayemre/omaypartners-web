@@ -4,7 +4,7 @@ lang: en
 slug: "embassy-of-malta"
 translationKey: "embassy-of-malta"
 order: 13
-cover: "../../assets/projects/embassy-of-malta/img-01.webp"
+cover: "/images/projects/embassy-of-malta/img-01.webp"
 gallery:
-  - "../../assets/projects/embassy-of-malta/img-01.webp"
+  - "/images/projects/embassy-of-malta/img-01.webp"
 ---

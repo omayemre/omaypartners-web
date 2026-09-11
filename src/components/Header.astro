@@ -1,0 +1,63 @@
+---
+import { t, type Lang } from '../lib/i18n';
+import { url } from '../lib/url';
+
+interface Props {
+  lang: Lang;
+  translations?: Partial<Record<Lang, string>>;
+}
+
+const { lang, translations } = Astro.props;
+const i18n = t(lang);
+const otherLang: Lang = lang === 'en' ? 'tr' : 'en';
+const switchHref = translations?.[otherLang] ? url(translations[otherLang]!) : url(otherLang === 'tr' ? '/tr/' : '/');
+
+const navItems: Array<[string, string]> = [
+  [i18n.nav.home, i18n.path('home')],
+  [i18n.nav.about, i18n.path('about')],
+  [i18n.nav.selectedWorks, i18n.path('selectedWorks')],
+  [i18n.nav.references, i18n.path('references')],
+  [i18n.nav.visum, i18n.path('visum')],
+  [i18n.nav.contact, i18n.path('contact')]
+];
+---
+
+<header class="sticky top-0 z-50 bg-[#1a2233] text-white">
+  <div class="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
+    <a href={i18n.path('home')} class="flex items-center gap-2">
+      <img src={url('/images/site/brand/logo-light.webp')} alt="Omay Partners" width="160" height="32" class="h-8 w-auto" />
+    </a>
+
+    <nav class="hidden items-center gap-8 text-sm tracking-wide uppercase md:flex">
+      {navItems.map(([label, href]) => (
+        <a href={href} class="text-white/80 transition hover:text-white">
+          {label}
+        </a>
+      ))}
+      <a
+        href={switchHref}
+        class="rounded border border-white/30 px-2 py-1 text-xs text-white/70 transition hover:border-white hover:text-white"
+      >
+        {otherLang.toUpperCase()}
+      </a>
+    </nav>
+
+    <details class="relative md:hidden">
+      <summary class="list-none cursor-pointer p-2 text-white" aria-label="Menu">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M3 6h18M3 12h18M3 18h18" />
+        </svg>
+      </summary>
+      <nav class="absolute right-0 mt-2 w-56 rounded bg-[#1a2233] py-2 shadow-xl">
+        {navItems.map(([label, href]) => (
+          <a href={href} class="block px-4 py-2 text-sm text-white/80 hover:bg-white/10 hover:text-white">
+            {label}
+          </a>
+        ))}
+        <a href={switchHref} class="block px-4 py-2 text-sm text-white/60 hover:bg-white/10 hover:text-white">
+          {otherLang.toUpperCase()}
+        </a>
+      </nav>
+    </details>
+  </div>
+</header>
