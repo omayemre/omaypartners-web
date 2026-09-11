@@ -1,0 +1,29 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../../../layouts/Layout.astro';
+import SectorTabs from '../../../components/SectorTabs.astro';
+import ProjectGrid from '../../../components/ProjectGrid.astro';
+
+const projects = (
+  await getCollection('projects', ({ data }) => data.lang === 'tr' && data.sector === 'hospitality')
+).sort((a, b) => a.data.order - b.data.order);
+---
+
+<Layout
+  lang="tr"
+  title="Konaklama"
+  translations={{ en: '/sectors/hospitality/', tr: '/tr/sektorler/konaklama/' }}
+>
+  <div class="mx-auto max-w-7xl px-6 py-16">
+    <h1 class="text-center text-3xl font-light md:text-4xl">Konaklama</h1>
+    <p class="mt-4 text-center text-[#1a2233]/70">
+      Omay Partners tarafından tasarlanan ve hayata geçirilen otel ve konaklama projeleri.
+    </p>
+    <div class="mt-10">
+      <SectorTabs lang="tr" active="hospitality" />
+    </div>
+    <div class="mt-12">
+      <ProjectGrid projects={projects} lang="tr" />
+    </div>
+  </div>
+</Layout>

@@ -3,6 +3,7 @@ title: "Doktor Clinic"
 lang: en
 slug: "doktor-clinic"
 translationKey: "doktor-clinic"
+sector: "workplace"
 order: 14
 cover: "/images/projects/doktor-clinic/img-01.webp"
 gallery:

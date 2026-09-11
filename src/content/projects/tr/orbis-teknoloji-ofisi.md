@@ -3,6 +3,7 @@ title: "Orbis Teknoloji Ofisi"
 lang: tr
 slug: "orbis-teknoloji-ofisi"
 translationKey: "orbis-technology-office"
+sector: "workplace"
 order: 37
 cover: "/images/projects/orbis-technology-office/img-01.webp"
 gallery:

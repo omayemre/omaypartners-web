@@ -25,6 +25,10 @@ const projects = defineCollection({
     // used to link hreflang alternates between translations
     translationKey: z.string(),
     order: z.number().default(0),
+    // Best-effort classification from project titles alone (no project
+    // briefs were available) - left unset where a title doesn't clearly
+    // fit one of the three sectors, rather than force a guess.
+    sector: z.enum(['hospitality', 'workplace', 'diplomatic-institutional']).optional(),
     cover: z.string().optional(),
     gallery: z.array(z.string()).default([])
   })

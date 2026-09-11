@@ -3,6 +3,7 @@ title: "METU Teknopark Incubation Center"
 lang: en
 slug: "metu-teknopark-incubation-center"
 translationKey: "metu-teknopark-incubation-center"
+sector: "diplomatic-institutional"
 order: 7
 cover: "/images/projects/metu-teknopark-incubation-center/img-01.webp"
 gallery:

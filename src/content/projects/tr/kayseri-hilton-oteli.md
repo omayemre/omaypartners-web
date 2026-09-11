@@ -3,6 +3,7 @@ title: "Kayseri Hilton Oteli"
 lang: tr
 slug: "kayseri-hilton-oteli"
 translationKey: "kayseri-hilton-hotel"
+sector: "hospitality"
 order: 24
 cover: "/images/projects/kayseri-hilton-hotel/img-01.webp"
 gallery:

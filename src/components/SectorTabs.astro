@@ -1,0 +1,31 @@
+---
+import { sectors, type Sector } from '../lib/sectors';
+import { t, type Lang } from '../lib/i18n';
+import { url } from '../lib/url';
+
+interface Props {
+  lang: Lang;
+  active: Sector | 'all';
+}
+
+const { lang, active } = Astro.props;
+const i18n = t(lang);
+const allLabel = lang === 'en' ? 'All' : 'Tümü';
+
+function tabClass(isActive: boolean) {
+  return isActive
+    ? 'border-[#1a2233] text-[#1a2233]'
+    : 'border-transparent text-[#1a2233]/50 hover:text-[#1a2233]';
+}
+---
+
+<nav class="flex flex-wrap justify-center gap-6 border-b border-[#1a2233]/10 text-sm tracking-wide uppercase">
+  <a href={i18n.path('selectedWorks')} class={`border-b-2 pb-3 ${tabClass(active === 'all')}`}>
+    {allLabel}
+  </a>
+  {sectors.map((sector) => (
+    <a href={url(sector.path[lang])} class={`border-b-2 pb-3 ${tabClass(active === sector.id)}`}>
+      {sector.label[lang]}
+    </a>
+  ))}
+</nav>

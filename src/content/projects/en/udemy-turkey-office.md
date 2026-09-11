@@ -3,6 +3,7 @@ title: "Udemy Turkey O­ffice"
 lang: en
 slug: "udemy-turkey-office"
 translationKey: "udemy-turkey-office"
+sector: "workplace"
 order: 9
 cover: "/images/projects/udemy-turkey-office/img-01.webp"
 gallery:

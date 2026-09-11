@@ -3,6 +3,7 @@ title: "Ankara Hilton Hotel Health Club"
 lang: en
 slug: "ankara-hilton-hotel-health-club"
 translationKey: "ankara-hilton-hotel-health-club"
+sector: "hospitality"
 order: 21
 cover: "/images/projects/ankara-hilton-hotel-health-club/img-01.webp"
 gallery:

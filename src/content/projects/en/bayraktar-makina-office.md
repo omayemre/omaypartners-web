@@ -3,6 +3,7 @@ title: "Bayraktar Makina Office"
 lang: en
 slug: "bayraktar-makina-office"
 translationKey: "bayraktar-makina-office"
+sector: "workplace"
 order: 32
 cover: "/images/projects/bayraktar-makina-office/img-01.webp"
 gallery:

@@ -3,6 +3,7 @@ title: "Leonardo Türkiye Ofisi"
 lang: tr
 slug: "leonardo-turkiye-ofisi"
 translationKey: "leonardo-turkey-office"
+sector: "workplace"
 order: 17
 cover: "/images/projects/leonardo-turkey-office/img-01.webp"
 gallery:

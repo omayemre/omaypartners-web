@@ -3,6 +3,7 @@ title: "Ankara Hilton Oteli Genel Alanlar"
 lang: tr
 slug: "ankara-hilton-oteli-genel-alanlar"
 translationKey: "ankara-hilton-hotel-public-areas"
+sector: "hospitality"
 order: 22
 cover: "/images/projects/ankara-hilton-hotel-public-areas/img-01.webp"
 gallery:

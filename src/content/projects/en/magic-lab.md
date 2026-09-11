@@ -3,6 +3,7 @@ title: "Magic Lab"
 lang: en
 slug: "magic-lab"
 translationKey: "magic-lab"
+sector: "workplace"
 order: 4
 cover: "/images/projects/magic-lab/img-01.webp"
 gallery:

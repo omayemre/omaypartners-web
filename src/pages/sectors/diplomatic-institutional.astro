@@ -1,0 +1,32 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+import SectorTabs from '../../components/SectorTabs.astro';
+import ProjectGrid from '../../components/ProjectGrid.astro';
+
+const projects = (
+  await getCollection(
+    'projects',
+    ({ data }) => data.lang === 'en' && data.sector === 'diplomatic-institutional'
+  )
+).sort((a, b) => a.data.order - b.data.order);
+---
+
+<Layout
+  lang="en"
+  title="Diplomatic & Institutional"
+  translations={{ en: '/sectors/diplomatic-institutional/', tr: '/tr/sektorler/diplomatik-kurumsal/' }}
+>
+  <div class="mx-auto max-w-7xl px-6 py-16">
+    <h1 class="text-center text-3xl font-light md:text-4xl">Diplomatic &amp; Institutional</h1>
+    <p class="mt-4 text-center text-[#1a2233]/70">
+      Embassies, schools and institutional buildings designed and delivered by Omay Partners.
+    </p>
+    <div class="mt-10">
+      <SectorTabs lang="en" active="diplomatic-institutional" />
+    </div>
+    <div class="mt-12">
+      <ProjectGrid projects={projects} lang="en" />
+    </div>
+  </div>
+</Layout>

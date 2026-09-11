@@ -3,6 +3,7 @@ title: "Ankara Hilton Oteli Apart Katı"
 lang: tr
 slug: "odtu-teknokent-kulucka-binasi"
 translationKey: "ankara-hilton-hotel-apartment-floor"
+sector: "hospitality"
 order: 6
 cover: "/images/projects/ankara-hilton-hotel-apartment-floor/img-01.webp"
 gallery:

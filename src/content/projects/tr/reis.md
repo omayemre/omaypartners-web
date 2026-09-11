@@ -3,6 +3,7 @@ title: "Reis Merkez Ofis"
 lang: tr
 slug: "reis"
 translationKey: "reis"
+sector: "workplace"
 order: 43
 cover: "/images/projects/reis/img-01.webp"
 gallery:

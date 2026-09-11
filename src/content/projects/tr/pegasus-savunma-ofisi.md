@@ -3,6 +3,7 @@ title: "Pegasus Savunma Ofisi"
 lang: tr
 slug: "pegasus-savunma-ofisi"
 translationKey: "pegasus-savunma-office"
+sector: "workplace"
 order: 36
 cover: "/images/projects/pegasus-savunma-office/img-01.webp"
 gallery:

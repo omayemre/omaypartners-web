@@ -3,6 +3,7 @@ title: "Aytim Group Factory"
 lang: en
 slug: "aytim-group-factory"
 translationKey: "aytim-group-factory"
+sector: "workplace"
 order: 18
 cover: "/images/projects/aytim-group-factory/img-01.webp"
 gallery:

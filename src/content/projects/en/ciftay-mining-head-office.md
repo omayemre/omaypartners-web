@@ -3,6 +3,7 @@ title: "Çiftay Mining Head Office"
 lang: en
 slug: "ciftay-mining-head-office"
 translationKey: "ciftay-mining-head-office"
+sector: "workplace"
 order: 28
 cover: "/images/projects/ciftay-mining-head-office/img-01.webp"
 gallery:

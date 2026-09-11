@@ -3,6 +3,7 @@ title: "Qatar Airways Turkey Office"
 lang: en
 slug: "qatar-airways-turkey-office"
 translationKey: "qatar-airways-turkey-office"
+sector: "workplace"
 order: 10
 cover: "/images/projects/qatar-airways-turkey-office/img-01.webp"
 gallery:
