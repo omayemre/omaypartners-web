@@ -51,7 +51,7 @@ const allProjects = lang === 'en' ? 'All projects' : 'Tüm projeler';
   <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
     {tiles.map((tile) => (
       <a href={url(tile.href)} class="omay-tile group block overflow-hidden">
-        <div class="overflow-hidden">
+        <div class="overflow-hidden shadow-md">
           <img
             src={url(tile.image)}
             alt={tile.title}

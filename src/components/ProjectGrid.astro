@@ -16,7 +16,7 @@ const base = lang === 'en' ? '' : '/tr';
   {projects.map((project) => (
     <a href={url(`${base}/${project.data.slug}/`)} class="omay-tile group block overflow-hidden">
       {project.data.cover && (
-        <div class="overflow-hidden">
+        <div class="overflow-hidden shadow-md">
           <img
             src={url(project.data.cover)}
             alt={project.data.title}

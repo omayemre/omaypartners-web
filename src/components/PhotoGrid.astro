@@ -8,7 +8,7 @@ const { images } = Astro.props;
 
 <div class="photo-grid grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4">
   {images.map((src, i) => (
-    <button type="button" class="photo-grid-item block overflow-hidden" data-index={i}>
+    <button type="button" class="photo-grid-item block overflow-hidden shadow-md" data-index={i}>
       <img
         src={src}
         alt=""

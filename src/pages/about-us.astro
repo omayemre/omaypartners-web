@@ -1,6 +1,25 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import { url } from '../lib/url';
+
+const personSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Person',
+  name: 'Emre Omay',
+  jobTitle: 'Founding Partner',
+  image: new URL(url('/images/site/about/emre-omay.webp'), Astro.site).href,
+  worksFor: {
+    '@type': 'Organization',
+    name: 'Omay Partners',
+    url: new URL(url('/'), Astro.site).href
+  },
+  alumniOf: {
+    '@type': 'CollegeOrUniversity',
+    name: 'Middle East Technical University'
+  },
+  description:
+    'An architect with 25+ years of international experience in architecture, construction and project delivery.'
+};
 ---
 
 <Layout
@@ -9,6 +28,8 @@ import { url } from '../lib/url';
   description="Omay Partners is an architecture, interior design, construction and project-delivery practice based in Ankara, Türkiye."
   translations={{ en: '/about-us/', tr: '/tr/hakkimizda/' }}
 >
+  <script type="application/ld+json" set:html={JSON.stringify(personSchema)} />
+
   <article class="mx-auto max-w-3xl px-6 py-20">
     <h1 class="text-3xl font-light md:text-4xl">About</h1>
 
@@ -46,7 +67,7 @@ import { url } from '../lib/url';
       <img
         src={url('/images/site/about/emre-omay.webp')}
         alt="Emre Omay"
-        class="h-20 w-20 shrink-0 rounded-full object-cover grayscale"
+        class="w-24 shrink-0 rounded-lg shadow-md"
       />
       <div>
         <p class="font-medium">Emre Omay — Founding Partner</p>
