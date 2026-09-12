@@ -3,6 +3,7 @@ title: "Sandvik Türkiye Ofisi"
 lang: tr
 slug: "sandvik-turkiye-ofisi"
 translationKey: "sandvik-turkey-office"
+sector: "workplace"
 order: 19
 cover: "/images/projects/sandvik-turkey-office/img-01.webp"
 gallery:

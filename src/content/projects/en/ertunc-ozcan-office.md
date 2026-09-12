@@ -3,6 +3,7 @@ title: "Ertunç Özcan Office"
 lang: en
 slug: "ertunc-ozcan-office"
 translationKey: "ertunc-ozcan-office"
+sector: "workplace"
 order: 33
 cover: "/images/projects/ertunc-ozcan-office/img-01.webp"
 gallery:

@@ -3,6 +3,7 @@ title: "Mardan Palace Spa"
 lang: en
 slug: "mardan-palace-spa"
 translationKey: "mardan-palace-spa"
+sector: "hospitality"
 order: 35
 cover: "/images/projects/mardan-palace-spa/img-01.webp"
 gallery:

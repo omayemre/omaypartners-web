@@ -3,6 +3,7 @@ title: "METU Teknopark ETKIM"
 lang: en
 slug: "etkim"
 translationKey: "etkim"
+sector: "diplomatic-institutional"
 order: 5
 cover: "/images/projects/etkim/img-01.webp"
 gallery:

@@ -3,6 +3,7 @@ title: "Aytim Grup Fabrikası"
 lang: tr
 slug: "aytim"
 translationKey: "aytim-group-factory"
+sector: "workplace"
 order: 18
 cover: "/images/projects/aytim-group-factory/img-01.webp"
 gallery:

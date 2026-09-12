@@ -3,6 +3,7 @@ title: "Alstom Ofis"
 lang: tr
 slug: "alstom-ofis"
 translationKey: "alstom-office"
+sector: "workplace"
 order: 29
 cover: "/images/projects/alstom-office/img-01.webp"
 gallery:

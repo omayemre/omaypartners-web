@@ -3,6 +3,7 @@ title: "ODTU Sport"
 lang: tr
 slug: "odtu-sport-2"
 translationKey: "odtu-sport-2"
+sector: "diplomatic-institutional"
 order: 2
 cover: "/images/projects/odtu-sport-2/img-01.webp"
 gallery:

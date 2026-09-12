@@ -3,6 +3,7 @@ title: "Ankara Hilton Oteli Kral Daireleri"
 lang: tr
 slug: "ankara-hilton-oteli-kral-daireleri"
 translationKey: "ankara-hilton-presidential-suites"
+sector: "hospitality"
 order: 3
 cover: "/images/projects/ankara-hilton-presidential-suites/img-01.webp"
 gallery:

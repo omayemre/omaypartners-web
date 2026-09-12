@@ -24,7 +24,7 @@ const navItems: Array<[string, string]> = [
 ];
 ---
 
-<header class="sticky top-0 z-50 border-b border-rule bg-paper">
+<header class="sticky top-0 z-50 border-b border-rule bg-white">
   <div class="mx-auto flex max-w-[1440px] items-center justify-between px-[clamp(24px,5vw,96px)] py-5">
     <a href={i18n.path('home')} class="flex items-center gap-2 opacity-100 hover:opacity-70">
       <img src={url('/images/site/brand/logo-dark.webp')} alt="Omay Partners" width="307" height="61" class="h-[52px] w-auto" />
@@ -32,7 +32,7 @@ const navItems: Array<[string, string]> = [
 
     <nav class="font-sans-nums hidden items-center gap-6 text-label md:flex">
       {navItems.map(([label, href]) => (
-        <a href={href} class="nav-link text-ink-60 uppercase hover:text-accent">
+        <a href={href} class="nav-link text-ink-60 hover:text-accent">
           {label}
         </a>
       ))}
@@ -49,9 +49,9 @@ const navItems: Array<[string, string]> = [
           <path d="M3 6h18M3 12h18M3 18h18" />
         </svg>
       </summary>
-      <nav class="font-sans-nums absolute right-0 mt-2 w-56 border border-rule bg-paper py-2">
+      <nav class="font-sans-nums absolute right-0 mt-2 w-56 border border-rule bg-white py-2">
         {navItems.map(([label, href]) => (
-          <a href={href} class="block px-4 py-2 text-label text-ink-60 uppercase hover:text-accent">
+          <a href={href} class="block px-4 py-2 text-label text-ink-60 hover:text-accent">
             {label}
           </a>
         ))}

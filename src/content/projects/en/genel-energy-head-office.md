@@ -3,6 +3,7 @@ title: "Genel Energy Head Office"
 lang: en
 slug: "genel-energy-head-office"
 translationKey: "genel-energy-head-office"
+sector: "workplace"
 order: 27
 cover: "/images/projects/genel-energy-head-office/img-01.webp"
 gallery:

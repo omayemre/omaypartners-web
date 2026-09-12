@@ -3,6 +3,7 @@ title: "Otel Tunalı"
 lang: tr
 slug: "otel-tunali"
 translationKey: "otel-tunali"
+sector: "hospitality"
 order: 44
 cover: "/images/projects/otel-tunali/img-01.webp"
 gallery:

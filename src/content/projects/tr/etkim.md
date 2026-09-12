@@ -3,6 +3,7 @@ title: "ODTÜ Teknokent ETKİM"
 lang: tr
 slug: "etkim"
 translationKey: "etkim"
+sector: "diplomatic-institutional"
 order: 5
 cover: "/images/projects/etkim/img-01.webp"
 gallery:

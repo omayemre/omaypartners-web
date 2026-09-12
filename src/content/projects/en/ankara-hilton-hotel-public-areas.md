@@ -3,6 +3,7 @@ title: "Ankara Hilton Hotel Public Areas"
 lang: en
 slug: "ankara-hilton-hotel-public-areas"
 translationKey: "ankara-hilton-hotel-public-areas"
+sector: "hospitality"
 order: 22
 cover: "/images/projects/ankara-hilton-hotel-public-areas/img-01.webp"
 gallery:

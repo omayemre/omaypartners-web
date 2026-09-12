@@ -3,6 +3,7 @@ title: "Fullbright Office"
 lang: en
 slug: "fullbright-office"
 translationKey: "fullbright-office"
+sector: "diplomatic-institutional"
 order: 30
 cover: "/images/projects/fullbright-office/img-01.webp"
 gallery:

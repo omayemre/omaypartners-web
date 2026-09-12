@@ -3,6 +3,7 @@ title: "Ankara Hilton Hotel Apartment Floor"
 lang: en
 slug: "ankara-hilton-hotel-apartment-floor"
 translationKey: "ankara-hilton-hotel-apartment-floor"
+sector: "hospitality"
 order: 6
 cover: "/images/projects/ankara-hilton-hotel-apartment-floor/img-01.webp"
 gallery:

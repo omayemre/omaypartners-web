@@ -3,6 +3,7 @@ title: "Netherlands Embassy (Confidential)"
 lang: en
 slug: "netherlands-embassy"
 translationKey: "netherlands-embassy"
+sector: "diplomatic-institutional"
 order: 11
 cover: "/images/projects/netherlands-embassy/img-01.webp"
 gallery:

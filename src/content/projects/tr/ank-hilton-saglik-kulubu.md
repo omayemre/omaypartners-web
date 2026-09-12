@@ -3,6 +3,7 @@ title: "Ankara Hilton Oteli Sağlık Kulübü"
 lang: tr
 slug: "ank-hilton-saglik-kulubu"
 translationKey: "ankara-hilton-hotel-health-club"
+sector: "hospitality"
 order: 21
 cover: "/images/projects/ankara-hilton-hotel-health-club/img-01.webp"
 gallery:

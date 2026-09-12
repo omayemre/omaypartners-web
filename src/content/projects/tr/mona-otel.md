@@ -3,6 +3,7 @@ title: "Mona Otel"
 lang: tr
 slug: "mona-otel"
 translationKey: "mona-hotel"
+sector: "hospitality"
 order: 42
 cover: "/images/projects/mona-hotel/img-01.webp"
 gallery:

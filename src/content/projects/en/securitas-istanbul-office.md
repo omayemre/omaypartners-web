@@ -3,6 +3,7 @@ title: "Securitas Istanbul Office"
 lang: en
 slug: "securitas-istanbul-office"
 translationKey: "securitas-istanbul-office"
+sector: "workplace"
 order: 26
 cover: "/images/projects/securitas-istanbul-office/img-01.webp"
 gallery:
