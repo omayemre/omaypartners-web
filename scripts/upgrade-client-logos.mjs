@@ -32,8 +32,13 @@ const sources = {
   'cushman-wakefield': `${COMMONS}/Cushman_%26_Wakefield_logo.svg`,
   sandvik: `${COMMONS}/SANDVIK.svg`,
   leonardo: `${COMMONS}/Logo_Leonardo.svg`,
-  securitas: `${COMMONS}/Securitas_AB_logo.svg`,
-  'british-embassy': `${COMMONS}/UK_Government_Overseas_Logo.svg`
+  securitas: `${COMMONS}/Securitas_AB_logo.svg`
+  // british-embassy: NOT scripted here anymore. This used to map to
+  // Commons' "UK_Government_Overseas_Logo.svg" - the generic FCDO "UK
+  // Government" wordmark, not the embassy's own logo (same class of
+  // mistake as the original bp/odtu-metu mixups below). The owner
+  // supplied the real British Embassy Ankara crest directly (processed
+  // by hand: sharp .trim() + resize to 600px height).
   // lcdg, odtu-metu, odtu-teknokent: no clean official vector found on
   // Commons or the orgs' own sites (the tech park's site actually serves
   // a lower-res logo, 207x18, than what was already migrated; the
