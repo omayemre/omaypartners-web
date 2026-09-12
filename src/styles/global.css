@@ -1,13 +1,85 @@
 @import "tailwindcss";
+@import "@fontsource-variable/newsreader";
+@import "@fontsource-variable/newsreader/wght-italic.css";
+@import "@fontsource-variable/inter";
 
+/* Direction A - "Register": document/register aesthetic.
+   Newsreader (headings/body) + Inter (labels/nav/captions/table),
+   paper/ink palette, no shadows/radius/borders/overlays on imagery. */
 @theme {
-  /* Jost (SIL Open Font License, free to self-host/embed) — geometric
-     sans closer to Brandon Grotesque's feel than Inter, with full
-     Turkish character support (İ, ı, ğ, ş, ç, ö, ü). */
-  --font-sans:
-    "Jost", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-serif: "Newsreader Variable", Georgia, "Times New Roman", serif;
+  --font-sans: "Inter Variable", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+
+  --color-paper: #f4f2ed;
+  --color-ink: #16181a;
+  --color-ink-60: #5c6063;
+  --color-ink-30: #a7abad;
+  --color-rule: #d8d4cb;
+  --color-accent: #3a4a3f;
+  --color-mat: #ffffff;
+
+  --text-display: 61px;
+  --text-display--line-height: 1.06;
+  --text-display--letter-spacing: -0.02em;
+  --text-display--font-weight: 300;
+
+  --text-h1: 49px;
+  --text-h1--line-height: 1.1;
+  --text-h1--letter-spacing: -0.015em;
+  --text-h1--font-weight: 300;
+
+  --text-h2: 39px;
+  --text-h2--line-height: 1.15;
+  --text-h2--letter-spacing: -0.01em;
+  --text-h2--font-weight: 300;
+
+  --text-h3: 25px;
+  --text-h3--line-height: 1.3;
+  --text-h3--font-weight: 400;
+
+  --text-lead: 20px;
+  --text-lead--line-height: 1.65;
+  --text-lead--font-weight: 400;
+
+  --text-body: 16px;
+  --text-body--line-height: 1.7;
+  --text-body--font-weight: 400;
+
+  --text-table: 14px;
+  --text-table--line-height: 1.55;
+  --text-table--font-weight: 400;
+
+  --text-label: 12.8px;
+  --text-label--line-height: 1.4;
+  --text-label--letter-spacing: 0.08em;
+  --text-label--font-weight: 500;
 }
 
 body {
+  font-family: var(--font-serif);
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+}
+
+.font-sans-nums {
   font-family: var(--font-sans);
+  font-feature-settings:
+    "tnum" 1,
+    "cv05" 1;
+}
+
+/* Mobile clamps for the two largest sizes (per spec) */
+@media (max-width: 767px) {
+  .text-display {
+    font-size: clamp(34px, 8vw, 61px);
+  }
+  .text-h1 {
+    font-size: clamp(28px, 6.5vw, 49px);
+  }
+}
+
+/* Motion policy: opacity-only, nothing else */
+a,
+.nav-link {
+  transition: opacity 120ms linear;
 }

@@ -7,8 +7,8 @@ const images = Array.from({ length: 40 }, (_, i) => url(`/images/site/visum/phot
 ---
 
 <Layout lang="en" title="Photography" translations={{ en: '/visum/', tr: '/tr/visum/' }}>
-  <div class="mx-auto max-w-6xl px-6 py-16">
-    <h1 class="text-center text-3xl font-light md:text-4xl">Photography</h1>
+  <div class="mx-auto max-w-6xl px-[clamp(24px,5vw,96px)] py-16 md:py-16 lg:py-[104px]">
+    <h1 class="text-center text-h1">Photography</h1>
     <div class="mt-12">
       <PhotoGrid images={images} />
     </div>

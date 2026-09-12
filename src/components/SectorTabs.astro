@@ -13,13 +13,11 @@ const i18n = t(lang);
 const allLabel = lang === 'en' ? 'All' : 'Tümü';
 
 function tabClass(isActive: boolean) {
-  return isActive
-    ? 'border-[#1a2233] text-[#1a2233]'
-    : 'border-transparent text-[#1a2233]/50 hover:text-[#1a2233]';
+  return isActive ? 'border-accent text-accent' : 'border-transparent text-ink-60 hover:text-accent';
 }
 ---
 
-<nav class="flex flex-wrap justify-center gap-6 border-b border-[#1a2233]/10 text-sm tracking-wide uppercase">
+<nav class="font-sans-nums flex flex-wrap justify-center gap-6 border-b border-rule text-label uppercase">
   <a href={i18n.path('selectedWorks')} class={`border-b-2 pb-3 ${tabClass(active === 'all')}`}>
     {allLabel}
   </a>

@@ -25,25 +25,25 @@ const { title, cover, gallery } = project.data;
   title={title}
   translations={{ tr: `/tr/${project.data.slug}/`, ...(enSlug ? { en: `/${enSlug}/` } : {}) }}
 >
-  <article class="mx-auto max-w-5xl px-6 py-16">
-    <h1 class="text-center text-3xl font-light md:text-4xl">{title}</h1>
+  <article class="mx-auto max-w-[1440px] px-[clamp(24px,5vw,96px)] py-16 md:py-16 lg:py-[104px]">
+    <h1 class="text-center text-h1">{title}</h1>
 
     {cover && (
       <div class="mt-10">
-        <img src={url(cover)} alt={title} class="w-full object-cover shadow-md" />
+        <img src={url(cover)} alt={title} class="aspect-[3/2] w-full object-cover" />
       </div>
     )}
 
     {gallery && gallery.length > 1 && (
-      <div class="mt-6 grid grid-cols-2 gap-4 md:grid-cols-3">
+      <div class="mx-auto mt-10 max-w-4xl space-y-6">
         {gallery.slice(1).map((src) => (
-          <img src={url(src)} alt={title} class="aspect-[4/3] w-full object-cover shadow-md" />
+          <img src={url(src)} alt={title} class="mx-auto max-h-[80vh] w-full object-contain" />
         ))}
       </div>
     )}
 
     <div class="mt-12 text-center">
-      <a href={url('/tr/projeler/')} class="text-sm tracking-wide text-[#1a2233]/70 uppercase hover:text-[#1a2233]">
+      <a href={url('/tr/projeler/')} class="font-sans-nums text-label text-ink-60 uppercase hover:text-accent">
         ← Tüm projeler
       </a>
     </div>

@@ -24,41 +24,41 @@ const navItems: Array<[string, string]> = [
 ];
 ---
 
-<header class="sticky top-0 z-50 bg-[#1a2233] text-white">
-  <div class="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
-    <a href={i18n.path('home')} class="flex items-center gap-2">
-      <img src={url('/images/site/brand/logo-light.webp')} alt="Omay Partners" width="307" height="61" class="h-[61px] w-auto" />
+<header class="sticky top-0 z-50 border-b border-rule bg-paper">
+  <div class="mx-auto flex max-w-[1440px] items-center justify-between px-[clamp(24px,5vw,96px)] py-5">
+    <a href={i18n.path('home')} class="flex items-center gap-2 opacity-100 hover:opacity-70">
+      <img src={url('/images/site/brand/logo-dark.webp')} alt="Omay Partners" width="307" height="61" class="h-[52px] w-auto" />
     </a>
 
-    <nav class="hidden items-center gap-5 text-sm tracking-wide uppercase md:flex">
+    <nav class="font-sans-nums hidden items-center gap-6 text-label md:flex">
       {navItems.map(([label, href]) => (
-        <a href={href} class="text-white/80 transition hover:text-white">
+        <a href={href} class="nav-link text-ink-60 uppercase hover:text-accent">
           {label}
         </a>
       ))}
-      <div class="flex items-center gap-1.5 rounded border border-white/30 px-2 py-1 text-xs">
-        <a href={enHref} class={lang === 'en' ? 'font-semibold text-white' : 'text-white/50 hover:text-white'}>EN</a>
-        <span class="text-white/30">/</span>
-        <a href={trHref} class={lang === 'tr' ? 'font-semibold text-white' : 'text-white/50 hover:text-white'}>TR</a>
+      <div class="flex items-center gap-1.5 border border-rule px-2 py-1">
+        <a href={enHref} class={lang === 'en' ? 'font-semibold text-ink' : 'text-ink-30 hover:text-accent'}>EN</a>
+        <span class="text-ink-30">/</span>
+        <a href={trHref} class={lang === 'tr' ? 'font-semibold text-ink' : 'text-ink-30 hover:text-accent'}>TR</a>
       </div>
     </nav>
 
     <details class="relative md:hidden">
-      <summary class="list-none cursor-pointer p-2 text-white" aria-label="Menu">
+      <summary class="list-none cursor-pointer p-2 text-ink" aria-label="Menu">
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
           <path d="M3 6h18M3 12h18M3 18h18" />
         </svg>
       </summary>
-      <nav class="absolute right-0 mt-2 w-56 rounded bg-[#1a2233] py-2 shadow-xl">
+      <nav class="font-sans-nums absolute right-0 mt-2 w-56 border border-rule bg-paper py-2">
         {navItems.map(([label, href]) => (
-          <a href={href} class="block px-4 py-2 text-sm text-white/80 hover:bg-white/10 hover:text-white">
+          <a href={href} class="block px-4 py-2 text-label text-ink-60 uppercase hover:text-accent">
             {label}
           </a>
         ))}
-        <div class="flex items-center gap-2 px-4 py-2 text-sm">
-          <a href={enHref} class={lang === 'en' ? 'font-semibold text-white' : 'text-white/50 hover:text-white'}>EN</a>
-          <span class="text-white/30">/</span>
-          <a href={trHref} class={lang === 'tr' ? 'font-semibold text-white' : 'text-white/50 hover:text-white'}>TR</a>
+        <div class="flex items-center gap-2 px-4 py-2 text-label">
+          <a href={enHref} class={lang === 'en' ? 'font-semibold text-ink' : 'text-ink-30 hover:text-accent'}>EN</a>
+          <span class="text-ink-30">/</span>
+          <a href={trHref} class={lang === 'tr' ? 'font-semibold text-ink' : 'text-ink-30 hover:text-accent'}>TR</a>
         </div>
       </nav>
     </details>

@@ -15,30 +15,30 @@ interface Props {
 const { rows, headers } = Astro.props;
 ---
 
-<div class="overflow-x-auto">
-  <table class="w-full min-w-[720px] border-collapse text-left text-sm">
+<div class="font-sans-nums overflow-x-auto">
+  <table class="w-full min-w-[720px] border-collapse text-left text-table">
     <thead>
-      <tr class="border-b border-[#1a2233]/20">
-        <th class="py-3 pr-4 font-medium text-[#1a2233]/60 uppercase">{headers[0]}</th>
-        <th class="py-3 pr-4 font-medium text-[#1a2233]/60 uppercase">{headers[1]}</th>
-        <th class="py-3 pr-4 font-medium text-[#1a2233]/60 uppercase">{headers[2]}</th>
-        <th class="py-3 font-medium text-[#1a2233]/60 uppercase">{headers[3]}</th>
+      <tr class="border-b border-rule">
+        <th class="py-3 pr-4 text-label text-ink-60 uppercase">{headers[0]}</th>
+        <th class="py-3 pr-4 text-label text-ink-60 uppercase">{headers[1]}</th>
+        <th class="py-3 pr-4 text-label text-ink-60 uppercase">{headers[2]}</th>
+        <th class="py-3 text-label text-ink-60 uppercase">{headers[3]}</th>
       </tr>
     </thead>
     <tbody>
       {rows.map((row) =>
         row.section ? (
           <tr>
-            <td colspan="4" class="pt-8 pb-2 text-xs font-semibold tracking-wide text-[#1a2233] uppercase">
+            <td colspan="4" class="pt-8 pb-2 text-label text-ink uppercase">
               {row.project}
             </td>
           </tr>
         ) : (
-          <tr class="border-b border-[#1a2233]/10">
-            <td class="py-2 pr-4 text-[#1a2233]/80">{row.project}</td>
-            <td class="py-2 pr-4 text-[#1a2233]/60">{row.category}</td>
-            <td class="py-2 pr-4 text-[#1a2233]/60">{row.service}</td>
-            <td class="py-2 text-[#1a2233]/60">{row.client}</td>
+          <tr class="border-b border-rule">
+            <td class="py-2 pr-4 text-ink">{row.project}</td>
+            <td class="py-2 pr-4 text-ink-60">{row.category}</td>
+            <td class="py-2 pr-4 text-ink-60">{row.service}</td>
+            <td class="py-2 text-ink-60">{row.client}</td>
           </tr>
         )
       )}

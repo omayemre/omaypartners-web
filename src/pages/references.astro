@@ -5,15 +5,15 @@ import rows from '../data/references.en.json';
 ---
 
 <Layout lang="en" title="Project Index" translations={{ en: '/references/', tr: '/tr/referanslar/' }}>
-  <div class="mx-auto max-w-5xl px-6 py-16">
-    <h1 class="text-center text-3xl font-light md:text-4xl">Project Index</h1>
-    <p class="mt-4 text-center text-[#1a2233]/70">
+  <div class="mx-auto max-w-5xl px-[clamp(24px,5vw,96px)] py-16 md:py-16 lg:py-[104px]">
+    <h1 class="text-center text-h1">Project Index</h1>
+    <p class="mt-4 text-center text-lead text-ink-60">
       The full list of Omay Partners projects with client and service provided.
     </p>
     <div class="mt-12">
       <ReferencesTable rows={rows} headers={['Project', 'Category', 'Service Provided', 'Client']} />
     </div>
-    <p class="mt-6 text-xs text-[#1a2233]/50">
+    <p class="font-sans-nums mt-6 text-table text-ink-30">
       (*) Founder of Omay Partners participated within the Client's organization / PM team
     </p>
   </div>
