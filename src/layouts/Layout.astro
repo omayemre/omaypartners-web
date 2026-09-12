@@ -21,12 +21,20 @@ const imageUrl = new URL(image, Astro.site).href;
 const ogLocale = lang === 'en' ? 'en_US' : 'tr_TR';
 const ogLocaleAlt = lang === 'en' ? 'tr_TR' : 'en_US';
 
+// Self-gating staging guard: this build is only ever fetched at the real
+// domain once DEPLOY_TARGET switches `site` away from the GitHub Pages
+// preview host in astro.config.mjs, so noindex follows the host
+// automatically instead of relying on someone removing a comment by hand
+// before launch.
+const isPreviewHost = Astro.site?.hostname !== 'www.omaypartners.com';
+
 const organizationSchema = {
   '@context': 'https://schema.org',
   '@type': 'Organization',
   name: 'Omay Partners',
   url: new URL(url('/'), Astro.site).href,
-  logo: new URL(url('/images/site/brand/logo-dark.webp'), Astro.site).href
+  logo: new URL(url('/images/site/brand/logo-dark.webp'), Astro.site).href,
+  sameAs: ['https://www.linkedin.com/in/emre-omay-1a483a2/', 'https://www.instagram.com/omaypartners/']
 };
 ---
 
@@ -34,9 +42,11 @@ const organizationSchema = {
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- STAGING ONLY — REMOVE BEFORE LAUNCH ON omaypartners.com -->
-    <meta name="robots" content="noindex, nofollow" />
+    {isPreviewHost && <meta name="robots" content="noindex, nofollow" />}
     <link rel="icon" type="image/svg+xml" href={url('/favicon.svg')} />
+    <link rel="icon" type="image/x-icon" href={url('/favicon.ico')} sizes="16x16 32x32 48x48" />
+    <link rel="icon" type="image/png" sizes="192x192" href={url('/images/site/brand/favicon-192.png')} />
+    <link rel="apple-touch-icon" href={url('/apple-touch-icon.png')} />
     <title>{title} – Omay Partners</title>
     {description && <meta name="description" content={description} />}
 

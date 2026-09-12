@@ -4,6 +4,10 @@ lang: en
 slug: "alstom-office"
 translationKey: "alstom-office"
 sector: "workplace"
+client: "Alstom Turkey"
+location: "Ankara, Turkey"
+year: "2013"
+area: "2,200 m²"
 order: 29
 cover: "/images/projects/alstom-office/img-01.webp"
 gallery:

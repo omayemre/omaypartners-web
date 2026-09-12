@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import Layout from '../../layouts/Layout.astro';
+import FactBlock from '../../components/FactBlock.astro';
 import { url } from '../../lib/url';
 
 export async function getStaticPaths() {
@@ -17,27 +18,34 @@ export async function getStaticPaths() {
 }
 
 const { project, enSlug } = Astro.props;
-const { title, cover, gallery } = project.data;
+const { title, cover, gallery, client, location, year, area } = project.data;
+const description = client
+  ? `${title} — ${client}${location ? `, ${location}` : ''} için Omay Partners tarafından mimarlık, iç mekân ve anahtar teslim uygulama.`
+  : `${title} — Omay Partners tarafından mimarlık, iç mekân ve anahtar teslim uygulama.`;
 ---
 
 <Layout
   lang="tr"
   title={title}
+  description={description}
   translations={{ tr: `/tr/${project.data.slug}/`, ...(enSlug ? { en: `/${enSlug}/` } : {}) }}
+  image={cover ? url(cover) : undefined}
 >
   <article class="mx-auto max-w-[1440px] px-[clamp(24px,5vw,96px)] py-16 md:py-16 lg:py-[104px]">
     <h1 class="text-center text-h1">{title}</h1>
 
+    <FactBlock lang="tr" client={client} location={location} year={year} area={area} />
+
     {cover && (
       <div class="mt-10">
-        <img src={url(cover)} alt={title} class="aspect-[3/2] w-full object-cover" />
+        <img src={url(cover)} alt={title} class="aspect-[3/2] w-full object-cover" loading="eager" decoding="async" />
       </div>
     )}
 
     {gallery && gallery.length > 1 && (
       <div class="mx-auto mt-10 max-w-4xl space-y-6">
         {gallery.slice(1).map((src) => (
-          <img src={url(src)} alt={title} class="mx-auto max-h-[80vh] w-full object-contain" />
+          <img src={url(src)} alt="" class="mx-auto max-h-[80vh] w-full object-contain" loading="lazy" decoding="async" />
         ))}
       </div>
     )}

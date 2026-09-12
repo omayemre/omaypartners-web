@@ -4,6 +4,9 @@ lang: tr
 slug: "odtu-sport-2"
 translationKey: "odtu-sport-2"
 sector: "diplomatic-institutional"
+client: "ODTÜ Teknokent"
+location: "Ankara, Türkiye"
+year: "2025"
 order: 2
 cover: "/images/projects/odtu-sport-2/img-01.webp"
 gallery:

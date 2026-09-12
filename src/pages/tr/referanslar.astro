@@ -4,14 +4,19 @@ import ReferencesTable from '../../components/ReferencesTable.astro';
 import rows from '../../data/references.tr.json';
 ---
 
-<Layout lang="tr" title="Proje Dizini" translations={{ en: '/references/', tr: '/tr/referanslar/' }}>
+<Layout
+  lang="tr"
+  title="Proje Dizini"
+  description="Omay Partners'ın işveren ve verilen hizmet bilgileriyle birlikte 150'den fazla projeyi kapsayan tam listesi."
+  translations={{ en: '/references/', tr: '/tr/referanslar/' }}
+>
   <div class="mx-auto max-w-5xl px-[clamp(24px,5vw,96px)] py-16 md:py-16 lg:py-[104px]">
     <h1 class="text-center text-h1">Proje Dizini</h1>
     <p class="mt-4 text-center text-lead text-ink-60">
       İşveren ve sunulan hizmet bilgileriyle birlikte Omay Partners projelerinin tam listesi.
     </p>
     <div class="mt-12">
-      <ReferencesTable rows={rows} headers={['Proje', 'Sektör', 'Verilen Hizmet', 'Müşteri']} />
+      <ReferencesTable rows={rows} headers={['Proje', 'Sektör', 'Verilen Hizmet', 'Müşteri']} lang="tr" />
     </div>
     <p class="font-sans-nums mt-6 text-table text-ink-30">
       (*) Omay Partners kurucususunun İşveren ya da Proje Yönetimi kadrosunda yeraldığı proje

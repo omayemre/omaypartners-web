@@ -1,9 +1,13 @@
 ---
-title: "Udemy Turkey O­ffice"
+title: "Udemy Turkey Office"
 lang: en
 slug: "udemy-turkey-office"
 translationKey: "udemy-turkey-office"
 sector: "workplace"
+client: "Udemy"
+location: "Ankara, Turkey"
+year: "2020"
+area: "1,700 m²"
 order: 9
 cover: "/images/projects/udemy-turkey-office/img-01.webp"
 gallery:

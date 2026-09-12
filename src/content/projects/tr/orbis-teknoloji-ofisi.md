@@ -4,6 +4,10 @@ lang: tr
 slug: "orbis-teknoloji-ofisi"
 translationKey: "orbis-technology-office"
 sector: "workplace"
+client: "Orbis"
+location: "Ankara, Türkiye"
+year: "2018"
+area: "80 m²"
 order: 37
 cover: "/images/projects/orbis-technology-office/img-01.webp"
 gallery:

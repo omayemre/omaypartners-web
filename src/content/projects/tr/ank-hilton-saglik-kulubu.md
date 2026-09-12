@@ -4,6 +4,10 @@ lang: tr
 slug: "ank-hilton-saglik-kulubu"
 translationKey: "ankara-hilton-hotel-health-club"
 sector: "hospitality"
+client: "Sabancı Holding, AEO, Hilton"
+location: "Ankara, Türkiye"
+year: "2016"
+area: "1.000 m²"
 order: 21
 cover: "/images/projects/ankara-hilton-hotel-health-club/img-01.webp"
 gallery:

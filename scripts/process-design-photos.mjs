@@ -1,0 +1,46 @@
+// One-time conversion of the owner's home/process/studio photo drops
+// (project root: "home page/", "process - surec/", "studio/") into
+// web-optimized WebP under public/images/site/, matching the resize/
+// quality convention already used by migrate-site-images.mjs. These are
+// deliberately smaller than that script's 2000px default (max 800px)
+// since every one of these is used as a small thumbnail, never full-bleed.
+import { mkdir } from 'node:fs/promises';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+import sharp from 'sharp';
+
+const PROJECT_ROOT = fileURLToPath(new URL('..', import.meta.url));
+const OUT_DIR = path.join(PROJECT_ROOT, 'public/images/site');
+
+const jobs = [
+  ['home page/Home 1 mimari.jpg', 'home/architecture.webp'],
+  ['home page/Home 2 ic mekan.jpg', 'home/interior.webp'],
+  ['home page/home 3 uygulama.jpg', 'home/construction.webp'],
+  ['process - surec/1 brief.jpg', 'process/01-brief.webp'],
+  ['process - surec/2 concept.jpg', 'process/02-concept.webp'],
+  ['process - surec/3 tasarim gelistirme.jpg', 'process/03-design-development.webp'],
+  ['process - surec/4 uygulama proje.jpg', 'process/04-construction-documents.webp'],
+  ['process - surec/05 insaat.jpg', 'process/05-construction.webp'],
+  ['process - surec/06 teslim.jpg', 'process/06-handover.webp'],
+  ['studio/studio 1.jpg', 'studio/01.webp'],
+  ['studio/studio 2.jpg', 'studio/02.webp']
+];
+
+async function run() {
+  for (const [src, relOut] of jobs) {
+    const inPath = path.join(PROJECT_ROOT, src);
+    const outPath = path.join(OUT_DIR, relOut);
+    await mkdir(path.dirname(outPath), { recursive: true });
+    await sharp(inPath)
+      .resize({ width: 800, withoutEnlargement: true })
+      .webp({ quality: 86 })
+      .toFile(outPath);
+    console.log(`✓ ${relOut}`);
+  }
+  console.log('Done.');
+}
+
+run().catch((err) => {
+  console.error(err);
+  process.exit(1);
+});

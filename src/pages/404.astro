@@ -1,0 +1,19 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { url } from '../lib/url';
+---
+
+<Layout lang="en" title="Page Not Found" description="This page could not be found.">
+  <article class="mx-auto max-w-3xl px-[clamp(24px,5vw,96px)] py-16 text-center md:py-16 lg:py-[104px]">
+    <p class="font-sans-nums text-label text-ink-60 uppercase">404</p>
+    <h1 class="mt-4 text-h1">Page not found</h1>
+    <p class="mt-6 text-lead text-ink-60">
+      The page you're looking for doesn't exist, or has moved.
+    </p>
+    <div class="font-sans-nums mt-10 flex flex-wrap justify-center gap-6 text-label uppercase">
+      <a href={url('/')} class="text-accent hover:opacity-70">Home</a>
+      <a href={url('/selected-projects/')} class="text-accent hover:opacity-70">Selected Works</a>
+      <a href={url('/contact-us/')} class="text-accent hover:opacity-70">Contact</a>
+    </div>
+  </article>
+</Layout>

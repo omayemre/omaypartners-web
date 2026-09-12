@@ -1,9 +1,11 @@
 ---
 title: "Doktor Kliniği"
 lang: tr
-slug: "doktor-klinigi-devam-ediyor"
+slug: "doktor-klinigi"
 translationKey: "doktor-clinic"
 sector: "workplace"
+client: "Dr. Nural Aydın"
+location: "Ankara, Türkiye"
 order: 14
 cover: "/images/projects/doktor-clinic/img-01.webp"
 gallery:

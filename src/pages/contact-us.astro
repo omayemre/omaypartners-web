@@ -1,5 +1,41 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import { url } from '../lib/url';
+
+const localBusinessSchema = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'LocalBusiness',
+      name: 'Omay Partners — Türkiye',
+      parentOrganization: { '@type': 'Organization', name: 'Omay Partners' },
+      url: new URL(url('/contact-us/'), Astro.site).href,
+      telephone: '+90 532 386 24 64',
+      email: 'info@omaypartners.com',
+      address: {
+        '@type': 'PostalAddress',
+        streetAddress: 'Kazım Özalp Mahallesi, Şairler Sok. No:29/4 GOP Çankaya',
+        addressLocality: 'Ankara',
+        addressCountry: 'TR'
+      }
+    },
+    {
+      '@type': 'LocalBusiness',
+      name: 'Omay Partners — Greece',
+      parentOrganization: { '@type': 'Organization', name: 'Omay Partners' },
+      url: new URL(url('/contact-us/'), Astro.site).href,
+      telephone: '+30 695 573 55 53',
+      email: 'info@omaypartners.com',
+      address: {
+        '@type': 'PostalAddress',
+        streetAddress: 'Idipodos 31',
+        addressLocality: 'Glyfada',
+        postalCode: '166 75',
+        addressCountry: 'GR'
+      }
+    }
+  ]
+};
 ---
 
 <Layout
@@ -8,6 +44,8 @@ import Layout from '../layouts/Layout.astro';
   description="Get in touch with Omay Partners — Ankara, Türkiye and Glyfada, Greece."
   translations={{ en: '/contact-us/', tr: '/tr/iletisim/' }}
 >
+  <script type="application/ld+json" set:html={JSON.stringify(localBusinessSchema)} />
+
   <article class="mx-auto max-w-3xl px-[clamp(24px,5vw,96px)] py-16 text-center md:py-16 lg:py-[104px]">
     <h1 class="sr-only">Contact</h1>
 

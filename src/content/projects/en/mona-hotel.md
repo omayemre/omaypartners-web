@@ -4,6 +4,10 @@ lang: en
 slug: "mona-hotel"
 translationKey: "mona-hotel"
 sector: "hospitality"
+client: "FTZ"
+location: "Ankara, Turkey"
+year: "2012"
+area: "1,200 m²"
 order: 42
 cover: "/images/projects/mona-hotel/img-01.webp"
 gallery:

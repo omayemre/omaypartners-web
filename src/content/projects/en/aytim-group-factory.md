@@ -4,6 +4,10 @@ lang: en
 slug: "aytim-group-factory"
 translationKey: "aytim-group-factory"
 sector: "workplace"
+client: "Aytim Group"
+location: "Erzurum, Turkey"
+year: "2020"
+area: "8,000 m²"
 order: 18
 cover: "/images/projects/aytim-group-factory/img-01.webp"
 gallery:

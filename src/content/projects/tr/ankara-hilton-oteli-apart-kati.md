@@ -1,9 +1,13 @@
 ---
 title: "Ankara Hilton Oteli Apart Katı"
 lang: tr
-slug: "odtu-teknokent-kulucka-binasi"
+slug: "ankara-hilton-oteli-apart-kati"
 translationKey: "ankara-hilton-hotel-apartment-floor"
 sector: "hospitality"
+client: "Sabancı Holding, AEO, Hilton"
+location: "Ankara, Türkiye"
+year: "2023"
+area: "1.500 m²"
 order: 6
 cover: "/images/projects/ankara-hilton-hotel-apartment-floor/img-01.webp"
 gallery:

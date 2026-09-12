@@ -31,7 +31,7 @@ const tilesTr = [
   { image: tileImages.magiclab, title: 'MagicLab Ofisi', meta: 'Ankara · 2024 · Ofis — Tasarım & Uygulama', href: '/tr/magic-lab/' },
   { image: tileImages.hiltonSuites, title: 'Hilton Ankara Kral Daireleri', meta: 'Ankara · 2026 · Konaklama — Tasarım & Uygulama', href: '/tr/ankara-hilton-oteli-kral-daireleri/' },
   { image: tileImages.odtuAtom, title: 'ODTÜ ATOM', meta: 'Ankara (ODTÜ Teknokent) · 2022 · Animasyon & Oyun Geliştirme Merkezi', href: '/tr/odtu-teknokent-atom/' },
-  { image: tileImages.hiltonApart, title: 'Hilton Ankara Apart Katları', meta: 'Ankara · 2022 · Konaklama — Tasarım & Uygulama', href: '/tr/odtu-teknokent-kulucka-binasi/' },
+  { image: tileImages.hiltonApart, title: 'Hilton Ankara Apart Katları', meta: 'Ankara · 2022 · Konaklama — Tasarım & Uygulama', href: '/tr/ankara-hilton-oteli-apart-kati/' },
   { image: tileImages.odtuEtkim, title: 'ODTÜ ETKİM', meta: 'Ankara (ODTÜ) · 2024 · Ofis / Kuluçka', href: '/tr/etkim/' },
   { image: tileImages.odtuSports, title: 'ODTÜ Spor Sahaları', meta: 'Ankara (ODTÜ) · 2023–2026 · Spor — Tasarım & Uygulama', href: '/tr/odtu-sport-2/' }
 ];
@@ -50,8 +50,8 @@ const allProjects = lang === 'en' ? 'All projects' : 'Tüm projeler';
   </div>
   <div class="grid grid-cols-1 gap-x-8 gap-y-12 md:grid-cols-2 lg:grid-cols-3">
     {tiles.map((tile) => (
-      <a href={url(tile.href)} class="omay-tile group block hover:opacity-80">
-        <img src={url(tile.image)} alt={tile.title} class="aspect-[3/2] w-full object-cover" />
+      <a href={url(tile.href)} class="block hover:opacity-80">
+        <img src={url(tile.image)} alt={tile.title} class="aspect-[3/2] w-full object-cover" loading="lazy" decoding="async" />
         <h3 class="mt-4 text-h3">{tile.title}</h3>
         <p class="font-sans-nums mt-1 text-table text-ink-60">{tile.meta}</p>
       </a>

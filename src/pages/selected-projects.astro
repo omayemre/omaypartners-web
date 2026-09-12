@@ -9,7 +9,12 @@ const projects = (await getCollection('projects', ({ data }) => data.lang === 'e
 );
 ---
 
-<Layout lang="en" title="Selected Works" translations={{ en: '/selected-projects/', tr: '/tr/projeler/' }}>
+<Layout
+  lang="en"
+  title="Selected Works"
+  description="Selected projects — hotels, embassies, workplaces and institutional buildings designed and delivered by Omay Partners."
+  translations={{ en: '/selected-projects/', tr: '/tr/projeler/' }}
+>
   <div class="mx-auto max-w-[1440px] px-[clamp(24px,5vw,96px)] py-16 md:py-16 lg:py-[104px]">
     <h1 class="text-center text-h1">Selected Works</h1>
     <p class="mt-4 text-center text-lead text-ink-60">

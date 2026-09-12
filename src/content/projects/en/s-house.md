@@ -4,6 +4,10 @@ lang: en
 slug: "s-house"
 translationKey: "s-house"
 order: 38
+client: "Simtes"
+location: "Ankara, Turkey"
+year: "2018"
+area: "750 m²"
 cover: "/images/projects/s-house/img-01.webp"
 gallery:
   - "/images/projects/s-house/img-01.webp"

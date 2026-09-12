@@ -1,77 +1,24 @@
 ---
-// Rebuilds the WordPress "Slider Revolution" hero natively with Swiper.
-// Currently seeded with the one live hero image; add more entries to
-// `images` to turn it into a real multi-slide carousel later.
+// Static hero plate. Was previously a Swiper carousel, but with exactly one
+// live image `loop` always evaluated false and there was nothing to
+// cross-fade — 73KB of carousel JS animating a single static photo. Reduced
+// to a plain <img> with identical visual output. `images` still takes an
+// array (only the first entry renders) so a second hero plate can be added
+// later without a prop-shape change; if that happens, reintroduce a
+// carousel here rather than before.
+//
+// Purely visual - the page's real <h1> now lives in the headline section
+// directly below this (see index.astro / tr/index.astro), so it's actually
+// visible instead of sr-only.
 import { url } from '../lib/url';
 
 interface Props {
   images?: string[];
-  h1: string;
 }
 
-const { images = [url('/images/site/hero/hero.webp')], h1 } = Astro.props;
+const { images = [url('/images/site/hero/hero.webp')] } = Astro.props;
 ---
 
 <section class="relative h-[70vh] min-h-[480px] overflow-hidden">
-  <div class="hero-swiper swiper absolute inset-0">
-    <div class="swiper-wrapper">
-      {images.map((src) => (
-        <div class="swiper-slide">
-          <img src={src} alt="" class="h-full w-full object-cover" loading="eager" />
-        </div>
-      ))}
-    </div>
-  </div>
-  <h1 class="sr-only">{h1}</h1>
-
-  <style>
-    /* Minimal Swiper layout CSS, inlined rather than imported from
-       'swiper/css': this project's path has a literal "@" segment (Google
-       Drive folder name) that trips up Vite's /@fs//@id/ virtual-module
-       resolution for some package CSS exports in this environment. */
-    .hero-swiper.swiper {
-      width: 100%;
-      height: 100%;
-      overflow: hidden;
-    }
-    .hero-swiper .swiper-wrapper {
-      position: relative;
-      width: 100%;
-      height: 100%;
-      display: flex;
-      transition-property: transform;
-    }
-    .hero-swiper .swiper-slide {
-      flex-shrink: 0;
-      width: 100%;
-      height: 100%;
-      position: relative;
-    }
-    .hero-swiper.swiper-fade .swiper-slide {
-      pointer-events: none;
-      transition-property: opacity;
-    }
-    .hero-swiper.swiper-fade .swiper-slide-active {
-      pointer-events: auto;
-    }
-  </style>
-
+  <img src={images[0]} alt="" class="h-full w-full object-cover" loading="eager" decoding="async" />
 </section>
-
-<script>
-  import { Swiper } from 'swiper';
-  import { Autoplay, EffectFade } from 'swiper/modules';
-
-  const el = document.querySelector<HTMLElement>('.hero-swiper');
-  if (el) {
-    new Swiper(el, {
-      modules: [Autoplay, EffectFade],
-      effect: 'fade',
-      fadeEffect: { crossFade: true },
-      loop: el.querySelectorAll('.swiper-slide').length > 1,
-      autoplay: { delay: 6000, disableOnInteraction: false },
-      speed: 1000,
-      allowTouchMove: false
-    });
-  }
-</script>

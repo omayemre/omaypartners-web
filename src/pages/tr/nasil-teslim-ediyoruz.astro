@@ -1,29 +1,36 @@
 ---
 import Layout from '../../layouts/Layout.astro';
+import { url } from '../../lib/url';
 
 const stages = [
   {
     name: 'Brief',
+    image: '/images/site/process/01-brief.webp',
     body: 'Önce dinleriz — hedefleriniz, kullanıcılarınız, kısıtlarınız, bütçeniz ve takviminiz. Bu aşama, tasarıma başlamadan önce birlikte onayladığımız yazılı bir brief ile sona erer.'
   },
   {
     name: 'Konsept',
+    image: '/images/site/process/02-concept.webp',
     body: "İlk mekânsal fikirler ve seçenekler, brief'e göre değerlendirilir. Devam etmeden önce tek bir yönü onaylarsınız."
   },
   {
     name: 'Tasarım Geliştirme',
+    image: '/images/site/process/03-design-development.webp',
     body: 'Konsept; gerçek malzemelere, yüzeylere, sistemlere ve maliyetlere dönüşür — tasarımın gerçekten inşa edilebilir ve fiyatlandırılabilir hale geldiği aşama.'
   },
   {
     name: 'Uygulama Projeleri',
+    image: '/images/site/process/04-construction-documents.webp',
     body: 'Doğru fiyatlandırma ve ruhsatlandırma için yeterli, detaylı çizimler ve teknik şartnameler.'
   },
   {
     name: 'İnşaat / Uygulama',
+    image: '/images/site/process/05-construction.webp',
     body: 'İnşa ederiz — doğrudan ya da güvendiğiniz yüklenicileri koordine eden proje yöneticisi olarak. Her iki durumda da tasarımı yapan ekip, teslime kadar sahada kalır.'
   },
   {
     name: 'Teslim',
+    image: '/images/site/process/06-handover.webp',
     body: 'Eksik/kusur tespiti, yapılan-inşa dokümantasyonu ve taşınmadan önce birlikte yapılan bir son kontrol turu.'
   }
 ];
@@ -47,6 +54,13 @@ const stages = [
     <ol class="mt-6 space-y-8">
       {stages.map((stage, i) => (
         <li class="flex gap-5">
+          <img
+            src={url(stage.image)}
+            alt=""
+            class="aspect-square h-20 w-20 shrink-0 object-cover"
+            loading="lazy"
+            decoding="async"
+          />
           <span class="font-sans-nums shrink-0 text-table text-ink-30">{String(i + 1).padStart(2, '0')}</span>
           <div>
             <h3 class="text-h3">{stage.name}</h3>

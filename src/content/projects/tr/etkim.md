@@ -4,6 +4,10 @@ lang: tr
 slug: "etkim"
 translationKey: "etkim"
 sector: "diplomatic-institutional"
+client: "ODTÜ Teknokent"
+location: "Ankara, Türkiye"
+year: "2023"
+area: "3.500 m²"
 order: 5
 cover: "/images/projects/etkim/img-01.webp"
 gallery:

@@ -4,6 +4,10 @@ lang: tr
 slug: "ciftay-madencilik-merkez-ofisi"
 translationKey: "ciftay-mining-head-office"
 sector: "workplace"
+client: "Çiftay İnşaat"
+location: "Ankara, Türkiye"
+year: "2014"
+area: "1.000 m²"
 order: 28
 cover: "/images/projects/ciftay-mining-head-office/img-01.webp"
 gallery:

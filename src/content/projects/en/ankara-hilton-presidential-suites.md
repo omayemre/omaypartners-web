@@ -4,6 +4,10 @@ lang: en
 slug: "ankara-hilton-presidential-suites"
 translationKey: "ankara-hilton-presidential-suites"
 sector: "hospitality"
+client: "Sabancı Holding, AEO, Hilton"
+location: "Ankara, Turkey"
+year: "2023"
+area: "1,500 m²"
 order: 3
 cover: "/images/projects/ankara-hilton-presidential-suites/img-01.webp"
 gallery:

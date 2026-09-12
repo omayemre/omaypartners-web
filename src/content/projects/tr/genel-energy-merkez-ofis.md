@@ -4,6 +4,10 @@ lang: tr
 slug: "genel-energy-merkez-ofis"
 translationKey: "genel-energy-head-office"
 sector: "workplace"
+client: "Genel Energy"
+location: "Ankara, Türkiye"
+year: "2013"
+area: "3.300 m²"
 order: 27
 cover: "/images/projects/genel-energy-head-office/img-01.webp"
 gallery:

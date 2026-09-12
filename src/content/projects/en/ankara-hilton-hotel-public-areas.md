@@ -4,6 +4,10 @@ lang: en
 slug: "ankara-hilton-hotel-public-areas"
 translationKey: "ankara-hilton-hotel-public-areas"
 sector: "hospitality"
+client: "Sabancı Holding, AEO A.Ş."
+location: "Ankara, Turkey"
+year: "2011"
+area: "8,000 m²"
 order: 22
 cover: "/images/projects/ankara-hilton-hotel-public-areas/img-01.webp"
 gallery:

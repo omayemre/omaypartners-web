@@ -4,6 +4,10 @@ lang: en
 slug: "aecom-office"
 translationKey: "aecom-office"
 sector: "workplace"
+client: "Aecom"
+location: "Ankara, Turkey"
+year: "2012"
+area: "310 m²"
 order: 31
 cover: "/images/projects/aecom-office/img-01.webp"
 gallery:

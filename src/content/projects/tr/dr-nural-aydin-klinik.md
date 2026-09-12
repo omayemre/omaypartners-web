@@ -4,6 +4,8 @@ lang: tr
 slug: "dr-nural-aydin-klinik"
 translationKey: "dr-nural-aydin-klinik"
 sector: "workplace"
+client: "Dr. Nural Aydın"
+location: "Ankara, Türkiye"
 order: 1
 cover: "/images/projects/dr-nural-aydin-klinik/img-01.webp"
 gallery:

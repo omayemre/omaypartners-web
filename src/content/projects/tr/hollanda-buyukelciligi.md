@@ -1,9 +1,12 @@
 ---
-title: "Hollanda Büyükelçiligi (Gizlidir)"
+title: "Hollanda Büyükelçiliği (Gizlidir)"
 lang: tr
 slug: "hollanda-buyukelciligi"
 translationKey: "netherlands-embassy"
 sector: "diplomatic-institutional"
+client: "Hollanda Dışişleri Bakanlığı"
+location: "Ankara, Türkiye"
+year: "2020–2021"
 order: 11
 cover: "/images/projects/netherlands-embassy/img-01.webp"
 gallery:

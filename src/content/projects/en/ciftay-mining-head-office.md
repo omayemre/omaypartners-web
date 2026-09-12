@@ -4,6 +4,10 @@ lang: en
 slug: "ciftay-mining-head-office"
 translationKey: "ciftay-mining-head-office"
 sector: "workplace"
+client: "Çiftay Construction"
+location: "Ankara, Turkey"
+year: "2014"
+area: "1,000 m²"
 order: 28
 cover: "/images/projects/ciftay-mining-head-office/img-01.webp"
 gallery:

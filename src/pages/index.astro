@@ -12,9 +12,15 @@ import { url } from '../lib/url';
   description="Architecture, interior design, construction and project delivery — Ankara, working internationally."
   translations={{ en: '/', tr: '/tr/' }}
 >
-  <Hero h1="Omay Partners — Architecture, interior design and construction delivery in Ankara" />
+  <Hero />
 
-  <section class="py-16 md:py-16 lg:py-[104px]">
+  <section class="py-16 text-center md:py-16 lg:py-[104px]">
+    <div class="mx-auto max-w-3xl px-[clamp(24px,5vw,96px)]">
+      <h1 class="text-h1">A design and construction practice based in Ankara and Athens, working internationally.</h1>
+    </div>
+  </section>
+
+  <section class="border-t border-rule py-16 md:py-16 lg:py-[104px]">
     <div class="mx-auto max-w-[62ch] px-[clamp(24px,5vw,96px)] text-center">
       <p class="font-sans-nums text-label text-ink-60 uppercase">Our Clients</p>
       <p class="mt-4 text-lead text-ink-60">
@@ -33,15 +39,36 @@ import { url } from '../lib/url';
   <section class="border-t border-rule py-16 md:py-16 lg:py-[104px]">
     <div class="mx-auto grid max-w-[1440px] grid-cols-1 gap-x-8 gap-y-10 px-[clamp(24px,5vw,96px)] text-center md:grid-cols-3">
       <div class="border-t border-rule pt-6">
-        <h3 class="text-h3">Architecture</h3>
+        <img
+          src={url('/images/site/home/architecture.webp')}
+          alt=""
+          class="mx-auto aspect-[4/3] w-full max-w-[220px] object-cover"
+          loading="lazy"
+          decoding="async"
+        />
+        <h3 class="mt-4 text-h3">Architecture</h3>
         <p class="mt-2 text-body text-ink-60">From concept design to construction documents.</p>
       </div>
       <div class="border-t border-rule pt-6">
-        <h3 class="text-h3">Interior Design</h3>
+        <img
+          src={url('/images/site/home/interior.webp')}
+          alt=""
+          class="mx-auto aspect-[4/3] w-full max-w-[220px] object-cover"
+          loading="lazy"
+          decoding="async"
+        />
+        <h3 class="mt-4 text-h3">Interior Design</h3>
         <p class="mt-2 text-body text-ink-60">Spaces designed to be built.</p>
       </div>
       <div class="border-t border-rule pt-6">
-        <h3 class="text-h3">Construction Delivery</h3>
+        <img
+          src={url('/images/site/home/construction.webp')}
+          alt=""
+          class="mx-auto aspect-[4/3] w-full max-w-[220px] object-cover"
+          loading="lazy"
+          decoding="async"
+        />
+        <h3 class="mt-4 text-h3">Construction Delivery</h3>
         <p class="mt-2 text-body text-ink-60">One team, from design to handover.</p>
       </div>
     </div>

@@ -4,6 +4,10 @@ lang: tr
 slug: "leonardo-turkiye-ofisi"
 translationKey: "leonardo-turkey-office"
 sector: "workplace"
+client: "Leonardo S.p.A."
+location: "Ankara, Türkiye"
+year: "2020"
+area: "350 m²"
 order: 17
 cover: "/images/projects/leonardo-turkey-office/img-01.webp"
 gallery:

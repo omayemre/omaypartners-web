@@ -4,6 +4,10 @@ lang: tr
 slug: "magic-lab"
 translationKey: "magic-lab"
 sector: "workplace"
+client: "Magic Lab"
+location: "Ankara, Türkiye"
+year: "2023"
+area: "2.000 m²"
 order: 4
 cover: "/images/projects/magic-lab/img-01.webp"
 gallery:
