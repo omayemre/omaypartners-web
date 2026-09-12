@@ -22,7 +22,7 @@ export const dict = {
     nav: {
       home: 'Ana Sayfa',
       about: 'Hakkımızda',
-      howWeDeliver: 'Nasıl Teslim Ediyoruz',
+      howWeDeliver: 'Proje Süreci',
       selectedWorks: 'Seçki',
       references: 'Proje Listesi',
       visum: 'Fotoğraf',
