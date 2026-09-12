@@ -25,7 +25,8 @@
     "category": "Hospitality",
     "service": "Design + Construction",
     "client": "Sabancı Holding, AEO, Hilton",
-    "section": false
+    "section": false,
+    "slug": "ankara-hilton-presidential-suites"
   },
   {
     "project": "METU Guesthouse",
@@ -109,7 +110,8 @@
     "category": "Commercial",
     "service": "Design + Construction",
     "client": "METU Teknopark",
-    "section": false
+    "section": false,
+    "slug": "metu-teknopark-atom"
   },
   {
     "project": "METU Teknopark TTO Office",
@@ -151,21 +153,24 @@
     "category": "Commercial",
     "service": "Design + Construction",
     "client": "METU Teknopark",
-    "section": false
+    "section": false,
+    "slug": "magic-lab"
   },
   {
     "project": "ODTÜ Teknokent ETKİM Office",
     "category": "Commercial",
     "service": "Design + Construction",
     "client": "METU Teknopark",
-    "section": false
+    "section": false,
+    "slug": "etkim"
   },
   {
     "project": "Ankara Hilton SA Oteli Apart Rooms",
     "category": "Hospitality",
     "service": "Design + Construction",
     "client": "Sabancı Holding, AEO, Hilton",
-    "section": false
+    "section": false,
+    "slug": "ankara-hilton-hotel-apartment-floor"
   },
   {
     "project": "Embassy of Malta in İstanbul",
@@ -179,7 +184,8 @@
     "category": "Commercial",
     "service": "Design",
     "client": "METU Teknopark",
-    "section": false
+    "section": false,
+    "slug": "metu-teknopark-incubation-center"
   },
   {
     "project": "Doctor's Clinic",
@@ -235,35 +241,40 @@
     "category": "Commercial",
     "service": "Design",
     "client": "Eldorado Gold Corporation",
-    "section": false
+    "section": false,
+    "slug": "tuprag-mining-turkey-office"
   },
   {
     "project": "Ericsson Office Renovation",
     "category": "Commercial",
     "service": "Construction",
     "client": "Ericsson",
-    "section": false
+    "section": false,
+    "slug": "ericsson-ankara-office"
   },
   {
     "project": "Udemy Office",
     "category": "Commercial",
     "service": "Construction",
     "client": "Udemy",
-    "section": false
+    "section": false,
+    "slug": "udemy-turkey-office"
   },
   {
     "project": "Leonardo Office",
     "category": "Commercial",
     "service": "Design + Construction",
     "client": "Leonardo S.p.A.",
-    "section": false
+    "section": false,
+    "slug": "leonardo-turkey-office"
   },
   {
     "project": "Aytim Group Factory",
     "category": "Industrial",
     "service": "Design",
     "client": "Aytim Group",
-    "section": false
+    "section": false,
+    "slug": "aytim-group-factory"
   },
   {
     "project": "Qatar Airways Head Office",
@@ -284,7 +295,8 @@
     "category": "Commercial",
     "service": "Design + Construction",
     "client": "Sandvik",
-    "section": false
+    "section": false,
+    "slug": "sandvik-turkey-office"
   },
   {
     "project": "Doctor's Office",
@@ -354,14 +366,16 @@
     "category": "Educational",
     "service": "Design + Construction",
     "client": "BESA-British Embassy",
-    "section": false
+    "section": false,
+    "slug": "british-embassy-school-ankara"
   },
   {
-    "project": "Orbis Technlogy Office",
+    "project": "Orbis Technology Office",
     "category": "Commercial",
     "service": "Design + Construction",
     "client": "Orbis",
-    "section": false
+    "section": false,
+    "slug": "orbis-technology-office"
   },
   {
     "project": "Lycée Charles de Gaulle Renovation Phase 1",
@@ -382,7 +396,8 @@
     "category": "Residential",
     "service": "Design + Construction",
     "client": "Simtes",
-    "section": false
+    "section": false,
+    "slug": "s-house"
   },
   {
     "project": "Seres Head Office",
@@ -417,14 +432,16 @@
     "category": "Commercial",
     "service": "Design + Construction",
     "client": "Limeks",
-    "section": false
+    "section": false,
+    "slug": "limeks-head-office"
   },
   {
     "project": "United Nations Population Fund Office",
     "category": "Commercial",
     "service": "Construction",
     "client": "United Nations Population Fund ",
-    "section": false
+    "section": false,
+    "slug": "un-population-fund-office"
   },
   {
     "project": "Hotel Tunalı Renovation",
@@ -438,21 +455,24 @@
     "category": "Commercial",
     "service": "Design + Construction",
     "client": "Pegasus Defence",
-    "section": false
+    "section": false,
+    "slug": "pegasus-savunma-office"
   },
   {
     "project": "Ankara Hilton Hotel Health Club",
     "category": "Hospitality",
     "service": "Design + Construction",
     "client": "Sabancı Holding, AEO, Hilton",
-    "section": false
+    "section": false,
+    "slug": "ankara-hilton-hotel-health-club"
   },
   {
     "project": "Norwegian Embassy",
     "category": "Public",
     "service": "Construction",
     "client": "Norwegian Embassy",
-    "section": false
+    "section": false,
+    "slug": "norwegian-embassy"
   },
   {
     "project": "ICON Office",
@@ -466,7 +486,8 @@
     "category": "Commercial",
     "service": "Design",
     "client": "Securitas",
-    "section": false
+    "section": false,
+    "slug": "securitas-istanbul-office"
   },
   {
     "project": "Reis Head Office",
@@ -480,7 +501,8 @@
     "category": "Commercial",
     "service": "Design + Construction",
     "client": "BP",
-    "section": false
+    "section": false,
+    "slug": "bp-office"
   },
   {
     "project": "Office (Besa Tower)",
@@ -557,14 +579,16 @@
     "category": "Commercial",
     "service": "Design + Construction",
     "client": "Çiftay Construction",
-    "section": false
+    "section": false,
+    "slug": "ciftay-mining-head-office"
   },
   {
     "project": "Kayseri Hilton Renovation",
     "category": "Hospitality",
     "service": "Project Management",
     "client": "Başyazıcı",
-    "section": false
+    "section": false,
+    "slug": "kayseri-hilton-hotel"
   },
   {
     "project": "Türkerler Tower - Apartments",
@@ -585,7 +609,8 @@
     "category": "Commercial",
     "service": "Design + Construction",
     "client": "Genel Energy",
-    "section": false
+    "section": false,
+    "slug": "genel-energy-head-office"
   },
   {
     "project": "Ankara Hilton Public Guest Floor",
@@ -599,14 +624,16 @@
     "category": "Commercial",
     "service": "Design + PM",
     "client": "Alstom Turkey",
-    "section": false
+    "section": false,
+    "slug": "alstom-office"
   },
   {
     "project": "Fulbright Ankara Office",
     "category": "Commercial",
     "service": "Design + Construction",
-    "client": "Fullbright",
-    "section": false
+    "client": "Fulbright",
+    "section": false,
+    "slug": "fulbright-office"
   },
   {
     "project": "M. Merey Office",
@@ -620,14 +647,16 @@
     "category": "Hospitality",
     "service": "Design",
     "client": "FTZ",
-    "section": false
+    "section": false,
+    "slug": "mona-hotel"
   },
   {
     "project": "Aecom Office",
     "category": "Commercial",
     "service": "Design + Construction",
     "client": "Aecom",
-    "section": false
+    "section": false,
+    "slug": "aecom-office"
   },
   {
     "project": "S. Ozat Office",
@@ -648,7 +677,8 @@
     "category": "Commercial",
     "service": "Design + Construction",
     "client": "Bayraktar Makina ",
-    "section": false
+    "section": false,
+    "slug": "bayraktar-makina-office"
   },
   {
     "project": "Rumeli Suites Hotel",
@@ -676,7 +706,8 @@
     "category": "Commercial",
     "service": "Design + Construction",
     "client": "Ertunc Ozcan",
-    "section": false
+    "section": false,
+    "slug": "ertunc-ozcan-office"
   },
   {
     "project": "Prasad Residence",
@@ -718,7 +749,8 @@
     "category": "Commercial",
     "service": "Design + Construction",
     "client": "Qatar Airways",
-    "section": false
+    "section": false,
+    "slug": "qatar-airways-turkey-office"
   },
   {
     "project": "Tepe Headquarters",
@@ -739,7 +771,8 @@
     "category": "Hospitality",
     "service": "Design + PM",
     "client": "Sabancı Holding, AEO A.Ş.",
-    "section": false
+    "section": false,
+    "slug": "ankara-hilton-hotel-public-areas"
   },
   {
     "project": "Securitas Group Marmara Asian Regional Office",
@@ -795,7 +828,8 @@
     "category": "Transportation",
     "service": "Design + PM",
     "client": "Mağdenli",
-    "section": false
+    "section": false,
+    "slug": "atyrau-airport"
   },
   {
     "project": "Dubai Milestone Residence",
@@ -823,7 +857,8 @@
     "category": "SPA",
     "service": "Design + PM",
     "client": "AST Russia",
-    "section": false
+    "section": false,
+    "slug": "mardan-palace-spa"
   },
   {
     "project": "Ice Skate Park and Cafe in Aankamall Shopping Center",

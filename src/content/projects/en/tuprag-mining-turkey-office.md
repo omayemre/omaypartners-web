@@ -1,5 +1,5 @@
 ---
-title: "Tüprag Mining Turkey O­ffice"
+title: "Tüprag Mining Turkey Office"
 lang: en
 slug: "tuprag-mining-turkey-office"
 translationKey: "tuprag-mining-turkey-office"

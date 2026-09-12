@@ -1,5 +1,5 @@
 ---
-title: "Hollanda Büyükelçiligi (Gizlidir)"
+title: "Hollanda Büyükelçiliği (Gizlidir)"
 lang: tr
 slug: "hollanda-buyukelciligi"
 translationKey: "netherlands-embassy"

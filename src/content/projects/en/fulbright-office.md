@@ -1,8 +1,8 @@
 ---
-title: "Fullbright Office"
+title: "Fulbright Office"
 lang: en
-slug: "fullbright-office"
-translationKey: "fullbright-office"
+slug: "fulbright-office"
+translationKey: "fulbright-office"
 sector: "diplomatic-institutional"
 order: 30
 cover: "/images/projects/fullbright-office/img-01.webp"

@@ -1,5 +1,5 @@
 ---
-title: "Udemy Turkey O­ffice"
+title: "Udemy Turkey Office"
 lang: en
 slug: "udemy-turkey-office"
 translationKey: "udemy-turkey-office"

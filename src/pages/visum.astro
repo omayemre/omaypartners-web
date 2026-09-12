@@ -6,11 +6,16 @@ import { url } from '../lib/url';
 const images = Array.from({ length: 40 }, (_, i) => url(`/images/site/visum/photo-${String(i + 1).padStart(2, '0')}.webp`));
 ---
 
-<Layout lang="en" title="Photography" translations={{ en: '/visum/', tr: '/tr/visum/' }}>
+<Layout
+  lang="en"
+  title="Photography"
+  description="Architectural photography by Omay Partners — Ankara and Athens."
+  translations={{ en: '/visum/', tr: '/tr/visum/' }}
+>
   <div class="mx-auto max-w-6xl px-[clamp(24px,5vw,96px)] py-16 md:py-16 lg:py-[104px]">
     <h1 class="text-center text-h1">Photography</h1>
     <div class="mt-12">
-      <PhotoGrid images={images} />
+      <PhotoGrid images={images} altPrefix="Omay Partners photography" />
     </div>
   </div>
 </Layout>

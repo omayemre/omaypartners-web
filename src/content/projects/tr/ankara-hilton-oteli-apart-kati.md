@@ -1,7 +1,7 @@
 ---
 title: "Ankara Hilton Oteli Apart Katı"
 lang: tr
-slug: "odtu-teknokent-kulucka-binasi"
+slug: "ankara-hilton-oteli-apart-kati"
 translationKey: "ankara-hilton-hotel-apartment-floor"
 sector: "hospitality"
 order: 6

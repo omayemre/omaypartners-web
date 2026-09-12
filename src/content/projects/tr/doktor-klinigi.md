@@ -1,7 +1,7 @@
 ---
 title: "Doktor Kliniği"
 lang: tr
-slug: "doktor-klinigi-devam-ediyor"
+slug: "doktor-klinigi"
 translationKey: "doktor-clinic"
 sector: "workplace"
 order: 14

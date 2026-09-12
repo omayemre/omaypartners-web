@@ -1,5 +1,5 @@
 ---
-title: "Doktor Clinic"
+title: "Doctor's Clinic"
 lang: en
 slug: "doktor-clinic"
 translationKey: "doktor-clinic"

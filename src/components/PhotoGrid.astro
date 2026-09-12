@@ -1,15 +1,23 @@
 ---
 interface Props {
   images: string[];
+  /** Prefix used to build a per-image alt, e.g. "Omay Partners photography" -> "Omay Partners photography 3". */
+  altPrefix: string;
 }
 
-const { images } = Astro.props;
+const { images, altPrefix } = Astro.props;
 ---
 
 <div class="photo-grid grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4">
   {images.map((src, i) => (
     <button type="button" class="photo-grid-item block overflow-hidden" data-index={i}>
-      <img src={src} alt="" class="aspect-square w-full object-cover hover:opacity-80" />
+      <img
+        src={src}
+        alt={`${altPrefix} ${i + 1}`}
+        class="aspect-square w-full object-cover hover:opacity-80"
+        loading="lazy"
+        decoding="async"
+      />
     </button>
   ))}
 </div>
@@ -37,6 +45,7 @@ const { images } = Astro.props;
     const img = btn.querySelector('img');
     if (!img) return;
     lightboxImg.src = img.src;
+    lightboxImg.alt = img.alt;
     lightbox.classList.remove('hidden');
     lightbox.classList.add('flex');
   });

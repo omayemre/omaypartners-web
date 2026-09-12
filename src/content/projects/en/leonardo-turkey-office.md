@@ -1,5 +1,5 @@
 ---
-title: "Leonardo Turkey O­ffice"
+title: "Leonardo Turkey Office"
 lang: en
 slug: "leonardo-turkey-office"
 translationKey: "leonardo-turkey-office"

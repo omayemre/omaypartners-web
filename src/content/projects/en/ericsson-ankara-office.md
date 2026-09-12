@@ -1,5 +1,5 @@
 ---
-title: "Ericsson Ankara O­ffice (Confidential)"
+title: "Ericsson Ankara Office (Confidential)"
 lang: en
 slug: "ericsson-ankara-office"
 translationKey: "ericsson-ankara-office"

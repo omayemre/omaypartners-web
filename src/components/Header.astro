@@ -9,6 +9,13 @@ interface Props {
 
 const { lang, translations } = Astro.props;
 const i18n = t(lang);
+// A handful of TR-only projects have no EN page yet (no translations.en).
+// Rather than silently falling back to '/' - which reads as a broken link
+// dressed up as a working one - the toggle below renders as plain,
+// non-clickable text in that case. Pages that don't wire up per-page
+// translations at all (e.g. 404) still get the default home-link behaviour.
+const hasEn = translations === undefined || translations.en !== undefined;
+const hasTr = translations === undefined || translations.tr !== undefined;
 const enHref = url(translations?.en ?? '/');
 const trHref = url(translations?.tr ?? '/tr/');
 
@@ -37,9 +44,17 @@ const navItems: Array<[string, string]> = [
         </a>
       ))}
       <div class="flex items-center gap-1.5 border border-rule px-2 py-1">
-        <a href={enHref} class={lang === 'en' ? 'font-semibold text-ink' : 'text-ink-30 hover:text-accent'}>EN</a>
+        {hasEn ? (
+          <a href={enHref} class={lang === 'en' ? 'font-semibold text-ink' : 'text-ink-30 hover:text-accent'}>EN</a>
+        ) : (
+          <span class="text-ink-30" aria-disabled="true">EN</span>
+        )}
         <span class="text-ink-30">/</span>
-        <a href={trHref} class={lang === 'tr' ? 'font-semibold text-ink' : 'text-ink-30 hover:text-accent'}>TR</a>
+        {hasTr ? (
+          <a href={trHref} class={lang === 'tr' ? 'font-semibold text-ink' : 'text-ink-30 hover:text-accent'}>TR</a>
+        ) : (
+          <span class="text-ink-30" aria-disabled="true">TR</span>
+        )}
       </div>
     </nav>
 
@@ -56,9 +71,17 @@ const navItems: Array<[string, string]> = [
           </a>
         ))}
         <div class="flex items-center gap-2 px-4 py-2 text-label">
-          <a href={enHref} class={lang === 'en' ? 'font-semibold text-ink' : 'text-ink-30 hover:text-accent'}>EN</a>
+          {hasEn ? (
+            <a href={enHref} class={lang === 'en' ? 'font-semibold text-ink' : 'text-ink-30 hover:text-accent'}>EN</a>
+          ) : (
+            <span class="text-ink-30" aria-disabled="true">EN</span>
+          )}
           <span class="text-ink-30">/</span>
-          <a href={trHref} class={lang === 'tr' ? 'font-semibold text-ink' : 'text-ink-30 hover:text-accent'}>TR</a>
+          {hasTr ? (
+            <a href={trHref} class={lang === 'tr' ? 'font-semibold text-ink' : 'text-ink-30 hover:text-accent'}>TR</a>
+          ) : (
+            <span class="text-ink-30" aria-disabled="true">TR</span>
+          )}
         </div>
       </nav>
     </details>

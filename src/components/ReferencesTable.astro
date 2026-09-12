@@ -1,18 +1,25 @@
 ---
+import { url } from '../lib/url';
+import type { Lang } from '../lib/i18n';
+
 interface Row {
   project: string;
   category: string;
   service: string;
   client: string;
   section: boolean;
+  /** Present only where this row was confidently matched to a project page. */
+  slug?: string;
 }
 
 interface Props {
   rows: Row[];
   headers: [string, string, string, string];
+  lang: Lang;
 }
 
-const { rows, headers } = Astro.props;
+const { rows, headers, lang } = Astro.props;
+const base = lang === 'en' ? '' : '/tr';
 ---
 
 <div class="font-sans-nums overflow-x-auto">
@@ -35,7 +42,15 @@ const { rows, headers } = Astro.props;
           </tr>
         ) : (
           <tr class="border-b border-rule">
-            <td class="py-2 pr-4 text-ink">{row.project}</td>
+            <td class="py-2 pr-4 text-ink">
+              {row.slug ? (
+                <a href={url(`${base}/${row.slug}/`)} class="hover:text-accent">
+                  {row.project}
+                </a>
+              ) : (
+                row.project
+              )}
+            </td>
             <td class="py-2 pr-4 text-ink-60">{row.category}</td>
             <td class="py-2 pr-4 text-ink-60">{row.service}</td>
             <td class="py-2 text-ink-60">{row.client}</td>

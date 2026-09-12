@@ -1,5 +1,5 @@
 ---
-title: "İngiliz Elçiligi Okulu Ankara"
+title: "İngiliz Elçiliği Okulu Ankara"
 lang: tr
 slug: "ingiliz-elciligi-okulu-ankara"
 translationKey: "british-embassy-school-ankara"
