@@ -32,6 +32,10 @@ async function run() {
     const outPath = path.join(OUT_DIR, relOut);
     await mkdir(path.dirname(outPath), { recursive: true });
     await sharp(inPath)
+      .rotate() // auto-orient from EXIF before resizing - webp doesn't carry an
+      // orientation tag the way JPEG does, so a source shot with EXIF
+      // orientation (e.g. "06 teslim.jpg", tag 6 / rotate 90 CW) would
+      // otherwise come out sideways once baked to webp.
       .resize({ width: 800, withoutEnlargement: true })
       .webp({ quality: 86 })
       .toFile(outPath);
