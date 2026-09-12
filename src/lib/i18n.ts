@@ -5,11 +5,10 @@ export type Lang = 'en' | 'tr';
 export const dict = {
   en: {
     nav: {
-      home: 'Home',
-      about: 'About',
-      howWeDeliver: 'How We Deliver',
+      about: 'Studio',
+      howWeDeliver: 'Process',
       selectedWorks: 'Selected Works',
-      references: 'Projects List',
+      references: 'Project Index',
       visum: 'Photography',
       contact: 'Contact'
     },
@@ -20,11 +19,10 @@ export const dict = {
   },
   tr: {
     nav: {
-      home: 'Ana Sayfa',
-      about: 'Hakkımızda',
-      howWeDeliver: 'Proje Süreci',
-      selectedWorks: 'Seçki',
-      references: 'Proje Listesi',
+      about: 'Stüdyo',
+      howWeDeliver: 'Süreç',
+      selectedWorks: 'Seçilmiş İşler',
+      references: 'Proje Dizini',
       visum: 'Fotoğraf',
       contact: 'İletişim'
     },

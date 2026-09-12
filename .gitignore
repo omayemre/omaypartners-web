@@ -31,6 +31,7 @@ pnpm-debug.log*
 # the public repo
 .00 Emre Notlar/
 audit/
+docs/
 
 # owner's source spreadsheets/documents dropped into the project folder for
 # me to read (e.g. the project-list master Excel) - the data gets absorbed

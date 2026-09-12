@@ -12,13 +12,14 @@ const i18n = t(lang);
 const enHref = url(translations?.en ?? '/');
 const trHref = url(translations?.tr ?? '/tr/');
 
+// Home isn't listed - the logo already links there, so a "Home" nav item
+// would be a redundant tell. Photography isn't listed either - it moved to
+// the footer.
 const navItems: Array<[string, string]> = [
-  [i18n.nav.home, i18n.path('home')],
   [i18n.nav.about, i18n.path('about')],
   [i18n.nav.howWeDeliver, i18n.path('howWeDeliver')],
   [i18n.nav.selectedWorks, i18n.path('selectedWorks')],
   [i18n.nav.references, i18n.path('references')],
-  [i18n.nav.visum, i18n.path('visum')],
   [i18n.nav.contact, i18n.path('contact')]
 ];
 ---
@@ -29,7 +30,7 @@ const navItems: Array<[string, string]> = [
       <img src={url('/images/site/brand/logo-light.webp')} alt="Omay Partners" width="307" height="61" class="h-[61px] w-auto" />
     </a>
 
-    <nav class="hidden items-center gap-5 text-sm tracking-wide uppercase lg:flex">
+    <nav class="hidden items-center gap-5 text-sm tracking-wide uppercase md:flex">
       {navItems.map(([label, href]) => (
         <a href={href} class="text-white/80 transition hover:text-white">
           {label}
@@ -42,7 +43,7 @@ const navItems: Array<[string, string]> = [
       </div>
     </nav>
 
-    <details class="relative lg:hidden">
+    <details class="relative md:hidden">
       <summary class="list-none cursor-pointer p-2 text-white" aria-label="Menu">
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
           <path d="M3 6h18M3 12h18M3 18h18" />
