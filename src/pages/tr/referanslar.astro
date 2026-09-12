@@ -5,13 +5,16 @@ import rows from '../../data/references.tr.json';
 ---
 
 <Layout lang="tr" title="Proje Listesi" translations={{ en: '/references/', tr: '/tr/referanslar/' }}>
-  <div class="mx-auto max-w-4xl px-6 py-16">
+  <div class="mx-auto max-w-5xl px-6 py-16">
     <h1 class="text-center text-3xl font-light md:text-4xl">Proje Listesi</h1>
     <p class="mt-4 text-center text-[#1a2233]/70">
       İşveren ve sunulan hizmet bilgileriyle birlikte Omay Partners projelerinin tam listesi.
     </p>
     <div class="mt-12">
-      <ReferencesTable rows={rows} headers={['Proje', 'Verilen Hizmet', 'Müşteri']} />
+      <ReferencesTable rows={rows} headers={['Proje', 'Sektör', 'Verilen Hizmet', 'Müşteri']} />
     </div>
+    <p class="mt-6 text-xs text-[#1a2233]/50">
+      (*) Omay Partners kurucususunun İşveren ya da Proje Yönetimi kadrosunda yeraldığı proje
+    </p>
   </div>
 </Layout>

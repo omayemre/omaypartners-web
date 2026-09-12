@@ -1,900 +1,1071 @@
 [
   {
     "project": "Ongoing Projects",
+    "category": "",
     "service": "",
     "client": "",
     "section": true
   },
   {
     "project": "Housing Project",
+    "category": "Residential",
     "service": "Design + Construction",
     "client": "",
     "section": false
   },
   {
+    "project": "ODTU Fen Tek Dormitory Building",
+    "category": "Educational",
+    "service": "Design",
+    "client": "ODTÜ Geliştirme Vakfı",
+    "section": false
+  },
+  {
+    "project": "Ankara Hilton SA Hotel - Presidential Suites - Renovation",
+    "category": "Hospitality",
+    "service": "Design + Construction",
+    "client": "Sabancı Holding, AEO, Hilton",
+    "section": false
+  },
+  {
+    "project": "METU Guesthouse",
+    "category": "Hospitality",
+    "service": "Design",
+    "client": "ODTÜ Geliştirme Vakfı",
+    "section": false
+  },
+  {
     "project": "Sandvik Office Renovation",
+    "category": "Commercial",
     "service": "Design + Construction",
     "client": "Sandvik",
     "section": false
   },
   {
-    "project": "METU Teknopark GO – Campus",
+    "project": "METU Teknopark GO - Campus",
+    "category": "Commercial",
     "service": "Design + Construction",
     "client": "METU Teknopark",
     "section": false
   },
   {
     "project": "Doctor's Clinic",
+    "category": "Healthcare",
     "service": "Design + Construction",
     "client": "Dr. Nural Aydın",
     "section": false
   },
   {
-    "project": "Lycée Charles de Gaulle – Renovations",
+    "project": "Lycée Charles de Gaulle - Renovations",
+    "category": "Educational",
     "service": "Design + Construction",
     "client": "Charles de Gaulle Lisesi",
     "section": false
   },
   {
     "project": "Completed Projects",
+    "category": "",
     "service": "",
     "client": "",
     "section": true
   },
   {
-    "project": "METU Teknopark GO – Kilis",
+    "project": "METU Teknopark GO - Kilis",
+    "category": "Commercial",
     "service": "Design + Construction",
     "client": "METU Teknopark",
     "section": false
   },
   {
     "project": "METU Padel Areas",
+    "category": "Commercial",
     "service": "Design + Construction",
     "client": "METU Teknopark",
     "section": false
   },
   {
     "project": "METU Teknopark ATOM PLUS",
+    "category": "Commercial",
     "service": "Design + Construction",
     "client": "METU Teknopark",
     "section": false
   },
   {
     "project": "Italian Embassy New Building Renovation",
+    "category": "Commercial",
     "service": "Design",
     "client": "Embassy of Italy",
     "section": false
   },
   {
     "project": "METU Sports Facilities",
+    "category": "Commercial",
     "service": "Design + Construction",
     "client": "METU Teknopark",
     "section": false
   },
   {
     "project": "METU Teknopark ATOM",
+    "category": "Commercial",
     "service": "Design + Construction",
     "client": "METU Teknopark",
     "section": false
   },
   {
     "project": "METU Teknopark TTO Office",
+    "category": "Commercial",
     "service": "Design + Construction",
     "client": "METU Teknopark",
     "section": false
   },
   {
     "project": "French Embassy French School Kindergarten Building Renovation",
+    "category": "Educational",
     "service": "Design + Construction",
     "client": "Lycée Charles de Gaulle",
     "section": false
   },
   {
-    "project": "DG Garage – Bridgestone Ankara Head Office",
-    "service": "Design + Construction",
-    "client": "Çiftay Construction",
-    "section": false
-  },
-  {
-    "project": "METU Teknopark TTO Project",
+    "project": "METU ATOM Office",
+    "category": "Commercial",
     "service": "Design + Construction",
     "client": "METU Teknopark",
     "section": false
   },
   {
-    "project": "METU Teknopark ASTEC Project",
+    "project": "METU Teknopark TTO Office",
+    "category": "Commercial",
+    "service": "Design + Construction",
+    "client": "METU Teknopark",
+    "section": false
+  },
+  {
+    "project": "ODTÜ Teknokent ASTEC",
+    "category": "Commercial",
     "service": "Design + Construction",
     "client": "METU Teknopark",
     "section": false
   },
   {
     "project": "Magic Lab Head Office",
-    "service": "Design + Construction",
-    "client": "Magic Lab",
-    "section": false
-  },
-  {
-    "project": "METU Teknopark ETKİM Project",
+    "category": "Commercial",
     "service": "Design + Construction",
     "client": "METU Teknopark",
     "section": false
   },
   {
-    "project": "Ankara Hilton SA Hotel Apartment Floors Renovation Project",
+    "project": "ODTÜ Teknokent ETKİM Office",
+    "category": "Commercial",
+    "service": "Design + Construction",
+    "client": "METU Teknopark",
+    "section": false
+  },
+  {
+    "project": "Ankara Hilton SA Oteli Apart Rooms",
+    "category": "Hospitality",
     "service": "Design + Construction",
     "client": "Sabancı Holding, AEO, Hilton",
     "section": false
   },
   {
     "project": "Embassy of Malta in İstanbul",
+    "category": "Public",
     "service": "Project Management",
     "client": "Ministry for Foreign and European Affairs",
     "section": false
   },
   {
     "project": "METU Teknopark Incubation Center",
+    "category": "Commercial",
     "service": "Design",
     "client": "METU Teknopark",
     "section": false
   },
   {
     "project": "Doctor's Clinic",
+    "category": "Healthcare",
     "service": "Design + Construction",
     "client": "Dr. Nural Aydın",
     "section": false
   },
   {
     "project": "Qatar Airways Office Renovation",
+    "category": "Commercial",
     "service": "Design + Construction",
     "client": "Qatar Airways",
     "section": false
   },
   {
     "project": "Plume Accademia",
+    "category": "Healthcare + Educational",
     "service": "Design + Construction",
-    "client": "Bayraktar Makina",
+    "client": "Bayraktar Makina ",
     "section": false
   },
   {
     "project": "METU ATOM Office",
+    "category": "Commercial",
     "service": "Design + Construction",
     "client": "METU Teknopark",
     "section": false
   },
   {
     "project": "Netherlands Embassy Phase 2",
+    "category": "Public",
     "service": "Construction",
     "client": "Ministry of Foreign Affairs of the Netherlands",
     "section": false
   },
   {
     "project": "Lycée Charles de Gaulle Renovation Phase 3",
+    "category": "Educational",
     "service": "Design + Construction",
     "client": "Lycée Charles de Gaulle",
     "section": false
   },
   {
     "project": "Embassy of Malta in Ankara",
+    "category": "Public",
     "service": "Project Management",
     "client": "Ministry for Foreign and European Affairs",
     "section": false
   },
   {
     "project": "Tüprag Head Office",
+    "category": "Commercial",
     "service": "Design",
     "client": "Eldorado Gold Corporation",
     "section": false
   },
   {
     "project": "Ericsson Office Renovation",
+    "category": "Commercial",
     "service": "Construction",
     "client": "Ericsson",
     "section": false
   },
   {
     "project": "Udemy Office",
+    "category": "Commercial",
     "service": "Construction",
     "client": "Udemy",
     "section": false
   },
   {
     "project": "Leonardo Office",
+    "category": "Commercial",
     "service": "Design + Construction",
     "client": "Leonardo S.p.A.",
     "section": false
   },
   {
     "project": "Aytim Group Factory",
+    "category": "Industrial",
     "service": "Design",
     "client": "Aytim Group",
     "section": false
   },
   {
     "project": "Qatar Airways Head Office",
+    "category": "Commercial",
     "service": "Construction",
     "client": "Qatar Airways",
     "section": false
   },
   {
     "project": "Netherlands Embassy Phase 1",
+    "category": "Public",
     "service": "Construction",
     "client": "Ministry of Foreign Affairs of the Netherlands",
     "section": false
   },
   {
     "project": "Sandvik Office",
+    "category": "Commercial",
     "service": "Design + Construction",
     "client": "Sandvik",
     "section": false
   },
   {
     "project": "Doctor's Office",
+    "category": "Healthcare",
     "service": "Design + Construction",
     "client": "Dr. Nural Aydın",
     "section": false
   },
   {
     "project": "Tüprag Office Renovation Phase 2",
+    "category": "Commercial",
     "service": "Design + Construction",
     "client": "Eldorado Gold Corporation",
     "section": false
   },
   {
     "project": "Tüprag Office Renovation Phase 1",
+    "category": "Commercial",
     "service": "Design + Construction",
     "client": "Eldorado Gold Corporation",
     "section": false
   },
   {
     "project": "Embassy of Italy Renovation",
+    "category": "Public",
     "service": "Design + Construction",
     "client": "Embassy of Italy",
     "section": false
   },
   {
     "project": "U-House",
+    "category": "Residential",
     "service": "Design",
     "client": "U. Family",
     "section": false
   },
   {
     "project": "Lycée Charles de Gaulle Renovation Phase 2",
+    "category": "Educational",
     "service": "Design + Construction",
     "client": "Lycée Charles de Gaulle",
     "section": false
   },
   {
     "project": "Plume Clinic",
+    "category": "Healthcare",
     "service": "Design + Construction",
-    "client": "Bayraktar Makina",
+    "client": "Bayraktar Makina ",
     "section": false
   },
   {
     "project": "Marriot Hotel",
+    "category": "Hospitality",
     "service": "Project Management",
     "client": "NG",
     "section": false
   },
   {
     "project": "Mekatronik Head Office",
+    "category": "Commercial",
     "service": "Design",
     "client": "Mekatronik",
     "section": false
   },
   {
     "project": "BESA British School Renovation Phase 1",
+    "category": "Educational",
     "service": "Design + Construction",
     "client": "BESA-British Embassy",
     "section": false
   },
   {
     "project": "Orbis Technlogy Office",
+    "category": "Commercial",
     "service": "Design + Construction",
     "client": "Orbis",
     "section": false
   },
   {
     "project": "Lycée Charles de Gaulle Renovation Phase 1",
+    "category": "Educational",
     "service": "Design + Construction",
     "client": "Lycée Charles de Gaulle",
     "section": false
   },
   {
     "project": "Ankara Hilton SA Premium Boardroom",
+    "category": "Hospitality",
     "service": "Design + Construction",
-    "client": "Sabancı – AEO & Hilton",
+    "client": "Sabancı - AEO & Hilton",
     "section": false
   },
   {
     "project": "S-House",
+    "category": "Residential",
     "service": "Design + Construction",
     "client": "Simtes",
     "section": false
   },
   {
     "project": "Seres Head Office",
+    "category": "Commercial",
     "service": "Design + Construction",
     "client": "Seres Medikal",
     "section": false
   },
   {
     "project": "Ahmet Yay Office",
+    "category": "Commercial",
     "service": "Design + Construction",
     "client": "Ahmet Yay",
     "section": false
   },
   {
     "project": "OpsGenie Turkey Office",
+    "category": "Commercial",
     "service": "Design",
     "client": "OpsGenie",
     "section": false
   },
   {
     "project": "Metropol Head Office",
+    "category": "Commercial",
     "service": "Design",
     "client": "Metropol Yapı Denetim",
     "section": false
   },
   {
     "project": "Limeks Head Office",
+    "category": "Commercial",
     "service": "Design + Construction",
     "client": "Limeks",
     "section": false
   },
   {
     "project": "United Nations Population Fund Office",
+    "category": "Commercial",
     "service": "Construction",
-    "client": "United Nations Population Fund",
+    "client": "United Nations Population Fund ",
     "section": false
   },
   {
     "project": "Hotel Tunalı Renovation",
+    "category": "Hospitality",
     "service": "Design + Construction",
     "client": "Hotel Tunalı",
     "section": false
   },
   {
     "project": "Pegasus Defence Office",
+    "category": "Commercial",
     "service": "Design + Construction",
     "client": "Pegasus Defence",
     "section": false
   },
   {
     "project": "Ankara Hilton Hotel Health Club",
+    "category": "Hospitality",
     "service": "Design + Construction",
     "client": "Sabancı Holding, AEO, Hilton",
     "section": false
   },
   {
     "project": "Norwegian Embassy",
+    "category": "Public",
     "service": "Construction",
     "client": "Norwegian Embassy",
     "section": false
   },
   {
     "project": "ICON Office",
+    "category": "Commercial",
     "service": "Construction",
     "client": "ICON",
     "section": false
   },
   {
     "project": "Securitas Istanbul Regional Office",
+    "category": "Commercial",
     "service": "Design",
     "client": "Securitas",
     "section": false
   },
   {
     "project": "Reis Head Office",
+    "category": "Commercial",
     "service": "Design + Construction",
     "client": "Reis",
     "section": false
   },
   {
     "project": "BP Ankara Office Renovation",
+    "category": "Commercial",
     "service": "Design + Construction",
     "client": "BP",
     "section": false
   },
   {
     "project": "Office (Besa Tower)",
+    "category": "Commercial",
     "service": "Design + Construction",
     "client": "A.Ç.",
     "section": false
   },
   {
     "project": "Pasifik Construction Head Office",
+    "category": "Commercial",
     "service": "Design",
     "client": "Pasifik Construction",
     "section": false
   },
   {
     "project": "Keifi",
+    "category": "Commercial",
     "service": "Design",
     "client": "Pasifik Construction",
     "section": false
   },
   {
     "project": "Honeywell",
+    "category": "Commercial",
     "service": "Design + Construction",
     "client": "Honeywell",
     "section": false
   },
   {
     "project": "DECE Software Office",
+    "category": "Commercial",
     "service": "Design + Construction",
     "client": "DECE Software",
     "section": false
   },
   {
     "project": "Genel Energy Suleymaniyah Office",
+    "category": "Commercial",
     "service": "Design + PM",
     "client": "Genel Energy International",
     "section": false
   },
   {
     "project": "TTopco Ankara Office",
+    "category": "Commercial",
     "service": "Design + Construction",
     "client": "TTopco",
     "section": false
   },
   {
     "project": "TTopco Erbil Office",
+    "category": "Commercial",
     "service": "Design + PM",
     "client": "TTopco",
     "section": false
   },
   {
     "project": "Ankara Hilton Hotel Guest Floor Renovation",
+    "category": "Hospitality",
     "service": "Design + Construction",
     "client": "Sabancı Holding, AEO A.Ş.",
     "section": false
   },
   {
     "project": "Genel Energy Erbil Office",
+    "category": "Commercial",
     "service": "Design + PM",
     "client": "Genel Energy International",
     "section": false
   },
   {
     "project": "Ciftay Construction Head Office",
+    "category": "Commercial",
     "service": "Design + Construction",
     "client": "Çiftay Construction",
     "section": false
   },
   {
     "project": "Kayseri Hilton Renovation",
+    "category": "Hospitality",
     "service": "Project Management",
     "client": "Başyazıcı",
     "section": false
   },
   {
-    "project": "Türkerler Tower – Apartments",
+    "project": "Türkerler Tower - Apartments",
+    "category": "Residential",
     "service": "Design",
     "client": "Türkerler Construction",
     "section": false
   },
   {
-    "project": "Mahall Ankara – Sales Office",
+    "project": "Mahall Ankara - Sales Office",
+    "category": "Commercial",
     "service": "Design",
     "client": "Türkerler Construction",
     "section": false
   },
   {
     "project": "Genel Energy Head Office",
+    "category": "Commercial",
     "service": "Design + Construction",
     "client": "Genel Energy",
     "section": false
   },
   {
     "project": "Ankara Hilton Public Guest Floor",
+    "category": "Hospitality",
     "service": "Project Management",
     "client": "Sabancı Holding, AEO A.Ş.",
     "section": false
   },
   {
     "project": "Alstom Turkey Office",
+    "category": "Commercial",
     "service": "Design + PM",
     "client": "Alstom Turkey",
     "section": false
   },
   {
     "project": "Fulbright Ankara Office",
+    "category": "Commercial",
     "service": "Design + Construction",
     "client": "Fullbright",
     "section": false
   },
   {
     "project": "M. Merey Office",
+    "category": "Commercial",
     "service": "Design + Construction",
     "client": "Macit Merey",
     "section": false
   },
   {
     "project": "Mona Hotel",
+    "category": "Hospitality",
     "service": "Design",
     "client": "FTZ",
     "section": false
   },
   {
     "project": "Aecom Office",
+    "category": "Commercial",
     "service": "Design + Construction",
     "client": "Aecom",
     "section": false
   },
   {
     "project": "S. Ozat Office",
+    "category": "Commercial",
     "service": "Design + Construction",
     "client": "Sabriye Ozat",
     "section": false
   },
   {
     "project": "Pegasus Defence Office",
+    "category": "Commercial",
     "service": "Design + Construction",
     "client": "Pegasus Defence",
     "section": false
   },
   {
     "project": "Bayraktar Head Office",
+    "category": "Commercial",
     "service": "Design + Construction",
-    "client": "Bayraktar Makina",
+    "client": "Bayraktar Makina ",
     "section": false
   },
   {
     "project": "Rumeli Suites Hotel",
+    "category": "Hospitality",
     "service": "Design + Construction",
     "client": "Ayhan / Metin",
     "section": false
   },
   {
     "project": "M.Ozgul / L.Akca Office",
+    "category": "Commercial",
     "service": "Design + Construction",
     "client": "M.Ozgul / L.Akca",
     "section": false
   },
   {
     "project": "Subnet Office",
+    "category": "Commercial",
     "service": "Design",
     "client": "Subnet",
     "section": false
   },
   {
     "project": "Ertunc Ozcan Office",
+    "category": "Commercial",
     "service": "Design + Construction",
     "client": "Ertunc Ozcan",
     "section": false
   },
   {
     "project": "Prasad Residence",
+    "category": "Residential",
     "service": "Design + PM",
     "client": "Soma Enterprises",
     "section": false
   },
   {
     "project": "Reha Residence",
+    "category": "Residential",
     "service": "Design",
     "client": "Reha Construction",
     "section": false
   },
   {
     "project": "EMC Corporation Office",
+    "category": "Commercial",
     "service": "Design + Construction",
     "client": "EMC Corporation",
     "section": false
   },
   {
     "project": "Y. Turkal House",
+    "category": "Residential",
     "service": "Design + PM",
     "client": "Turkallar",
     "section": false
   },
   {
     "project": "Borusan EnBW Energy Office",
+    "category": "Commercial",
     "service": "Design + Construction",
     "client": "Borusan EnBW Energy",
     "section": false
   },
   {
     "project": "Qatar Airways Office",
+    "category": "Commercial",
     "service": "Design + Construction",
     "client": "Qatar Airways",
     "section": false
   },
   {
     "project": "Tepe Headquarters",
+    "category": "Commercial",
     "service": "Design",
     "client": "Tepe Construction",
     "section": false
   },
   {
     "project": "Securitas Country Electronic Security and Alarm Center",
+    "category": "Commercial",
     "service": "Design + Construction",
     "client": "Securitas Group",
     "section": false
   },
   {
     "project": "Ankara Hilton Hotel Public Areas Renovation",
+    "category": "Hospitality",
     "service": "Design + PM",
     "client": "Sabancı Holding, AEO A.Ş.",
     "section": false
   },
   {
     "project": "Securitas Group Marmara Asian Regional Office",
+    "category": "Commercial",
     "service": "Design + Construction",
     "client": "Securitas Group",
     "section": false
   },
   {
     "project": "Securitas Anatolia Regional Office",
+    "category": "Commercial",
     "service": "Design + Construction",
     "client": "Securitas Group",
     "section": false
   },
   {
     "project": "Securitas Cukurova Regional Office",
+    "category": "Commercial",
     "service": "Design + Construction",
     "client": "Securitas Group",
     "section": false
   },
   {
     "project": "Murphy's Dance Bar",
+    "category": "Commercial",
     "service": "Design + Construction",
     "client": "Metin Murphy",
     "section": false
   },
   {
     "project": "Doğuş Group Office Building",
+    "category": "Commercial",
     "service": "Design",
     "client": "Doğuş Group",
     "section": false
   },
   {
     "project": "Libya Hostel",
+    "category": "Hospitality",
     "service": "Design",
     "client": "YO Construction",
     "section": false
   },
   {
     "project": "Securitas Group Marmara European Regional Office",
+    "category": "Commercial",
     "service": "Design + Construction",
     "client": "Securitas Group",
     "section": false
   },
   {
     "project": "Atyrau Airport",
+    "category": "Transportation",
     "service": "Design + PM",
     "client": "Mağdenli",
     "section": false
   },
   {
     "project": "Dubai Milestone Residence",
+    "category": "Residential",
     "service": "Design + PM",
     "client": "Gulermak International FZCO",
     "section": false
   },
   {
     "project": "Coffeeshop Company Minasera Shopping Mall",
+    "category": "Gastronomy- F&B",
     "service": "Design + Construction",
     "client": "Budakalti Tourism",
     "section": false
   },
   {
     "project": "Coffeeshop Company CEPA Shopping Mall",
+    "category": "Gastronomy- F&B",
     "service": "Design + Construction",
     "client": "Budakalti Tourism",
     "section": false
   },
   {
     "project": "Mardan Palace Hotel SPA",
+    "category": "SPA",
     "service": "Design + PM",
     "client": "AST Russia",
     "section": false
   },
   {
     "project": "Ice Skate Park and Cafe in Aankamall Shopping Center",
+    "category": "Commercial",
     "service": "Design",
     "client": "Kaptan",
     "section": false
   },
   {
     "project": "Securitas Group Okmeydanı Office",
+    "category": "Commercial",
     "service": "Design + Construction",
     "client": "Securitas Group",
     "section": false
   },
   {
     "project": "Securitas Group Head Office",
+    "category": "Commercial",
     "service": "Design + Construction",
     "client": "Securitas Group",
     "section": false
   },
   {
     "project": "MEB Sakıp Sabancı Conference Saloon",
+    "category": "Commercial",
     "service": "Design + Construction",
     "client": "Sabancı Holding, VAKSA",
     "section": false
   },
   {
     "project": "SPA Budapest",
+    "category": "SPA",
     "service": "Design",
     "client": "Racz",
     "section": false
   },
   {
     "project": "SPA Gazella",
+    "category": "SPA",
     "service": "Design",
     "client": "Spa Gazella",
     "section": false
   },
   {
     "project": "Parla Education Center",
+    "category": "Educational",
     "service": "Design + Construction",
     "client": "Parla Education",
     "section": false
   },
   {
     "project": "Shopping Mall in Xanadu Shopping Mall",
+    "category": "Commercial",
     "service": "Design",
     "client": "Aydıner Construction",
     "section": false
   },
   {
     "project": "Optimum Shopping Mall Cinema and Lunapark Project",
+    "category": "Commercial",
     "service": "Design + PM",
     "client": "Group Tuze",
     "section": false
   },
   {
     "project": "IC Office Building Project",
+    "category": "Commercial",
     "service": "Design + PM",
     "client": "IC İbrahim Çeçen Holding",
     "section": false
   },
   {
     "project": "Çeşme Thermal HOtel / Hotel and SPA",
+    "category": "Hospitality",
     "service": "Design + PM",
     "client": "IC İbrahim Çeçen Holding",
     "section": false
   },
   {
     "project": "İzmir Halkapınar Metro Station",
+    "category": "Transportation",
     "service": "Design",
     "client": "Yapı Teknik",
     "section": false
   },
   {
     "project": "Marmaray CR1 Depot and Administration Buildings",
+    "category": "Transportation",
     "service": "Design",
     "client": "Alstom-Marubeni-Doğuş",
     "section": false
   },
   {
     "project": "Primary School in Krosnadar",
+    "category": "Educational",
     "service": "Design",
     "client": "Krasnodar Governorship",
     "section": false
   },
   {
     "project": "Sabiha Gökçen Airport Development Project",
+    "category": "Transportation",
     "service": "Design",
     "client": "IC İbrahim Çeçen Holding",
     "section": false
   },
   {
     "project": "İzmir Efes Hotel Development Project",
+    "category": "Hospitality",
     "service": "Design",
     "client": "IC İbrahim Çeçen Holding",
     "section": false
   },
   {
     "project": "İstanbul Hilton Development Project",
+    "category": "Hospitality",
     "service": "Design",
     "client": "IC İbrahim Çeçen Holding",
     "section": false
   },
   {
     "project": "Buyuk Ankara Hotel Renovation Project",
+    "category": "Hospitality",
     "service": "Design",
     "client": "IC İbrahim Çeçen Holding",
     "section": false
   },
   {
     "project": "Marmaray Metro Stations CR1",
+    "category": "Transportation",
     "service": "Design",
     "client": "Alstom-Marubeni-Doğuş",
     "section": false
   },
   {
     "project": "Angora Sheraton Hotel",
+    "category": "Hospitality",
     "service": "Design",
     "client": "Özkaynak Yayınları",
     "section": false
   },
   {
     "project": "Terradesir Housing Project",
+    "category": "Residential",
     "service": "Design",
     "client": "Rantaş A.Ş.",
     "section": false
   },
   {
     "project": "Penguen Cafe",
+    "category": "Gastronomy- F&B",
     "service": "Design + Construction",
     "client": "Penguen Cafe",
     "section": false
   },
   {
     "project": "Karum Gate",
+    "category": "Commercial",
     "service": "Design",
     "client": "Karum Shopping Mall",
     "section": false
   },
   {
     "project": "Macka Hotel Renovation Project",
+    "category": "Hospitality",
     "service": "*",
     "client": "T.R. General Dir. of Retirement Fund",
     "section": false
   },
   {
     "project": "Buyuk Tarabya HOtel / Hotel",
+    "category": "Hospitality",
     "service": "*",
     "client": "T.R. General Dir. of Retirement Fund",
     "section": false
   },
   {
     "project": "Celik Palas Hotel Renovation Project",
+    "category": "Hospitality",
     "service": "*",
     "client": "T.R. General Dir. of Retirement Fund",
     "section": false
   },
   {
     "project": "Buyuk Efes Hotel Renovation Project",
+    "category": "Hospitality",
     "service": "*",
     "client": "T.R. General Dir. of Retirement Fund",
     "section": false
   },
   {
     "project": "Stad Radisson Hotel Renovation Project",
+    "category": "Hospitality",
     "service": "*",
     "client": "T.R. General Dir. of Retirement Fund",
     "section": false
   },
   {
     "project": "Buyuk Ankara Hotel Renovation Project",
+    "category": "Hospitality",
     "service": "*",
     "client": "T.R. General Dir. of Retirement Fund",
     "section": false
   },
   {
     "project": "Ankara Hilton Room Renovation Project",
+    "category": "Hospitality",
     "service": "*",
     "client": "Sabancı Holding, AEO A.Ş.",
     "section": false
   },
   {
     "project": "Buenos Aires Restaurant",
+    "category": "Gastronomy- F&B",
     "service": "Design + Construction",
     "client": "A.Mehter",
     "section": false
   },
   {
     "project": "Sabancı University Project",
+    "category": "Educational",
     "service": "*",
     "client": "Sabancı Holding",
     "section": false
   },
   {
     "project": "Mersin Hilton Room Renovation Project",
+    "category": "Hospitality",
     "service": "*",
     "client": "Sabancı Holding, TURSA A.Ş.",
     "section": false
   },
   {
     "project": "Adana Hilton Project",
+    "category": "Hospitality",
     "service": "*",
     "client": "Sabancı Holding, TURSA A.Ş.",
     "section": false
   },
   {
     "project": "Park SA Hilton Renovation Project",
+    "category": "Hospitality",
     "service": "*",
     "client": "Sabancı Holding, TURSA A.Ş.",
     "section": false

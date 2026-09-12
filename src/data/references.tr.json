@@ -1,900 +1,1071 @@
 [
   {
-    "project": "Devam Eden Projeler",
+    "project": "Devam Eden İşler",
+    "category": "",
     "service": "",
     "client": "",
     "section": true
   },
   {
-    "project": "Konut Projesi",
+    "project": "Konut Projesi - Athens",
+    "category": "Konut",
     "service": "Proje + İnşaat",
     "client": "",
     "section": false
   },
   {
+    "project": "ODTU Fen Tek Lisesi Yurt Binası",
+    "category": "Eğitim",
+    "service": "Proje",
+    "client": "ODTÜ Geliştirme Vakfı",
+    "section": false
+  },
+  {
+    "project": "Ankara Hilton SA Oteli Kral Daireleri - Yenileme",
+    "category": "Konaklama",
+    "service": "Proje + İnşaat",
+    "client": "Sabancı Holding, AEO, Hilton",
+    "section": false
+  },
+  {
+    "project": "ODTÜ Misafirhane",
+    "category": "Konaklama",
+    "service": "Proje",
+    "client": "ODTÜ Geliştirme Vakfı",
+    "section": false
+  },
+  {
     "project": "Sandvik Ofisi Renovasyon",
+    "category": "Ticari",
     "service": "Proje + İnşaat",
     "client": "Sandvik",
     "section": false
   },
   {
-    "project": "ODTU Teknokent GO – Kampüs",
+    "project": "ODTU Teknokent GO - Kampüs",
+    "category": "Ticari",
     "service": "Proje + İnşaat",
     "client": "ODTÜ Teknokent",
     "section": false
   },
   {
     "project": "Doktor Kliniği",
+    "category": "Sağlık",
     "service": "Proje + İnşaat",
     "client": "Dr. Nural Aydın",
     "section": false
   },
   {
-    "project": "Lycée Charles de Gaulle – Renovasyon",
+    "project": "Lycée Charles de Gaulle - Renovasyon",
+    "category": "Eğitim",
     "service": "Proje + İnşaat",
     "client": "Charles de Gaulle Lisesi",
     "section": false
   },
   {
-    "project": "Tamamlanan Projeler",
+    "project": "Tamamlanan İşler",
+    "category": "",
     "service": "",
     "client": "",
     "section": true
   },
   {
-    "project": "ODTU Teknokent GO – Kilis",
+    "project": "ODTU Teknokent GO - Kilis",
+    "category": "Ticari",
     "service": "Proje + İnşaat",
     "client": "ODTÜ Teknokent",
     "section": false
   },
   {
     "project": "ODTU Padel Sahaları",
+    "category": "Ticari",
     "service": "Proje + İnşaat",
     "client": "ODTÜ Teknokent",
     "section": false
   },
   {
     "project": "ODTU Teknokent ATOM PLUS",
+    "category": "Ticari",
     "service": "Proje + İnşaat",
     "client": "ODTÜ Teknokent",
     "section": false
   },
   {
     "project": "Italyan Elçiliği Yeni Bina Renovasyon",
+    "category": "Ticari",
     "service": "Proje",
     "client": "Italyan Büyükelçiliği",
     "section": false
   },
   {
     "project": "ODTU Spor Salonları ve Spor Alanları",
+    "category": "Ticari",
     "service": "Proje + İnşaat",
     "client": "ODTÜ Teknokent",
     "section": false
   },
   {
     "project": "ODTU Teknokent ATOM",
+    "category": "Ticari",
     "service": "Proje + İnşaat",
     "client": "ODTÜ Teknokent",
     "section": false
   },
   {
     "project": "ODTU Teknokent TTO Ofisi",
+    "category": "Ticari",
     "service": "Proje + İnşaat",
     "client": "ODTÜ Teknokent",
     "section": false
   },
   {
     "project": "Fransız Elçiliği Fransız Okulu Anaokulu Binası Renovayon",
+    "category": "Eğitim",
     "service": "Proje + İnşaat",
     "client": "Charles de Gaulle Lisesi",
     "section": false
   },
   {
-    "project": "DG Garage – Bridgestone Ankara Merkez Ofisi",
+    "project": "DG Garage - Bridgestone Ankara Merkez Ofisi",
+    "category": "Ticari",
     "service": "Proje + İnşaat",
     "client": "Çiftay İnşaat",
     "section": false
   },
   {
     "project": "ODTÜ Teknokent TTO  Projesi",
+    "category": "Ticari",
     "service": "Proje + İnşaat",
     "client": "ODTÜ Teknokent",
     "section": false
   },
   {
     "project": "ODTÜ Teknokent ASTEC  Projesi",
+    "category": "Ticari",
     "service": "Proje + İnşaat",
     "client": "ODTÜ Teknokent",
     "section": false
   },
   {
     "project": "Magic Lab Merkez Ofis",
+    "category": "Ticari",
     "service": "Proje + İnşaat",
     "client": "Magic Lab",
     "section": false
   },
   {
     "project": "ODTÜ Teknokent ETKİM  Projesi",
+    "category": "Ticari",
     "service": "Proje + İnşaat",
     "client": "ODTÜ Teknokent",
     "section": false
   },
   {
     "project": "Ankara Hilton SA Oteli Apart Katları Yenileme Projesi",
+    "category": "Konaklama",
     "service": "Proje + İnşaat",
     "client": "Sabancı Holding, AEO, Hilton",
     "section": false
   },
   {
-    "project": "Malta Elçiliği – İstanbul",
+    "project": "Malta Elçiliği - İstanbul",
+    "category": "Kamu",
     "service": "Proje Yönetimi",
     "client": "Malta Dışişleri Bakanlığı",
     "section": false
   },
   {
     "project": "ODTÜ Teknokent Kuluçka Merkezi",
+    "category": "Ticari",
     "service": "Proje",
     "client": "ODTÜ Teknokent",
     "section": false
   },
   {
     "project": "Doktor Kliniği",
+    "category": "Sağlık",
     "service": "Proje + İnşaat",
     "client": "Dr. Nural Aydın",
     "section": false
   },
   {
     "project": "Katar Havayolları Ofisi Renovasyon",
+    "category": "Ticari",
     "service": "Proje + İnşaat",
     "client": "Katar Havayolları",
     "section": false
   },
   {
     "project": "Plume Akademi",
+    "category": "Sağlık + Eğitim",
     "service": "Proje + İnşaat",
     "client": "Bayraktar",
     "section": false
   },
   {
     "project": "ODTÜ ATOM Ofisi",
+    "category": "Ticari",
     "service": "Proje + İnşaat",
     "client": "ODTÜ Teknokent",
     "section": false
   },
   {
     "project": "Hollanda Büyükelçiliği Etap 2",
+    "category": "Kamu",
     "service": "İnşaat",
     "client": "Hollanda Dışişleri Bakanlığı",
     "section": false
   },
   {
     "project": "Charles de Gaulle Lisesi Renovasyon Etap 3",
+    "category": "Eğitim",
     "service": "Proje + İnşaat",
     "client": "Charles de Gaulle Lisesi",
     "section": false
   },
   {
-    "project": "Malta Büyükelçiliği – Ankara",
+    "project": "Malta Büyükelçiliği - Ankara",
+    "category": "Kamu",
     "service": "Proje Yönetimi",
     "client": "Malta Dışişleri Bakanlığı",
     "section": false
   },
   {
     "project": "Tüprag Merkez Ofis",
+    "category": "Ticari",
     "service": "Proje",
     "client": "Eldorado Gold Corporation",
     "section": false
   },
   {
     "project": "Ericsson Ofisi Renovasyon",
+    "category": "Ticari",
     "service": "İnşaat",
     "client": "Ericsson",
     "section": false
   },
   {
     "project": "Udemy Ofisi",
+    "category": "Ticari",
     "service": "İnşaat",
     "client": "Udemy",
     "section": false
   },
   {
     "project": "Leonardo Ofisi",
+    "category": "Ticari",
     "service": "Proje + İnşaat",
     "client": "Leonardo S.p.A.",
     "section": false
   },
   {
     "project": "Aytim Grup Fabrikası",
+    "category": "Endüstriyel",
     "service": "Proje",
     "client": "Aytim Grup",
     "section": false
   },
   {
     "project": "Katar Havayolları Merkez Ofis",
+    "category": "Ticari",
     "service": "İnşaat",
     "client": "Katar Havayolları",
     "section": false
   },
   {
     "project": "Hollanda Büyükelçiliği Etap 1",
+    "category": "Kamu",
     "service": "İnşaat",
     "client": "Hollanda Dışişleri Bakanlığı",
     "section": false
   },
   {
     "project": "Sandvik Ofisi",
+    "category": "Ticari",
     "service": "Proje + İnşaat",
     "client": "Sandvik",
     "section": false
   },
   {
     "project": "Doktor Ofisi",
+    "category": "Sağlık",
     "service": "Proje + İnşaat",
     "client": "Dr. Nural Aydın",
     "section": false
   },
   {
     "project": "Tüprag Ofisi Renovasyon Etap 2",
+    "category": "Ticari",
     "service": "Proje + İnşaat",
     "client": "Eldorado Gold Corporation",
     "section": false
   },
   {
     "project": "Tüprag Ofisi Renovasyon Etap 1",
+    "category": "Ticari",
     "service": "Proje + İnşaat",
     "client": "Eldorado Gold Corporation",
     "section": false
   },
   {
     "project": "İtalya Büyükelçiliği Renovasyon",
+    "category": "Kamu",
     "service": "Proje + İnşaat",
     "client": "İtalya Büyükelçiliği",
     "section": false
   },
   {
     "project": "U-Evi",
+    "category": "Konut",
     "service": "Proje",
     "client": "U. Ailesi",
     "section": false
   },
   {
     "project": "Charles de Gaulle Lisesi Renovasyon Etap 2",
+    "category": "Eğitim",
     "service": "Proje + İnşaat",
     "client": "Charles de Gaulle Lisesi",
     "section": false
   },
   {
     "project": "Plume Klinik",
+    "category": "Sağlık",
     "service": "Proje + İnşaat",
     "client": "Bayraktar",
     "section": false
   },
   {
     "project": "Marriot Otel",
+    "category": "Konaklama",
     "service": "Proje Yönetimi",
     "client": "NG",
     "section": false
   },
   {
     "project": "Mekatronik Merkez Ofis",
+    "category": "Ticari",
     "service": "Proje",
     "client": "Mekatronik",
     "section": false
   },
   {
     "project": "BESA British School Renovasyon Etap 1",
+    "category": "Eğitim",
     "service": "Proje + İnşaat",
     "client": "BESA-British Embassy",
     "section": false
   },
   {
     "project": "Orbis Teknoloji Ofisi",
+    "category": "Ticari",
     "service": "Proje + İnşaat",
     "client": "Orbis",
     "section": false
   },
   {
     "project": "Charles de Gaulle Lisesi Renovasyon Etap 1",
+    "category": "Eğitim",
     "service": "Proje + İnşaat",
     "client": "Charles de Gaulle Lisesi",
     "section": false
   },
   {
     "project": "Ankara Hilton SA Premium Boardroom",
+    "category": "Konaklama",
     "service": "Proje + İnşaat",
-    "client": "Sabancı – AEO & Hilton",
+    "client": "Sabancı - AEO & Hilton",
     "section": false
   },
   {
     "project": "S-Evi",
+    "category": "Konut",
     "service": "Proje + İnşaat",
     "client": "Simtes",
     "section": false
   },
   {
     "project": "Seres Merkez Ofisi",
+    "category": "Ticari",
     "service": "Proje + İnşaat",
     "client": "Seres Medikal",
     "section": false
   },
   {
     "project": "Ahmet Yay Ofisi",
+    "category": "Ticari",
     "service": "Proje + İnşaat",
     "client": "Ahmet Yay",
     "section": false
   },
   {
     "project": "OpsGenie Türkiye Ofisi",
+    "category": "Ticari",
     "service": "Proje",
     "client": "OpsGenie",
     "section": false
   },
   {
     "project": "Metropol Merkez Ofis",
+    "category": "Ticari",
     "service": "Proje",
     "client": "Metropol Yapı Denetim",
     "section": false
   },
   {
     "project": "Limeks Merkez Ofis",
+    "category": "Ticari",
     "service": "Proje + İnşaat",
     "client": "Limeks",
     "section": false
   },
   {
     "project": "Birleşmiş Milletler Nüfus Fonu Ofisi",
+    "category": "Ticari",
     "service": "İnşaat",
     "client": "Birleşmiş Milletler Nüfus Fonu",
     "section": false
   },
   {
     "project": "Otel Tunalı Renovasyon",
+    "category": "Konaklama",
     "service": "Proje + İnşaat",
     "client": "Otel Tunalı",
     "section": false
   },
   {
     "project": "Pegasus Savunma Ofisi",
+    "category": "Ticari",
     "service": "Proje + İnşaat",
     "client": "Pegasus Savunma",
     "section": false
   },
   {
     "project": "Ankara Hilton SA Sağlık Kulübü",
+    "category": "Konaklama",
     "service": "Proje + İnşaat",
     "client": "Sabancı Holding, AEO, Hilton",
     "section": false
   },
   {
     "project": "Norveç Elçilik",
+    "category": "Kamu",
     "service": "İnşaat",
     "client": "Norveç Elçiliği",
     "section": false
   },
   {
     "project": "ICON Ofisi",
+    "category": "Ticari",
     "service": "İnşaat",
     "client": "ICON",
     "section": false
   },
   {
     "project": "Securitas İstanbul Bölge Ofisi",
+    "category": "Ticari",
     "service": "Proje",
     "client": "Securitas",
     "section": false
   },
   {
     "project": "Reis Merkez Ofis",
+    "category": "Ticari",
     "service": "Proje + İnşaat",
     "client": "Reis",
     "section": false
   },
   {
     "project": "BP Ankara Ofisi Renovasyon",
+    "category": "Ticari",
     "service": "Proje + İnşaat",
     "client": "BP",
     "section": false
   },
   {
     "project": "Ofis (Besa Kule)",
+    "category": "Ticari",
     "service": "Proje + İnşaat",
     "client": "A.Ç.",
     "section": false
   },
   {
     "project": "Pasifik İnşaat Merkez Ofisi",
+    "category": "Ticari",
     "service": "Proje",
     "client": "Pasifik İnşaat",
     "section": false
   },
   {
     "project": "Keifi",
+    "category": "Ticari",
     "service": "Proje",
     "client": "Pasifik İnşaat",
     "section": false
   },
   {
     "project": "Honeywell",
+    "category": "Ticari",
     "service": "Proje + İnşaat",
     "client": "Honeywell",
     "section": false
   },
   {
     "project": "DECE Yazılım Ofisi",
+    "category": "Ticari",
     "service": "Proje + İnşaat",
     "client": "DECE Software",
     "section": false
   },
   {
     "project": "Genel Energy Süleymaniye Ofisi",
+    "category": "Ticari",
     "service": "Proje + PY",
     "client": "Genel Energy International",
     "section": false
   },
   {
     "project": "TTopco Ankara Ofisi",
+    "category": "Ticari",
     "service": "Proje + İnşaat",
     "client": "TTopco",
     "section": false
   },
   {
     "project": "TTopco Erbil Ofisi",
+    "category": "Ticari",
     "service": "Proje + PY",
     "client": "TTopco",
     "section": false
   },
   {
     "project": "Ankara Hilton SA Yatak Katları Renovasyon",
+    "category": "Konaklama",
     "service": "Proje + İnşaat",
     "client": "Sabancı Holding, AEO A.Ş.",
     "section": false
   },
   {
     "project": "Genel Energy Erbil Ofisi",
+    "category": "Ticari",
     "service": "Proje + PY",
     "client": "Genel Energy International",
     "section": false
   },
   {
     "project": "Çiftay İnşaat Merkez Ofisi",
+    "category": "Ticari",
     "service": "Proje + İnşaat",
     "client": "Çiftay İnşaat",
     "section": false
   },
   {
     "project": "Kayseri Hilton Renovasyon",
+    "category": "Konaklama",
     "service": "Proje Yönetimi",
     "client": "Başyazıcı",
     "section": false
   },
   {
-    "project": "Mahall Ankara – Konut Projesi",
+    "project": "Mahall Ankara - Konut Projesi",
+    "category": "Konut",
     "service": "Proje",
     "client": "Türkerler İnşaat",
     "section": false
   },
   {
-    "project": "Mahall Ankara – Satış Ofisi",
+    "project": "Mahall Ankara - Satış Ofisi",
+    "category": "Ticari",
     "service": "Proje",
     "client": "Türkerler İnşaat",
     "section": false
   },
   {
     "project": "Genel Energy Ankara Ofisi",
+    "category": "Ticari",
     "service": "Proje + İnşaat",
     "client": "Genel Energy",
     "section": false
   },
   {
     "project": "Ankara Hilton SA Yenileme Projesi",
+    "category": "Konaklama",
     "service": "Proje Yönetimi",
     "client": "Sabancı Holding, AEO A.Ş.",
     "section": false
   },
   {
     "project": "Alstom Türkiye Ofisi",
+    "category": "Ticari",
     "service": "Proje + PY",
     "client": "Alstom Türkiye",
     "section": false
   },
   {
     "project": "Fulbright Ankara Ofisi",
+    "category": "Ticari",
     "service": "Proje + İnşaat",
     "client": "Fullbright",
     "section": false
   },
   {
     "project": "M. Merey Ofis",
+    "category": "Ticari",
     "service": "Proje + İnşaat",
     "client": "Macit Merey",
     "section": false
   },
   {
     "project": "Mona Otel",
+    "category": "Konaklama",
     "service": "Proje",
     "client": "FTZ",
     "section": false
   },
   {
     "project": "Aecom Ofisi",
+    "category": "Ticari",
     "service": "Proje + İnşaat",
     "client": "Aecom",
     "section": false
   },
   {
     "project": "S. Ozat Ofis",
+    "category": "Ticari",
     "service": "Proje + İnşaat",
     "client": "Sabriye Ozat",
     "section": false
   },
   {
     "project": "Pegasus Savunma Ofis",
+    "category": "Ticari",
     "service": "Proje + İnşaat",
     "client": "Pegasus Savunma",
     "section": false
   },
   {
     "project": "Bayraktar Merkez Ofis",
+    "category": "Ticari",
     "service": "Proje + İnşaat",
-    "client": "Bayraktar Makina",
+    "client": "Bayraktar Makina ",
     "section": false
   },
   {
     "project": "Rumeli Suites Otel",
+    "category": "Konaklama",
     "service": "Proje + İnşaat",
     "client": "Ayhan / Metin",
     "section": false
   },
   {
     "project": "M.Ozgul / L.Akca Ofis",
+    "category": "Ticari",
     "service": "Proje + İnşaat",
     "client": "M.Ozgul / L.Akca",
     "section": false
   },
   {
     "project": "Subnet Ofisi",
+    "category": "Ticari",
     "service": "Proje",
     "client": "Subnet",
     "section": false
   },
   {
     "project": "Ertunç Özcan Ofisi",
+    "category": "Ticari",
     "service": "Proje + İnşaat",
     "client": "Ertunç Özcan",
     "section": false
   },
   {
     "project": "Prasad Evi",
+    "category": "Konut",
     "service": "Proje + PY",
     "client": "Soma Enterprises",
     "section": false
   },
   {
     "project": "Reha Konut",
+    "category": "Konut",
     "service": "Proje",
     "client": "Reha Insaat",
     "section": false
   },
   {
     "project": "EMC Corporation Ofisi",
+    "category": "Ticari",
     "service": "Proje + İnşaat",
     "client": "EMC Corporation",
     "section": false
   },
   {
     "project": "Y. Turkal Evi",
+    "category": "Konut",
     "service": "Proje + PY",
     "client": "Turkallar",
     "section": false
   },
   {
     "project": "Borusan EnBW Enerji Ofisi",
+    "category": "Ticari",
     "service": "Proje + İnşaat",
     "client": "Borusan EnBW Energy",
     "section": false
   },
   {
     "project": "Katar Havayolları Ofisi",
+    "category": "Ticari",
     "service": "Proje + İnşaat",
     "client": "Katar Havayolları",
     "section": false
   },
   {
     "project": "Tepe Genel Merkezi",
+    "category": "Ticari",
     "service": "Proje",
     "client": "Tepe İnşaat",
     "section": false
   },
   {
     "project": "Securitas Alarm İzleme Merkezi",
+    "category": "Ticari",
     "service": "Proje + İnşaat",
     "client": "Securitas Group",
     "section": false
   },
   {
     "project": "Ankara Hilton SA Genel Mekanlar Renovasyon",
+    "category": "Konaklama",
     "service": "Proje + PY",
     "client": "Sabancı Holding, AEO A.Ş.",
     "section": false
   },
   {
     "project": "Securitas Marmara Bölge Müdürlüğü",
+    "category": "Ticari",
     "service": "Proje + İnşaat",
     "client": "Securitas Group",
     "section": false
   },
   {
     "project": "Securitas Anadolu Bölge Müdürlüğü",
+    "category": "Ticari",
     "service": "Proje + İnşaat",
     "client": "Securitas Group",
     "section": false
   },
   {
     "project": "Securitas Çukurova Bölge Müdürlüğü",
+    "category": "Ticari",
     "service": "Proje + İnşaat",
     "client": "Securitas Group",
     "section": false
   },
   {
     "project": "Murphy's Dance Bar",
+    "category": "Ticari",
     "service": "Proje + İnşaat",
     "client": "Metin Murphy",
     "section": false
   },
   {
     "project": "Doğuş Grubu Yönetim Binası",
+    "category": "Ticari",
     "service": "Proje",
     "client": "Doğuş Grubu",
     "section": false
   },
   {
     "project": "Libya Hostel",
+    "category": "Konaklama",
     "service": "Proje",
     "client": "YO İnşaat",
     "section": false
   },
   {
     "project": "Securitas Group Marmara Avrupa Bölge Müdürlüğü",
+    "category": "Ticari",
     "service": "Proje + İnşaat",
     "client": "Securitas Group",
     "section": false
   },
   {
     "project": "Atyrau Havaalanı",
+    "category": "Ulaşım",
     "service": "Proje + PY",
     "client": "Mağdenli",
     "section": false
   },
   {
     "project": "Dubai Milestone Residence",
+    "category": "Konut",
     "service": "Proje + PY",
     "client": "Gulermak International FZCO",
     "section": false
   },
   {
     "project": "Coffeeshop Company Minasera AVM",
+    "category": "Gastronomi",
     "service": "Proje + İnşaat",
     "client": "Budakalti Turizm",
     "section": false
   },
   {
     "project": "Coffeeshop Company CEPA AVM",
+    "category": "Gastronomi",
     "service": "Proje + İnşaat",
     "client": "Budakalti Turizm",
     "section": false
   },
   {
     "project": "Safisa Otel SPA",
+    "category": "SPA",
     "service": "Proje + PY",
     "client": "AST Russia",
     "section": false
   },
   {
     "project": "Ankamall Buz pateni",
+    "category": "Ticari",
     "service": "Proje",
     "client": "Kaptan",
     "section": false
   },
   {
     "project": "Securitas Group Okmeydanı Ofis",
+    "category": "Ticari",
     "service": "Proje + İnşaat",
     "client": "Securitas Group",
     "section": false
   },
   {
     "project": "Securitas Group Merkez Ofis",
+    "category": "Ticari",
     "service": "Proje + İnşaat",
     "client": "Securitas Group",
     "section": false
   },
   {
     "project": "MEB Sakıp Sabancı Salonu",
+    "category": "Ticari",
     "service": "Proje + İnşaat",
     "client": "Sabancı Holding, VAKSA",
     "section": false
   },
   {
     "project": "SPA Budapeşte",
+    "category": "SPA",
     "service": "Proje",
     "client": "Racz",
     "section": false
   },
   {
     "project": "SPA Gazella",
+    "category": "SPA",
     "service": "Proje",
     "client": "Spa Gazella",
     "section": false
   },
   {
     "project": "Parla Eğitim Merkezi",
+    "category": "Eğitim",
     "service": "Proje + İnşaat",
     "client": "Parla Eğitim",
     "section": false
   },
   {
     "project": "Xanadu Resort Otel / Hoteli, Alışveriş Bölümü",
+    "category": "Ticari",
     "service": "Proje",
     "client": "Aydıner İnşaat",
     "section": false
   },
   {
     "project": "Optimum AVM Sinema ve Eğlence Merkezi",
+    "category": "Ticari",
     "service": "Proje + PY",
     "client": "Tüze Grubu",
     "section": false
   },
   {
     "project": "IC İbrahim Çeçen Holding Ofis Binası",
+    "category": "Ticari",
     "service": "Proje + PY",
     "client": "IC İbrahim Çeçen Holding",
     "section": false
   },
   {
     "project": "Cesme Termal Otel",
+    "category": "Konaklama",
     "service": "Proje + PY",
     "client": "IC İbrahim Çeçen Holding",
     "section": false
   },
   {
     "project": "Izmir Metrosu Halkapınar İstasyonu",
+    "category": "Ulaşım",
     "service": "Proje",
     "client": "Yapı Teknik",
     "section": false
   },
   {
     "project": "Marmaray CR1 Depo ve İdari Binaları (9 adet Bina)",
+    "category": "Ulaşım",
     "service": "Proje",
     "client": "Alstom-Marubeni-Doğuş",
     "section": false
   },
   {
     "project": "Krasnodar İlkokul",
+    "category": "Eğitim",
     "service": "Proje",
     "client": "Krasnodar Valiliği",
     "section": false
   },
   {
     "project": "Sabiha Gökçen Havaalanı Önerisi",
+    "category": "Ulaşım",
     "service": "Proje",
     "client": "IC İbrahim Çeçen Holding",
     "section": false
   },
   {
     "project": "İzmir Efes Oteli Geliştirme Projesi",
+    "category": "Konaklama",
     "service": "Proje",
     "client": "IC İbrahim Çeçen Holding",
     "section": false
   },
   {
     "project": "İstanbul Hilton Oteli Geliştirme Projesi",
+    "category": "Konaklama",
     "service": "Proje",
     "client": "IC İbrahim Çeçen Holding",
     "section": false
   },
   {
     "project": "Büyük Ankara Oteli Geliştirme Projesi",
+    "category": "Konaklama",
     "service": "Proje",
     "client": "IC İbrahim Çeçen Holding",
     "section": false
   },
   {
     "project": "Marmaray Metro İstasyonları (37 adet istasyon)",
+    "category": "Ulaşım",
     "service": "Proje",
     "client": "Alstom-Marubeni-Doğuş",
     "section": false
   },
   {
     "project": "Angora Sheraton Oteli",
+    "category": "Konaklama",
     "service": "Proje",
     "client": "Özkaynak Yayınları",
     "section": false
   },
   {
     "project": "Terradesir Konutları",
+    "category": "Konut",
     "service": "Proje",
     "client": "Rantaş A.Ş.",
     "section": false
   },
   {
     "project": "Penguen Pastanesi",
+    "category": "Gastronomi",
     "service": "Proje + İnşaat",
     "client": "Penguen Pastanesi",
     "section": false
   },
   {
     "project": "Karum Gate",
+    "category": "Ticari",
     "service": "Proje",
     "client": "Karum Alışveriş Merkezi",
     "section": false
   },
   {
     "project": "Maçka Oteli",
+    "category": "Konaklama",
     "service": "*",
     "client": "T.C. Emekli Sandığı Genel Müd.",
     "section": false
   },
   {
     "project": "Büyük Tarabya Oteli",
+    "category": "Konaklama",
     "service": "*",
     "client": "T.C. Emekli Sandığı Genel Müd.",
     "section": false
   },
   {
     "project": "Çelik Palas Oteli",
+    "category": "Konaklama",
     "service": "*",
     "client": "T.C. Emekli Sandığı Genel Müd.",
     "section": false
   },
   {
     "project": "Büyük Efes Oteli",
+    "category": "Konaklama",
     "service": "*",
     "client": "T.C. Emekli Sandığı Genel Müd.",
     "section": false
   },
   {
     "project": "Stad Radisson Oteli",
+    "category": "Konaklama",
     "service": "*",
     "client": "T.C. Emekli Sandığı Genel Müd.",
     "section": false
   },
   {
     "project": "Büyük Ankara Oteli",
+    "category": "Konaklama",
     "service": "*",
     "client": "T.C. Emekli Sandığı Genel Müd.",
     "section": false
   },
   {
     "project": "Ankara Hilton SA Oteli Yatak Katları Yenileme Projesi",
+    "category": "Konaklama",
     "service": "*",
     "client": "Sabancı Holding, AEO A.Ş.",
     "section": false
   },
   {
     "project": "Buenos Aires Restoran",
+    "category": "Gastronomi",
     "service": "Proje + İnşaat",
     "client": "A.Mehter",
     "section": false
   },
   {
     "project": "Sabancı Üniversitesi",
+    "category": "Eğitim",
     "service": "*",
     "client": "Sabancı Holding",
     "section": false
   },
   {
     "project": "Mersin Hilton SA Oteli Yatak Katları Yenileme Projesi",
+    "category": "Konaklama",
     "service": "*",
     "client": "Sabancı Holding, TURSA A.Ş.",
     "section": false
   },
   {
     "project": "Adana Hilton SA Oteli",
+    "category": "Konaklama",
     "service": "*",
     "client": "Sabancı Holding, TURSA A.Ş.",
     "section": false
   },
   {
     "project": "Park SA Hilton Oteli Genel Mekanlar Yenileme Projesi",
+    "category": "Konaklama",
     "service": "*",
     "client": "Sabancı Holding, TURSA A.Ş.",
     "section": false
