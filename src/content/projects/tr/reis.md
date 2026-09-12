@@ -4,6 +4,10 @@ lang: tr
 slug: "reis"
 translationKey: "reis"
 sector: "workplace"
+client: "Reis"
+location: "Ankara, Türkiye"
+year: "2016"
+area: "400 m²"
 order: 43
 cover: "/images/projects/reis/img-01.webp"
 gallery:

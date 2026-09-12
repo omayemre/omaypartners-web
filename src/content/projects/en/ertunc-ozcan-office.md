@@ -4,6 +4,10 @@ lang: en
 slug: "ertunc-ozcan-office"
 translationKey: "ertunc-ozcan-office"
 sector: "workplace"
+client: "Ertunc Ozcan"
+location: "Ankara, Turkey"
+year: "2012"
+area: "1,000 m²"
 order: 33
 cover: "/images/projects/ertunc-ozcan-office/img-01.webp"
 gallery:

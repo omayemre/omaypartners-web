@@ -4,6 +4,10 @@ lang: en
 slug: "pegasus-savunma-office"
 translationKey: "pegasus-savunma-office"
 sector: "workplace"
+client: "Pegasus Defence"
+location: "Ankara, Turkey"
+year: "2016"
+area: "200 m²"
 order: 36
 cover: "/images/projects/pegasus-savunma-office/img-01.webp"
 gallery:

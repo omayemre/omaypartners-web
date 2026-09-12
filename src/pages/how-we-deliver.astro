@@ -1,29 +1,36 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import { url } from '../lib/url';
 
 const stages = [
   {
     name: 'Brief',
+    image: '/images/site/process/01-brief.webp',
     body: 'We listen first — your goals, your users, your constraints, your budget and timeline. This stage ends with a written brief we both sign off on before any design starts.'
   },
   {
     name: 'Concept',
+    image: '/images/site/process/02-concept.webp',
     body: 'Early spatial ideas and options, tested against the brief. You approve a single direction before we take it further.'
   },
   {
     name: 'Design Development',
+    image: '/images/site/process/03-design-development.webp',
     body: 'The concept resolved into real materials, finishes, systems and costs — the point where a design becomes something that can actually be built, and priced.'
   },
   {
     name: 'Construction Documents',
+    image: '/images/site/process/04-construction-documents.webp',
     body: 'Detailed drawings and specifications, sufficient for accurate pricing and for permitting.'
   },
   {
     name: 'Construction / Fit-Out',
+    image: '/images/site/process/05-construction.webp',
     body: 'We build it — either directly, or as project manager coordinating contractors you already trust. Either way, the same team that designed it stays on site through delivery.'
   },
   {
     name: 'Handover',
+    image: '/images/site/process/06-handover.webp',
     body: 'Snagging, as-built documentation, and a walkthrough before you move in.'
   }
 ];
@@ -47,6 +54,13 @@ const stages = [
     <ol class="mt-6 space-y-8">
       {stages.map((stage, i) => (
         <li class="flex gap-5">
+          <img
+            src={url(stage.image)}
+            alt=""
+            class="aspect-square h-20 w-20 shrink-0 object-cover"
+            loading="lazy"
+            decoding="async"
+          />
           <span class="font-sans-nums shrink-0 text-table text-ink-30">{String(i + 1).padStart(2, '0')}</span>
           <div>
             <h3 class="text-h3">{stage.name}</h3>

@@ -14,7 +14,7 @@ const base = lang === 'en' ? '' : '/tr';
 
 <div class="grid grid-cols-1 gap-x-8 gap-y-12 md:grid-cols-2 lg:grid-cols-3">
   {projects.map((project) => (
-    <a href={url(`${base}/${project.data.slug}/`)} class="omay-tile group block hover:opacity-80">
+    <a href={url(`${base}/${project.data.slug}/`)} class="block hover:opacity-80">
       {project.data.cover && (
         <img
           src={url(project.data.cover)}

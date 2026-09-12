@@ -4,6 +4,10 @@ lang: tr
 slug: "otel-tunali"
 translationKey: "otel-tunali"
 sector: "hospitality"
+client: "Otel Tunalı"
+location: "Ankara, Türkiye"
+year: "2016"
+area: "1.000 m²"
 order: 44
 cover: "/images/projects/otel-tunali/img-01.webp"
 gallery:

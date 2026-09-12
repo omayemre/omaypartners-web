@@ -4,6 +4,10 @@ lang: tr
 slug: "securitas-istanbul-ofisi"
 translationKey: "securitas-istanbul-office"
 sector: "workplace"
+client: "Securitas"
+location: "İstanbul, Türkiye"
+year: "2016"
+area: "1.400 m²"
 order: 26
 cover: "/images/projects/securitas-istanbul-office/img-01.webp"
 gallery:

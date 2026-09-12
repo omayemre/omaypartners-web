@@ -4,6 +4,10 @@ lang: tr
 slug: "kayseri-hilton-oteli"
 translationKey: "kayseri-hilton-hotel"
 sector: "hospitality"
+client: "Başyazıcı"
+location: "Kayseri, Türkiye"
+year: "2013"
+area: "30.000 m²"
 order: 24
 cover: "/images/projects/kayseri-hilton-hotel/img-01.webp"
 gallery:

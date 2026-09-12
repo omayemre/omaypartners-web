@@ -50,7 +50,7 @@ const allProjects = lang === 'en' ? 'All projects' : 'Tüm projeler';
   </div>
   <div class="grid grid-cols-1 gap-x-8 gap-y-12 md:grid-cols-2 lg:grid-cols-3">
     {tiles.map((tile) => (
-      <a href={url(tile.href)} class="omay-tile group block hover:opacity-80">
+      <a href={url(tile.href)} class="block hover:opacity-80">
         <img src={url(tile.image)} alt={tile.title} class="aspect-[3/2] w-full object-cover" loading="lazy" decoding="async" />
         <h3 class="mt-4 text-h3">{tile.title}</h3>
         <p class="font-sans-nums mt-1 text-table text-ink-60">{tile.meta}</p>

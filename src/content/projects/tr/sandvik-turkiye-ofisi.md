@@ -4,6 +4,10 @@ lang: tr
 slug: "sandvik-turkiye-ofisi"
 translationKey: "sandvik-turkey-office"
 sector: "workplace"
+client: "Sandvik"
+location: "Ankara, Türkiye"
+year: "2019"
+area: "1.000 m²"
 order: 19
 cover: "/images/projects/sandvik-turkey-office/img-01.webp"
 gallery:

@@ -4,6 +4,10 @@ lang: en
 slug: "limeks-head-office"
 translationKey: "limeks-head-office"
 sector: "workplace"
+client: "Limeks"
+location: "Ankara, Turkey"
+year: "2017"
+area: "1,000 m²"
 order: 25
 cover: "/images/projects/limeks-head-office/img-01.webp"
 gallery:

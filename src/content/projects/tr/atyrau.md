@@ -4,6 +4,10 @@ lang: tr
 slug: "atyrau"
 translationKey: "atyrau-airport"
 order: 34
+client: "Mağdenli"
+location: "Atyrau, Kazakistan"
+year: "2008"
+area: "18.000 m²"
 cover: "/images/projects/atyrau-airport/img-01.webp"
 gallery:
   - "/images/projects/atyrau-airport/img-01.webp"

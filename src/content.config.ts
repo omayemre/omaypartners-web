@@ -30,7 +30,18 @@ const projects = defineCollection({
     // fit one of the three sectors, rather than force a guess.
     sector: z.enum(['hospitality', 'workplace', 'diplomatic-institutional']).optional(),
     cover: z.string().optional(),
-    gallery: z.array(z.string()).default([])
+    gallery: z.array(z.string()).default([]),
+    // Project facts, sourced from the owner's master project-list spreadsheet.
+    // All optional and independently settable: a handful of projects only
+    // have some of these confidently resolved (e.g. two ledger entries for
+    // the same project disagree on which city, or span several renovation
+    // phases with different areas) - better to omit a field than guess it.
+    client: z.string().optional(),
+    location: z.string().optional(),
+    // Stored as the display string already (e.g. "2020" or "2018-2021" for
+    // a multi-phase project) rather than a number, since a year range isn't numeric.
+    year: z.string().optional(),
+    area: z.string().optional()
   })
 });
 

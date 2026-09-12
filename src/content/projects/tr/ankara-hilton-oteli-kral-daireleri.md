@@ -4,6 +4,10 @@ lang: tr
 slug: "ankara-hilton-oteli-kral-daireleri"
 translationKey: "ankara-hilton-presidential-suites"
 sector: "hospitality"
+client: "Sabancı Holding, AEO, Hilton"
+location: "Ankara, Türkiye"
+year: "2023"
+area: "1.500 m²"
 order: 3
 cover: "/images/projects/ankara-hilton-presidential-suites/img-01.webp"
 gallery:

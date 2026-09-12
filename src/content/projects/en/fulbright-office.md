@@ -4,6 +4,10 @@ lang: en
 slug: "fulbright-office"
 translationKey: "fulbright-office"
 sector: "diplomatic-institutional"
+client: "Fulbright"
+location: "Ankara, Turkey"
+year: "2012"
+area: "150 m²"
 order: 30
 cover: "/images/projects/fullbright-office/img-01.webp"
 gallery:

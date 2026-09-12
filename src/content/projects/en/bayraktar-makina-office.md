@@ -4,6 +4,10 @@ lang: en
 slug: "bayraktar-makina-office"
 translationKey: "bayraktar-makina-office"
 sector: "workplace"
+client: "Bayraktar Makina"
+location: "Ankara, Turkey"
+year: "2012"
+area: "400 m²"
 order: 32
 cover: "/images/projects/bayraktar-makina-office/img-01.webp"
 gallery:
