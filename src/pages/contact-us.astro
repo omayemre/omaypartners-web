@@ -5,14 +5,38 @@ import Layout from '../layouts/Layout.astro';
 <Layout
   lang="en"
   title="Contact"
-  description="Get in touch with Omay Partners — Ankara, Türkiye."
+  description="Get in touch with Omay Partners — Ankara, Türkiye and Glyfada, Greece."
   translations={{ en: '/contact-us/', tr: '/tr/iletisim/' }}
 >
-  <article class="mx-auto max-w-2xl px-6 py-20 text-center">
+  <article class="mx-auto max-w-3xl px-6 py-20 text-center">
     <h1 class="sr-only">Contact</h1>
 
-    <div class="text-lg text-[#1a2233]/80">
-      <p>Kazım Özalp Mahallesi Şairler Sok. No:29/4 Gaziosmanpaşa<br />Çankaya / Ankara</p>
+    <div class="grid grid-cols-1 gap-6 text-left sm:grid-cols-2">
+      <div class="rounded-lg bg-white p-8 shadow-md">
+        <p class="font-medium">Turkey Office</p>
+        <p class="mt-2 text-[#1a2233]/80">
+          Kazım Özalp Mahallesi<br />
+          Şairler Sok. No:29/4 GOP<br />
+          Çankaya / Ankara
+        </p>
+        <p class="mt-2">
+          <a href="tel:+905323862464" class="text-[#1a2233]/80 hover:underline">+90 532 386 24 64</a>
+        </p>
+      </div>
+      <div class="rounded-lg bg-white p-8 shadow-md">
+        <p class="font-medium">Greece</p>
+        <p class="mt-2 text-[#1a2233]/80">
+          Idipodos 31<br />
+          Glyfada 166 75 Athens
+        </p>
+        <p class="mt-2">
+          <a href="tel:+306955735553" class="text-[#1a2233]/80 hover:underline">+30 695 573 55 53</a>
+        </p>
+      </div>
     </div>
+
+    <p class="mt-8">
+      <a href="mailto:info@omaypartners.com" class="text-[#1a2233]/80 hover:underline">info@omaypartners.com</a>
+    </p>
   </article>
 </Layout>
