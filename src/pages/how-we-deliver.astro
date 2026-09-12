@@ -53,11 +53,11 @@ const stages = [
     <h2 class="mt-14 text-h2">The stages</h2>
     <ol class="mt-6 space-y-8">
       {stages.map((stage, i) => (
-        <li class="flex gap-5">
+        <li class="flex items-center gap-6">
           <img
             src={url(stage.image)}
             alt=""
-            class="aspect-square h-20 w-20 shrink-0 object-cover"
+            class="aspect-square h-[120px] w-[120px] shrink-0 object-cover"
             loading="lazy"
             decoding="async"
           />
