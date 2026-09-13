@@ -1,5 +1,5 @@
 ---
-title: "Malta Büyükelçiliği"
+title: "Malta Büyükelçiliği (Gizlidir)"
 lang: tr
 slug: "malta-buyukelciligi"
 translationKey: "embassy-of-malta"

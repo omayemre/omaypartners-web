@@ -1,5 +1,5 @@
 ---
-title: "Tüprag Mining Turkey Office"
+title: "Tüprag Eldorado Mining Turkey Office (Confidential)"
 lang: en
 slug: "tuprag-mining-turkey-office"
 translationKey: "tuprag-mining-turkey-office"

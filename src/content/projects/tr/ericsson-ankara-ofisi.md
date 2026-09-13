@@ -1,5 +1,5 @@
 ---
-title: "Ericsson Ankara Ofisi"
+title: "Ericsson Ankara Ofisi (Gizlidir)"
 lang: tr
 slug: "ericsson-ankara-ofisi"
 translationKey: "ericsson-ankara-office"

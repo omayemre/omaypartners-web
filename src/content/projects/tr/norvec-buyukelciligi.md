@@ -1,5 +1,5 @@
 ---
-title: "Norveç Büyükelçiliği"
+title: "Norveç Büyükelçiliği (Gizlidir)"
 lang: tr
 slug: "norvec-buyukelciligi"
 translationKey: "norwegian-embassy"

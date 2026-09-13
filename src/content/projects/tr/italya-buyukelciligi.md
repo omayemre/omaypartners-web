@@ -1,5 +1,5 @@
 ---
-title: "İtalya Büyükelçiliği"
+title: "İtalya Büyükelçiliği (Gizlidir)"
 lang: tr
 slug: "italya-buyukelciligi"
 translationKey: "embassy-of-italy"

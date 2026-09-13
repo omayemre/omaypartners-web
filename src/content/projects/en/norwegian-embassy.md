@@ -1,5 +1,5 @@
 ---
-title: "Norwegian Embassy"
+title: "Norwegian Embassy (Confidential)"
 lang: en
 slug: "norwegian-embassy"
 translationKey: "norwegian-embassy"

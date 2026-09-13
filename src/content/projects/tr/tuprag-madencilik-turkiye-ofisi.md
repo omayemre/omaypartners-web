@@ -1,5 +1,5 @@
 ---
-title: "Tüprag Madencilik Türkiye Ofisi"
+title: "Tüprag Eldorado Madencilik Türkiye Ofisi (Gizlidir)"
 lang: tr
 slug: "tuprag-madencilik-turkiye-ofisi"
 translationKey: "tuprag-mining-turkey-office"

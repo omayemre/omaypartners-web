@@ -1,5 +1,5 @@
 ---
-title: "BM Nüfus Fonu Ofisi"
+title: "BM Nüfus Fonu Ofisi (Gizlidir)"
 lang: tr
 slug: "bm-nufus-fonu-ofisi"
 translationKey: "un-population-fund-office"
