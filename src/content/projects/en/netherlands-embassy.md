@@ -11,7 +11,6 @@ order: 11
 cover: "/images/projects/netherlands-embassy/img-01.webp"
 gallery:
   - "/images/projects/netherlands-embassy/img-01.webp"
-  - "/images/projects/netherlands-embassy/img-02.webp"
   - "/images/projects/netherlands-embassy/img-03.webp"
   - "/images/projects/netherlands-embassy/img-04.webp"
 ---
