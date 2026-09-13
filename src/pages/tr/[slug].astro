@@ -43,7 +43,7 @@ const description = client
     )}
 
     {gallery && gallery.length > 1 && (
-      <div class="mx-auto mt-10 max-w-4xl space-y-6">
+      <div class="mx-auto mt-10 max-w-2xl space-y-6">
         {gallery.slice(1).map((src) => (
           <img src={url(src)} alt="" class="mx-auto max-h-[80vh] w-full object-contain" loading="lazy" decoding="async" />
         ))}
