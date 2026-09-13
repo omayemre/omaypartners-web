@@ -35,15 +35,23 @@ const logos = [
   { src: '/images/site/logos/limeks.webp', alt: 'Limeks', scale: 1.02 },
   { src: '/images/site/logos/magdenli.webp', alt: 'Magdenli', scale: 1.5 }
 ];
+
+// Every logo sits in a row this tall (fixed, not auto-sized to content) so a
+// few oversized logos can't stretch their row and throw off the vertical
+// rhythm between rows — the gap between rows then stays exactly gap-y-10
+// everywhere, the way it already reads in the first couple of rows.
+const ROW_HEIGHT = BASE_HEIGHT * Math.max(...logos.map((logo) => logo.scale));
 ---
 
-<div class="mx-auto grid max-w-6xl grid-cols-3 items-center gap-x-8 gap-y-10 px-6 sm:grid-cols-4 md:grid-cols-5">
+<div class="mx-auto grid max-w-6xl grid-cols-3 gap-x-8 gap-y-10 px-6 sm:grid-cols-4 md:grid-cols-5">
   {logos.map((logo) => (
-    <img
-      src={url(logo.src)}
-      alt={logo.alt}
-      style={`height: ${BASE_HEIGHT * logo.scale}px`}
-      class="mx-auto w-auto object-contain opacity-70 mix-blend-multiply transition hover:opacity-100"
-    />
+    <div class="flex items-center justify-center" style={`height: ${ROW_HEIGHT}px`}>
+      <img
+        src={url(logo.src)}
+        alt={logo.alt}
+        style={`height: ${BASE_HEIGHT * logo.scale}px`}
+        class="w-auto object-contain opacity-70 mix-blend-multiply transition hover:opacity-100"
+      />
+    </div>
   ))}
 </div>
