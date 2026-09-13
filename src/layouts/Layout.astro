@@ -28,6 +28,8 @@ const ogLocaleAlt = lang === 'en' ? 'tr_TR' : 'en_US';
 // before launch.
 const isPreviewHost = Astro.site?.hostname !== 'www.omaypartners.com';
 
+const fullTitle = title.includes('Omay Partners') ? title : `${title} – Omay Partners`;
+
 const organizationSchema = {
   '@context': 'https://schema.org',
   '@type': 'Organization',
@@ -47,7 +49,7 @@ const organizationSchema = {
     <link rel="icon" type="image/x-icon" href={url('/favicon.ico')} sizes="16x16 32x32 48x48" />
     <link rel="icon" type="image/png" sizes="192x192" href={url('/images/site/brand/favicon-192.png')} />
     <link rel="apple-touch-icon" href={url('/apple-touch-icon.png')} />
-    <title>{title} – Omay Partners</title>
+    <title>{fullTitle}</title>
     {description && <meta name="description" content={description} />}
 
     <link rel="canonical" href={pageUrl} />
@@ -57,14 +59,14 @@ const organizationSchema = {
 
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Omay Partners" />
-    <meta property="og:title" content={`${title} – Omay Partners`} />
+    <meta property="og:title" content={fullTitle} />
     {description && <meta property="og:description" content={description} />}
     <meta property="og:url" content={pageUrl} />
     <meta property="og:image" content={imageUrl} />
     <meta property="og:locale" content={ogLocale} />
     <meta property="og:locale:alternate" content={ogLocaleAlt} />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content={`${title} – Omay Partners`} />
+    <meta name="twitter:title" content={fullTitle} />
     {description && <meta name="twitter:description" content={description} />}
     <meta name="twitter:image" content={imageUrl} />
 
