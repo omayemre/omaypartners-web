@@ -1,5 +1,5 @@
 ---
-title: "British Embassy School (Confidential)"
+title: "British Embassy School Ankara (Confidential)"
 lang: en
 slug: "british-embassy-school-ankara"
 translationKey: "british-embassy-school-ankara"
