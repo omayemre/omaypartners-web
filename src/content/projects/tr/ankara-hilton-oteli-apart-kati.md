@@ -9,8 +9,9 @@ location: "Ankara, Türkiye"
 year: "2023"
 area: "1.500 m²"
 order: 6
-cover: "/images/projects/ankara-hilton-hotel-apartment-floor/img-01.webp"
+cover: "/images/projects/ankara-hilton-hotel-apartment-floor/img-16.webp"
 gallery:
+  - "/images/projects/ankara-hilton-hotel-apartment-floor/img-16.webp"
   - "/images/projects/ankara-hilton-hotel-apartment-floor/img-01.webp"
   - "/images/projects/ankara-hilton-hotel-apartment-floor/img-02.webp"
   - "/images/projects/ankara-hilton-hotel-apartment-floor/img-03.webp"
@@ -26,7 +27,6 @@ gallery:
   - "/images/projects/ankara-hilton-hotel-apartment-floor/img-13.webp"
   - "/images/projects/ankara-hilton-hotel-apartment-floor/img-14.webp"
   - "/images/projects/ankara-hilton-hotel-apartment-floor/img-15.webp"
-  - "/images/projects/ankara-hilton-hotel-apartment-floor/img-16.webp"
   - "/images/projects/ankara-hilton-hotel-apartment-floor/img-17.webp"
   - "/images/projects/ankara-hilton-hotel-apartment-floor/img-18.webp"
   - "/images/projects/ankara-hilton-hotel-apartment-floor/img-19.webp"
