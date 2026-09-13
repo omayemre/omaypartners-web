@@ -9,7 +9,7 @@ location: "Ankara, Türkiye"
 year: "2017"
 area: "200 m²"
 order: 39
-cover: "/images/projects/un-population-fund-office/img-01.webp"
+cover: "/images/projects/un-population-fund-office/img-logo-cover.webp"
 gallery:
   - "/images/projects/un-population-fund-office/img-01.webp"
 ---
