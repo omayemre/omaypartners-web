@@ -1,9 +1,11 @@
 ---
 import { url } from '../lib/url';
 
-// scale is relative to the shared 32px (h-8) base row height, per owner's
-// review notes on individual logos reading small next to the others.
-const BASE_HEIGHT = 32;
+// scale is relative to the shared base row height, per owner's review notes
+// on individual logos reading small next to the others. Base itself was
+// bumped 10% (32px -> 35.2px) to size up every logo evenly, keeping each
+// logo's ratio to the others and the wall's order unchanged.
+const BASE_HEIGHT = 35.2;
 
 const logos = [
   { src: '/images/site/logos/sabanci.webp', alt: 'Sabancı', scale: 1 },
