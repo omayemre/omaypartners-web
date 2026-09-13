@@ -1,5 +1,5 @@
 ---
-title: "BP Office"
+title: "BP Office (Confidential)"
 lang: en
 slug: "bp-office"
 translationKey: "bp-office"

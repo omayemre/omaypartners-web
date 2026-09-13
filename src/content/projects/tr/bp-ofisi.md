@@ -1,5 +1,5 @@
 ---
-title: "BP Ofisi"
+title: "BP Ofisi (Gizlidir)"
 lang: tr
 slug: "bp-ofisi"
 translationKey: "bp-office"
