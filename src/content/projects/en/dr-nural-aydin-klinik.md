@@ -7,7 +7,8 @@ sector: "workplace"
 client: "Dr. Nural Aydın"
 location: "Ankara, Turkey"
 order: 1
-cover: "/images/projects/dr-nural-aydin-klinik/img-01.webp"
+cover: "/images/projects/dr-nural-aydin-klinik/img-02.webp"
 gallery:
+  - "/images/projects/dr-nural-aydin-klinik/img-02.webp"
   - "/images/projects/dr-nural-aydin-klinik/img-01.webp"
 ---
