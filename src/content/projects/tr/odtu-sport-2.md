@@ -8,8 +8,9 @@ client: "ODTÜ Teknokent"
 location: "Ankara, Türkiye"
 year: "2025"
 order: 2
-cover: "/images/projects/odtu-sport-2/img-01.webp"
+cover: "/images/projects/odtu-sport-2/img-14.webp"
 gallery:
+  - "/images/projects/odtu-sport-2/img-14.webp"
   - "/images/projects/odtu-sport-2/img-01.webp"
   - "/images/projects/odtu-sport-2/img-02.webp"
   - "/images/projects/odtu-sport-2/img-03.webp"
@@ -23,5 +24,4 @@ gallery:
   - "/images/projects/odtu-sport-2/img-11.webp"
   - "/images/projects/odtu-sport-2/img-12.webp"
   - "/images/projects/odtu-sport-2/img-13.webp"
-  - "/images/projects/odtu-sport-2/img-14.webp"
 ---
