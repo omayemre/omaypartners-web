@@ -11,6 +11,7 @@ area: "350 m²"
 order: 17
 cover: "/images/projects/leonardo-turkey-office/img-01.webp"
 gallery:
+  - "/images/projects/leonardo-turkey-office/img-01.webp"
   - "/images/projects/leonardo-turkey-office/img-135.webp"
   - "/images/projects/leonardo-turkey-office/img-78.webp"
   - "/images/projects/leonardo-turkey-office/img-90.webp"
