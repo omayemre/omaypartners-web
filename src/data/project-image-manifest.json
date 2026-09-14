@@ -1,0 +1,4798 @@
+{
+ "/images/projects/aecom-office/img-01.webp": {
+  "width": 544,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/aecom-office/img-02.webp": {
+  "width": 1165,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/aecom-office/img-03.webp": {
+  "width": 1200,
+  "height": 728,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/aecom-office/img-04.webp": {
+  "width": 1200,
+  "height": 693,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/aecom-office/img-05.webp": {
+  "width": 1200,
+  "height": 752,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/aecom-office/img-06.webp": {
+  "width": 1200,
+  "height": 692,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/aecom-office/img-07.webp": {
+  "width": 1165,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/aecom-office/img-08.webp": {
+  "width": 520,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/aecom-office/img-09.webp": {
+  "width": 1200,
+  "height": 748,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/aecom-office/img-10.webp": {
+  "width": 1200,
+  "height": 758,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/aecom-office/img-11.webp": {
+  "width": 860,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/alstom-office/img-01.webp": {
+  "width": 1200,
+  "height": 769,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/alstom-office/img-02.webp": {
+  "width": 1188,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/alstom-office/img-03.webp": {
+  "width": 1186,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/alstom-office/img-04.webp": {
+  "width": 1200,
+  "height": 779,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/alstom-office/img-05.webp": {
+  "width": 1200,
+  "height": 756,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/alstom-office/img-06.webp": {
+  "width": 618,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/alstom-office/img-07.webp": {
+  "width": 610,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/alstom-office/img-08.webp": {
+  "width": 531,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/alstom-office/img-09.webp": {
+  "width": 1200,
+  "height": 680,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/alstom-office/img-10.webp": {
+  "width": 580,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/alstom-office/img-11.webp": {
+  "width": 1189,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-apartment-floor/img-01.webp": {
+  "width": 1133,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-apartment-floor/img-02.webp": {
+  "width": 1237,
+  "height": 1600,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-apartment-floor/img-03.webp": {
+  "width": 1600,
+  "height": 1352,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-apartment-floor/img-04.webp": {
+  "width": 1068,
+  "height": 1600,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-apartment-floor/img-05.webp": {
+  "width": 1068,
+  "height": 1600,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-apartment-floor/img-06.webp": {
+  "width": 1068,
+  "height": 1600,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-apartment-floor/img-07.webp": {
+  "width": 1600,
+  "height": 1068,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-apartment-floor/img-08.webp": {
+  "width": 1068,
+  "height": 1600,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-apartment-floor/img-09.webp": {
+  "width": 1600,
+  "height": 1068,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-apartment-floor/img-10.webp": {
+  "width": 1068,
+  "height": 1600,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-apartment-floor/img-11.webp": {
+  "width": 1600,
+  "height": 1000,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-apartment-floor/img-12.webp": {
+  "width": 1068,
+  "height": 1600,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-apartment-floor/img-13.webp": {
+  "width": 1236,
+  "height": 1600,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-apartment-floor/img-14.webp": {
+  "width": 1068,
+  "height": 1600,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-apartment-floor/img-15.webp": {
+  "width": 1068,
+  "height": 1600,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-apartment-floor/img-16.webp": {
+  "width": 1237,
+  "height": 1600,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-apartment-floor/img-17.webp": {
+  "width": 1600,
+  "height": 1068,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-apartment-floor/img-18.webp": {
+  "width": 1068,
+  "height": 1600,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-apartment-floor/img-19.webp": {
+  "width": 1068,
+  "height": 1600,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-apartment-floor/img-20.webp": {
+  "width": 1600,
+  "height": 1068,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-apartment-floor/img-21.webp": {
+  "width": 1600,
+  "height": 1236,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-apartment-floor/img-22.webp": {
+  "width": 1600,
+  "height": 1068,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-apartment-floor/img-23.webp": {
+  "width": 1236,
+  "height": 1600,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-apartment-floor/img-24.webp": {
+  "width": 1236,
+  "height": 1600,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-apartment-floor/img-25.webp": {
+  "width": 1068,
+  "height": 1600,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-apartment-floor/img-26.webp": {
+  "width": 1068,
+  "height": 1600,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-apartment-floor/img-27.webp": {
+  "width": 1068,
+  "height": 1600,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-health-club/img-01.webp": {
+  "width": 1200,
+  "height": 756,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-health-club/img-02.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-health-club/img-03.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-health-club/img-04.webp": {
+  "width": 1198,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-health-club/img-05.webp": {
+  "width": 1198,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-health-club/img-06.webp": {
+  "width": 1198,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-health-club/img-07.webp": {
+  "width": 1198,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-health-club/img-08.webp": {
+  "width": 1198,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-health-club/img-09.webp": {
+  "width": 1198,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-health-club/img-10.webp": {
+  "width": 1198,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-health-club/img-11.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-health-club/img-12.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-health-club/img-13.webp": {
+  "width": 533,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/ankara-hilton-hotel-health-club/img-14.webp": {
+  "width": 533,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/ankara-hilton-hotel-health-club/img-15.webp": {
+  "width": 1199,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-health-club/img-16.webp": {
+  "width": 974,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-health-club/img-17.webp": {
+  "width": 1198,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-health-club/img-18.webp": {
+  "width": 1198,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-health-club/img-19.webp": {
+  "width": 1200,
+  "height": 795,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-health-club/img-20.webp": {
+  "width": 1200,
+  "height": 780,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-health-club/img-21.webp": {
+  "width": 1200,
+  "height": 794,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-health-club/img-22.webp": {
+  "width": 1198,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-health-club/img-23.webp": {
+  "width": 1200,
+  "height": 790,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-health-club/img-24.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-health-club/img-25.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-health-club/img-26.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-public-areas/img-01.webp": {
+  "width": 1199,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-public-areas/img-02.webp": {
+  "width": 1199,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-public-areas/img-03.webp": {
+  "width": 1199,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-public-areas/img-04.webp": {
+  "width": 1199,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-public-areas/img-05.webp": {
+  "width": 1199,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-public-areas/img-06.webp": {
+  "width": 1199,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-public-areas/img-07.webp": {
+  "width": 1199,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-public-areas/img-08.webp": {
+  "width": 1200,
+  "height": 600,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-public-areas/img-09.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-public-areas/img-10.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-public-areas/img-11.webp": {
+  "width": 1200,
+  "height": 600,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-public-areas/img-12.webp": {
+  "width": 1199,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-public-areas/img-13.webp": {
+  "width": 1199,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-public-areas/img-14.webp": {
+  "width": 1199,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-public-areas/img-15.webp": {
+  "width": 1199,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-public-areas/img-16.webp": {
+  "width": 1199,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-public-areas/img-17.webp": {
+  "width": 1200,
+  "height": 600,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-public-areas/img-18.webp": {
+  "width": 1200,
+  "height": 600,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-public-areas/img-19.webp": {
+  "width": 1200,
+  "height": 600,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-public-areas/img-20.webp": {
+  "width": 1200,
+  "height": 600,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-public-areas/img-21.webp": {
+  "width": 1200,
+  "height": 600,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-public-areas/img-22.webp": {
+  "width": 1200,
+  "height": 600,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-public-areas/img-23.webp": {
+  "width": 1200,
+  "height": 600,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-public-areas/img-24.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-public-areas/img-25.webp": {
+  "width": 533,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/ankara-hilton-hotel-public-areas/img-26.webp": {
+  "width": 533,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/ankara-hilton-hotel-public-areas/img-27.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-public-areas/img-28.webp": {
+  "width": 533,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/ankara-hilton-hotel-public-areas/img-29.webp": {
+  "width": 1088,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-public-areas/img-30.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-public-areas/img-31.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-public-areas/img-32.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-public-areas/img-33.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-public-areas/img-34.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-public-areas/img-35.webp": {
+  "width": 1199,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-public-areas/img-36.webp": {
+  "width": 534,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/ankara-hilton-hotel-public-areas/img-37.webp": {
+  "width": 1199,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-public-areas/img-38.webp": {
+  "width": 1199,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-hotel-public-areas/img-39.webp": {
+  "width": 1199,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-presidential-suites/img-01.webp": {
+  "width": 1600,
+  "height": 1129,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-presidential-suites/img-02.webp": {
+  "width": 1600,
+  "height": 1200,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-presidential-suites/img-03.webp": {
+  "width": 1600,
+  "height": 1200,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-presidential-suites/img-04.webp": {
+  "width": 1200,
+  "height": 1600,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-presidential-suites/img-05.webp": {
+  "width": 1600,
+  "height": 1200,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-presidential-suites/img-06.webp": {
+  "width": 1200,
+  "height": 1600,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-presidential-suites/img-07.webp": {
+  "width": 1600,
+  "height": 1200,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-presidential-suites/img-08.webp": {
+  "width": 1200,
+  "height": 1600,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-presidential-suites/img-09.webp": {
+  "width": 1600,
+  "height": 1200,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-presidential-suites/img-10.webp": {
+  "width": 1200,
+  "height": 1600,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-presidential-suites/img-11.webp": {
+  "width": 1200,
+  "height": 1600,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-presidential-suites/img-12.webp": {
+  "width": 1200,
+  "height": 1600,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-presidential-suites/img-13.webp": {
+  "width": 1200,
+  "height": 1600,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-presidential-suites/img-14.webp": {
+  "width": 1200,
+  "height": 1600,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-presidential-suites/img-15.webp": {
+  "width": 1600,
+  "height": 1200,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-presidential-suites/img-16.webp": {
+  "width": 1600,
+  "height": 1200,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-presidential-suites/img-17.webp": {
+  "width": 1600,
+  "height": 1200,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-presidential-suites/img-18.webp": {
+  "width": 1200,
+  "height": 1600,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-presidential-suites/img-19.webp": {
+  "width": 1200,
+  "height": 1600,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-presidential-suites/img-20.webp": {
+  "width": 1200,
+  "height": 1600,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-presidential-suites/img-21.webp": {
+  "width": 1200,
+  "height": 1600,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-presidential-suites/img-22.webp": {
+  "width": 1200,
+  "height": 1600,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-presidential-suites/img-23.webp": {
+  "width": 1200,
+  "height": 1600,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-presidential-suites/img-24.webp": {
+  "width": 1200,
+  "height": 1600,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-presidential-suites/img-25.webp": {
+  "width": 1200,
+  "height": 1600,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-presidential-suites/img-26.webp": {
+  "width": 1200,
+  "height": 1600,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-presidential-suites/img-27.webp": {
+  "width": 1200,
+  "height": 1600,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-presidential-suites/img-28.webp": {
+  "width": 1200,
+  "height": 1600,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-presidential-suites/img-29.webp": {
+  "width": 1200,
+  "height": 1600,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-presidential-suites/img-30.webp": {
+  "width": 1200,
+  "height": 1600,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-presidential-suites/img-31.webp": {
+  "width": 1200,
+  "height": 1600,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-presidential-suites/img-32.webp": {
+  "width": 1200,
+  "height": 1600,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-presidential-suites/img-33.webp": {
+  "width": 1200,
+  "height": 1600,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-presidential-suites/img-34.webp": {
+  "width": 1200,
+  "height": 1600,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-presidential-suites/img-35.webp": {
+  "width": 1600,
+  "height": 1200,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-presidential-suites/img-36.webp": {
+  "width": 1600,
+  "height": 1200,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-presidential-suites/img-37.webp": {
+  "width": 1200,
+  "height": 1600,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ankara-hilton-presidential-suites/img-38.webp": {
+  "width": 1200,
+  "height": 1600,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/atyrau-airport/img-01.webp": {
+  "width": 1067,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/atyrau-airport/img-02.webp": {
+  "width": 1200,
+  "height": 783,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/atyrau-airport/img-03.webp": {
+  "width": 1067,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/atyrau-airport/img-04.webp": {
+  "width": 1194,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/atyrau-airport/img-05.webp": {
+  "width": 1067,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/atyrau-airport/img-06.webp": {
+  "width": 1067,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/atyrau-airport/img-07.webp": {
+  "width": 1089,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/atyrau-airport/img-08.webp": {
+  "width": 1200,
+  "height": 192,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/atyrau-airport/img-09.webp": {
+  "width": 1067,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/atyrau-airport/img-10.webp": {
+  "width": 1067,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/atyrau-airport/img-11.webp": {
+  "width": 1067,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/atyrau-airport/img-12.webp": {
+  "width": 1067,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/atyrau-airport/img-13.webp": {
+  "width": 1067,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/atyrau-airport/img-14.webp": {
+  "width": 1200,
+  "height": 192,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/atyrau-airport/img-15.webp": {
+  "width": 1067,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/aytim-group-factory/img-01.webp": {
+  "width": 1400,
+  "height": 1080,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/aytim-group-factory/img-02.webp": {
+  "width": 1600,
+  "height": 668,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/aytim-group-factory/img-03.webp": {
+  "width": 1600,
+  "height": 668,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/aytim-group-factory/img-04.webp": {
+  "width": 1600,
+  "height": 668,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/aytim-group-factory/img-05.webp": {
+  "width": 1600,
+  "height": 668,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/aytim-group-factory/img-06.webp": {
+  "width": 1600,
+  "height": 668,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/aytim-group-factory/img-07.webp": {
+  "width": 1600,
+  "height": 668,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/aytim-group-factory/img-08.webp": {
+  "width": 1600,
+  "height": 668,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/aytim-group-factory/img-09.webp": {
+  "width": 1600,
+  "height": 668,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/bayraktar-makina-office/img-01.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/bayraktar-makina-office/img-02.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/bayraktar-makina-office/img-03.webp": {
+  "width": 533,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/bayraktar-makina-office/img-04.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/bayraktar-makina-office/img-05.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/bayraktar-makina-office/img-06.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/bayraktar-makina-office/img-07.webp": {
+  "width": 533,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/bayraktar-makina-office/img-08.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/bayraktar-makina-office/img-09.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/bayraktar-makina-office/img-10.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/bayraktar-makina-office/img-11.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/bayraktar-makina-office/img-12.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/bayraktar-makina-office/img-13.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/bp-office/img-01.webp": {
+  "width": 800,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/bp-office/img-logo-cover.webp": {
+  "width": 1500,
+  "height": 1000,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/british-embassy-school-ankara/img-01.webp": {
+  "width": 1200,
+  "height": 609,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/british-embassy-school-ankara/img-logo-cover.webp": {
+  "width": 1500,
+  "height": 1000,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ciftay-mining-head-office/img-01.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ciftay-mining-head-office/img-02.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ciftay-mining-head-office/img-03.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ciftay-mining-head-office/img-04.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ciftay-mining-head-office/img-05.webp": {
+  "width": 891,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/ciftay-mining-head-office/img-06.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ciftay-mining-head-office/img-07.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ciftay-mining-head-office/img-08.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ciftay-mining-head-office/img-09.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ciftay-mining-head-office/img-10.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ciftay-mining-head-office/img-11.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ciftay-mining-head-office/img-12.webp": {
+  "width": 1109,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ciftay-mining-head-office/img-13.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ciftay-mining-head-office/img-14.webp": {
+  "width": 953,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/ciftay-mining-head-office/img-15.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ciftay-mining-head-office/img-16.webp": {
+  "width": 533,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/doktor-clinic/img-01.webp": {
+  "width": 1140,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/doktor-clinic/img-03.webp": {
+  "width": 555,
+  "height": 840,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/doktor-clinic/img-06.webp": {
+  "width": 840,
+  "height": 581,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/doktor-clinic/img-08.webp": {
+  "width": 840,
+  "height": 560,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/doktor-clinic/img-13.webp": {
+  "width": 542,
+  "height": 840,
+  "derivatives": []
+ },
+ "/images/projects/doktor-clinic/img-18.webp": {
+  "width": 575,
+  "height": 840,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/doktor-clinic/img-21.webp": {
+  "width": 503,
+  "height": 840,
+  "derivatives": []
+ },
+ "/images/projects/doktor-clinic/img-26.webp": {
+  "width": 508,
+  "height": 840,
+  "derivatives": []
+ },
+ "/images/projects/doktor-clinic/img-28.webp": {
+  "width": 529,
+  "height": 840,
+  "derivatives": []
+ },
+ "/images/projects/doktor-clinic/img-31.webp": {
+  "width": 840,
+  "height": 560,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/doktor-clinic/img-42.webp": {
+  "width": 546,
+  "height": 840,
+  "derivatives": []
+ },
+ "/images/projects/doktor-clinic/img-46.webp": {
+  "width": 588,
+  "height": 840,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/doktor-clinic/img-51.webp": {
+  "width": 678,
+  "height": 840,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/doktor-clinic/img-53.webp": {
+  "width": 840,
+  "height": 532,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/doktor-clinic/img-55.webp": {
+  "width": 840,
+  "height": 530,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/dr-nural-aydin-klinik/img-01.webp": {
+  "width": 1600,
+  "height": 1129,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/dr-nural-aydin-klinik/img-02.webp": {
+  "width": 1600,
+  "height": 1067,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/embassy-of-italy/img-01.webp": {
+  "width": 1067,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/embassy-of-malta/img-01.webp": {
+  "width": 1115,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ericsson-ankara-office/img-01.webp": {
+  "width": 1138,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ertunc-ozcan-office/img-01.webp": {
+  "width": 1200,
+  "height": 769,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ertunc-ozcan-office/img-02.webp": {
+  "width": 1191,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ertunc-ozcan-office/img-03.webp": {
+  "width": 1200,
+  "height": 787,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ertunc-ozcan-office/img-04.webp": {
+  "width": 1200,
+  "height": 799,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ertunc-ozcan-office/img-05.webp": {
+  "width": 1200,
+  "height": 799,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ertunc-ozcan-office/img-06.webp": {
+  "width": 1200,
+  "height": 773,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ertunc-ozcan-office/img-07.webp": {
+  "width": 1200,
+  "height": 791,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ertunc-ozcan-office/img-08.webp": {
+  "width": 526,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/ertunc-ozcan-office/img-09.webp": {
+  "width": 1200,
+  "height": 780,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ertunc-ozcan-office/img-10.webp": {
+  "width": 1200,
+  "height": 775,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ertunc-ozcan-office/img-11.webp": {
+  "width": 1200,
+  "height": 777,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ertunc-ozcan-office/img-12.webp": {
+  "width": 1073,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/ertunc-ozcan-office/img-13.webp": {
+  "width": 1120,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ertunc-ozcan-office/img-14.webp": {
+  "width": 1200,
+  "height": 727,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ertunc-ozcan-office/img-15.webp": {
+  "width": 1152,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ertunc-ozcan-office/img-16.webp": {
+  "width": 1200,
+  "height": 710,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ertunc-ozcan-office/img-17.webp": {
+  "width": 1200,
+  "height": 774,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ertunc-ozcan-office/img-18.webp": {
+  "width": 1200,
+  "height": 754,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ertunc-ozcan-office/img-19.webp": {
+  "width": 1200,
+  "height": 768,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ertunc-ozcan-office/img-20.webp": {
+  "width": 1200,
+  "height": 795,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ertunc-ozcan-office/img-21.webp": {
+  "width": 581,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/ertunc-ozcan-office/img-22.webp": {
+  "width": 1200,
+  "height": 765,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ertunc-ozcan-office/img-23.webp": {
+  "width": 1200,
+  "height": 798,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ertunc-ozcan-office/img-24.webp": {
+  "width": 1200,
+  "height": 798,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/ertunc-ozcan-office/img-25.webp": {
+  "width": 533,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/ertunc-ozcan-office/img-26.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/etkim/img-01.webp": {
+  "width": 1600,
+  "height": 1061,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/etkim/img-02.webp": {
+  "width": 1198,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/etkim/img-03.webp": {
+  "width": 1198,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/etkim/img-04.webp": {
+  "width": 534,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/etkim/img-05.webp": {
+  "width": 1199,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/etkim/img-06.webp": {
+  "width": 534,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/etkim/img-07.webp": {
+  "width": 1199,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/etkim/img-08.webp": {
+  "width": 534,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/etkim/img-09.webp": {
+  "width": 534,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/etkim/img-10.webp": {
+  "width": 1198,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/etkim/img-11.webp": {
+  "width": 534,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/etkim/img-12.webp": {
+  "width": 534,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/etkim/img-13.webp": {
+  "width": 534,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/etkim/img-14.webp": {
+  "width": 534,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/etkim/img-15.webp": {
+  "width": 534,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/etkim/img-16.webp": {
+  "width": 534,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/etkim/img-17.webp": {
+  "width": 534,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/etkim/img-18.webp": {
+  "width": 534,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/etkim/img-19.webp": {
+  "width": 534,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/etkim/img-20.webp": {
+  "width": 534,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/etkim/img-21.webp": {
+  "width": 534,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/etkim/img-22.webp": {
+  "width": 534,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/etkim/img-23.webp": {
+  "width": 534,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/etkim/img-24.webp": {
+  "width": 534,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/etkim/img-25.webp": {
+  "width": 1198,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/etkim/img-26.webp": {
+  "width": 534,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/etkim/img-27.webp": {
+  "width": 618,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/etkim/img-28.webp": {
+  "width": 1198,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/etkim/img-29.webp": {
+  "width": 534,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/etkim/img-30.webp": {
+  "width": 534,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/etkim/img-31.webp": {
+  "width": 534,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/etkim/img-32.webp": {
+  "width": 534,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/etkim/img-33.webp": {
+  "width": 1198,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/etkim/img-34.webp": {
+  "width": 534,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/etkim/img-35.webp": {
+  "width": 534,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/etkim/img-36.webp": {
+  "width": 618,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/etkim/img-37.webp": {
+  "width": 1198,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/etkim/img-38.webp": {
+  "width": 534,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/etkim/img-39.webp": {
+  "width": 534,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/etkim/img-40.webp": {
+  "width": 534,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/etkim/img-41.webp": {
+  "width": 534,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/etkim/img-42.webp": {
+  "width": 534,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/etkim/img-43.webp": {
+  "width": 534,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/fullbright-office/img-01.webp": {
+  "width": 533,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/fullbright-office/img-02.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/fullbright-office/img-03.webp": {
+  "width": 533,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/fullbright-office/img-04.webp": {
+  "width": 533,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/fullbright-office/img-05.webp": {
+  "width": 1131,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/fullbright-office/img-06.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/fullbright-office/img-07.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/fullbright-office/img-08.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/genel-energy-head-office/img-01.webp": {
+  "width": 1200,
+  "height": 703,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/genel-energy-head-office/img-02.webp": {
+  "width": 1169,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/genel-energy-head-office/img-03.webp": {
+  "width": 668,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/genel-energy-head-office/img-04.webp": {
+  "width": 1168,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/genel-energy-head-office/img-05.webp": {
+  "width": 533,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/genel-energy-head-office/img-06.webp": {
+  "width": 1075,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/genel-energy-head-office/img-07.webp": {
+  "width": 533,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/genel-energy-head-office/img-08.webp": {
+  "width": 1198,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/genel-energy-head-office/img-09.webp": {
+  "width": 530,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/genel-energy-head-office/img-10.webp": {
+  "width": 1200,
+  "height": 773,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/genel-energy-head-office/img-11.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/genel-energy-head-office/img-12.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/genel-energy-head-office/img-13.webp": {
+  "width": 532,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/genel-energy-head-office/img-14.webp": {
+  "width": 527,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/genel-energy-head-office/img-15.webp": {
+  "width": 533,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/genel-energy-head-office/img-16.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/genel-energy-head-office/img-17.webp": {
+  "width": 1200,
+  "height": 797,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/genel-energy-head-office/img-18.webp": {
+  "width": 564,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/genel-energy-head-office/img-19.webp": {
+  "width": 1039,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/genel-energy-head-office/img-20.webp": {
+  "width": 600,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/genel-energy-head-office/img-21.webp": {
+  "width": 533,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/genel-energy-head-office/img-22.webp": {
+  "width": 545,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/genel-energy-head-office/img-23.webp": {
+  "width": 343,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/kayseri-hilton-hotel/img-01.webp": {
+  "width": 1200,
+  "height": 600,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/kayseri-hilton-hotel/img-02.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/kayseri-hilton-hotel/img-03.webp": {
+  "width": 1200,
+  "height": 600,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/kayseri-hilton-hotel/img-04.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/kayseri-hilton-hotel/img-05.webp": {
+  "width": 1200,
+  "height": 600,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/kayseri-hilton-hotel/img-06.webp": {
+  "width": 1200,
+  "height": 600,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/leonardo-turkey-office/img-01.webp": {
+  "width": 640,
+  "height": 449,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/leonardo-turkey-office/img-105.webp": {
+  "width": 800,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/leonardo-turkey-office/img-108.webp": {
+  "width": 800,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/leonardo-turkey-office/img-110.webp": {
+  "width": 800,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/leonardo-turkey-office/img-115.webp": {
+  "width": 800,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/leonardo-turkey-office/img-117.webp": {
+  "width": 800,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/leonardo-turkey-office/img-119.webp": {
+  "width": 800,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/leonardo-turkey-office/img-135.webp": {
+  "width": 640,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/leonardo-turkey-office/img-137.webp": {
+  "width": 800,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/leonardo-turkey-office/img-138.webp": {
+  "width": 800,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/leonardo-turkey-office/img-14.webp": {
+  "width": 1200,
+  "height": 720,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/leonardo-turkey-office/img-16.webp": {
+  "width": 1200,
+  "height": 769,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/leonardo-turkey-office/img-17.webp": {
+  "width": 391,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/leonardo-turkey-office/img-18.webp": {
+  "width": 654,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/leonardo-turkey-office/img-23.webp": {
+  "width": 469,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/leonardo-turkey-office/img-24.webp": {
+  "width": 1138,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/leonardo-turkey-office/img-34.webp": {
+  "width": 1199,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/leonardo-turkey-office/img-35.webp": {
+  "width": 1096,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/leonardo-turkey-office/img-39.webp": {
+  "width": 1180,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/leonardo-turkey-office/img-50.webp": {
+  "width": 1200,
+  "height": 769,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/leonardo-turkey-office/img-78.webp": {
+  "width": 1200,
+  "height": 602,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/leonardo-turkey-office/img-90.webp": {
+  "width": 800,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/limeks-head-office/img-01.webp": {
+  "width": 1067,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/limeks-head-office/img-02.webp": {
+  "width": 800,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/limeks-head-office/img-03.webp": {
+  "width": 1200,
+  "height": 666,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/limeks-head-office/img-04.webp": {
+  "width": 640,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/limeks-head-office/img-05.webp": {
+  "width": 640,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/limeks-head-office/img-06.webp": {
+  "width": 640,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/limeks-head-office/img-07.webp": {
+  "width": 1067,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/lycee-charles-de-gaulle/img-01.webp": {
+  "width": 1568,
+  "height": 1125,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/lycee-charles-de-gaulle/img-02.webp": {
+  "width": 832,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/lycee-charles-de-gaulle/img-03.webp": {
+  "width": 1067,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/lycee-charles-de-gaulle/img-04.webp": {
+  "width": 800,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/lycee-charles-de-gaulle/img-05.webp": {
+  "width": 1067,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/magic-lab/img-01.webp": {
+  "width": 1133,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/magic-lab/img-02.webp": {
+  "width": 618,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/magic-lab/img-03.webp": {
+  "width": 618,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/magic-lab/img-04.webp": {
+  "width": 534,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/magic-lab/img-05.webp": {
+  "width": 534,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/magic-lab/img-06.webp": {
+  "width": 534,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/magic-lab/img-07.webp": {
+  "width": 618,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/magic-lab/img-08.webp": {
+  "width": 534,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/magic-lab/img-09.webp": {
+  "width": 618,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/magic-lab/img-10.webp": {
+  "width": 534,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/magic-lab/img-11.webp": {
+  "width": 618,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/magic-lab/img-12.webp": {
+  "width": 618,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/magic-lab/img-13.webp": {
+  "width": 534,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/magic-lab/img-14.webp": {
+  "width": 618,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/magic-lab/img-15.webp": {
+  "width": 618,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/magic-lab/img-16.webp": {
+  "width": 618,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/magic-lab/img-17.webp": {
+  "width": 618,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/magic-lab/img-18.webp": {
+  "width": 534,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/magic-lab/img-19.webp": {
+  "width": 534,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/magic-lab/img-20.webp": {
+  "width": 534,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/magic-lab/img-21.webp": {
+  "width": 618,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/magic-lab/img-22.webp": {
+  "width": 534,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/magic-lab/img-23.webp": {
+  "width": 618,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/magic-lab/img-24.webp": {
+  "width": 534,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/magic-lab/img-25.webp": {
+  "width": 618,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/magic-lab/img-26.webp": {
+  "width": 618,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/magic-lab/img-27.webp": {
+  "width": 534,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/magic-lab/img-28.webp": {
+  "width": 534,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/magic-lab/img-29.webp": {
+  "width": 534,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/magic-lab/img-30.webp": {
+  "width": 534,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/magic-lab/img-31.webp": {
+  "width": 534,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/magic-lab/img-32.webp": {
+  "width": 534,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/magic-lab/img-33.webp": {
+  "width": 618,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/magic-lab/img-34.webp": {
+  "width": 618,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/magic-lab/img-35.webp": {
+  "width": 534,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/magic-lab/img-36.webp": {
+  "width": 1199,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/magic-lab/img-37.webp": {
+  "width": 1198,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/magic-lab/img-38.webp": {
+  "width": 618,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/magic-lab/img-39.webp": {
+  "width": 618,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/magic-lab/img-40.webp": {
+  "width": 534,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/magic-lab/img-41.webp": {
+  "width": 618,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/magic-lab/img-42.webp": {
+  "width": 534,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/magic-lab/img-43.webp": {
+  "width": 618,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/magic-lab/img-44.webp": {
+  "width": 618,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/magic-lab/img-45.webp": {
+  "width": 618,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/magic-lab/img-46.webp": {
+  "width": 534,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/magic-lab/img-47.webp": {
+  "width": 534,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/magic-lab/img-48.webp": {
+  "width": 534,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/magic-lab/img-49.webp": {
+  "width": 618,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/magic-lab/img-50.webp": {
+  "width": 534,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/magic-lab/img-51.webp": {
+  "width": 618,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/magic-lab/img-52.webp": {
+  "width": 618,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/magic-lab/img-53.webp": {
+  "width": 618,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/magic-lab/img-54.webp": {
+  "width": 1198,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/magic-lab/img-55.webp": {
+  "width": 618,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/magic-lab/img-56.webp": {
+  "width": 1198,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/magic-lab/img-57.webp": {
+  "width": 618,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/magic-lab/img-58.webp": {
+  "width": 618,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/magic-lab/img-59.webp": {
+  "width": 618,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/magic-lab/img-60.webp": {
+  "width": 618,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/magic-lab/img-61.webp": {
+  "width": 534,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/magic-lab/img-62.webp": {
+  "width": 1198,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/magic-lab/img-63.webp": {
+  "width": 618,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/magic-lab/img-64.webp": {
+  "width": 534,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/magic-lab/img-65.webp": {
+  "width": 1199,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/magic-lab/img-66.webp": {
+  "width": 618,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/mardan-palace-spa/img-01.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/mardan-palace-spa/img-02.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/mardan-palace-spa/img-03.webp": {
+  "width": 1200,
+  "height": 606,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/mardan-palace-spa/img-04.webp": {
+  "width": 533,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/mardan-palace-spa/img-05.webp": {
+  "width": 533,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/mardan-palace-spa/img-06.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/mardan-palace-spa/img-07.webp": {
+  "width": 533,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/mardan-palace-spa/img-08.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/metu-teknopark-atom/img-01.webp": {
+  "width": 1600,
+  "height": 1067,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/metu-teknopark-atom/img-02.webp": {
+  "width": 1600,
+  "height": 1128,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/metu-teknopark-atom/img-03.webp": {
+  "width": 1600,
+  "height": 1575,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/metu-teknopark-atom/img-04.webp": {
+  "width": 1009,
+  "height": 1600,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/metu-teknopark-atom/img-05.webp": {
+  "width": 1600,
+  "height": 1128,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/metu-teknopark-atom/img-06.webp": {
+  "width": 1600,
+  "height": 1077,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/metu-teknopark-atom/img-07.webp": {
+  "width": 1600,
+  "height": 948,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/metu-teknopark-atom/img-08.webp": {
+  "width": 1600,
+  "height": 1061,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/metu-teknopark-atom/img-09.webp": {
+  "width": 1176,
+  "height": 1600,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/metu-teknopark-atom/img-10.webp": {
+  "width": 1600,
+  "height": 1600,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/metu-teknopark-atom/img-11.webp": {
+  "width": 1421,
+  "height": 1600,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/metu-teknopark-atom/img-12.webp": {
+  "width": 1600,
+  "height": 1401,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/metu-teknopark-atom/img-13.webp": {
+  "width": 1087,
+  "height": 1600,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/metu-teknopark-atom/img-14.webp": {
+  "width": 1067,
+  "height": 1600,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/metu-teknopark-atom/img-15.webp": {
+  "width": 1105,
+  "height": 1600,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/metu-teknopark-atom/img-16.webp": {
+  "width": 1224,
+  "height": 1600,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/metu-teknopark-atom/img-17.webp": {
+  "width": 1281,
+  "height": 1600,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/metu-teknopark-atom/img-18.webp": {
+  "width": 1600,
+  "height": 1078,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/metu-teknopark-atom/img-19.webp": {
+  "width": 1074,
+  "height": 1600,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/metu-teknopark-atom/img-20.webp": {
+  "width": 1600,
+  "height": 1201,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/metu-teknopark-atom/img-21.webp": {
+  "width": 1600,
+  "height": 1067,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/metu-teknopark-atom/img-22.webp": {
+  "width": 1600,
+  "height": 1067,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/metu-teknopark-atom/img-23.webp": {
+  "width": 1600,
+  "height": 1135,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/metu-teknopark-atom/img-24.webp": {
+  "width": 1219,
+  "height": 1600,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/metu-teknopark-atom/img-25.webp": {
+  "width": 1600,
+  "height": 1058,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/metu-teknopark-atom/img-26.webp": {
+  "width": 1600,
+  "height": 1444,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/metu-teknopark-atom/img-27.webp": {
+  "width": 1600,
+  "height": 1170,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/metu-teknopark-atom/img-28.webp": {
+  "width": 1021,
+  "height": 1600,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/metu-teknopark-atom/img-29.webp": {
+  "width": 1600,
+  "height": 1308,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/metu-teknopark-atom/img-30.webp": {
+  "width": 1239,
+  "height": 1600,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/metu-teknopark-atom/img-31.webp": {
+  "width": 1600,
+  "height": 1062,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/metu-teknopark-atom/img-32.webp": {
+  "width": 1600,
+  "height": 1267,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/metu-teknopark-atom/img-33.webp": {
+  "width": 1209,
+  "height": 1600,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/metu-teknopark-atom/img-34.webp": {
+  "width": 1160,
+  "height": 1600,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/metu-teknopark-atom/img-35.webp": {
+  "width": 1600,
+  "height": 1070,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/metu-teknopark-atom/img-36.webp": {
+  "width": 1600,
+  "height": 1083,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/metu-teknopark-atom/img-37.webp": {
+  "width": 1600,
+  "height": 1067,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/metu-teknopark-atom/img-38.webp": {
+  "width": 1600,
+  "height": 1100,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/metu-teknopark-atom/img-39.webp": {
+  "width": 1600,
+  "height": 1073,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/metu-teknopark-atom/img-40.webp": {
+  "width": 1600,
+  "height": 1077,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/metu-teknopark-atom/img-41.webp": {
+  "width": 1600,
+  "height": 960,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/metu-teknopark-atom/img-42.webp": {
+  "width": 1600,
+  "height": 1165,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/metu-teknopark-incubation-center/img-01.webp": {
+  "width": 1200,
+  "height": 532,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/metu-teknopark-incubation-center/img-02.webp": {
+  "width": 962,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/metu-teknopark-incubation-center/img-03.webp": {
+  "width": 1200,
+  "height": 759,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/mona-hotel/img-01.webp": {
+  "width": 534,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/mona-hotel/img-02.webp": {
+  "width": 1130,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/mona-hotel/img-03.webp": {
+  "width": 1200,
+  "height": 767,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/mona-hotel/img-04.webp": {
+  "width": 1199,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/mona-hotel/img-05.webp": {
+  "width": 1025,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/mona-hotel/img-06.webp": {
+  "width": 1199,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/mona-hotel/img-07.webp": {
+  "width": 534,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/mona-hotel/img-08.webp": {
+  "width": 1199,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/mona-hotel/img-09.webp": {
+  "width": 1199,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/mona-hotel/img-10.webp": {
+  "width": 1200,
+  "height": 676,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/mona-hotel/img-11.webp": {
+  "width": 1195,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/mona-hotel/img-12.webp": {
+  "width": 1200,
+  "height": 799,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/mona-hotel/img-13.webp": {
+  "width": 1200,
+  "height": 766,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/mona-hotel/img-14.webp": {
+  "width": 1200,
+  "height": 799,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/mona-hotel/img-15.webp": {
+  "width": 480,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/netherlands-embassy/img-01.webp": {
+  "width": 1080,
+  "height": 810,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/netherlands-embassy/img-03.webp": {
+  "width": 1600,
+  "height": 1600,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/netherlands-embassy/img-04.webp": {
+  "width": 1280,
+  "height": 1600,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/norwegian-embassy/img-01.webp": {
+  "width": 1200,
+  "height": 693,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/norwegian-embassy/img-logo-cover.webp": {
+  "width": 1500,
+  "height": 1000,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/odtu-sport-2/img-01.webp": {
+  "width": 1600,
+  "height": 1129,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/odtu-sport-2/img-02.webp": {
+  "width": 1600,
+  "height": 1200,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/odtu-sport-2/img-03.webp": {
+  "width": 1200,
+  "height": 1600,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/odtu-sport-2/img-04.webp": {
+  "width": 1200,
+  "height": 1600,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/odtu-sport-2/img-05.webp": {
+  "width": 1200,
+  "height": 1600,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/odtu-sport-2/img-06.webp": {
+  "width": 1200,
+  "height": 1600,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/odtu-sport-2/img-07.webp": {
+  "width": 1600,
+  "height": 1200,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/odtu-sport-2/img-08.webp": {
+  "width": 1600,
+  "height": 1200,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/odtu-sport-2/img-09.webp": {
+  "width": 1600,
+  "height": 1068,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/odtu-sport-2/img-10.webp": {
+  "width": 1600,
+  "height": 1068,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/odtu-sport-2/img-11.webp": {
+  "width": 1600,
+  "height": 1068,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/odtu-sport-2/img-12.webp": {
+  "width": 1600,
+  "height": 1068,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/odtu-sport-2/img-13.webp": {
+  "width": 1600,
+  "height": 1068,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/odtu-sport-2/img-14.webp": {
+  "width": 1600,
+  "height": 1200,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/odtu-teknokent-go-offices/img-01.webp": {
+  "width": 1600,
+  "height": 1129,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/orbis-technology-office/img-01.webp": {
+  "width": 1200,
+  "height": 675,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/orbis-technology-office/img-02.webp": {
+  "width": 1200,
+  "height": 675,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/orbis-technology-office/img-03.webp": {
+  "width": 1200,
+  "height": 675,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/orbis-technology-office/img-04.webp": {
+  "width": 1200,
+  "height": 675,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/orbis-technology-office/img-05.webp": {
+  "width": 1200,
+  "height": 675,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/orbis-technology-office/img-06.webp": {
+  "width": 1200,
+  "height": 675,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/orbis-technology-office/img-07.webp": {
+  "width": 1200,
+  "height": 675,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/orbis-technology-office/img-08.webp": {
+  "width": 1200,
+  "height": 675,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/otel-tunali/img-01.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/otel-tunali/img-02.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/otel-tunali/img-03.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/otel-tunali/img-04.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/otel-tunali/img-05.webp": {
+  "width": 974,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/otel-tunali/img-06.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/otel-tunali/img-07.webp": {
+  "width": 533,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/otel-tunali/img-08.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/otel-tunali/img-09.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/otel-tunali/img-10.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/otel-tunali/img-11.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/otel-tunali/img-12.webp": {
+  "width": 533,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/otel-tunali/img-13.webp": {
+  "width": 1098,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/otel-tunali/img-14.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/otel-tunali/img-15.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/otel-tunali/img-16.webp": {
+  "width": 533,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/otel-tunali/img-17.webp": {
+  "width": 533,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/otel-tunali/img-18.webp": {
+  "width": 533,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/otel-tunali/img-19.webp": {
+  "width": 533,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/pegasus-savunma-office/img-01.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/pegasus-savunma-office/img-02.webp": {
+  "width": 533,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/pegasus-savunma-office/img-03.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/pegasus-savunma-office/img-04.webp": {
+  "width": 533,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/pegasus-savunma-office/img-05.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/pegasus-savunma-office/img-06.webp": {
+  "width": 533,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/pegasus-savunma-office/img-07.webp": {
+  "width": 533,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/pegasus-savunma-office/img-08.webp": {
+  "width": 533,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/pegasus-savunma-office/img-09.webp": {
+  "width": 533,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/pegasus-savunma-office/img-10.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/pegasus-savunma-office/img-11.webp": {
+  "width": 533,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/pegasus-savunma-office/img-12.webp": {
+  "width": 533,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/qatar-airways-turkey-office/img-01.webp": {
+  "width": 1595,
+  "height": 1125,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/qatar-airways-turkey-office/img-03.webp": {
+  "width": 1198,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/qatar-airways-turkey-office/img-120.webp": {
+  "width": 534,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/qatar-airways-turkey-office/img-25.webp": {
+  "width": 1198,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/qatar-airways-turkey-office/img-28.webp": {
+  "width": 534,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/qatar-airways-turkey-office/img-31.webp": {
+  "width": 534,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/qatar-airways-turkey-office/img-37.webp": {
+  "width": 534,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/qatar-airways-turkey-office/img-47.webp": {
+  "width": 534,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/qatar-airways-turkey-office/img-52.webp": {
+  "width": 534,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/qatar-airways-turkey-office/img-58.webp": {
+  "width": 534,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/reis/img-01.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/reis/img-02.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/reis/img-03.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/reis/img-04.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/reis/img-05.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/reis/img-06.webp": {
+  "width": 565,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/reis/img-07.webp": {
+  "width": 1114,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/reis/img-08.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/reis/img-09.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/reis/img-10.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/reis/img-11.webp": {
+  "width": 541,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/reis/img-12.webp": {
+  "width": 533,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/s-house/img-01.webp": {
+  "width": 1200,
+  "height": 675,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/s-house/img-02.webp": {
+  "width": 1200,
+  "height": 675,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/s-house/img-03.webp": {
+  "width": 1200,
+  "height": 675,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/s-house/img-04.webp": {
+  "width": 1200,
+  "height": 675,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/s-house/img-05.webp": {
+  "width": 1200,
+  "height": 675,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/s-house/img-06.webp": {
+  "width": 1200,
+  "height": 675,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/s-house/img-07.webp": {
+  "width": 1200,
+  "height": 675,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/s-house/img-08.webp": {
+  "width": 1157,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/s-house/img-09.webp": {
+  "width": 1200,
+  "height": 675,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/s-house/img-10.webp": {
+  "width": 1200,
+  "height": 675,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/s-house/img-11.webp": {
+  "width": 1200,
+  "height": 675,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/s-house/img-12.webp": {
+  "width": 1200,
+  "height": 675,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/sandvik-turkey-office/img-01.webp": {
+  "width": 841,
+  "height": 638,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/sandvik-turkey-office/img-03.webp": {
+  "width": 800,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/sandvik-turkey-office/img-116.webp": {
+  "width": 1200,
+  "height": 662,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/sandvik-turkey-office/img-127.webp": {
+  "width": 800,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/sandvik-turkey-office/img-164.webp": {
+  "width": 268,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/sandvik-turkey-office/img-173.webp": {
+  "width": 1111,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/sandvik-turkey-office/img-177.webp": {
+  "width": 1200,
+  "height": 703,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/sandvik-turkey-office/img-178.webp": {
+  "width": 530,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/sandvik-turkey-office/img-221.webp": {
+  "width": 653,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/sandvik-turkey-office/img-227.webp": {
+  "width": 593,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/sandvik-turkey-office/img-230.webp": {
+  "width": 1062,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/sandvik-turkey-office/img-233.webp": {
+  "width": 1062,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/sandvik-turkey-office/img-245.webp": {
+  "width": 1053,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/sandvik-turkey-office/img-248.webp": {
+  "width": 599,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/sandvik-turkey-office/img-250.webp": {
+  "width": 759,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/sandvik-turkey-office/img-252.webp": {
+  "width": 900,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/sandvik-turkey-office/img-253.webp": {
+  "width": 1200,
+  "height": 711,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/sandvik-turkey-office/img-265.webp": {
+  "width": 505,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/sandvik-turkey-office/img-282.webp": {
+  "width": 497,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/sandvik-turkey-office/img-284.webp": {
+  "width": 1034,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/sandvik-turkey-office/img-291.webp": {
+  "width": 1182,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/sandvik-turkey-office/img-292.webp": {
+  "width": 1200,
+  "height": 701,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/sandvik-turkey-office/img-298.webp": {
+  "width": 800,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/sandvik-turkey-office/img-299.webp": {
+  "width": 475,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/sandvik-turkey-office/img-30.webp": {
+  "width": 1200,
+  "height": 563,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/sandvik-turkey-office/img-307.webp": {
+  "width": 438,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/sandvik-turkey-office/img-31.webp": {
+  "width": 1199,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/sandvik-turkey-office/img-33.webp": {
+  "width": 1199,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/sandvik-turkey-office/img-38.webp": {
+  "width": 897,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/sandvik-turkey-office/img-39.webp": {
+  "width": 503,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/sandvik-turkey-office/img-42.webp": {
+  "width": 606,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/sandvik-turkey-office/img-46.webp": {
+  "width": 598,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/sandvik-turkey-office/img-47.webp": {
+  "width": 1128,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/sandvik-turkey-office/img-69.webp": {
+  "width": 689,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/sandvik-turkey-office/img-86.webp": {
+  "width": 1199,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/securitas-istanbul-office/img-01.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/securitas-istanbul-office/img-02.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/securitas-istanbul-office/img-03.webp": {
+  "width": 533,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/securitas-istanbul-office/img-04.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/securitas-istanbul-office/img-05.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/securitas-istanbul-office/img-06.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/securitas-istanbul-office/img-07.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/securitas-istanbul-office/img-08.webp": {
+  "width": 533,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/securitas-istanbul-office/img-09.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/securitas-istanbul-office/img-10.webp": {
+  "width": 533,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/securitas-istanbul-office/img-11.webp": {
+  "width": 754,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/securitas-istanbul-office/img-12.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/securitas-istanbul-office/img-13.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/securitas-istanbul-office/img-14.webp": {
+  "width": 533,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/securitas-istanbul-office/img-15.webp": {
+  "width": 528,
+  "height": 800,
+  "derivatives": []
+ },
+ "/images/projects/securitas-istanbul-office/img-16.webp": {
+  "width": 1200,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/tuprag-mining-turkey-office/img-01.webp": {
+  "width": 1141,
+  "height": 800,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/udemy-turkey-office/img-01.webp": {
+  "width": 1600,
+  "height": 1126,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/udemy-turkey-office/img-04.webp": {
+  "width": 800,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/udemy-turkey-office/img-05.webp": {
+  "width": 800,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/udemy-turkey-office/img-06.webp": {
+  "width": 800,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/udemy-turkey-office/img-07.webp": {
+  "width": 800,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/udemy-turkey-office/img-106.webp": {
+  "width": 800,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/udemy-turkey-office/img-11.webp": {
+  "width": 800,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/udemy-turkey-office/img-113.webp": {
+  "width": 800,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/udemy-turkey-office/img-116.webp": {
+  "width": 800,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/udemy-turkey-office/img-12.webp": {
+  "width": 800,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/udemy-turkey-office/img-122.webp": {
+  "width": 800,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/udemy-turkey-office/img-134.webp": {
+  "width": 800,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/udemy-turkey-office/img-138.webp": {
+  "width": 800,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/udemy-turkey-office/img-16.webp": {
+  "width": 800,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/udemy-turkey-office/img-21.webp": {
+  "width": 800,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/udemy-turkey-office/img-33.webp": {
+  "width": 1200,
+  "height": 774,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/udemy-turkey-office/img-38.webp": {
+  "width": 1200,
+  "height": 758,
+  "derivatives": [
+   480,
+   960
+  ]
+ },
+ "/images/projects/udemy-turkey-office/img-50.webp": {
+  "width": 800,
+  "height": 800,
+  "derivatives": [
+   480
+  ]
+ },
+ "/images/projects/un-population-fund-office/img-01.webp": {
+  "width": 333,
+  "height": 151,
+  "derivatives": []
+ },
+ "/images/projects/un-population-fund-office/img-logo-cover.webp": {
+  "width": 1500,
+  "height": 1000,
+  "derivatives": [
+   480,
+   960
+  ]
+ }
+}

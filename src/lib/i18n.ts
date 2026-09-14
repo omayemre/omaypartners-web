@@ -10,7 +10,8 @@ export const dict = {
       selectedWorks: 'Selected Works',
       references: 'Archive',
       visum: 'Photography',
-      contact: 'Contact'
+      contact: 'Contact',
+      menuLabel: 'Menu'
     },
     footer: {
       rights: 'All rights reserved.'
@@ -24,7 +25,8 @@ export const dict = {
       selectedWorks: 'Seçilmiş İşler',
       references: 'Arşiv',
       visum: 'Fotoğraf',
-      contact: 'İletişim'
+      contact: 'İletişim',
+      menuLabel: 'Menü'
     },
     footer: {
       rights: 'Tüm hakları saklıdır.'

@@ -3,7 +3,7 @@ title: "ODTU Teknokent GO Offices"
 lang: en
 slug: "odtu-teknokent-go-offices"
 translationKey: "odtu-teknokent-go-offices"
-sector: "diplomatic-institutional"
+sector: "workplace"
 client: "METU Teknopark"
 location: "Ankara, Turkey"
 year: "2026"

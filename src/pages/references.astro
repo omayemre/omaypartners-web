@@ -1,24 +1,40 @@
 ---
+import { getCollection } from 'astro:content';
 import Layout from '../layouts/Layout.astro';
 import ReferencesTable from '../components/ReferencesTable.astro';
-import rows from '../data/references.en.json';
+import rawRows from '../data/references.en.json';
+
+// Year/location live on the project pages, not in the Archive spreadsheet
+// export - joined in here by slug for the ~35 rows that have one.
+const projects = await getCollection('projects', ({ data }) => data.lang === 'en');
+const rows = rawRows.map((row) => {
+  if (row.section || !row.slug) return row;
+  const project = projects.find((p) => p.data.slug === row.slug);
+  return { ...row, year: project?.data.year, location: project?.data.location };
+});
 ---
 
 <Layout
   lang="en"
-  title="Archive"
+  title="Archive — 150+ Projects"
   description="The full list of Omay Partners projects — 150+ commissions with client and service provided."
   translations={{ en: '/references/', tr: '/tr/referanslar/' }}
+  breadcrumbs={[{ name: 'Archive', path: '/references/' }]}
 >
-  <div class="mx-auto max-w-5xl px-[clamp(24px,5vw,96px)] py-16 md:py-16 lg:py-[104px]">
+  <div class="mx-auto max-w-5xl px-[clamp(24px,5vw,96px)] py-section">
     <h1 class="text-center text-h1">Archive</h1>
     <p class="mt-4 text-center text-lead text-ink-60">
       The full list of Omay Partners projects with client and service provided.
     </p>
     <div class="mt-12">
-      <ReferencesTable rows={rows} headers={['Project', 'Category', 'Service Provided', 'Client']} lang="en" />
+      <ReferencesTable
+        rows={rows}
+        headers={['Project', 'Category', 'Year', 'Location', 'Service Provided', 'Client']}
+        lang="en"
+        allLabel="All"
+      />
     </div>
-    <p class="font-sans-nums mt-6 text-table text-ink-30">
+    <p class="font-sans-nums mt-6 text-table text-ink-45">
       (*) Founder of Omay Partners participated within the Client's organization / PM team
     </p>
   </div>

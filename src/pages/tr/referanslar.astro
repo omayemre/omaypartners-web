@@ -1,25 +1,39 @@
 ---
+import { getCollection } from 'astro:content';
 import Layout from '../../layouts/Layout.astro';
 import ReferencesTable from '../../components/ReferencesTable.astro';
-import rows from '../../data/references.tr.json';
+import rawRows from '../../data/references.tr.json';
+
+const projects = await getCollection('projects', ({ data }) => data.lang === 'tr');
+const rows = rawRows.map((row) => {
+  if (row.section || !row.slug) return row;
+  const project = projects.find((p) => p.data.slug === row.slug);
+  return { ...row, year: project?.data.year, location: project?.data.location };
+});
 ---
 
 <Layout
   lang="tr"
-  title="Arşiv"
+  title="Arşiv — 150+ Proje"
   description="Omay Partners'ın işveren ve verilen hizmet bilgileriyle birlikte 150'den fazla projeyi kapsayan tam listesi."
   translations={{ en: '/references/', tr: '/tr/referanslar/' }}
+  breadcrumbs={[{ name: 'Arşiv', path: '/tr/referanslar/' }]}
 >
-  <div class="mx-auto max-w-5xl px-[clamp(24px,5vw,96px)] py-16 md:py-16 lg:py-[104px]">
+  <div class="mx-auto max-w-5xl px-[clamp(24px,5vw,96px)] py-section">
     <h1 class="text-center text-h1">Arşiv</h1>
     <p class="mt-4 text-center text-lead text-ink-60">
       İşveren ve sunulan hizmet bilgileriyle birlikte Omay Partners projelerinin tam listesi.
     </p>
     <div class="mt-12">
-      <ReferencesTable rows={rows} headers={['Proje', 'Sektör', 'Verilen Hizmet', 'Müşteri']} lang="tr" />
+      <ReferencesTable
+        rows={rows}
+        headers={['Proje', 'Sektör', 'Yıl', 'Yer', 'Verilen Hizmet', 'Müşteri']}
+        lang="tr"
+        allLabel="Tümü"
+      />
     </div>
-    <p class="font-sans-nums mt-6 text-table text-ink-30">
-      (*) Omay Partners kurucususunun İşveren ya da Proje Yönetimi kadrosunda yeraldığı proje
+    <p class="font-sans-nums mt-6 text-table text-ink-45">
+      (*) Omay Partners kurucusunun İşveren ya da Proje Yönetimi kadrosunda yer aldığı proje
     </p>
   </div>
 </Layout>

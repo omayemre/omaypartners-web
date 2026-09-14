@@ -3,6 +3,7 @@ title: "Atyrau Airport"
 lang: en
 slug: "atyrau-airport"
 translationKey: "atyrau-airport"
+sector: "diplomatic-institutional"
 order: 23
 client: "Mağdenli"
 location: "Atyrau, Kazakhstan"

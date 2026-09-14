@@ -3,7 +3,7 @@ title: "METU Teknopark Incubation Center"
 lang: en
 slug: "metu-teknopark-incubation-center"
 translationKey: "metu-teknopark-incubation-center"
-sector: "diplomatic-institutional"
+sector: "workplace"
 client: "METU Teknopark"
 location: "Ankara, Turkey"
 year: "2022"

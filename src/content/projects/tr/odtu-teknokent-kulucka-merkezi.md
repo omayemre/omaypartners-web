@@ -3,7 +3,7 @@ title: "ODTÜ Teknokent Kuluçka Binası"
 lang: tr
 slug: "odtu-teknokent-kulucka-merkezi"
 translationKey: "metu-teknopark-incubation-center"
-sector: "diplomatic-institutional"
+sector: "workplace"
 client: "ODTÜ Teknokent"
 location: "Ankara, Türkiye"
 year: "2022"

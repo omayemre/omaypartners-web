@@ -7,37 +7,40 @@ import { url } from '../lib/url';
 // logo's ratio to the others and the wall's order unchanged.
 const BASE_HEIGHT = 35.2;
 
+// width/height are each file's real intrinsic size after
+// scripts/optimize-client-logos.mjs (long edge capped at 360px - plenty
+// for the tallest displayed size here, ~132px, at 2-3x DPR).
 const logos = [
-  { src: '/images/site/logos/sabanci.webp', alt: 'Sabancı', scale: 1 },
-  { src: '/images/site/logos/hilton.webp', alt: 'Hilton', scale: 1.5 },
-  { src: '/images/site/logos/qatar-airways.webp', alt: 'Qatar Airways', scale: 1 },
-  { src: '/images/site/logos/bp.webp', alt: 'BP', scale: 1.5 },
-  { src: '/images/site/logos/ericsson.webp', alt: 'Ericsson', scale: 1.5 },
-  { src: '/images/site/logos/odtu-metu.webp', alt: 'ODTÜ / METU', scale: 1.2 },
-  { src: '/images/site/logos/udemy.webp', alt: 'Udemy', scale: 1.2 },
-  { src: '/images/site/logos/securitas.webp', alt: 'Securitas', scale: 1.2 },
-  { src: '/images/site/logos/british-embassy.webp', alt: 'British Embassy', scale: 1.875 },
-  { src: '/images/site/logos/odtu-teknokent.webp', alt: 'ODTÜ Teknokent', scale: 1.2 },
-  { src: '/images/site/logos/lcdg.webp', alt: 'Lycée Charles de Gaulle', scale: 1.875 },
-  { src: '/images/site/logos/aecom.svg', alt: 'AECOM', scale: 1 },
-  { src: '/images/site/logos/cushman-wakefield.webp', alt: 'Cushman & Wakefield', scale: 1 },
-  { src: '/images/site/logos/sandvik.webp', alt: 'Sandvik', scale: 1 },
-  { src: '/images/site/logos/leonardo.webp', alt: 'Leonardo', scale: 1 },
-  { src: '/images/site/logos/alstom.webp', alt: 'Alstom', scale: 1.2 },
-  { src: '/images/site/logos/honeywell.webp', alt: 'Honeywell', scale: 1.8 },
-  { src: '/images/site/logos/italy-embassy.webp', alt: 'Embassy of Italy', scale: 3.75 },
-  { src: '/images/site/logos/fulbright.webp', alt: 'Fulbright', scale: 1.44 },
-  { src: '/images/site/logos/genel-energy.webp', alt: 'Genel Energy', scale: 1.2 },
-  { src: '/images/site/logos/eldorado-gold.webp', alt: 'Eldorado Gold', scale: 1.25 },
-  { src: '/images/site/logos/malta-embassy.webp', alt: 'Embassy of Malta', scale: 2.625 },
-  { src: '/images/site/logos/magic-lab.webp', alt: 'Magic Lab', scale: 1.5 },
-  { src: '/images/site/logos/nural-aydin.webp', alt: 'Dr. Nural Aydın', scale: 3.15 },
-  { src: '/images/site/logos/atom.webp', alt: 'ATOM', scale: 1.2 },
-  { src: '/images/site/logos/tuprag.webp', alt: 'Tüprag', scale: 3.12 },
-  { src: '/images/site/logos/limeks.webp', alt: 'Limeks', scale: 1.02 },
-  { src: '/images/site/logos/magdenli.webp', alt: 'Magdenli', scale: 1.5 },
-  { src: '/images/site/logos/british-embassy-school.webp', alt: 'British Embassy School Ankara', scale: 1.875 },
-  { src: '/images/site/logos/norwegian-embassy.webp', alt: 'Norwegian Embassy', scale: 1.5 }
+  { src: '/images/site/logos/sabanci.webp', alt: 'Sabancı', scale: 1, w: 360, h: 68 },
+  { src: '/images/site/logos/hilton.webp', alt: 'Hilton', scale: 1.5, w: 360, h: 274 },
+  { src: '/images/site/logos/qatar-airways.webp', alt: 'Qatar Airways', scale: 1, w: 360, h: 122 },
+  { src: '/images/site/logos/bp.webp', alt: 'BP', scale: 1.5, w: 269, h: 360 },
+  { src: '/images/site/logos/ericsson.webp', alt: 'Ericsson', scale: 1.5, w: 360, h: 316 },
+  { src: '/images/site/logos/odtu-metu.webp', alt: 'ODTÜ / METU', scale: 1.2, w: 360, h: 142 },
+  { src: '/images/site/logos/udemy.webp', alt: 'Udemy', scale: 1.2, w: 360, h: 136 },
+  { src: '/images/site/logos/securitas.webp', alt: 'Securitas', scale: 1.2, w: 360, h: 191 },
+  { src: '/images/site/logos/british-embassy.webp', alt: 'British Embassy', scale: 1.875, w: 360, h: 294 },
+  { src: '/images/site/logos/odtu-teknokent.webp', alt: 'ODTÜ Teknokent', scale: 1.2, w: 360, h: 83 },
+  { src: '/images/site/logos/lcdg.webp', alt: 'Lycée Charles de Gaulle', scale: 1.875, w: 360, h: 313 },
+  { src: '/images/site/logos/aecom.svg', alt: 'AECOM', scale: 1, w: 2500, h: 778 },
+  { src: '/images/site/logos/cushman-wakefield.webp', alt: 'Cushman & Wakefield', scale: 1, w: 360, h: 75 },
+  { src: '/images/site/logos/sandvik.webp', alt: 'Sandvik', scale: 1, w: 360, h: 65 },
+  { src: '/images/site/logos/leonardo.webp', alt: 'Leonardo', scale: 1, w: 360, h: 64 },
+  { src: '/images/site/logos/alstom.webp', alt: 'Alstom', scale: 1.2, w: 360, h: 99 },
+  { src: '/images/site/logos/honeywell.webp', alt: 'Honeywell', scale: 1.8, w: 360, h: 202 },
+  { src: '/images/site/logos/italy-embassy.webp', alt: 'Embassy of Italy', scale: 3.75, w: 320, h: 320 },
+  { src: '/images/site/logos/fulbright.webp', alt: 'Fulbright', scale: 1.44, w: 360, h: 139 },
+  { src: '/images/site/logos/genel-energy.webp', alt: 'Genel Energy', scale: 1.2, w: 360, h: 91 },
+  { src: '/images/site/logos/eldorado-gold.webp', alt: 'Eldorado Gold', scale: 1.25, w: 360, h: 144 },
+  { src: '/images/site/logos/malta-embassy.webp', alt: 'Embassy of Malta', scale: 2.625, w: 360, h: 360 },
+  { src: '/images/site/logos/magic-lab.webp', alt: 'Magic Lab', scale: 1.5, w: 360, h: 111 },
+  { src: '/images/site/logos/nural-aydin.webp', alt: 'Dr. Nural Aydın', scale: 3.15, w: 360, h: 323 },
+  { src: '/images/site/logos/atom.webp', alt: 'ATOM', scale: 1.2, w: 360, h: 88 },
+  { src: '/images/site/logos/tuprag.webp', alt: 'Tüprag', scale: 3.12, w: 320, h: 227 },
+  { src: '/images/site/logos/limeks.webp', alt: 'Limeks', scale: 1.02, w: 360, h: 74 },
+  { src: '/images/site/logos/magdenli.webp', alt: 'Magdenli', scale: 1.5, w: 360, h: 47 },
+  { src: '/images/site/logos/british-embassy-school.webp', alt: 'British Embassy School Ankara', scale: 1.875, w: 296, h: 301 },
+  { src: '/images/site/logos/norwegian-embassy.webp', alt: 'Norwegian Embassy', scale: 1.5, w: 360, h: 164 }
 ];
 
 // Every logo sits in a row this tall (fixed, not auto-sized to content) so a
@@ -53,8 +56,12 @@ const ROW_HEIGHT = BASE_HEIGHT * Math.max(...logos.map((logo) => logo.scale));
       <img
         src={url(logo.src)}
         alt={logo.alt}
+        width={logo.w}
+        height={logo.h}
         style={`height: ${BASE_HEIGHT * logo.scale}px`}
-        class="w-auto object-contain opacity-70 mix-blend-multiply transition hover:opacity-100"
+        class="transition-quiet w-auto object-contain opacity-70 mix-blend-multiply hover:opacity-100"
+        loading="lazy"
+        decoding="async"
       />
     </div>
   ))}

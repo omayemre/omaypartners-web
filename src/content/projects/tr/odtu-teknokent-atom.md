@@ -3,7 +3,7 @@ title: "ODTÜ Teknokent ATOM"
 lang: tr
 slug: "odtu-teknokent-atom"
 translationKey: "metu-teknopark-atom"
-sector: "diplomatic-institutional"
+sector: "workplace"
 client: "ODTÜ Teknokent"
 location: "Ankara, Türkiye"
 year: "2025"

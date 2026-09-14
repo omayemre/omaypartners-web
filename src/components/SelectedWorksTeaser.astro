@@ -18,30 +18,35 @@ const tileImages = {
   odtuSports: '/images/site/tiles/odtu-sports.webp'
 };
 
+// Title and year here must match the project page's own frontmatter
+// (src/content/projects/**) exactly - they used to drift (see the
+// 2026-09 audit, finding U3).
 const tilesEn = [
-  { image: tileImages.magiclab, title: 'MagicLab Office', meta: 'Ankara · 2024 · Office — Design & Construction', href: '/magic-lab/' },
-  { image: tileImages.hiltonSuites, title: 'Hilton Ankara Presidential Suites', meta: 'Ankara · 2026 · Hospitality — Design & Construction', href: '/ankara-hilton-presidential-suites/' },
-  { image: tileImages.odtuAtom, title: 'ODTÜ ATOM', meta: 'Ankara (METU Teknokent) · 2022 · Animation & Game Development Center', href: '/metu-teknopark-atom/' },
-  { image: tileImages.hiltonApart, title: 'Hilton Ankara Apartment Floors', meta: 'Ankara · 2022 · Hospitality — Design & Construction', href: '/ankara-hilton-hotel-apartment-floor/' },
-  { image: tileImages.odtuEtkim, title: 'ODTÜ ETKİM', meta: 'Ankara (METU) · 2024 · Office / Incubation', href: '/etkim/' },
-  { image: tileImages.odtuSports, title: 'ODTÜ Sports Fields', meta: 'Ankara (METU) · 2023–2026 · Sports — Design & Construction', href: '/odtu-sport-2/' }
+  { image: tileImages.magiclab, title: 'Magic Lab', meta: 'Ankara · 2023 · Office — Design & Construction', href: '/magic-lab/' },
+  { image: tileImages.hiltonSuites, title: 'Ankara Hilton Presidential Suites', meta: 'Ankara · 2023 · Hospitality — Design & Construction', href: '/ankara-hilton-presidential-suites/' },
+  { image: tileImages.odtuAtom, title: 'METU Teknopark ATOM', meta: 'Ankara (METU Teknokent) · 2025 · Animation & Game Development Center', href: '/metu-teknopark-atom/' },
+  { image: tileImages.hiltonApart, title: 'Ankara Hilton Hotel Apartment Floor', meta: 'Ankara · 2023 · Hospitality — Design & Construction', href: '/ankara-hilton-hotel-apartment-floor/' },
+  { image: tileImages.odtuEtkim, title: 'METU Teknopark ETKIM', meta: 'Ankara (METU) · 2023 · Office / Incubation', href: '/etkim/' },
+  { image: tileImages.odtuSports, title: 'ODTU Sport', meta: 'Ankara (METU) · 2025 · Sports — Design & Construction', href: '/odtu-sport-2/' }
 ];
 
 const tilesTr = [
-  { image: tileImages.magiclab, title: 'MagicLab Ofisi', meta: 'Ankara · 2024 · Ofis — Tasarım & Uygulama', href: '/tr/magic-lab/' },
-  { image: tileImages.hiltonSuites, title: 'Hilton Ankara Kral Daireleri', meta: 'Ankara · 2026 · Konaklama — Tasarım & Uygulama', href: '/tr/ankara-hilton-oteli-kral-daireleri/' },
-  { image: tileImages.odtuAtom, title: 'ODTÜ ATOM', meta: 'Ankara (ODTÜ Teknokent) · 2022 · Animasyon & Oyun Geliştirme Merkezi', href: '/tr/odtu-teknokent-atom/' },
-  { image: tileImages.hiltonApart, title: 'Hilton Ankara Apart Katları', meta: 'Ankara · 2022 · Konaklama — Tasarım & Uygulama', href: '/tr/ankara-hilton-oteli-apart-kati/' },
-  { image: tileImages.odtuEtkim, title: 'ODTÜ ETKİM', meta: 'Ankara (ODTÜ) · 2024 · Ofis / Kuluçka', href: '/tr/etkim/' },
-  { image: tileImages.odtuSports, title: 'ODTÜ Spor Sahaları', meta: 'Ankara (ODTÜ) · 2023–2026 · Spor — Tasarım & Uygulama', href: '/tr/odtu-sport-2/' }
+  { image: tileImages.magiclab, title: 'Magic Lab', meta: 'Ankara · 2023 · Ofis — Tasarım & Uygulama', href: '/tr/magic-lab/' },
+  { image: tileImages.hiltonSuites, title: 'Ankara Hilton Oteli Kral Daireleri', meta: 'Ankara · 2023 · Konaklama — Tasarım & Uygulama', href: '/tr/ankara-hilton-oteli-kral-daireleri/' },
+  { image: tileImages.odtuAtom, title: 'ODTÜ Teknokent ATOM', meta: 'Ankara (ODTÜ Teknokent) · 2025 · Animasyon & Oyun Geliştirme Merkezi', href: '/tr/odtu-teknokent-atom/' },
+  { image: tileImages.hiltonApart, title: 'Ankara Hilton Oteli Apart Katı', meta: 'Ankara · 2023 · Konaklama — Tasarım & Uygulama', href: '/tr/ankara-hilton-oteli-apart-kati/' },
+  { image: tileImages.odtuEtkim, title: 'ODTÜ Teknokent ETKİM', meta: 'Ankara (ODTÜ) · 2023 · Ofis / Kuluçka', href: '/tr/etkim/' },
+  { image: tileImages.odtuSports, title: 'ODTU Sport', meta: 'Ankara (ODTÜ) · 2025 · Spor — Tasarım & Uygulama', href: '/tr/odtu-sport-2/' }
 ];
 
 const tiles = lang === 'en' ? tilesEn : tilesTr;
-const heading = lang === 'en' ? 'Selected Works' : 'Seçili İşler';
+// Matches the nav label exactly (was "Seçili İşler" in TR, a drift from
+// the nav's "Seçilmiş İşler" - see the 2026-09 audit, finding U8).
+const heading = lang === 'en' ? 'Selected Works' : 'Seçilmiş İşler';
 const allProjects = lang === 'en' ? 'All projects' : 'Tüm projeler';
 ---
 
-<section class="mx-auto max-w-[1440px] px-[clamp(24px,5vw,96px)] py-16 md:py-16 lg:py-[104px]">
+<section class="mx-auto max-w-[1440px] px-[clamp(24px,5vw,96px)] py-section">
   <div class="mb-10 flex items-end justify-between">
     <h2 class="text-h2">{heading}</h2>
     <a href={i18n.path('selectedWorks')} class="font-sans-nums text-label text-ink-60 uppercase hover:text-accent">
@@ -51,7 +56,15 @@ const allProjects = lang === 'en' ? 'All projects' : 'Tüm projeler';
   <div class="grid grid-cols-1 gap-x-8 gap-y-12 md:grid-cols-2 lg:grid-cols-3">
     {tiles.map((tile) => (
       <a href={url(tile.href)} class="block hover:opacity-80">
-        <img src={url(tile.image)} alt={tile.title} class="aspect-[3/2] w-full object-cover" loading="lazy" decoding="async" />
+        <img
+          src={url(tile.image)}
+          alt={tile.title}
+          width="900"
+          height="600"
+          class="aspect-[3/2] w-full object-cover"
+          loading="lazy"
+          decoding="async"
+        />
         <h3 class="mt-4 text-h3">{tile.title}</h3>
         <p class="font-sans-nums mt-1 text-table text-ink-60">{tile.meta}</p>
       </a>

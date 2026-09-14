@@ -10,53 +10,129 @@ interface Row {
   section: boolean;
   /** Present only where this row was confidently matched to a project page. */
   slug?: string;
+  /** Joined in from the matching project's frontmatter where a slug match exists. */
+  year?: string;
+  location?: string;
 }
 
 interface Props {
   rows: Row[];
-  headers: [string, string, string, string];
+  /** Project, Category, Year, Location, Service, Client - in that order. */
+  headers: [string, string, string, string, string, string];
   lang: Lang;
+  /** Label for the unfiltered "show everything" pill. */
+  allLabel: string;
 }
 
-const { rows, headers, lang } = Astro.props;
+const { rows, headers, lang, allLabel } = Astro.props;
 const base = lang === 'en' ? '' : '/tr';
+
+const categories = [...new Set(rows.filter((r) => !r.section && r.category).map((r) => r.category))];
 ---
 
-<div class="font-sans-nums overflow-x-auto">
-  <table class="w-full min-w-[720px] border-collapse text-left text-table">
-    <thead>
-      <tr class="border-b border-rule">
-        <th class="py-3 pr-4 text-label text-ink-60 uppercase">{headers[0]}</th>
-        <th class="py-3 pr-4 text-label text-ink-60 uppercase">{headers[1]}</th>
-        <th class="py-3 pr-4 text-label text-ink-60 uppercase">{headers[2]}</th>
-        <th class="py-3 text-label text-ink-60 uppercase">{headers[3]}</th>
-      </tr>
-    </thead>
-    <tbody>
-      {rows.map((row) =>
-        row.section ? (
-          <tr>
-            <td colspan="4" class="pt-8 pb-2 text-label text-ink uppercase">
-              {row.project}
-            </td>
-          </tr>
-        ) : (
-          <tr class="border-b border-rule">
-            <td class="py-2 pr-4 text-ink">
-              {row.slug ? (
-                <a href={url(`${base}/${row.slug}/`)} class="hover:text-accent">
-                  {row.project}
-                </a>
-              ) : (
-                row.project
-              )}
-            </td>
-            <td class="py-2 pr-4 text-ink-60">{row.category}</td>
-            <td class="py-2 pr-4 text-ink-60">{row.service}</td>
-            <td class="py-2 text-ink-60">{row.client}</td>
-          </tr>
-        )
-      )}
-    </tbody>
-  </table>
+<div class="archive-table">
+  <div class="mb-8 flex flex-wrap justify-center gap-2 text-label uppercase">
+    <button type="button" class="archive-filter border border-accent px-3 py-1.5 text-ink" data-cat="all" aria-pressed="true">
+      {allLabel}
+    </button>
+    {categories.map((cat) => (
+      <button type="button" class="archive-filter border border-rule px-3 py-1.5 text-ink-60 hover:text-accent" data-cat={cat} aria-pressed="false">
+        {cat}
+      </button>
+    ))}
+  </div>
+
+  <div class="font-sans-nums hidden min-[720px]:block overflow-x-auto">
+    <table class="w-full border-collapse text-left text-table">
+      <thead>
+        <tr class="border-b border-rule">
+          <th class="py-3 pr-4 text-label text-ink-60 uppercase">{headers[0]}</th>
+          <th class="py-3 pr-4 text-label text-ink-60 uppercase">{headers[1]}</th>
+          <th class="py-3 pr-4 text-label text-ink-60 uppercase">{headers[2]}</th>
+          <th class="py-3 pr-4 text-label text-ink-60 uppercase">{headers[3]}</th>
+          <th class="py-3 pr-4 text-label text-ink-60 uppercase">{headers[4]}</th>
+          <th class="py-3 text-label text-ink-60 uppercase">{headers[5]}</th>
+        </tr>
+      </thead>
+      <tbody>
+        {rows.map((row) =>
+          row.section ? (
+            <tr>
+              <td colspan="6" class="pt-8 pb-2 text-label text-ink uppercase">
+                {row.project}
+              </td>
+            </tr>
+          ) : (
+            <tr class="archive-row border-b border-rule" data-category={row.category}>
+              <td class="py-2 pr-4 text-ink">
+                {row.slug ? (
+                  <a href={url(`${base}/${row.slug}/`)} class="hover:text-accent">
+                    {row.project}
+                  </a>
+                ) : (
+                  row.project
+                )}
+              </td>
+              <td class="py-2 pr-4 text-ink-60">{row.category}</td>
+              <td class="py-2 pr-4 text-ink-60">{row.year ?? '—'}</td>
+              <td class="py-2 pr-4 text-ink-60">{row.location ?? '—'}</td>
+              <td class="py-2 pr-4 text-ink-60">{row.service}</td>
+              <td class="py-2 text-ink-60">{row.client}</td>
+            </tr>
+          )
+        )}
+      </tbody>
+    </table>
+  </div>
+
+  <div class="font-sans-nums min-[720px]:hidden">
+    {rows.map((row) =>
+      row.section ? (
+        <p class="pt-8 pb-2 text-label text-ink uppercase">{row.project}</p>
+      ) : (
+        <div class="archive-row border-b border-rule py-3" data-category={row.category}>
+          <p class="text-table text-ink">
+            {row.slug ? (
+              <a href={url(`${base}/${row.slug}/`)} class="hover:text-accent">
+                {row.project}
+              </a>
+            ) : (
+              row.project
+            )}
+          </p>
+          <p class="mt-1 text-label text-ink-45 uppercase">
+            {row.category}
+            {row.year && ` · ${row.year}`}
+            {row.location && ` · ${row.location}`}
+          </p>
+          <p class="mt-1 text-table text-ink-60">
+            {row.service}
+            {row.client && ` — ${row.client}`}
+          </p>
+        </div>
+      )
+    )}
+  </div>
 </div>
+
+<script>
+  const filters = document.querySelectorAll<HTMLButtonElement>('.archive-filter');
+  const rows = document.querySelectorAll<HTMLElement>('.archive-row');
+
+  filters.forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const cat = btn.dataset.cat;
+      filters.forEach((b) => {
+        const active = b === btn;
+        b.setAttribute('aria-pressed', String(active));
+        b.classList.toggle('border-accent', active);
+        b.classList.toggle('text-ink', active);
+        b.classList.toggle('border-rule', !active);
+        b.classList.toggle('text-ink-60', !active);
+      });
+      rows.forEach((row) => {
+        row.hidden = cat !== 'all' && row.dataset.category !== cat;
+      });
+    });
+  });
+</script>

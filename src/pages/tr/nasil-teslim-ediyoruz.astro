@@ -38,13 +38,14 @@ const stages = [
 
 <Layout
   lang="tr"
-  title="Süreç"
+  title="Süreç — Brief'ten Teslime"
   description="Omay Partners bir projeyi brief'ten teslime nasıl taşır — aşamalar, sözleşmeyi kimin yürüttüğü ve sizden neye ihtiyacımız olduğu."
   translations={{ en: '/how-we-deliver/', tr: '/tr/nasil-teslim-ediyoruz/' }}
+  breadcrumbs={[{ name: 'Süreç', path: '/tr/nasil-teslim-ediyoruz/' }]}
 >
-  <article class="mx-auto max-w-[109ch] px-[clamp(24px,5vw,96px)] py-16 md:py-16 lg:py-[104px]">
+  <article class="mx-auto max-w-[109ch] px-[clamp(24px,5vw,96px)] py-section">
     <h1 class="text-h1">Süreç</h1>
-    <p class="mt-6 text-lead text-ink-60">
+    <p class="mt-6 max-w-[60ch] text-lead text-ink-60">
       "İlk eskizden teslime, tek ekip" çalışma biçimimizin özüdür — bu sayfa bunun pratikte ne anlama geldiğini
       açıklıyor: bir projenin geçtiği aşamalar, kimin neden sorumlu olduğu ve tasarım ile teslimatı tek çatı
       altında tutmanın sonucu neden değiştirdiği.
@@ -53,10 +54,10 @@ const stages = [
     <h2 class="mt-14 text-h2">Aşamalar</h2>
     <ol class="mt-6 space-y-8">
       {stages.map((stage, i) => (
-        <li class="flex items-start gap-8">
+        <li class="flex flex-col gap-4 sm:flex-row sm:items-start sm:gap-8">
           <div class="flex flex-1 gap-5">
-            <span class="font-sans-nums shrink-0 text-table text-ink-30">{String(i + 1).padStart(2, '0')}</span>
-            <div>
+            <span class="font-sans-nums shrink-0 text-table text-ink-45">{String(i + 1).padStart(2, '0')}</span>
+            <div class="max-w-[60ch]">
               <h3 class="text-h3">{stage.name}</h3>
               <p class="mt-1 text-body text-ink-60">{stage.body}</p>
             </div>
@@ -64,7 +65,9 @@ const stages = [
           <img
             src={url(stage.image)}
             alt=""
-            class="h-auto w-[240px] shrink-0 object-contain"
+            width="240"
+            height="300"
+            class="h-auto w-[200px] max-w-full shrink-0 object-contain sm:w-[240px]"
             loading="lazy"
             decoding="async"
           />
@@ -73,7 +76,7 @@ const stages = [
     </ol>
 
     <h2 class="mt-14 text-h2">Sözleşmeyi kim yürütür</h2>
-    <p class="mt-4 text-body text-ink-60">
+    <p class="mt-4 max-w-[68ch] text-body text-ink-60">
       Projeye bağlı olarak, ya tek bir tasarım-yapım sözleşmesi yürütürüz ya da zaten güvendiğiniz
       yüklenicileri koordine eden proje yöneticisi olarak çalışırız. Her iki durumda da ilk eskizden teslime
       kadar sorumlu olan aynı ekiptir — devredeceğiniz ayrı bir tasarım ofisi ya da devraldığınız ayrı bir
@@ -81,7 +84,7 @@ const stages = [
     </p>
 
     <h2 class="mt-14 text-h2">Tek ekip neden önemli</h2>
-    <p class="mt-4 text-body text-ink-60">
+    <p class="mt-4 max-w-[68ch] text-body text-ink-60">
       Tasarım ve inşaat iki ayrı firmada olduğunda aralarında bir boşluk açılır — mimar kötü uygulamayı
       yükleniciye, yüklenici de uygulanamaz çizimleri mimara bağlar; müşteri ise kendisine ait olmayan bir
       anlaşmazlığı çözmek zorunda ortada kalır. Tek bir ekibin her ikisinden de sorumlu olması bu boşluğu
@@ -90,7 +93,7 @@ const stages = [
     </p>
 
     <h2 class="mt-14 text-h2">Sizden ihtiyacımız olanlar</h2>
-    <ul class="mt-4 list-disc space-y-2 pl-5 text-body text-ink-60">
+    <ul class="mt-4 max-w-[68ch] list-disc space-y-2 pl-5 text-body text-ink-60">
       <li>Net bir brief — hedefler, kullanıcılar ve kısıtlar, mümkün olduğunca erken ve açık şekilde.</li>
       <li>Her aşamada zamanında kararlar, özellikle malzeme ve onaylarda — buradaki gecikmeler sonrasındaki her şeyi geciktirir.</li>
       <li>Sahaya erişim ve sahanın durumu/kısıtları hakkında gerçekçi bir bakış.</li>

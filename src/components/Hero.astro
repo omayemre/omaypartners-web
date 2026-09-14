@@ -26,13 +26,13 @@ const srcset = widths.map((w) => `${url(`${image}-${w}.webp`)} ${w}w`).join(', '
     width={width}
     height={height}
     style={`object-position: ${objectPosition}`}
-    class="h-[clamp(420px,72vh,860px)] w-full object-cover"
+    class="h-[clamp(360px,56vh,720px)] w-full object-cover"
     loading="eager"
     fetchpriority="high"
     decoding="async"
   />
   {credit && (
-    <p class="font-sans-nums mx-auto max-w-[1440px] px-[clamp(24px,5vw,96px)] pt-3 text-label text-ink-30">
+    <p class="font-sans-nums mx-auto max-w-[1440px] px-[clamp(24px,5vw,96px)] pt-3 text-label text-ink-45">
       {credit}
     </p>
   )}

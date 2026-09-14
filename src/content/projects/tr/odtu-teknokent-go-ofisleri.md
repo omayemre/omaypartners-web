@@ -3,7 +3,7 @@ title: "ODTU Teknokent GO Ofisleri"
 lang: tr
 slug: "odtu-teknokent-go-ofisleri"
 translationKey: "odtu-teknokent-go-offices"
-sector: "diplomatic-institutional"
+sector: "workplace"
 client: "ODTÜ Teknokent"
 location: "Ankara, Türkiye"
 year: "2026"

@@ -12,23 +12,31 @@ interface Props {
   translations?: Partial<Record<Lang, string>>;
   /** Root-relative path (as from url()) to a social-preview image. Defaults to the homepage hero. */
   image?: string;
+  /** Home is implied. Pass the trail after Home when a page sits deeper
+   * than one click (e.g. project pages: Selected Works > Project). Emits
+   * BreadcrumbList JSON-LD; renders nothing when omitted. */
+  breadcrumbs?: Array<{ name: string; path: string }>;
 }
 
-const { lang, title, description, translations, image = url('/images/site/hero/hero.webp') } = Astro.props;
+const { lang, title, description, translations, image = url('/images/site/hero/hero.webp'), breadcrumbs } = Astro.props;
 
 const pageUrl = new URL(Astro.url.pathname, Astro.site).href;
 const imageUrl = new URL(image, Astro.site).href;
 const ogLocale = lang === 'en' ? 'en_US' : 'tr_TR';
 const ogLocaleAlt = lang === 'en' ? 'tr_TR' : 'en_US';
 
-// Self-gating staging guard: this build is only ever fetched at the real
-// domain once DEPLOY_TARGET switches `site` away from the GitHub Pages
-// preview host in astro.config.mjs, so noindex follows the host
-// automatically instead of relying on someone removing a comment by hand
-// before launch.
-const isPreviewHost = Astro.site?.hostname !== 'www.omaypartners.com';
+// Explicit launch flag rather than an exact-hostname match: fails safe to
+// noindex on any build unless PUBLIC_ALLOW_INDEXING=true is set. The
+// GitHub Pages staging workflow never sets it; the production deploy
+// (stage 2) is where this gets switched on.
+const allowIndexing = import.meta.env.PUBLIC_ALLOW_INDEXING === 'true';
 
-const fullTitle = title.includes('Omay Partners') ? title : `${title} – Omay Partners`;
+// Titles longer than ~60 chars truncate in a browser tab / search result.
+// The brand suffix is dropped rather than the page's own title when the
+// combination would run long - canonical/OG/JSON-LD already carry the
+// brand name regardless.
+const withSuffix = `${title} – Omay Partners`;
+const fullTitle = title.includes('Omay Partners') ? title : withSuffix.length <= 60 ? withSuffix : title;
 
 const organizationSchema = {
   '@context': 'https://schema.org',
@@ -36,15 +44,53 @@ const organizationSchema = {
   name: 'Omay Partners',
   url: new URL(url('/'), Astro.site).href,
   logo: new URL(url('/images/site/brand/logo-dark.webp'), Astro.site).href,
+  address: {
+    '@type': 'PostalAddress',
+    streetAddress: 'Kazım Özalp Mahallesi, Şairler Sok. No:29/4 GOP Çankaya',
+    addressLocality: 'Ankara',
+    addressCountry: 'TR'
+  },
+  contactPoint: [
+    {
+      '@type': 'ContactPoint',
+      telephone: '+90-532-386-24-64',
+      email: 'info@omaypartners.com',
+      contactType: 'sales',
+      areaServed: ['TR', 'GR', 'Europe', 'Middle East', 'Asia']
+    }
+  ],
+  // TODO: point at the studio's company LinkedIn page once one exists -
+  // this is Emre Omay's personal profile, kept because it's the only
+  // verified link available.
   sameAs: ['https://www.linkedin.com/in/emre-omay-1a483a2/', 'https://www.instagram.com/omaypartners/']
 };
+
+const breadcrumbSchema =
+  breadcrumbs && breadcrumbs.length > 0
+    ? {
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+          { name: lang === 'en' ? 'Home' : 'Ana Sayfa', path: lang === 'en' ? '/' : '/tr/' },
+          ...breadcrumbs
+        ].map((c, i) => ({
+          '@type': 'ListItem',
+          position: i + 1,
+          name: c.name,
+          item: new URL(url(c.path), Astro.site).href
+        }))
+      }
+    : null;
 ---
 
 <html lang={lang}>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    {isPreviewHost && <meta name="robots" content="noindex, nofollow" />}
+    {!allowIndexing && <meta name="robots" content="noindex, nofollow" />}
+    {import.meta.env.PUBLIC_GSC_VERIFICATION && (
+      <meta name="google-site-verification" content={import.meta.env.PUBLIC_GSC_VERIFICATION} />
+    )}
     <link rel="icon" type="image/svg+xml" href={url('/favicon.svg')} />
     <link rel="icon" type="image/x-icon" href={url('/favicon.ico')} sizes="16x16 32x32 48x48" />
     <link rel="icon" type="image/png" sizes="192x192" href={url('/images/site/brand/favicon-192.png')} />
@@ -71,8 +117,17 @@ const organizationSchema = {
     <meta name="twitter:image" content={imageUrl} />
 
     <script type="application/ld+json" set:html={JSON.stringify(organizationSchema)} />
+    {breadcrumbSchema && <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />}
+
+    {allowIndexing && import.meta.env.PUBLIC_ANALYTICS_DOMAIN && (
+      <script
+        defer
+        data-domain={import.meta.env.PUBLIC_ANALYTICS_DOMAIN}
+        src="https://plausible.io/js/script.js"
+      />
+    )}
   </head>
-  <body class="bg-white text-ink antialiased">
+  <body class="bg-paper text-ink antialiased">
     <Header lang={lang} translations={translations} />
     <main>
       <slot />

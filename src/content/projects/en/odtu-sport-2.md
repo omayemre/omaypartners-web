@@ -3,7 +3,7 @@ title: "ODTU Sport"
 lang: en
 slug: "odtu-sport-2"
 translationKey: "odtu-sport-2"
-sector: "diplomatic-institutional"
+sector: "workplace"
 client: "METU Teknopark"
 location: "Ankara, Türkiye"
 year: "2025"

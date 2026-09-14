@@ -3,6 +3,7 @@ title: "S House"
 lang: en
 slug: "s-house"
 translationKey: "s-house"
+sector: "workplace"
 order: 38
 client: "Simtes"
 location: "Ankara, Turkey"

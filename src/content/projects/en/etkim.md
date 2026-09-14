@@ -3,7 +3,7 @@ title: "METU Teknopark ETKIM"
 lang: en
 slug: "etkim"
 translationKey: "etkim"
-sector: "diplomatic-institutional"
+sector: "workplace"
 client: "METU Teknopark"
 location: "Ankara, Turkey"
 year: "2023"

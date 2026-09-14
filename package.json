@@ -19,6 +19,9 @@
     "astro": "^7.3.2",
     "tailwindcss": "^4.3.3"
   },
+  "devDependencies": {
+    "sharp": "^0.35.4"
+  },
   "allowScripts": {
     "esbuild": true
   }

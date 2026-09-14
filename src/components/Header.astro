@@ -9,6 +9,11 @@ interface Props {
 
 const { lang, translations } = Astro.props;
 const i18n = t(lang);
+const pathname = Astro.url.pathname.replace(/\/$/, '') || '/';
+function isActive(href: string) {
+  const normalized = href.replace(/\/$/, '') || '/';
+  return pathname === normalized;
+}
 // A handful of TR-only projects have no EN page yet (no translations.en).
 // Rather than silently falling back to '/' - which reads as a broken link
 // dressed up as a working one - the toggle below renders as plain,
@@ -31,59 +36,80 @@ const navItems: Array<[string, string]> = [
 ];
 ---
 
-<header class="sticky top-0 z-50 border-b border-rule bg-white">
+<header class="sticky top-0 z-50 border-b border-rule bg-paper">
   <div class="mx-auto flex max-w-[1440px] items-center justify-between px-[clamp(24px,5vw,96px)] py-4">
     <a href={i18n.path('home')} class="flex items-center gap-2 opacity-100 hover:opacity-70">
       <img src={url('/images/site/brand/logo-dark.webp')} alt="Omay Partners" width="307" height="61" class="h-[52px] w-auto" />
     </a>
 
-    <nav class="font-sans-nums hidden items-center gap-6 text-label md:flex">
+    <nav class="font-sans-nums hidden items-center gap-6 text-[14px] font-medium md:flex">
       {navItems.map(([label, href]) => (
-        <a href={href} class="nav-link text-ink-60 hover:text-accent">
+        <a
+          href={href}
+          aria-current={isActive(href) ? 'page' : undefined}
+          class={`nav-link relative pb-1 ${isActive(href) ? 'text-ink after:absolute after:bottom-0 after:left-0 after:h-px after:w-full after:bg-accent' : 'text-ink-60 hover:text-accent'}`}
+        >
           {label}
         </a>
       ))}
       <div class="flex items-center gap-1.5 border border-rule px-2 py-1">
         {hasEn ? (
-          <a href={enHref} class={lang === 'en' ? 'font-semibold text-ink' : 'text-ink-30 hover:text-accent'}>EN</a>
+          <a href={enHref} class={lang === 'en' ? 'font-semibold text-ink' : 'text-ink-45 hover:text-accent'}>EN</a>
         ) : (
-          <span class="text-ink-30" aria-disabled="true">EN</span>
+          <span class="text-ink-45" aria-disabled="true">EN</span>
         )}
-        <span class="text-ink-30">/</span>
+        <span class="text-ink-45">/</span>
         {hasTr ? (
-          <a href={trHref} class={lang === 'tr' ? 'font-semibold text-ink' : 'text-ink-30 hover:text-accent'}>TR</a>
+          <a href={trHref} class={lang === 'tr' ? 'font-semibold text-ink' : 'text-ink-45 hover:text-accent'}>TR</a>
         ) : (
-          <span class="text-ink-30" aria-disabled="true">TR</span>
+          <span class="text-ink-45" aria-disabled="true">TR</span>
         )}
       </div>
     </nav>
 
     <details class="relative md:hidden">
-      <summary class="list-none cursor-pointer p-2 text-ink" aria-label="Menu">
+      <summary class="list-none cursor-pointer p-2 text-ink" aria-label={i18n.nav.menuLabel}>
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
           <path d="M3 6h18M3 12h18M3 18h18" />
         </svg>
       </summary>
-      <nav class="font-sans-nums absolute right-0 mt-2 w-56 border border-rule bg-white py-2">
+      <nav class="font-sans-nums absolute right-0 mt-2 w-56 border border-rule bg-paper py-2">
         {navItems.map(([label, href]) => (
-          <a href={href} class="block px-4 py-2 text-label text-ink-60 hover:text-accent">
+          <a
+            href={href}
+            aria-current={isActive(href) ? 'page' : undefined}
+            class={`block px-4 py-2 text-label ${isActive(href) ? 'text-ink font-semibold' : 'text-ink-60 hover:text-accent'}`}
+          >
             {label}
           </a>
         ))}
         <div class="flex items-center gap-2 px-4 py-2 text-label">
           {hasEn ? (
-            <a href={enHref} class={lang === 'en' ? 'font-semibold text-ink' : 'text-ink-30 hover:text-accent'}>EN</a>
+            <a href={enHref} class={lang === 'en' ? 'font-semibold text-ink' : 'text-ink-45 hover:text-accent'}>EN</a>
           ) : (
-            <span class="text-ink-30" aria-disabled="true">EN</span>
+            <span class="text-ink-45" aria-disabled="true">EN</span>
           )}
-          <span class="text-ink-30">/</span>
+          <span class="text-ink-45">/</span>
           {hasTr ? (
-            <a href={trHref} class={lang === 'tr' ? 'font-semibold text-ink' : 'text-ink-30 hover:text-accent'}>TR</a>
+            <a href={trHref} class={lang === 'tr' ? 'font-semibold text-ink' : 'text-ink-45 hover:text-accent'}>TR</a>
           ) : (
-            <span class="text-ink-30" aria-disabled="true">TR</span>
+            <span class="text-ink-45" aria-disabled="true">TR</span>
           )}
         </div>
       </nav>
     </details>
   </div>
 </header>
+
+<script>
+  // <details>/<summary> has no built-in Escape or outside-tap dismissal.
+  const menu = document.querySelector<HTMLDetailsElement>('header details');
+  if (menu) {
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && menu.open) menu.open = false;
+    });
+    document.addEventListener('click', (e) => {
+      if (menu.open && !menu.contains(e.target as Node)) menu.open = false;
+    });
+  }
+</script>

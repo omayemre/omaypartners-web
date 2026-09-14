@@ -3,7 +3,7 @@ title: "METU Teknopark ATOM"
 lang: en
 slug: "metu-teknopark-atom"
 translationKey: "metu-teknopark-atom"
-sector: "diplomatic-institutional"
+sector: "workplace"
 client: "METU Teknopark"
 location: "Ankara, Türkiye"
 year: "2025"

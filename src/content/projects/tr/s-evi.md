@@ -3,6 +3,7 @@ title: "S Evi"
 lang: tr
 slug: "s-evi"
 translationKey: "s-house"
+sector: "workplace"
 order: 38
 client: "Simtes"
 location: "Ankara, Türkiye"

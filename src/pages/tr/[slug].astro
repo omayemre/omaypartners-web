@@ -3,25 +3,55 @@ import { getCollection } from 'astro:content';
 import Layout from '../../layouts/Layout.astro';
 import FactBlock from '../../components/FactBlock.astro';
 import { url } from '../../lib/url';
+import { projectImage } from '../../lib/img';
+import referenceRows from '../../data/references.tr.json';
 
 export async function getStaticPaths() {
-  const trProjects = await getCollection('projects', ({ data }) => data.lang === 'tr');
+  const trProjects = (await getCollection('projects', ({ data }) => data.lang === 'tr')).sort(
+    (a, b) => a.data.order - b.data.order
+  );
   const enProjects = await getCollection('projects', ({ data }) => data.lang === 'en');
 
-  return trProjects.map((project) => {
+  return trProjects.map((project, i) => {
     const enCounterpart = enProjects.find((p) => p.data.translationKey === project.data.translationKey);
+    const prev = trProjects[i - 1];
+    const next = trProjects[i + 1];
     return {
       params: { slug: project.data.slug },
-      props: { project, enSlug: enCounterpart?.data.slug }
+      props: {
+        project,
+        enSlug: enCounterpart?.data.slug,
+        prev: prev && { title: prev.data.title, slug: prev.data.slug },
+        next: next && { title: next.data.title, slug: next.data.slug }
+      }
     };
   });
 }
 
-const { project, enSlug } = Astro.props;
+const { project, enSlug, prev, next } = Astro.props;
 const { title, cover, gallery, client, location, year, area, note } = project.data;
 const description = client
-  ? `${title} — ${client}${location ? `, ${location}` : ''} için Omay Partners tarafından mimarlık, iç mekân ve anahtar teslim uygulama.`
-  : `${title} — Omay Partners tarafından mimarlık, iç mekân ve anahtar teslim uygulama.`;
+  ? `${title} — ${client}${location ? `, ${location}` : ''} için Omay Partners tarafından tasarım ve uygulama.`
+  : `${title} — Omay Partners tarafından tasarım ve uygulama.`;
+
+// "Verilen Hizmet" yalnızca Arşiv verisinde var, slug üzerinden eşleniyor -
+// yalnızca güvenle eşleşen ~37 satırda dolu.
+const referenceRow = referenceRows.find((r) => !r.section && r.slug === project.data.slug);
+const service = referenceRow && referenceRow.service !== '*' ? referenceRow.service : undefined;
+
+const coverImg = cover ? projectImage(cover) : null;
+const galleryImgs = gallery ? gallery.slice(1).map(projectImage) : [];
+
+const creativeWorkSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'CreativeWork',
+  name: title,
+  ...(cover ? { image: new URL(url(cover), Astro.site).href } : {}),
+  ...(client ? { about: { '@type': 'Organization', name: client } } : {}),
+  ...(location ? { locationCreated: { '@type': 'Place', name: location } } : {}),
+  ...(year ? { dateCreated: year } : {}),
+  creator: { '@type': 'Organization', name: 'Omay Partners', url: new URL(url('/tr/'), Astro.site).href }
+};
 ---
 
 <Layout
@@ -30,31 +60,76 @@ const description = client
   description={description}
   translations={{ tr: `/tr/${project.data.slug}/`, ...(enSlug ? { en: `/${enSlug}/` } : {}) }}
   image={cover ? url(cover) : undefined}
+  breadcrumbs={[{ name: 'Seçilmiş İşler', path: '/tr/projeler/' }, { name: title, path: `/tr/${project.data.slug}/` }]}
 >
-  <article class="mx-auto max-w-[1440px] px-[clamp(24px,5vw,96px)] py-16 md:py-16 lg:py-[104px]">
+  <script type="application/ld+json" set:html={JSON.stringify(creativeWorkSchema)} />
+  <article class="mx-auto max-w-[1440px] px-[clamp(24px,5vw,96px)] py-section">
     <h1 class="text-center text-h1">{title}</h1>
 
-    <FactBlock lang="tr" client={client} location={location} year={year} area={area} />
+    <FactBlock lang="tr" client={client} location={location} year={year} area={area} service={service} />
 
     {note && <p class="mt-4 text-center text-table italic text-ink-60">{note}</p>}
 
-    {cover && (
+    {coverImg && (
       <div class="mt-10">
-        <img src={url(cover)} alt={title} class="aspect-[3/2] w-full object-cover" loading="eager" decoding="async" />
+        <img
+          src={coverImg.src}
+          srcset={coverImg.srcset}
+          sizes="(min-width: 1440px) 1248px, 100vw"
+          alt={title}
+          width={coverImg.width ?? 1200}
+          height={coverImg.height ?? 800}
+          class="aspect-[3/2] w-full object-cover"
+          loading="eager"
+          decoding="async"
+        />
       </div>
     )}
 
-    {gallery && gallery.length > 1 && (
-      <div class="mx-auto mt-10 max-w-2xl space-y-6">
-        {gallery.slice(1).map((src) => (
-          <img src={url(src)} alt="" class="mx-auto max-h-[80vh] w-full object-contain" loading="lazy" decoding="async" />
+    {galleryImgs.length > 0 && (
+      <div class="mx-auto mt-10 grid max-w-[1200px] grid-cols-2 gap-4 sm:gap-6">
+        {galleryImgs.map((img) => (
+          <img
+            src={img.src}
+            srcset={img.srcset}
+            sizes="(min-width: 1200px) 588px, 45vw"
+            alt=""
+            width={img.width ?? 900}
+            height={img.height ?? 600}
+            class="aspect-[3/2] w-full object-cover"
+            loading="lazy"
+            decoding="async"
+          />
         ))}
       </div>
     )}
 
-    <div class="mt-12 text-center">
-      <a href={url('/tr/projeler/')} class="font-sans-nums text-label text-ink-60 uppercase hover:text-accent">
-        ← Tüm projeler
+    <nav
+      class="font-sans-nums mt-14 flex flex-col items-center gap-3 border-t border-rule pt-8 text-center text-label uppercase sm:flex-row sm:justify-between sm:gap-6 sm:text-left"
+      aria-label="Proje gezinme"
+    >
+      <div class="order-2 sm:order-1 sm:flex-1">
+        {prev && (
+          <a href={url(`/tr/${prev.slug}/`)} class="text-ink-60 hover:text-accent">
+            ← {prev.title}
+          </a>
+        )}
+      </div>
+      <a href={url('/tr/projeler/')} class="order-1 shrink-0 text-ink-60 hover:text-accent sm:order-2">
+        Tüm projeler
+      </a>
+      <div class="order-3 sm:flex-1 sm:text-right">
+        {next && (
+          <a href={url(`/tr/${next.slug}/`)} class="text-ink-60 hover:text-accent">
+            {next.title} →
+          </a>
+        )}
+      </div>
+    </nav>
+
+    <div class="mt-8 text-center">
+      <a href={url('/tr/iletisim/')} class="font-sans-nums text-label text-accent uppercase hover:opacity-70">
+        Benzer bir proje mi var? →
       </a>
     </div>
   </article>

@@ -14,6 +14,8 @@ const { images, altPrefix } = Astro.props;
       <img
         src={src}
         alt={`${altPrefix} ${i + 1}`}
+        width="600"
+        height="600"
         class="aspect-square w-full object-cover hover:opacity-80"
         loading="lazy"
         decoding="async"
@@ -26,40 +28,90 @@ const { images, altPrefix } = Astro.props;
   class="lightbox fixed inset-0 z-[100] hidden items-center justify-center bg-black/90 p-4"
   role="dialog"
   aria-modal="true"
+  aria-label={altPrefix}
 >
+  <button type="button" class="lightbox-prev absolute left-4 top-1/2 -translate-y-1/2 text-3xl text-white/70 hover:text-white" aria-label="Previous photo">
+    &#8249;
+  </button>
+  <img class="lightbox-img max-h-[90vh] max-w-full object-contain" src="" alt="" />
+  <button type="button" class="lightbox-next absolute right-4 top-1/2 -translate-y-1/2 text-3xl text-white/70 hover:text-white" aria-label="Next photo">
+    &#8250;
+  </button>
   <button type="button" class="lightbox-close absolute top-4 right-4 text-3xl text-white/70 hover:text-white" aria-label="Close">
     &times;
   </button>
-  <img class="lightbox-img max-h-[90vh] max-w-full object-contain" src="" alt="" />
 </div>
 
 <script>
   const grid = document.querySelector('.photo-grid');
+  const items = Array.from(document.querySelectorAll<HTMLButtonElement>('.photo-grid-item'));
   const lightbox = document.querySelector<HTMLElement>('.lightbox');
   const lightboxImg = document.querySelector<HTMLImageElement>('.lightbox-img');
-  const closeBtn = document.querySelector('.lightbox-close');
+  const closeBtn = document.querySelector<HTMLButtonElement>('.lightbox-close');
+  const prevBtn = document.querySelector<HTMLButtonElement>('.lightbox-prev');
+  const nextBtn = document.querySelector<HTMLButtonElement>('.lightbox-next');
+  const focusable = [prevBtn, nextBtn, closeBtn].filter((el): el is HTMLButtonElement => !!el);
 
-  grid?.addEventListener('click', (e) => {
-    const btn = (e.target as HTMLElement).closest('.photo-grid-item');
-    if (!btn || !lightbox || !lightboxImg) return;
-    const img = btn.querySelector('img');
+  let currentIndex = -1;
+  let lastFocused: HTMLElement | null = null;
+
+  function show(index: number) {
+    if (!lightbox || !lightboxImg || index < 0 || index >= items.length) return;
+    currentIndex = index;
+    const img = items[index].querySelector('img');
     if (!img) return;
     lightboxImg.src = img.src;
     lightboxImg.alt = img.alt;
+  }
+
+  function open(index: number) {
+    if (!lightbox) return;
+    lastFocused = document.activeElement as HTMLElement;
+    show(index);
     lightbox.classList.remove('hidden');
     lightbox.classList.add('flex');
-  });
+    closeBtn?.focus();
+  }
 
   function close() {
     lightbox?.classList.add('hidden');
     lightbox?.classList.remove('flex');
+    (lastFocused ?? items[currentIndex])?.focus();
   }
 
+  grid?.addEventListener('click', (e) => {
+    const btn = (e.target as HTMLElement).closest<HTMLButtonElement>('.photo-grid-item');
+    if (!btn) return;
+    open(Number(btn.dataset.index));
+  });
+
   closeBtn?.addEventListener('click', close);
+  prevBtn?.addEventListener('click', () => show((currentIndex - 1 + items.length) % items.length));
+  nextBtn?.addEventListener('click', () => show((currentIndex + 1) % items.length));
+
   lightbox?.addEventListener('click', (e) => {
     if (e.target === lightbox) close();
   });
+
   document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape') close();
+    if (lightbox?.classList.contains('hidden')) return;
+    if (e.key === 'Escape') {
+      close();
+    } else if (e.key === 'ArrowLeft') {
+      show((currentIndex - 1 + items.length) % items.length);
+    } else if (e.key === 'ArrowRight') {
+      show((currentIndex + 1) % items.length);
+    } else if (e.key === 'Tab' && focusable.length > 0) {
+      // Simple focus trap - the dialog only ever holds these three buttons.
+      const first = focusable[0];
+      const last = focusable[focusable.length - 1];
+      if (e.shiftKey && document.activeElement === first) {
+        e.preventDefault();
+        last.focus();
+      } else if (!e.shiftKey && document.activeElement === last) {
+        e.preventDefault();
+        first.focus();
+      }
+    }
   });
 </script>

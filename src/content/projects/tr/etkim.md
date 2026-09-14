@@ -3,7 +3,7 @@ title: "ODTÜ Teknokent ETKİM"
 lang: tr
 slug: "etkim"
 translationKey: "etkim"
-sector: "diplomatic-institutional"
+sector: "workplace"
 client: "ODTÜ Teknokent"
 location: "Ankara, Türkiye"
 year: "2023"

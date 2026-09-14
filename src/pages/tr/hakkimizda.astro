@@ -24,20 +24,21 @@ const personSchema = {
 
 <Layout
   lang="tr"
-  title="Stüdyo"
+  title="Stüdyo — Mimarlık ve Uygulama"
   description="Omay Partners; Ankara merkezli bir mimarlık, iç mimarlık, inşaat ve proje yönetimi ofisidir."
   translations={{ en: '/about-us/', tr: '/tr/hakkimizda/' }}
+  breadcrumbs={[{ name: 'Stüdyo', path: '/tr/hakkimizda/' }]}
 >
   <script type="application/ld+json" set:html={JSON.stringify(personSchema)} />
 
-  <article class="mx-auto max-w-[109ch] px-[clamp(24px,5vw,96px)] py-16 md:py-16 lg:py-[104px]">
+  <article class="mx-auto max-w-[109ch] px-[clamp(24px,5vw,96px)] py-section">
     <h1 class="text-h1">Stüdyo</h1>
 
-    <p class="mt-8 text-lead text-ink-60">
+    <p class="mt-8 max-w-[60ch] text-lead text-ink-60">
       Omay Partners; Ankara ve Atina merkezli bir mimarlık, iç mimarlık, uygulama ve proje yönetimi ofisidir.
       Türkiye, Orta Doğu, Asya ve Avrupa'da çalışıyoruz.
     </p>
-    <p class="mt-4 text-lead text-ink-60">
+    <p class="mt-4 max-w-[60ch] text-lead text-ink-60">
       Yirmi yılı aşkın süredir farklı ölçek ve sektörlerde proje ve uygulama hizmeti veriyoruz — oteller ve
       karma kullanımlı projeler, elçilikler ve kurumsal yapılar, ulaşım merkezleri, ofisler, klinikler ve
       konutlar. Müşterilerimiz arasında Sabancı, Hilton, Ericsson, Leonardo, Sandvik ve pek çok Büyükelçilik
@@ -53,11 +54,11 @@ const personSchema = {
     />
 
     <h2 class="mt-12 text-h2">Ne yapıyoruz</h2>
-    <p class="mt-4 text-body text-ink-60">
+    <p class="mt-4 max-w-[68ch] text-body text-ink-60">
       Projeyi baştan sona kadar yürütüyoruz; böylece fikirden inşa edilmiş gerçekliğe kadar tek bir ekip
       sürecin bütününü taşıyor:
     </p>
-    <ul class="mt-4 list-disc space-y-2 pl-5 text-body text-ink-60">
+    <ul class="mt-4 max-w-[68ch] list-disc space-y-2 pl-5 text-body text-ink-60">
       <li><strong>Mimarlık &amp; iç mimarlık</strong> — konsept tasarımdan detaylı uygulama projelerine.</li>
       <li><strong>İnşaat &amp; uygulama</strong> — şartnameye uygun, sahada uygulama.</li>
       <li><strong>Proje yönetimi</strong> — baştan sona koordinasyon, program ve bütçe.</li>
@@ -72,7 +73,7 @@ const personSchema = {
     />
 
     <h2 class="mt-12 text-h2">Nasıl çalışıyoruz</h2>
-    <p class="mt-4 text-body text-ink-60">
+    <p class="mt-4 max-w-[68ch] text-body text-ink-60">
       İyi tasarım, bir mekânı onu kullanan insanlar için tam olarak işlevsel kılma disiplinidir. Önce
       projeyi, alanı ve kısıtları anlayarak işe başlarız, ardından bunları açık, titiz ve sakince ele
       alınmış bir çözüme dönüştürürüz. Müşterilerimiz ve danışmanlarımızla yakın çalışırız; başarıyı,
@@ -84,12 +85,12 @@ const personSchema = {
       <img src={url('/images/site/about/emre-omay.webp')} alt="Emre Omay" class="w-36 shrink-0" />
       <div>
         <p class="font-medium text-ink">Emre Omay — Kurucu Ortak</p>
-        <p class="mt-2 text-body text-ink-60">
+        <p class="mt-2 max-w-[60ch] text-body text-ink-60">
           Mimarlık, inşaat ve proje yönetiminde 25 yılı aşkın uluslararası deneyime sahip mimar; daha önce
           Turner International ve Sabancı Holding'de görev aldı. Orta Doğu Teknik Üniversitesi'nde (ODTÜ)
-          mimarlık ve yönetim eğitimi aldı. Avrupa, Asya ve Orta Doğu'da 100'ün üzerinde projeyi yürüttü.
+          mimarlık ve yönetim eğitimi aldı. Avrupa, Asya ve Orta Doğu'da 150'nin üzerinde projeyi yürüttü.
         </p>
-        <p class="font-sans-nums mt-4 text-table text-ink-60">
+        <p class="font-sans-nums mt-4 max-w-[60ch] text-table text-ink-60">
           Seçili müşteriler: Sabancı, Hilton, Ericsson, Qatar Airways, BP, AECOM, Sandvik, Udemy, Securitas,
           Cushman &amp; Wakefield, Leonardo, Fulbright, Tüprag (Eldorado Gold), Limeks, ODTÜ — ve İtalya,
           Hollanda, İngiltere, Almanya, Norveç ve Malta başta olmak üzere çok sayıda büyükelçilik.
