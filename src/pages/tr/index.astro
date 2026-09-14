@@ -13,8 +13,13 @@ import { url } from '../../lib/url';
   translations={{ en: '/', tr: '/tr/' }}
 >
   <Hero
-    alt="ODTÜ Teknokent Kuluçka Merkezi, Ankara — parktan görülen delikli panel cephe"
-    credit="ODTÜ Teknokent Kuluçka Merkezi, Ankara — mimari: Omay Partners"
+    image="/images/site/hero/hero-hilton"
+    widths={[1024, 1600]}
+    width={1600}
+    height={1012}
+    alt="Ankara Hilton Oteli Kral Daireleri — döşemeli başlıklı yatak odası, arkada oturma alanı"
+    credit="Ankara Hilton Oteli Kral Daireleri, Ankara — iç mimari ve uygulama: Omay Partners"
+    objectPosition="50% 68%"
   />
 
   <section class="pt-10 pb-16 md:pt-12 md:pb-20 lg:pt-16 lg:pb-[104px]">
@@ -33,21 +38,22 @@ import { url } from '../../lib/url';
     </div>
   </section>
 
+  <section class="border-t border-rule py-8 lg:py-10">
+    <div class="mx-auto max-w-[1440px] px-[clamp(24px,5vw,96px)] text-center">
+      <p class="font-sans-nums text-label text-ink-60 uppercase">25+ yıl · 140+ proje</p>
+    </div>
+  </section>
+
+  <SelectedWorksTeaser lang="tr" />
+
   <section class="border-t border-rule py-16 md:py-16 lg:py-[104px]">
     <div class="mx-auto max-w-[62ch] px-[clamp(24px,5vw,96px)] text-center">
       <p class="font-sans-nums text-label text-ink-60 uppercase">Referanslarımız</p>
-      <p class="mt-4 text-lead text-ink-60">
-        Omay Partners; 25 yılı aşkın deneyimiyle mimari, iç mekân tasarımı ve uygulamayı tek çatı altında
-        birleştiren bir tasarım ve yapı ofisidir. Projeleri ilk eskizden anahtar teslimine kadar hayata
-        geçiriyoruz.
-      </p>
     </div>
     <div class="mt-12">
       <ClientLogos />
     </div>
   </section>
-
-  <SelectedWorksTeaser lang="tr" />
 
   <section class="border-t border-rule py-16 md:py-16 lg:py-[104px]">
     <div class="mx-auto grid max-w-[1440px] grid-cols-1 gap-x-8 gap-y-10 px-[clamp(24px,5vw,96px)] text-center md:grid-cols-3">
@@ -94,8 +100,7 @@ import { url } from '../../lib/url';
 
   <section class="border-t border-rule py-16 md:py-16 lg:py-[104px]">
     <div class="mx-auto max-w-[62ch] px-[clamp(24px,5vw,96px)] text-center">
-      <p class="font-sans-nums text-label text-ink-60 uppercase">25+ yıl · 140+ proje</p>
-      <p class="mt-6 text-lead text-ink-60">
+      <p class="text-lead text-ink-60">
         İşin başından sonuna aynı ekibin takip ettiği küçük bir stüdyoyuz — ilk eskizi çizen el, anahtar
         teslimine kadar projenin yanında kalır. İşlerimizin büyük bölümü, yeniden birlikte çalışmak isteyen
         müşterilerimizden gelir. Binalar, iç mekânlar ve uygulamalar; sessizce ve zamanında teslim edilir.

@@ -4,27 +4,29 @@ import { url } from '../lib/url';
 interface Props {
   alt: string;
   credit?: string;
+  image: string; // base path without the size suffix, e.g. '/images/site/hero/hero-hilton'
+  widths: number[]; // available derivative widths, ascending
+  width: number; // intrinsic width of the largest derivative (for CLS)
+  height: number; // intrinsic height of the largest derivative (for CLS)
+  objectPosition?: string; // CSS object-position, tuned per photo's focal point
 }
 
-const { alt, credit } = Astro.props;
+const { alt, credit, image, widths, width, height, objectPosition = '50% 45%' } = Astro.props;
 
-const base = '/images/site/hero';
-const srcset = [
-  `${url(`${base}/hero-1024.webp`)} 1024w`,
-  `${url(`${base}/hero-1600.webp`)} 1600w`,
-  `${url(`${base}/hero-2560.webp`)} 2560w`
-].join(', ');
+const largest = widths[widths.length - 1];
+const srcset = widths.map((w) => `${url(`${image}-${w}.webp`)} ${w}w`).join(', ');
 ---
 
 <section>
   <img
-    src={url(`${base}/hero-1600.webp`)}
+    src={url(`${image}-${largest}.webp`)}
     srcset={srcset}
     sizes="100vw"
     alt={alt}
-    width="2560"
-    height="1620"
-    class="h-[clamp(420px,72vh,860px)] w-full object-cover object-[50%_45%]"
+    width={width}
+    height={height}
+    style={`object-position: ${objectPosition}`}
+    class="h-[clamp(420px,72vh,860px)] w-full object-cover"
     loading="eager"
     fetchpriority="high"
     decoding="async"
