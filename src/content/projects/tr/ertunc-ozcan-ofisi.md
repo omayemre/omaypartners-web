@@ -8,7 +8,7 @@ client: "Ertunç Özcan"
 location: "Ankara, Türkiye"
 year: "2012"
 area: "1.000 m²"
-order: 33
+order: 25
 cover: "/images/projects/ertunc-ozcan-office/img-01.webp"
 gallery:
   - "/images/projects/ertunc-ozcan-office/img-01.webp"

@@ -6,7 +6,7 @@ translationKey: "lycee-charles-de-gaulle"
 sector: "diplomatic-institutional"
 client: "Lycée Charles de Gaulle"
 year: "2018–2021"
-order: 12
+order: 17
 cover: "/images/projects/lycee-charles-de-gaulle/img-03.webp"
 gallery:
   - "/images/projects/lycee-charles-de-gaulle/img-03.webp"

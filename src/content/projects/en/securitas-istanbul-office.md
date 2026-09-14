@@ -8,7 +8,7 @@ client: "Securitas"
 location: "Istanbul, Turkey"
 year: "2016"
 area: "1,400 m²"
-order: 26
+order: 30
 cover: "/images/projects/securitas-istanbul-office/img-01.webp"
 gallery:
   - "/images/projects/securitas-istanbul-office/img-01.webp"

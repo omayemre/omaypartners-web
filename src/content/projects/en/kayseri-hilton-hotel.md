@@ -8,7 +8,7 @@ client: "Başyazıcı"
 location: "Kayseri, Turkey"
 year: "2013"
 area: "30,000 m²"
-order: 24
+order: 29
 cover: "/images/projects/kayseri-hilton-hotel/img-01.webp"
 gallery:
   - "/images/projects/kayseri-hilton-hotel/img-01.webp"

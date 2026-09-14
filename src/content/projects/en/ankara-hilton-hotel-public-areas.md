@@ -8,7 +8,7 @@ client: "Sabancı Holding, AEO A.Ş."
 location: "Ankara, Turkey"
 year: "2011"
 area: "8,000 m²"
-order: 22
+order: 12
 note: "Concept design by Toner Architects"
 cover: "/images/projects/ankara-hilton-hotel-public-areas/img-01.webp"
 gallery:

@@ -6,7 +6,7 @@ translationKey: "doktor-clinic"
 sector: "workplace"
 client: "Dr. Nural Aydın"
 location: "Ankara, Türkiye"
-order: 14
+order: 19
 cover: "/images/projects/doktor-clinic/img-08.webp"
 gallery:
   - "/images/projects/doktor-clinic/img-08.webp"

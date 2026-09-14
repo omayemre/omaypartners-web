@@ -8,7 +8,7 @@ client: "Bayraktar Makina"
 location: "Ankara, Türkiye"
 year: "2012"
 area: "400 m²"
-order: 32
+order: 35
 cover: "/images/projects/bayraktar-makina-office/img-01.webp"
 gallery:
   - "/images/projects/bayraktar-makina-office/img-01.webp"

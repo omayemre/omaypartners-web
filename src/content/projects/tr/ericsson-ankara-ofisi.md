@@ -8,7 +8,7 @@ client: "Ericsson"
 location: "Ankara, Türkiye"
 year: "2021"
 area: "500 m²"
-order: 16
+order: 27
 cover: "/images/projects/ericsson-ankara-office/img-01.webp"
 gallery:
   - "/images/projects/ericsson-ankara-office/img-01.webp"

@@ -7,7 +7,7 @@ sector: "diplomatic-institutional"
 client: "Hollanda Dışişleri Bakanlığı"
 location: "Ankara, Türkiye"
 year: "2020–2021"
-order: 11
+order: 15
 cover: "/images/projects/netherlands-embassy/img-01.webp"
 gallery:
   - "/images/projects/netherlands-embassy/img-01.webp"

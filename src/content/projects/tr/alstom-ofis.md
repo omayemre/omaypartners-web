@@ -8,7 +8,7 @@ client: "Alstom Türkiye"
 location: "Ankara, Türkiye"
 year: "2013"
 area: "2.200 m²"
-order: 29
+order: 32
 cover: "/images/projects/alstom-office/img-01.webp"
 gallery:
   - "/images/projects/alstom-office/img-01.webp"

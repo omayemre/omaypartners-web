@@ -8,7 +8,7 @@ client: "Qatar Airways"
 location: "Ankara, Turkey"
 year: "2011"
 area: "200 m²"
-order: 10
+order: 14
 cover: "/images/projects/qatar-airways-turkey-office/img-120.webp"
 gallery:
   - "/images/projects/qatar-airways-turkey-office/img-120.webp"

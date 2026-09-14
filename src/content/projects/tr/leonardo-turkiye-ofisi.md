@@ -8,7 +8,7 @@ client: "Leonardo S.p.A."
 location: "Ankara, Türkiye"
 year: "2020"
 area: "350 m²"
-order: 17
+order: 10
 cover: "/images/projects/leonardo-turkey-office/img-01.webp"
 gallery:
   - "/images/projects/leonardo-turkey-office/img-01.webp"

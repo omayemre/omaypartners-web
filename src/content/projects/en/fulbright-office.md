@@ -8,7 +8,7 @@ client: "Fulbright"
 location: "Ankara, Turkey"
 year: "2012"
 area: "150 m²"
-order: 30
+order: 33
 cover: "/images/projects/fullbright-office/img-01.webp"
 gallery:
   - "/images/projects/fullbright-office/img-01.webp"

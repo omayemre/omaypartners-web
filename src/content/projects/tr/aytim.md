@@ -8,7 +8,7 @@ client: "Aytim Grup"
 location: "Erzurum, Türkiye"
 year: "2020"
 area: "8.000 m²"
-order: 18
+order: 6
 cover: "/images/projects/aytim-group-factory/img-01.webp"
 gallery:
   - "/images/projects/aytim-group-factory/img-01.webp"

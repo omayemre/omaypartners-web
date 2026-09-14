@@ -8,7 +8,7 @@ client: "Magic Lab"
 location: "Ankara, Turkey"
 year: "2023"
 area: "2,000 m²"
-order: 4
+order: 5
 cover: "/images/projects/magic-lab/img-36.webp"
 gallery:
   - "/images/projects/magic-lab/img-36.webp"

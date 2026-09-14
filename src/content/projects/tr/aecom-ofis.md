@@ -8,7 +8,7 @@ client: "Aecom"
 location: "Ankara, Türkiye"
 year: "2012"
 area: "310 m²"
-order: 31
+order: 34
 cover: "/images/projects/aecom-office/img-01.webp"
 gallery:
   - "/images/projects/aecom-office/img-01.webp"

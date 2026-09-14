@@ -8,7 +8,7 @@ client: "Sabancı Holding, AEO, Hilton"
 location: "Ankara, Türkiye"
 year: "2023"
 area: "1.500 m²"
-order: 6
+order: 2
 cover: "/images/projects/ankara-hilton-hotel-apartment-floor/img-16.webp"
 gallery:
   - "/images/projects/ankara-hilton-hotel-apartment-floor/img-16.webp"

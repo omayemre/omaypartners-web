@@ -8,7 +8,7 @@ client: "Çiftay Construction"
 location: "Ankara, Turkey"
 year: "2014"
 area: "1,000 m²"
-order: 28
+order: 24
 cover: "/images/projects/ciftay-mining-head-office/img-01.webp"
 gallery:
   - "/images/projects/ciftay-mining-head-office/img-01.webp"

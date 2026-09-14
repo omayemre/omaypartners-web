@@ -3,7 +3,7 @@ title: "Atyrau Airport"
 lang: en
 slug: "atyrau-airport"
 translationKey: "atyrau-airport"
-order: 34
+order: 23
 client: "Mağdenli"
 location: "Atyrau, Kazakhstan"
 year: "2008"

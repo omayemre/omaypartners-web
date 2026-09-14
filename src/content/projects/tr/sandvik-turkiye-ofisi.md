@@ -8,7 +8,7 @@ client: "Sandvik"
 location: "Ankara, Türkiye"
 year: "2019"
 area: "1.000 m²"
-order: 19
+order: 13
 cover: "/images/projects/sandvik-turkey-office/img-01.webp"
 gallery:
   - "/images/projects/sandvik-turkey-office/img-01.webp"

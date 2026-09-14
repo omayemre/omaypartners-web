@@ -8,7 +8,7 @@ client: "Genel Energy"
 location: "Ankara, Türkiye"
 year: "2013"
 area: "3.300 m²"
-order: 27
+order: 22
 cover: "/images/projects/genel-energy-head-office/img-01.webp"
 gallery:
   - "/images/projects/genel-energy-head-office/img-01.webp"

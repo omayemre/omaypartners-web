@@ -7,7 +7,7 @@ sector: "diplomatic-institutional"
 client: "ODTÜ Teknokent"
 location: "Ankara, Türkiye"
 year: "2025"
-order: 2
+order: 3
 cover: "/images/projects/odtu-sport-2/img-14.webp"
 gallery:
   - "/images/projects/odtu-sport-2/img-14.webp"

@@ -8,7 +8,7 @@ client: "AST Russia"
 location: "Antalya, Turkey"
 year: "2007"
 area: "7,500 m²"
-order: 35
+order: 31
 cover: "/images/projects/mardan-palace-spa/img-01.webp"
 gallery:
   - "/images/projects/mardan-palace-spa/img-01.webp"
