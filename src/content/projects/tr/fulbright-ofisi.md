@@ -1,5 +1,5 @@
 ---
-title: "Fulbright Ofisi (Gizlidir)"
+title: "Fulbright Ofisi"
 lang: tr
 slug: "fulbright-ofisi"
 translationKey: "fulbright-office"
