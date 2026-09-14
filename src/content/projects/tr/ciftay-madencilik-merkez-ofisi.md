@@ -27,8 +27,4 @@ gallery:
   - "/images/projects/ciftay-mining-head-office/img-14.webp"
   - "/images/projects/ciftay-mining-head-office/img-15.webp"
   - "/images/projects/ciftay-mining-head-office/img-16.webp"
-  - "/images/projects/ciftay-mining-head-office/img-17.webp"
-  - "/images/projects/ciftay-mining-head-office/img-18.webp"
-  - "/images/projects/ciftay-mining-head-office/img-19.webp"
-  - "/images/projects/ciftay-mining-head-office/img-20.webp"
 ---
