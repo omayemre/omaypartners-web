@@ -54,4 +54,7 @@ gallery:
   - "/images/projects/ankara-hilton-hotel-public-areas/img-41.webp"
   - "/images/projects/ankara-hilton-hotel-public-areas/img-42.webp"
   - "/images/projects/ankara-hilton-hotel-public-areas/img-43.webp"
+  - "/images/projects/ankara-hilton-hotel-public-areas/img-44.webp"
+  - "/images/projects/ankara-hilton-hotel-public-areas/img-45.webp"
+  - "/images/projects/ankara-hilton-hotel-public-areas/img-46.webp"
 ---
