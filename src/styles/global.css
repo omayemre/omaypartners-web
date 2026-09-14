@@ -68,17 +68,16 @@ body {
     "cv05" 1;
 }
 
-/* Mobile clamps for the two largest sizes (per spec) */
-@media (max-width: 767px) {
-  .text-display {
-    font-size: clamp(34px, 8vw, 61px);
-  }
-  .text-h1 {
-    font-size: clamp(28px, 6.5vw, 49px);
-  }
-  .text-h2 {
-    font-size: clamp(20px, 5.5vw, 39px);
-  }
+/* Fluid across all widths — no breakpoint steps, so sizes can never go
+   non-monotonic (see the old homepage h1: 19px → md:18px → lg:23px). */
+.text-display {
+  font-size: clamp(34px, 5.2vw, 61px);
+}
+.text-h1 {
+  font-size: clamp(28px, 4.2vw, 49px);
+}
+.text-h2 {
+  font-size: clamp(22px, 3.2vw, 39px);
 }
 
 /* Motion policy: opacity-only, nothing else */

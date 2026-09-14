@@ -1,24 +1,39 @@
 ---
-// Static hero plate. Was previously a Swiper carousel, but with exactly one
-// live image `loop` always evaluated false and there was nothing to
-// cross-fade — 73KB of carousel JS animating a single static photo. Reduced
-// to a plain <img> with identical visual output. `images` still takes an
-// array (only the first entry renders) so a second hero plate can be added
-// later without a prop-shape change; if that happens, reintroduce a
-// carousel here rather than before.
-//
-// Purely visual - the page's real <h1> now lives in the headline section
-// directly below this (see index.astro / tr/index.astro), so it's actually
-// visible instead of sr-only.
 import { url } from '../lib/url';
 
 interface Props {
-  images?: string[];
+  alt: string;
+  credit?: string;
+  image: string; // base path without the size suffix, e.g. '/images/site/hero/hero-hilton'
+  widths: number[]; // available derivative widths, ascending
+  width: number; // intrinsic width of the largest derivative (for CLS)
+  height: number; // intrinsic height of the largest derivative (for CLS)
+  objectPosition?: string; // CSS object-position, tuned per photo's focal point
 }
 
-const { images = [url('/images/site/hero/hero.webp')] } = Astro.props;
+const { alt, credit, image, widths, width, height, objectPosition = '50% 45%' } = Astro.props;
+
+const largest = widths[widths.length - 1];
+const srcset = widths.map((w) => `${url(`${image}-${w}.webp`)} ${w}w`).join(', ');
 ---
 
-<section class="relative h-[70vh] min-h-[480px] overflow-hidden">
-  <img src={images[0]} alt="" class="h-full w-full object-cover" loading="eager" decoding="async" />
+<section>
+  <img
+    src={url(`${image}-${largest}.webp`)}
+    srcset={srcset}
+    sizes="100vw"
+    alt={alt}
+    width={width}
+    height={height}
+    style={`object-position: ${objectPosition}`}
+    class="h-[clamp(420px,72vh,860px)] w-full object-cover"
+    loading="eager"
+    fetchpriority="high"
+    decoding="async"
+  />
+  {credit && (
+    <p class="font-sans-nums mx-auto max-w-[1440px] px-[clamp(24px,5vw,96px)] pt-3 text-label text-ink-30">
+      {credit}
+    </p>
+  )}
 </section>

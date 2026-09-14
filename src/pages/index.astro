@@ -12,32 +12,47 @@ import { url } from '../lib/url';
   description="Architecture, interior design, construction and project delivery — Ankara, working internationally."
   translations={{ en: '/', tr: '/tr/' }}
 >
-  <Hero />
+  <Hero
+    image="/images/site/hero/hero"
+    widths={[1024, 1600, 2560]}
+    width={2560}
+    height={1620}
+    alt="ODTÜ Teknokent Incubation Centre, Ankara — perforated screen facade seen from the park"
+    credit="ODTÜ Teknokent Kuluçka Merkezi, Ankara — architecture by Omay Partners"
+  />
 
-  <section class="pt-8 pb-16 text-center md:pt-10 md:pb-16 lg:pt-12 lg:pb-[104px]">
-    <div class="mx-auto max-w-5xl px-[clamp(24px,5vw,96px)]">
-      <h1 class="font-serif font-normal text-[19px] leading-snug md:text-[18px] lg:text-[23px]">
-        <span class="block">Architecture, interior design, construction and project management practice.</span>
-        <span class="block">Based in Ankara and Athens. Working across Türkiye, Europe, Middle East and Asia.</span>
+  <section class="pt-10 pb-16 md:pt-12 md:pb-20 lg:pt-16 lg:pb-[104px]">
+    <div class="mx-auto max-w-[1440px] px-[clamp(24px,5vw,96px)]">
+      <h1 class="text-display max-w-[18ch] text-balance">
+        Drawn and built by the same hands.
       </h1>
+      <p class="mt-6 max-w-[58ch] text-lead text-ink-60">
+        Architecture, interiors and construction delivery. Ankara and Athens, working across
+        Türkiye, Europe, the Middle East and Asia.
+      </p>
+      <div class="font-sans-nums mt-8 flex flex-wrap items-center gap-x-8 gap-y-3 text-label uppercase">
+        <a href={url('/selected-projects/')} class="text-accent hover:opacity-70">Selected Works →</a>
+        <a href={url('/contact-us/')} class="text-ink-60 hover:text-accent">Get in touch →</a>
+      </div>
     </div>
   </section>
+
+  <section class="border-t border-rule py-8 lg:py-10">
+    <div class="mx-auto max-w-[1440px] px-[clamp(24px,5vw,96px)] text-center">
+      <p class="font-sans-nums text-label text-ink-60 uppercase">25+ years · 140+ projects</p>
+    </div>
+  </section>
+
+  <SelectedWorksTeaser lang="en" />
 
   <section class="border-t border-rule py-16 md:py-16 lg:py-[104px]">
     <div class="mx-auto max-w-[62ch] px-[clamp(24px,5vw,96px)] text-center">
       <p class="font-sans-nums text-label text-ink-60 uppercase">Our Clients</p>
-      <p class="mt-4 text-lead text-ink-60">
-        Omay Partners is a design and build practice with 25+ years of experience, bringing architecture,
-        interior design and construction delivery under one roof. We carry projects from first sketch to
-        handover.
-      </p>
     </div>
     <div class="mt-12">
       <ClientLogos />
     </div>
   </section>
-
-  <SelectedWorksTeaser lang="en" />
 
   <section class="border-t border-rule py-16 md:py-16 lg:py-[104px]">
     <div class="mx-auto grid max-w-[1440px] grid-cols-1 gap-x-8 gap-y-10 px-[clamp(24px,5vw,96px)] text-center md:grid-cols-3">
@@ -84,8 +99,7 @@ import { url } from '../lib/url';
 
   <section class="border-t border-rule py-16 md:py-16 lg:py-[104px]">
     <div class="mx-auto max-w-[62ch] px-[clamp(24px,5vw,96px)] text-center">
-      <p class="font-sans-nums text-label text-ink-60 uppercase">25+ years · 140+ projects</p>
-      <p class="mt-6 text-lead text-ink-60">
+      <p class="text-lead text-ink-60">
         We are a small studio that stays close to the work — the hand that draws the first sketch stays with
         the project through handover. Most of our commissions come from clients who return. Buildings,
         interiors and fit-outs — delivered quietly, on time.

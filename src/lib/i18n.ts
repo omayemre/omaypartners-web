@@ -8,7 +8,7 @@ export const dict = {
       about: 'Studio',
       howWeDeliver: 'Process',
       selectedWorks: 'Selected Works',
-      references: 'Project Index',
+      references: 'Archive',
       visum: 'Photography',
       contact: 'Contact'
     },
@@ -22,7 +22,7 @@ export const dict = {
       about: 'Stüdyo',
       howWeDeliver: 'Süreç',
       selectedWorks: 'Seçilmiş İşler',
-      references: 'Proje Dizini',
+      references: 'Arşiv',
       visum: 'Fotoğraf',
       contact: 'İletişim'
     },
