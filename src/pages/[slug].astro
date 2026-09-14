@@ -18,7 +18,7 @@ export async function getStaticPaths() {
 }
 
 const { project, trSlug } = Astro.props;
-const { title, cover, gallery, client, location, year, area } = project.data;
+const { title, cover, gallery, client, location, year, area, note } = project.data;
 const description = client
   ? `${title} — a project for ${client}${location ? ` in ${location}` : ''}. Architecture, interior design and construction delivery by Omay Partners.`
   : `${title} — architecture, interior design and construction delivery by Omay Partners.`;
@@ -35,6 +35,8 @@ const description = client
     <h1 class="text-center text-h1">{title}</h1>
 
     <FactBlock lang="en" client={client} location={location} year={year} area={area} />
+
+    {note && <p class="mt-4 text-center text-table italic text-ink-60">{note}</p>}
 
     {cover && (
       <div class="mt-10">

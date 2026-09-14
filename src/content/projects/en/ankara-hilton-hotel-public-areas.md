@@ -1,5 +1,5 @@
 ---
-title: "Ankara Hilton Hotel Public Areas"
+title: "Ankara Hilton Hotel Renovation"
 lang: en
 slug: "ankara-hilton-hotel-public-areas"
 translationKey: "ankara-hilton-hotel-public-areas"
@@ -9,6 +9,7 @@ location: "Ankara, Turkey"
 year: "2011"
 area: "8,000 m²"
 order: 22
+note: "Concept design by Toner Architects"
 cover: "/images/projects/ankara-hilton-hotel-public-areas/img-01.webp"
 gallery:
   - "/images/projects/ankara-hilton-hotel-public-areas/img-01.webp"
@@ -50,11 +51,4 @@ gallery:
   - "/images/projects/ankara-hilton-hotel-public-areas/img-37.webp"
   - "/images/projects/ankara-hilton-hotel-public-areas/img-38.webp"
   - "/images/projects/ankara-hilton-hotel-public-areas/img-39.webp"
-  - "/images/projects/ankara-hilton-hotel-public-areas/img-40.webp"
-  - "/images/projects/ankara-hilton-hotel-public-areas/img-41.webp"
-  - "/images/projects/ankara-hilton-hotel-public-areas/img-42.webp"
-  - "/images/projects/ankara-hilton-hotel-public-areas/img-43.webp"
-  - "/images/projects/ankara-hilton-hotel-public-areas/img-44.webp"
-  - "/images/projects/ankara-hilton-hotel-public-areas/img-45.webp"
-  - "/images/projects/ankara-hilton-hotel-public-areas/img-46.webp"
 ---

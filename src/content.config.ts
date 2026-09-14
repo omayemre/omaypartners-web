@@ -41,7 +41,10 @@ const projects = defineCollection({
     // Stored as the display string already (e.g. "2020" or "2018-2021" for
     // a multi-phase project) rather than a number, since a year range isn't numeric.
     year: z.string().optional(),
-    area: z.string().optional()
+    area: z.string().optional(),
+    // Short credit line shown centered just below the fact block, e.g. for
+    // a project where Omay Partners delivered a concept by another firm.
+    note: z.string().optional()
   })
 });
 
