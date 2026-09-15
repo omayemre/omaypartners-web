@@ -448,7 +448,8 @@
     "category": "Hospitality",
     "service": "Design + Construction",
     "client": "Hotel Tunalı",
-    "section": false
+    "section": false,
+    "slug": "hotel-tunali"
   },
   {
     "project": "Pegasus Defence Office",
@@ -494,7 +495,8 @@
     "category": "Commercial",
     "service": "Design + Construction",
     "client": "Reis",
-    "section": false
+    "section": false,
+    "slug": "reis-head-office"
   },
   {
     "project": "BP Ankara Office Renovation",
