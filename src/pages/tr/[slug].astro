@@ -87,16 +87,16 @@ const creativeWorkSchema = {
     )}
 
     {galleryImgs.length > 0 && (
-      <div class="mx-auto mt-10 grid max-w-[1200px] grid-cols-2 gap-4 sm:gap-6">
+      <div class="mx-auto mt-10 max-w-2xl space-y-6">
         {galleryImgs.map((img) => (
           <img
             src={img.src}
             srcset={img.srcset}
-            sizes="(min-width: 1200px) 588px, 45vw"
+            sizes="(min-width: 672px) 672px, 100vw"
             alt=""
             width={img.width ?? 900}
             height={img.height ?? 600}
-            class="aspect-[3/2] w-full object-cover"
+            class="mx-auto max-h-[80vh] w-full object-contain"
             loading="lazy"
             decoding="async"
           />
