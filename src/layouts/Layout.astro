@@ -66,11 +66,17 @@ const organizationSchema = {
       areaServed: ['TR', 'GR', 'Europe', 'Middle East', 'Asia']
     }
   ],
-  // TODO: point at the studio's company LinkedIn page once one exists -
-  // this is Emre Omay's personal profile, kept because it's the only
-  // verified link available.
+  // Personal LinkedIn profile - confirmed with the owner as correct
+  // (no separate company page exists).
   sameAs: ['https://www.linkedin.com/in/emre-omay-1a483a2/', 'https://www.instagram.com/omaypartners/']
 };
+
+// Cloudflare Web Analytics beacon token - not a secret (every page's
+// client-side HTML embeds it for every visitor), so it's a plain
+// constant rather than an env var. Registered against www.omaypartners.com
+// 2026-09-15. Loads only once PUBLIC_ALLOW_INDEXING=true (i.e. never on
+// the GitHub Pages staging build), so the count starts clean at launch.
+const CF_BEACON_TOKEN = '2cdd581a2c66434c92e7bbf5f3815f97';
 
 const breadcrumbSchema =
   breadcrumbs && breadcrumbs.length > 0
@@ -129,11 +135,11 @@ const breadcrumbSchema =
     <script type="application/ld+json" set:html={JSON.stringify(organizationSchema)} />
     {breadcrumbSchema && <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />}
 
-    {allowIndexing && import.meta.env.PUBLIC_ANALYTICS_DOMAIN && (
+    {allowIndexing && (
       <script
-        defer
-        data-domain={import.meta.env.PUBLIC_ANALYTICS_DOMAIN}
-        src="https://plausible.io/js/script.js"
+        type="module"
+        src="https://static.cloudflareinsights.com/beacon.min.js"
+        data-cf-beacon={`{"token": "${CF_BEACON_TOKEN}"}`}
       />
     )}
   </head>
