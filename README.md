@@ -1,43 +1,74 @@
-# Astro Starter Kit: Minimal
+# Omay Partners — website
+
+Static site for [Omay Partners](https://www.omaypartners.com) (architecture,
+interior design and construction delivery — Ankara and Athens). Built with
+[Astro](https://astro.build) and [Tailwind CSS v4](https://tailwindcss.com).
+English at the root, a full Turkish mirror under `/tr/`.
+
+**Status:** temporary staging build, live at
+[omayemre.github.io/omaypartners-web](https://omayemre.github.io/omaypartners-web/)
+on GitHub Pages while the real WordPress site at omaypartners.com is being
+replaced. Stage 2 moves this to the real domain on Cloudflare (see
+`astro.config.mjs` and `public/_headers`).
+
+## Structure
+
+```
+src/
+├── pages/                  EN pages (and /tr/ for the Turkish mirror)
+├── content/projects/       one markdown file per project, per language
+│   ├── en/*.md
+│   └── tr/*.md
+├── data/
+│   ├── references.{en,tr}.json   the full Archive project list
+│   └── project-image-manifest.json  written by generate-responsive-project-images.mjs
+├── components/              Header, Footer, Hero, ProjectGrid, ReferencesTable, ...
+├── layouts/Layout.astro      <head>, meta, JSON-LD, the noindex gate
+└── lib/                      url() (base-path helper), i18n, img (srcset helper)
+
+public/images/
+├── projects/<slug>/         project photos (cover + gallery), see below
+└── site/                    logos, hero, process, visum, brand assets
+
+scripts/                     one-off Node/sharp scripts used to build and
+                              maintain public/images/ - see comments in each
+```
+
+A project is a pair of markdown files (`src/content/projects/en/<slug>.md`
+and `.../tr/<slug>.md`) sharing a `translationKey` so the site can link
+between the EN and TR versions and build `hreflang` tags. Frontmatter holds
+`title`, `slug`, `sector`, `client`, `location`, `year`, `area`, `cover` and
+`gallery` (root-relative paths into `public/images/projects/<slug>/`).
+Content bodies are unused — everything the page shows comes from
+frontmatter and the shared page templates.
+
+## Adding or changing project photos
+
+After adding a new project or changing which images an existing one uses:
 
 ```sh
-npm create astro@latest -- --template minimal
+node scripts/generate-responsive-project-images.mjs   # caps images at 1600px, writes 480w/960w derivatives
+node scripts/generate-og-images.mjs                    # writes a JPEG og:image fallback per cover
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+Both are idempotent — safe to re-run any time; they only touch files under
+`public/images/projects/`. Raw source photo drops (pre-crop, pre-optimize)
+go in the gitignored `_source-photos/` folder, not in the repo.
 
-## 🚀 Project Structure
+## Commands
 
-Inside of your Astro project, you'll see the following folders and files:
+| Command                              | Action                                    |
+| :------------------------------------ | :---------------------------------------- |
+| `npm install`                         | Install dependencies                      |
+| `npm run dev`                         | Dev server at `localhost:4321`            |
+| `npm run build`                       | Build to `./dist/` (production config)    |
+| `DEPLOY_TARGET=github-pages npm run build` | Build matching the staging deploy (base path `/omaypartners-web`) |
+| `npm run preview`                     | Preview a production build locally        |
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+## Deploy
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+`.github/workflows/deploy-github-pages.yml` builds and deploys to GitHub
+Pages on every push to `main`. The build is `noindex, nofollow` unless
+`PUBLIC_ALLOW_INDEXING=true` is set (see `src/layouts/Layout.astro`) — the
+GitHub Pages workflow never sets it, so staging always stays out of search
+results regardless of hostname.

@@ -21,7 +21,14 @@ interface Props {
 const { lang, title, description, translations, image = url('/images/site/hero/hero.webp'), breadcrumbs } = Astro.props;
 
 const pageUrl = new URL(Astro.url.pathname, Astro.site).href;
-const imageUrl = new URL(image, Astro.site).href;
+// og:image/twitter:image always resolve to a JPEG, not the on-page WebP -
+// some link-unfurl crawlers (WhatsApp among them) are inconsistent with
+// WebP and show no preview image at all otherwise. The JPEG is generated
+// by scripts/generate-og-images.mjs for every value `image` can take
+// (the homepage hero + every project cover) - re-run it after adding a
+// project or changing a cover.
+const ogImage = image.replace(/\.webp$/i, '-og.jpg');
+const imageUrl = new URL(ogImage, Astro.site).href;
 const ogLocale = lang === 'en' ? 'en_US' : 'tr_TR';
 const ogLocaleAlt = lang === 'en' ? 'tr_TR' : 'en_US';
 
@@ -109,6 +116,9 @@ const breadcrumbSchema =
     {description && <meta property="og:description" content={description} />}
     <meta property="og:url" content={pageUrl} />
     <meta property="og:image" content={imageUrl} />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
     <meta property="og:locale" content={ogLocale} />
     <meta property="og:locale:alternate" content={ogLocaleAlt} />
     <meta name="twitter:card" content="summary_large_image" />

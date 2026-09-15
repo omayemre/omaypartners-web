@@ -38,3 +38,8 @@ docs/
 # into src/data/*.json, the raw file itself isn't site source
 *.xlsx
 ~$*.xlsx
+
+# raw photo drops the owner adds to the project folder for one-time
+# migration into public/images/ (see scripts/process-design-photos.mjs) -
+# once converted, the raw originals aren't site source and stay local
+_source-photos/
